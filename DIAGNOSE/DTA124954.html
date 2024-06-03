@@ -1,0 +1,434 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DTC Diagnosis"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA113275"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DTC Diagnosis</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA113275">
+         
+         
+         
+         <h3 class="topictitletopic1 title">DTC Diagnosis</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">List of DTC</h3>
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr align="center" valign="middle"> 
+                           
+                           <th width="1" align="center" valign="top">DTC</th>  
+                           
+                           <th width="1" align="center" valign="top">Meaning</th>  
+                           
+                           <th width="1" align="center" valign="top">Diagnostic Process</th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">C1B9D22</td>  
+                           
+                           <td width="1" align="left" valign="top">Power Supply Voltage Too High</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124957.html">C1B9D22 Power Supply Voltage Too High</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" rowspan="2" align="left" valign="top">C1B9D21</td>  
+                           
+                           <td width="1" rowspan="2" align="left" valign="top">Power Supply Voltage Too Low</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124955.html">C1B9D21 Power Supply Voltage Too Low - YB</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124956.html">C1B9D21 Power Supply Voltage Too Low - TRW</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">C1B9C23</td>  
+                           
+                           <td width="1" align="left" valign="top">Main/auxiliary/torque signal keeping at low level</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124958.html">C1B9C23 Main/Auxiliary/Torque Signal Keeping at Low Level</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">C1B9C24</td>  
+                           
+                           <td width="1" align="left" valign="top">Main/auxiliary/torque signal keeping at high level</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124959.html">C1B9C24 Main/Auxiliary/Torque Signal Keeping at High Level</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">U016002</td>  
+                           
+                           <td width="1" align="left" valign="top">Duty Cycle of Main/auxiliary/main+auxiliary Torque Signals Abnormal</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124960.html">U016002 Duty Cycle of Main/Auxiliary/Main + Auxiliary Torque Signal Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">U015A38</td>  
+                           
+                           <td width="1" align="left" valign="top">Main/auxiliary/torque Signal Cycle Abnormal</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124961.html">U015A38 Main/Auxiliary/Torque Signal Period Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">C1BA023</td>  
+                           
+                           <td width="1" align="left" valign="top">Main/auxiliary Angle Signal Keeping at Low Level</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124962.html">C1BA023 Main/Auxiliary Angle Signal Keeping at Low Level</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">C1BA024</td>  
+                           
+                           <td width="1" align="left" valign="top">Main/auxiliary Angle Signal Keeping at High Level</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124963.html">C1BA024 Main/Auxiliary Angle Signal Keeping at High Level</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">U015B02</td>  
+                           
+                           <td width="1" align="left" valign="top">Duty Cycle of Main/auxiliary Angle Signal Abnormal</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124964.html">U015B02 Duty Cycle of Main/Auxiliary Angle Signal Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">U015D86</td>  
+                           
+                           <td width="1" align="left" valign="top">Angle signal not available</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124965.html">U015D86 Angle Signal Not Available</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">C1BA500</td>  
+                           
+                           <td width="1" align="left" valign="top">ECU operation error</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124966.html">C1BA500 ECU Operation Error</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">C1BA600</td>  
+                           
+                           <td width="1" align="left" valign="top">ECU Overtemperature</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124967.html">C1BA600 ECU Overtemperature</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">C1BA700</td>  
+                           
+                           <td width="1" align="left" valign="top">ECU ROM and Check Failed</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124968.html">C1BA700 ECU ROM and Check Failed</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">C1B6044</td>  
+                           
+                           <td width="1" align="left" valign="top">ECU RAM Fault</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124969.html">C1B6044 ECU RAM Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">C1BA900</td>  
+                           
+                           <td width="1" align="left" valign="top">Supply Voltage of Torque Sensor Abnormal</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124970.html">C1BA900 Supply Voltage of Torque Sensor Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">C1BAA00</td>  
+                           
+                           <td width="1" align="left" valign="top">Motor Drive Circuit Failed</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA054635.html">C1BAA00 Motor Drive Circuit Failed</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">C1BAB21</td>  
+                           
+                           <td width="1" align="left" valign="top">Output Voltage of Temperature Detection Circuit Too Low</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124972.html">C1BAB21 Output Voltage of Temperature Detection Circuit Too Low</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">C1BAB22</td>  
+                           
+                           <td width="1" align="left" valign="top">Output Voltage of Temperature Detection Circuit Too High</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124973.html">C1BAB22 Output Voltage of Temperature Detection Circuit Too High</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">U015E31</td>  
+                           
+                           <td width="1" align="left" valign="top">Motor rotor position signal fault</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124974.html">U015E31 Motor Rotor Position Signal Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">C1BAE00</td>  
+                           
+                           <td width="1" align="left" valign="top">ECU not executing angle calibration Order</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124975.html">C1BAE00 ECU Not Executing Angle Calibration Order</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">U015F86</td>  
+                           
+                           <td width="1" align="left" valign="top">Received ESP Signal Not Available</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124976.html">U015F86 Received ESP Signal Not Available</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" rowspan="2" align="left" valign="top">U015887</td>  
+                           
+                           <td width="1" rowspan="2" align="left" valign="top">Communication with ESP Lost</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124979.html">U015887 Communication with ESP Lost -YB</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">U015887 Communication with ESP Lost -TRW&nbsp;</td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top">C1BB200</td>  
+                           
+                           <td width="1" align="left" valign="top">ESP speed data error</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124980.html">C1BB200 ESP Speed Data Error</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" rowspan="2" align="left" valign="top">U015987</td>  
+                           
+                           <td width="1" rowspan="2" align="left" valign="top">Communication with VTOG Lost</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124981.html">U015987 Communication with VTOG Lost -YB</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124983.html">U015987 Communication with VTOG Lost -TRW</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" rowspan="2" align="left" valign="top">C1B9000</td>  
+                           
+                           <td width="1" rowspan="2" align="left" valign="top">Power loss</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124984.html">C1B9000 Power Loss - YB</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124985.html">C1B9000 Power Loss - TRW</a>&nbsp;
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

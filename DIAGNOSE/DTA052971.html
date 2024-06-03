@@ -1,0 +1,401 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="Diagnosis Description"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA099573"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Diagnosis Description</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA099573">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Diagnosis Description</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">Introduction</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <p class="p">Power battery is one of the main power sources of vehicle, which provides electric energy for vehicle driving and other electrical
+                     appliances. When a systemic fault occurs, before diagnosing the fault of the power battery system, it is necessary to understand
+                     and be familiar with the working principle of the power battery system, and then start diagnosing the power battery system.
+                     In addition to checking the system circuit, it is also important to check the mechanical properties. For example, the power
+                     battery pack has obvious impact deformation marks or other problems in the power battery system.
+                  </p>  
+                  
+                  <p class="p">Diagnosing intermittent faults can be more difficult than diagnosing persistent faults. Most intermittent faults are caused
+                     by poorly contacted electrical connection or faulty line. Therefore, checking the circuit suspected to be causing the fault
+                     can help to avoid replacing a functional part.
+                  </p>  
+                  
+                  <p class="p">If the visual inspection does not reveal the cause of the fault, a road test may be required. Be patient with the customer
+                     before performing the actual inspection. Customers are the best source of information on such faults, especially for intermittent
+                     faults. Talk to customers to identify the symptoms and occurrences.
+                  </p>  
+                  
+                  <p class="p">Any fault diagnosis of the power battery system must start with the inspection of the power battery system, and please check
+                     the relevant service notification information.
+                  </p> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="T002"> 
+            
+            <h3 class="topictitletopic2 title">General Equipment</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <ul name="contents" class="ul"> 
+                     
+                     <li> 
+                        
+                        <p class="p-inline">VDS</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Multimeter</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Socket wrench kit</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Insulating tool kit</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Insulated gloves</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Insulated shoe</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Power battery lifting platform</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Clamp flow meter</p> 
+                        
+                     </li> 
+                     
+                  </ul>
+                  
+                  
+                  <div>
+                     <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d45e95">
+                        <div class="noteheader">
+                           <div class="common tip">
+                              <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                        </div>
+                        <div class="notebody attention-text postspace-s wl-attention-content"> 
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">When measuring the voltage with a multimeter, select the range that is closest to the voltage.</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">When measuring the resistance with a multimeter, select the range that is closest to the resistance.</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </div>
+                     </div>
+                     
+                  </div> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" xml:lang="en-US" lang="en-US" id="DTA066563"> 
+            
+            <h3 class="topictitletopic2 title">Precautions</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <div>
+                     <div class="wl-attention prespace postspace danger-imgdanger" data-attention-type="danger" id="d45e128">
+                        <div class="noteheader">
+                           <div class="common tip">
+                              <div><img style="width:100%;height:100%;" src="basefiles/artwork/dangerv2.svg"></img></div><span class="notetitleone">Danger</span></div>
+                        </div>
+                        <div class="notebody attention-text postspace-s wl-attention-content"> 
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">The bus voltage of the high-voltage battery is high. During the removal and installation of HV components, the personnel who
+                                    have obtained the low-voltage electrician certificate must wear high-voltage insulating gloves and also ensure their own insulation
+                                    protection. In addition, metal objects on their bodies shall not come into contact with the vehicle body.
+                                 </p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Do not simultaneously touch both the positive and negative terminals of the high-voltage battery with both hands at any time.</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </div>
+                     </div>
+                     
+                  </div>  
+                  
+                  <div>
+                     <div class="wl-attention prespace postspace warning-imgwarning" data-attention-type="warning" id="d45e146">
+                        <div class="noteheader">
+                           <div class="common tip">
+                              <div><img style="width:100%;height:100%;" src="basefiles/artwork/warningv2.svg"></img></div><span class="notetitleone">Warning</span></div>
+                        </div>
+                        <div class="notebody attention-text postspace-s wl-attention-content"> 
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Before repair, removal and installation of high-voltage components, make sure to disable the HV power, confirm that the 12
+                                    V power supply and HV electrical connector have been disconnected, and keep the vehicle stand still for more than 5 min after
+                                    power-off.
+                                 </p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Repair personnel who have not participated in the training on high-voltage system knowledge of this vehicle model are prohibited
+                                    from disassembling the high-voltage system (including high-voltage battery, EHS, A/C compressor, DC fast charging socket,
+                                    AC slow charging socket, high-voltage fuse box and bidirectional on-board power supply).
+                                 </p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Before repair, the repair personnel must wear labor protection articles, such as insulating gloves and shoes. Before wearing
+                                    insulating gloves, it is necessary to check them for damage and ensure that there is no insulation failure.
+                                 </p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Avoid violent removal, falls, collision, or trampling of the high-voltage battery.</p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Do not puncture, squeeze, place at high temperature or bake the high-voltage battery.</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </div>
+                     </div>
+                     
+                  </div>  
+                  
+                  <div>
+                     <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d45e183">
+                        <div class="noteheader">
+                           <div class="common tip">
+                              <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                        </div>
+                        <div class="notebody attention-text postspace-s wl-attention-content"> 
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">In all repair operations involving high-voltage electrical appliances and high-voltage wiring harness areas, be sure to disable
+                                    the high-voltage power.
+                                 </p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Do not perform other operations within 5 minutes after disabling the high voltage power.</p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Insulate and seal the disassembled and disconnected plug interfaces of high-voltage electrical appliances to avoid ingression
+                                    of foreign matters.
+                                 </p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Some parts have a locking function. To avoid accidental damage, do not use excessive force when removing them.</p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Take care to protect the high-voltage battery in the process of removal.</p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Wiring harness connectors should be kept dry. If coolant or oil is accidentally splashed into high-voltage wiring harness
+                                    or electrical appliances, be sure to clean it and then dry it with compressed air. Measure the insulation resistance of high-voltage
+                                    electrical appliances or wiring harnesses with a multimeter, and install them only after the standards are met.
+                                 </p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </div>
+                     </div>
+                     
+                  </div> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

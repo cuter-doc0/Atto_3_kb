@@ -1,0 +1,644 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="Diagnosis of General Faults"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA081209"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Diagnosis of General Faults</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA081209">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Diagnosis of General Faults</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">Visual Inspection</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <ol class="num"> 
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Confirm problems of customers.</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Visually check whether there are obvious signs of mechanical or electrical damage, and there are obvious signs of collision
+                           deformation.
+                        </p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Check the system lines that are easy to see or visible.</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">If the observed or raised problem is obvious and the cause has been found, the cause must be corrected before proceeding to
+                           the next step.
+                        </p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">If the visual inspection is accepted, confirm the fault and see the symptom list.</p> 
+                        
+                     </li> 
+                     
+                  </ol> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         <div class="nested1 topic task" id="T002"> 
+            
+            <h3 class="topictitletopic2 title">General Symptom List</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr valign="middle"> 
+                           
+                           <th width="33.33333333333333%" align="center" valign="top">Symptom</th>  
+                           
+                           <th width="33.33333333333333%" align="center" valign="top">Possible cause</th>  
+                           
+                           <th width="33.33333333333333%" align="center" valign="top">Suggested maintenance measures</th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr> 
+                           
+                           <td width="33.33333333333333%" align="left" valign="top">Left Front Low Beam Not Working</td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"> 
+                              
+                              <ol class="num"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Left front low beam fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Wiring harness or connector fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">The left domain control module fails.</p> 
+                                    
+                                 </li> 
+                                 
+                              </ol> 
+                              
+                           </td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"><a class="xref" href="DTA125204.html">Left Front Low Beam Not Working</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="33.33333333333333%" align="left" valign="top">Right Front Low Beam Not Working</td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"> 
+                              
+                              <ol class="num"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Right front low beam fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Wiring harness  or connector fault</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">The left domain control module fails.</p> 
+                                    
+                                 </li> 
+                                 
+                              </ol> 
+                              
+                           </td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"><a class="xref" href="DTA125205.html">Right Front Low Beam Not Working</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="33.33333333333333%" align="left" valign="top">Left and right low beams fail to work at the same time</td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"> 
+                              
+                              <ol class="num"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Wiring harness or connector fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Multi-function switch fault</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Front combination headlamp fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">The left domain control module fails.</p> 
+                                    
+                                 </li> 
+                                 
+                              </ol> 
+                              
+                           </td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"><a class="xref" href="DTA125206.html">Left and right low beams fail to work at the same time</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="33.33333333333333%" align="left" valign="top">Left Front High Beam Not Working</td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"> 
+                              
+                              <ol class="num"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Front left high beam fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Wiring harness or connector fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">The left domain control module fails.</p> 
+                                    
+                                 </li> 
+                                 
+                              </ol> 
+                              
+                           </td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"><a class="xref" href="DTA125207.html">Left Front High Beam Not Working</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="33.33333333333333%" align="left" valign="top">Right Front High Beam Not Working</td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"> 
+                              
+                              <ol class="num"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Right front high beam fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Wiring harness or connector fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">The left domain control module fails.</p> 
+                                    
+                                 </li> 
+                                 
+                              </ol> 
+                              
+                           </td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"><a class="xref" href="DTA125208.html">Right Front High Beam Not Working</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="33.33333333333333%" align="left" valign="top">Left and right high beams fail to work at the same time</td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"> 
+                              
+                              <ol class="num"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Wiring harness or connector fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Multi-function switch fault</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Front combination headlamp fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">The left domain control module fails.</p> 
+                                    
+                                 </li> 
+                                 
+                              </ol> 
+                              
+                           </td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"><a class="xref" href="DTA125209.html">Left and Right Front High Beams Not Working at the Same Time</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="33.33333333333333%" align="left" valign="top">Left Front Turn Signal Not Working</td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"> 
+                              
+                              <ol class="num"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Wiring harness or connector fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Multi-function switch fault</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Left turn signal fault</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">The left domain control module fails.</p> 
+                                    
+                                 </li> 
+                                 
+                              </ol> 
+                              
+                           </td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"><a class="xref" href="DTA125210.html">Left Front Turn Signal Not Working</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="33.33333333333333%" align="left" valign="top">Right Front Turn Signal Not Working</td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"> 
+                              
+                              <ol class="num"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Wiring harness or connector fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Multi-function switch fault</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Right turn signal fault</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">The left domain control module fails.</p> 
+                                    
+                                 </li> 
+                                 
+                              </ol> 
+                              
+                           </td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"><a class="xref" href="DTA125211.html">Right Front Turn Signal Not Working</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="33.33333333333333%" align="left" valign="top">Left Front Position Light Not Working</td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"> 
+                              
+                              <ol class="num"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Wiring harness or connector fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Multi-function switch fault</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Left front position light fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">The left domain control module fails.</p> 
+                                    
+                                 </li> 
+                                 
+                              </ol> 
+                              
+                           </td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"><a class="xref" href="DTA125212.html">Left Front Position Light Not Working</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="33.33333333333333%" align="left" valign="top">Right Front Position Light Not Working</td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"> 
+                              
+                              <ol class="num"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Wiring harness or connector fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Multi-function switch fault</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Right front position light fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">The left domain control module fails.</p> 
+                                    
+                                 </li> 
+                                 
+                              </ol> 
+                              
+                           </td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"><a class="xref" href="DTA125213.html">Right Front Position Light Not Working</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="33.33333333333333%" align="left" valign="top">Left Front Daytime Running Light Not Working</td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"> 
+                              
+                              <ol class="num"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Wiring harness or connector fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">The left front daytime running light failure.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">The left domain control module fails.</p> 
+                                    
+                                 </li> 
+                                 
+                              </ol> 
+                              
+                           </td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"><a class="xref" href="DTA125214.html">Left Front Daytime Running Light Not Working</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="33.33333333333333%" align="left" valign="top">Right Front Daytime Running Light Not Working</td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"> 
+                              
+                              <ol class="num"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Wiring harness or connector fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">The right front daytime running light failure.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">The left domain control module fails.</p> 
+                                    
+                                 </li> 
+                                 
+                              </ol> 
+                              
+                           </td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="top"><a class="xref" href="DTA125215.html">Right Front Daytime Running Light Not Working</a>&nbsp;
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="Diagnosis of General Faults"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA081307"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Diagnosis of General Faults</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA081307">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Diagnosis of General Faults</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">Visual Inspection</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <ol class="num"> 
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Confirm problems of customers.</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Visually check whether there are obvious signs of mechanical or electrical damage, and there are obvious signs of collision
+                           deformation.
+                        </p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Check the system lines that are easy to see or visible.</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">If the observed or raised problem is obvious and the cause has been found, the cause must be corrected before proceeding to
+                           the next step.
+                        </p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">If the visual inspection is accepted, confirm the fault and see the symptom list.</p> 
+                        
+                     </li> 
+                     
+                  </ol> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="T002"> 
+            
+            <h3 class="topictitletopic2 title">General Symptom List</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr align="center" valign="middle"> 
+                           
+                           <th width="33.33333333333333%" align="center" valign="middle">Symptom</th>  
+                           
+                           <th width="33.33333333333333%" align="center" valign="middle">Possible cause</th>  
+                           
+                           <th width="33.33333333333333%" align="center" valign="middle">Suggested maintenance measures</th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr> 
+                           
+                           <td width="33.33333333333333%" align="left" valign="middle">All Remote Control Functions of Electronic Smart Key Fail (Holding A Legal Key In The Remote Control Area)</td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="middle"> 
+                              
+                              <ol class="num"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Wiring harness or connector.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Low voltage battery has insufficient power</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Electronic smart key</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Left domain control module.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">CAN bus fault</p> 
+                                    
+                                 </li> 
+                                 
+                              </ol> 
+                              
+                           </td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="middle"><a class="xref" href="DTA125116.html">All Remote Control Functions of Electronic Smart Key Fail (Holding A Legal Key In The Remote Control Area)</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="33.33333333333333%" align="left" valign="middle">Remote Control Normal, but Left Front Door Handle Micro Switch Not Acting when Being Operated (With a Legal Key and in the
+                              Detection Area)
+                           </td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="middle"> 
+                              
+                              <ol class="num"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Wiring harness or connector.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Left front door handle micro switch</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Electronic smart key</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Left domain control module.</p> 
+                                    
+                                 </li> 
+                                 
+                              </ol> 
+                              
+                           </td>  
+                           
+                           <td width="33.33333333333333%" align="left" valign="middle"><a class="xref" href="DTA125117.html">Remote Control Normal, but Left Front Door Handle Micro Switch Not Acting when Being Operated (With a Legal Key and in the
+                                 Detection Area)</a>&nbsp;
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

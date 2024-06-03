@@ -1,0 +1,388 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Circuit Testing"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM123041"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Circuit Testing</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM123041">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Circuit Testing</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section"> 
+               
+               <p class="p"><span class="ph b">Measuring voltage</span></p>  
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">For the red probe of multimeter or voltmeter, select the voltage/ohm measurement socket; for the black probe, select the circuit
+                        socket;
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Set the functional selection switch of multimeter or volt meter to DC voltage range;</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Connect the test probe (the polarity of the test probe can be exchanged with each other);</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Read the voltage on the multimeter or voltmeter display</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div style="margin-left:-20px;" class="imagecenterlevel1"><img width="100mm" style="width:100mm;" onclick="showOrHideImg(event,'show')" src="image/G081356.svg" alt="G081356"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+            </div>
+            
+            
+            <div class="section"> 
+               
+               <p class="p"><span class="ph b">Measuring current</span></p>  
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">For the red probe of multimeter or ammeter, select the current measurement socket; for the black probe, select the circuit
+                        socket;
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Set&nbsp;the function selector switch of multimeter or ampere meter&nbsp;to the current measuring position;</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Connect the multimeter or ampere meter in series in the circuit to be measured (the red positive test probe is connected to
+                        the high side of the circuit, and the black negative probe is connected to the low potential side);
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Read the current value in the multimeter.</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div style="margin-left:-20px;" class="imagecenterlevel1"><img width="100mm" style="width:100mm;" onclick="showOrHideImg(event,'show')" src="image/G081357.svg" alt="G081357"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+            </div>
+            
+            
+            <div class="section"> 
+               
+               <p class="p"><span class="ph b">Measuring resistance</span></p>  
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">For the red probe of multimeter or ohmmeter, select the current /ohm measurement socket; for the black probe, select the circuit
+                        socket
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Set the function selection switch of multimeter or ohmmeter to ohm gear;</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Connect the multimeter or ohmmeter probe with the resistor or coil to measure its resistance (make sure the resistor or coil
+                        is not charged).
+                     </p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div style="margin-left:-20px;" class="imagecenterlevel1"><img width="100mm" style="width:100mm;" onclick="showOrHideImg(event,'show')" src="image/G081358.svg" alt="G081358"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+            </div>
+            
+            
+            <div class="section"> 
+               
+               <p class="p"><span class="ph b">Measuring diode</span></p>  
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">For the red probe of multimeter or ohmmeter, select the voltage measurement socket; for the black probe, select the circuit
+                        socket;
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Set the multimeter or ohmmeter function selector switch to the diode test block;</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Detect the status of the paths on both sides of the diode. If the diode is on in one direction and is disconnected after switching
+                        the test probe, the diode is in good condition;
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">If the diode is open in both directions, the diode is broken down. Both directions are not working, indicating that the diode
+                        is open-circuited.
+                     </p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div style="margin-left:-20px;" class="imagecenterlevel1"><img width="100mm" style="width:100mm;" onclick="showOrHideImg(event,'show')" src="image/G081359.svg" alt="G081359"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+            </div>
+            
+            
+            <div class="section"> 
+               
+               <p class="p"><span class="ph b">Circuit troubleshooting method</span></p>  
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Use the test light to find the faults</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">As shown in the circuit, when one end of the test light is grounded and the other end is tested at both ends of the fuse,
+                              test light goes on indicating that the fuse is not faulty;
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">At connector A, use a test light to establish a circuit with the battery. If the test light is on, it indicates that there
+                              is no fault at connector A;
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">At connector B, use a test light to establish a circuit with the battery. Turn on the circuit switch as shown in the figure.
+                              The test light turning on indicates that there is no fault at connector A and the switch;
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">At connector C, use a test light to establish a circuit with the battery. Turn on the circuit switch as shown in the figure.
+                              The test light and the electric appliance working indicates that there is no fault at connector C and the electric appliance;
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check the circuit grounding.</p>  
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div style="margin-left:-20px;" class="imagecenterlevel2"><img width="100mm" style="width:100mm;" onclick="showOrHideImg(event,'show')" src="image/G081360.svg" alt="G081360"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Identify faults with a multimeter</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Set the multimeter&nbsp;function selector switch to ON/OFF test position;</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The multimeter black probe is grounded;</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Set the multimeter red probe at each connection in the circuit to measure voltage in the same way as using the fault light.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Determine the fault point if the multimeter displays voltage.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 409.3 841.9" enable-background="new 0 0 409.3 841.9" xml:space="preserve">
+<line fill="none" stroke="#E60012" stroke-width="3" stroke-miterlimit="10" x1="131.7" y1="195" x2="131.7" y2="394.8"/>
+<line fill="none" stroke="#898989" stroke-miterlimit="10" x1="131.7" y1="195" x2="131.7" y2="394.8"/>
+<g id="_x30_4-取电">
+</g>
+<g id="_x30_3-部件">
+</g>
+<g id="_x30_2-线路">
+</g>
+<polyline fill="#DCDDDD" points="28,41.9 379,41.9 379,88.1 28,88.1 "/>
+<line fill="none" stroke="#000000" stroke-width="0.5" x1="28" y1="47.6" x2="379" y2="47.6"/>
+<line fill="none" stroke="#000000" x1="28" y1="41.6" x2="379" y2="41.6"/>
+<line fill="none" stroke="#000000" stroke-width="0.5" x1="28" y1="58.9" x2="379" y2="58.9"/>
+<line fill="none" stroke="#000000" stroke-width="0.5" x1="28" y1="70.6" x2="379" y2="70.6"/>
+<line fill="none" stroke="#000000" stroke-width="0.5" x1="28" y1="82.3" x2="379" y2="82.3"/>
+<line fill="none" stroke="#000000" x1="28" y1="88.1" x2="379" y2="88.1"/>
+<text transform="matrix(1 0 0 1 385 49.6298)" font-family="'FZLTHJW--GB1-0'" font-size="6px">30</text>
+<text transform="matrix(1 0 0 1 385 60.7958)" font-family="'FZLTHJW--GB1-0'" font-size="6px">IG1</text>
+<text transform="matrix(1 0 0 1 385 72.4208)" font-family="'FZLTHJW--GB1-0'" font-size="6px">IG3</text>
+<text transform="matrix(1 0 0 1 385 83.9247)" font-family="'FZLTHJW--GB1-0'" font-size="6px">ACC</text>
+<text transform="matrix(1 0 0 1 15.0342 49.7119)" font-family="'FZLTHJW--GB1-0'" font-size="6px">30</text>
+<text transform="matrix(1 0 0 1 11.8701 60.8779)" font-family="'FZLTHJW--GB1-0'" font-size="6px">IG1</text>
+<text transform="matrix(1 0 0 1 11.8701 72.5029)" font-family="'FZLTHJW--GB1-0'" font-size="6px">IG3</text>
+<text transform="matrix(1 0 0 1 8.378 84.0029)" font-family="'FZLTHJW--GB1-0'" font-size="6px">ACC</text>
+<path fill="none" stroke="#000000" stroke-width="0.5" d="M379,59.3"/>
+<path fill="none" stroke="#000000" stroke-width="0.5" d="M28,59.3"/>
+<g id="选配信息">
+</g>
+<g id="REB_x2C_A3_2_">
+	<rect x="116.3" y="133" fill="#DCDDDD" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" width="44.8" height="51.3"/>
+</g>
+<g>
+	
+		<rect x="114" y="404.7" fill="#9FD9F6" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-miterlimit="10" width="199.5" height="25.9"/>
+</g>
+<g id="RF22_x2C_A3_2_">
+	<g>
+		<g>
+			<path fill="none" stroke="#080102" stroke-width="0.75" d="M131.7,163.4c-1.2,0-2.2,1-2.2,2.2s1,2.2,2.2,2.2s2.2-1,2.2-2.2
+				S132.9,163.4,131.7,163.4"/>
+		</g>
+		<g>
+			<path fill="none" stroke="#080102" stroke-width="0.75" d="M131.7,147.6c-1.2,0-2.2,1-2.2,2.1c0,1.2,1,2.2,2.2,2.2
+				s2.2-0.9,2.2-2.2C133.9,148.6,132.9,147.6,131.7,147.6"/>
+		</g>
+		<g>
+			<path fill="none" stroke="#080102" stroke-width="0.75" d="M130.2,151.3c-0.1,2.5,0.2,3.2,1.3,4.3c1.2,1.2,2.4,1.7,2.8,3.7
+				c0.4,1.6-0.1,3.5-1.1,4.5"/>
+		</g>
+		<g>
+			<path fill="none" stroke="#080102" stroke-width="0.75" d="M133.1,163.9c0.2-0.8,0-2.9-0.6-3.7c-0.9-1.2-2.7-2.1-3.3-4
+				c-0.9-2.8,0.7-4.6,1.1-5"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" points="131.7,168 131.7,170.9 131.7,183.2 		
+			"/>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" points="131.7,147.8 131.7,135.4 131.7,46.7 
+					"/>
+	</g>
+</g>
+<g id="_x30_2-上针脚_5_">
+	<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="131.7" y1="191.6" x2="131.7" y2="183.4"/>
+	<path fill="#FFFFFF" d="M131.6,194.7c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+		C134.8,193.3,133.4,194.7,131.6,194.7"/>
+	<path d="M131.6,195.3c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V195.3z
+		 M131.6,187.8v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C135.4,189.5,133.8,187.8,131.6,187.8"/>
+	<rect x="127.5" y="187.4" fill="#FFFFFF" width="8.1" height="4.1"/>
+	<rect x="131.2" y="188.3" width="1" height="4.2"/>
+	
+		<rect x="131.2" y="188.3" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+</g>
+<g>
+	<path fill="#060001" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="round" d="M128.8,48.2c0-1.7,1.3-2.9,2.8-2.9
+		c1.6,0,2.9,1.2,2.9,2.9c0,1.5-1.3,2.7-2.9,2.7C130.1,51,128.8,49.7,128.8,48.2z"/>
+	<g>
+		<path fill="none" stroke="#FFFFFF" stroke-width="1.0001" d="M128.8,48.2c0-1.7,1.3-2.9,2.8-2.9c1.6,0,2.9,1.2,2.9,2.9
+			c0,1.5-1.3,2.7-2.9,2.7C130.1,51,128.8,49.7,128.8,48.2"/>
+	</g>
+</g>
+<line fill="none" stroke="#89438F" stroke-width="3" x1="282.9" y1="193.2" x2="282.9" y2="393.8"/>
+<path fill="none" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="M220.4,189.8l0.7-2.1
+	c0,0,0.7-2.5,4-2.6h27.1l0,0l2.3-2.7l2.3,2.7c0.1,0,0.1,0,0.2,0h26.6h0.2c3.3,0.1,4,2.6,4,2.6l0.7,2.1"/>
+<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="131.9" y1="441.9" x2="131.9" y2="758.3"/>
+<g id="_x30_2-上针脚">
+	<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="131.9" y1="438.8" x2="131.9" y2="430.6"/>
+	<path fill="#FFFFFF" d="M131.8,441.9c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+		C134.9,440.5,133.6,441.9,131.8,441.9"/>
+	<path d="M131.8,442.5c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V442.5z
+		 M131.8,435v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S133.9,435,131.8,435"/>
+	<rect x="127.8" y="434.6" fill="#FFFFFF" width="8.1" height="4.1"/>
+	<rect x="131.4" y="435.5" width="1" height="4.2"/>
+	
+		<rect x="131.4" y="435.5" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+</g>
+<g id="_x30_2-上针脚_4_">
+	<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="131.9" y1="396.5" x2="131.9" y2="404.7"/>
+	<path fill="#FFFFFF" d="M131.8,393.4c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+		C134.9,394.8,133.6,393.4,131.8,393.4"/>
+	<path d="M131.8,393.9c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V393.9z
+		 M131.8,400.3c2.2,0,3.8-1.7,3.8-3.8c0-2.1-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V400.3"/>
+	<rect x="127.8" y="396.6" fill="#FFFFFF" width="8.1" height="4.1"/>
+	<rect x="131.4" y="395.6" width="1" height="4.2"/>
+	
+		<rect x="131.4" y="395.6" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+</g>
+<line fill="none" stroke="#F29C97" stroke-width="3" x1="226.2" y1="193.2" x2="226.2" y2="393.8"/>
+<line fill="none" stroke="#89438F" stroke-width="3" x1="282.9" y1="439.7" x2="282.9" y2="640.3"/>
+<line fill="none" stroke="#F29C97" stroke-width="3" x1="226.2" y1="439.7" x2="226.2" y2="640.3"/>
+<g id="_x30_2-上针脚_2_">
+	<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="226.2" y1="396.5" x2="226.2" y2="404.7"/>
+	<path fill="#FFFFFF" d="M226.1,393.4c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+		C229.3,394.8,227.9,393.4,226.1,393.4"/>
+	<path d="M226.1,393.9c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V393.9z
+		 M226.1,400.3c2.2,0,3.8-1.7,3.8-3.8c0-2.1-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V400.3"/>
+	<rect x="222.1" y="396.6" fill="#FFFFFF" width="8.1" height="4.1"/>
+	<rect x="225.7" y="395.6" width="1" height="4.2"/>
+	
+		<rect x="225.7" y="395.6" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+</g>
+<g id="_x30_2-上针脚_1_">
+	<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="282.9" y1="396.5" x2="282.9" y2="404.7"/>
+	<path fill="#FFFFFF" d="M282.8,393.4c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+		C286,394.8,284.6,393.4,282.8,393.4"/>
+	<path d="M282.8,393.9c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V393.9z
+		 M282.8,400.3c2.2,0,3.8-1.7,3.8-3.8c0-2.1-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V400.3"/>
+	<rect x="278.8" y="396.6" fill="#FFFFFF" width="8.1" height="4.1"/>
+	<rect x="282.4" y="395.6" width="1" height="4.2"/>
+	
+		<rect x="282.4" y="395.6" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+</g>
+<g>
+	<circle fill="#060001" stroke="#FFFFFF" stroke-width="0.5" cx="131.9" cy="560.7" r="2.6"/>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#000000" stroke-width="1.3" x1="124.8" y1="758.3" x2="138.8" y2="758.3"/>
+	</g>
+	<g>
+		<line fill="none" stroke="#000000" stroke-width="1.3" x1="127.8" y1="760.5" x2="135.9" y2="760.5"/>
+	</g>
+	<g>
+		<line fill="none" stroke="#000000" stroke-width="1.3" x1="134.3" y1="762.6" x2="129.4" y2="762.6"/>
+	</g>
+</g>
+<path fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" d="M223.9,282.9c-2,0-3.8-1.4-3.8-3.2
+	c0-1.8,1.7-3.2,3.8-3.2l61,6.4c2,0,3.8-1.4,3.8-3.2c0-1.8-1.7-3.2-3.8-3.2L223.9,282.9z"/>
+<path fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" d="M223.9,523c-2,0-3.8-1.4-3.8-3.2
+	c0-1.8,1.7-3.2,3.8-3.2l61,6.4c2,0,3.8-1.4,3.8-3.2c0-1.8-1.7-3.2-3.8-3.2L223.9,523z"/>
+<g id="保险丝名称">
+	<g>
+		<text transform="matrix(1 0 0 1 139.5905 163.7855)" font-family="'FZLTHJW--GB1-0'" font-size="6px">5A</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 139.3868 157.1672)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">F2/05</text>
+	</g>
+</g>
+<g id="保险丝名称_1_">
+	<g>
+		<text transform="matrix(1 0 0 1 138.3868 191.6678)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G82</text>
+	</g>
+</g>
+<g id="保险丝名称_2_">
+	<g>
+		<text transform="matrix(1 0 0 1 139.3868 401.6016)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G01_1</text>
+	</g>
+</g>
+<g id="保险丝名称_9_">
+	<g>
+		<text transform="matrix(1 0 0 1 139.3868 438.701)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G01_1</text>
+	</g>
+</g>
+<g id="_x30_2-上针脚_3_">
+	<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="226.1" y1="438.8" x2="226.1" y2="430.6"/>
+	<path fill="#FFFFFF" d="M226,441.9c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2C229.2,440.5,227.8,441.9,226,441.9
+		"/>
+	<path d="M226,442.5c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V442.5z M226,435
+		v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S228.2,435,226,435"/>
+	<rect x="222" y="434.6" fill="#FFFFFF" width="8.1" height="4.1"/>
+	<rect x="225.6" y="435.5" width="1" height="4.2"/>
+	
+		<rect x="225.6" y="435.5" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+</g>
+<g id="保险丝名称_3_">
+	<g>
+		<text transform="matrix(1 0 0 1 233.6 438.701)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G01_1</text>
+	</g>
+</g>
+<g id="_x30_2-上针脚_6_">
+	<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="282.9" y1="438.8" x2="282.9" y2="430.6"/>
+	<path fill="#FFFFFF" d="M282.8,441.9c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+		C286,440.5,284.6,441.9,282.8,441.9"/>
+	<path d="M282.8,442.5c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V442.5z
+		 M282.8,435v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S285,435,282.8,435"/>
+	<rect x="278.8" y="434.6" fill="#FFFFFF" width="8.1" height="4.1"/>
+	<rect x="282.4" y="435.5" width="1" height="4.2"/>
+	
+		<rect x="282.4" y="435.5" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+</g>
+<g id="保险丝名称_5_">
+	<g>
+		<text transform="matrix(1 0 0 1 290.3868 438.701)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G01_1</text>
+	</g>
+</g>
+<g id="保险丝名称_72_">
+	<g>
+		<text transform="matrix(1 0 0 1 166.0859 154.7344)"><tspan x="0" y="0" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">Instrument </tspan><tspan x="0" y="7.2" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">distribution box</tspan></text>
+	</g>
+</g>
+<rect x="117.6" y="366.6" fill="#FFFFFF" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 117.5408 371.9337)" font-family="'FZLTHJW--GB1-0'" font-size="6px">R/Gr 0.35</text>
+</g>
+<rect x="117.6" y="229.9" fill="#FFFFFF" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 117.5408 235.2671)" font-family="'FZLTHJW--GB1-0'" font-size="6px">R/Gr 0.35</text>
+</g>
+<g id="保险丝名称_7_">
+	<g>
+		<text transform="matrix(1 0 0 1 232.962 401.6016)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G01_1</text>
+	</g>
+</g>
+<g id="保险丝名称_8_">
+	<g>
+		<text transform="matrix(1 0 0 1 288.6799 401.6016)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G01_1</text>
+	</g>
+</g>
+<rect x="212.1" y="369.2" fill="#FFFFFF" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 216.7218 374.5781)" font-family="'FZLTHJW--GB1-0'" font-size="6px">P 0.35</text>
+</g>
+<rect x="268.8" y="369.2" fill="#FFFFFF" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 273.3802 374.5781)" font-family="'FZLTHJW--GB1-0'" font-size="6px">V 0.35</text>
+</g>
+<rect x="212.1" y="369.2" fill="#FFFFFF" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 216.7218 374.5781)" font-family="'FZLTHJW--GB1-0'" font-size="6px">P 0.35</text>
+</g>
+<rect x="268.8" y="369.2" fill="#FFFFFF" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 273.3802 374.5781)" font-family="'FZLTHJW--GB1-0'" font-size="6px">V 0.35</text>
+</g>
+<rect x="212.1" y="466.2" fill="#FFFFFF" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 216.7218 471.5781)" font-family="'FZLTHJW--GB1-0'" font-size="6px">P 0.35</text>
+</g>
+<rect x="268.8" y="466.2" fill="#FFFFFF" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 273.3802 471.5781)" font-family="'FZLTHJW--GB1-0'" font-size="6px">V 0.35</text>
+</g>
+<rect x="212.1" y="466.2" fill="#FFFFFF" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 216.7218 471.5781)" font-family="'FZLTHJW--GB1-0'" font-size="6px">P 0.35</text>
+</g>
+<rect x="268.8" y="466.2" fill="#FFFFFF" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 273.3802 471.5781)" font-family="'FZLTHJW--GB1-0'" font-size="6px">V 0.35</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 227.4063 170.36)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="6px">See Body Network </tspan><tspan x="0" y="7.2" font-family="'FZLTHJW--GB1-0'" font-size="6px">Circuit Diagram</tspan></text>
+</g>
+<path fill="none" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="M288.5,642.2l-0.7,2.1
+	c0,0-0.7,2.5-4,2.6h-27.1l0,0l-2.3,2.7l-2.3-2.7c-0.1,0-0.1,0-0.2,0h-26.6h-0.2c-3.3-0.1-4-2.6-4-2.6l-0.7-2.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 223.6563 659.1751)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="6px">See Intelligent Access </tspan><tspan x="0" y="7.2" font-family="'FZLTHJW--GB1-0'" font-size="6px">Network Circuit Diagram</tspan></text>
+</g>
+<text transform="matrix(1 0 0 1 219.6084 409.201)" font-family="'FZLTHJW--GB1-0'" font-size="4px">CAN-H</text>
+<text transform="matrix(1 0 0 1 115.8491 409.201)" font-family="'FZLTHJW--GB1-0'" font-size="4px">Constant power</text>
+<text transform="matrix(1 0 0 1 124.8491 428.9827)" font-family="'FZLTHJW--GB1-0'" font-size="4px">Ground</text>
+<text transform="matrix(1 0 0 1 276.6534 409.201)" font-family="'FZLTHJW--GB1-0'" font-size="4px">CAN-L</text>
+<text transform="matrix(1 0 0 1 219.6084 428.9825)" font-family="'FZLTHJW--GB1-0'" font-size="4px">CAN-H</text>
+<text transform="matrix(1 0 0 1 276.6534 428.9825)" font-family="'FZLTHJW--GB1-0'" font-size="4px">CAN-L</text>
+<g>
+	<g>
+		<rect x="121.7" y="765.1" fill="#FFFFFF" width="20.3" height="8.2"/>
+		
+			<rect x="122" y="765.5" fill="#FFFFFF" stroke="#000000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" width="19.7" height="7.6"/>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 123.5288 770.9814)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">Eg03</text>
+		</g>
+	</g>
+</g>
+<rect x="117.8" y="466.2" fill="#FFFFFF" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 122.4624 471.6216)" font-family="'FZLTHJW--GB1-0'" font-size="6px">B 0.35</text>
+</g>
+<rect x="117.8" y="653.3" fill="#FFFFFF" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 124.2681 658.6713)" font-family="'FZLTHJW--GB1-0'" font-size="6px">B 0.5</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 187.7502 419.4781)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">Instrument Cluster</text>
+</g>
+<g>
+	<rect x="137.4" y="558.1" fill="#FFFFFF" stroke="#000000" stroke-width="0.25" width="24.3" height="6.9"/>
+	<text transform="matrix(1 0 0 1 137.8428 563.313)" font-family="'FZLTHJW--GB1-0'" font-size="6px">SP4863</text>
+</g>
+<text transform="matrix(1 0 0 1 150.72 191.6)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-6</text>
+<text transform="matrix(1 0 0 1 158.72 401.6016)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-1</text>
+<text transform="matrix(1 0 0 1 252.2951 401.6016)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-2</text>
+<text transform="matrix(1 0 0 1 307.8467 401.6016)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-3</text>
+<text transform="matrix(1 0 0 1 309.7199 438.7008)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-1</text>
+<text transform="matrix(1 0 0 1 252.9333 438.7012)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-5</text>
+<text transform="matrix(1 0 0 1 158.72 438.7012)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-8</text>
+</svg>

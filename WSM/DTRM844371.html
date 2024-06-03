@@ -1,0 +1,227 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Inspection of on-board items"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-DTRM613408"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Inspection of on-board items</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-DTRM613408">
+         
+         
+         <h3 class="topictitletopic1 title">Inspection of on-board items</h3>
+         
+         <div class="body">
+            <div class="section"> 
+               
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d60389e11">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">On-board items may differ according to vehicle models and are subject to actual allocation and official instruction. Following
+                                 are just a few tools for common use and emergency.
+                              </p>
+                           </li>
+                           <li>
+                              <p class="p-inline">The on-board tools are stored in the toolkit under the trunk cover board.</p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+               <p class="p">
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <thead style="font-weight: bold">
+                        <tr>
+                           <th width="25.666666666666664%" align="left" valign="middle">
+                              <p>On-board items</p>
+                           </th>
+                           <th width="8.333333333333332%" align="center" valign="middle">
+                              <p>Quantity</p>
+                           </th>
+                           <th width="66%" align="left" valign="top">
+                              <p>Inspection contents</p>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td width="25.666666666666664%" align="left" valign="middle">
+                              <p>Warning triangle</p>
+                           </td>
+                           <td width="8.333333333333332%" align="center" valign="middle">
+                              <p>1</p>
+                           </td>
+                           <td width="66%" align="left" valign="top">
+                              <p>Check whether the warning triangle is in good condition.</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25.666666666666664%" align="left" valign="middle">
+                              <p>Reflective vest</p>
+                           </td>
+                           <td width="8.333333333333332%" align="center" valign="middle">
+                              <p>1</p>
+                           </td>
+                           <td width="66%" align="left" valign="top">
+                              <p>Check whether the reflective vest is free of damage.</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25.666666666666664%" align="left" valign="middle">
+                              <p>Removal clamp of wheel nut cap</p>
+                           </td>
+                           <td width="8.333333333333332%" align="center" valign="middle">
+                              <p>1</p>
+                           </td>
+                           <td width="66%" align="left" valign="top">
+                              <p>Check whether the removal clamp of wheel nut cap is in good condition.</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25.666666666666664%" align="left" valign="middle">
+                              <p>Tire repair device</p>
+                           </td>
+                           <td width="8.333333333333332%" align="center" valign="middle">
+                              <p>1</p>
+                           </td>
+                           <td width="66%" align="left" valign="top">
+                              <p>Check the expiration date of the tire repair liquid (refer to the date on the label of the tire repair liquid container) and
+                                 remind the customer to replace the liquid when it is about to expire.
+                              </p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25.666666666666664%" align="left" valign="middle">
+                              <p>Towing hook</p>
+                           </td>
+                           <td width="8.333333333333332%" align="center" valign="middle">
+                              <p>1</p>
+                           </td>
+                           <td width="66%" align="left" valign="top">
+                              <p>Check whether the thread of towing hook is in good condition.</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25.666666666666664%" align="left" valign="middle">
+                              <p>AC charging equipment/discharging equipment (if any)</p>
+                           </td>
+                           <td width="8.333333333333332%" align="center" valign="middle">
+                              <p>1</p>
+                           </td>
+                           <td width="66%" align="left" valign="top">
+                              <p>Check the status of AC charging equipment/discharging equipment in the on-board tools.</p>
+                              <ul name="contents" class="ul">
+                                 <li>
+                                    <p class="p-inline">Check whether all components are free from external damage.</p>
+                                 </li>
+                                 <li>
+                                    <p class="p-inline">Ensure that the insulator of charging wire is in good condition and not damaged.</p>
+                                 </li>
+                                 <li>
+                                    <p class="p-inline">Check the charging wire for abnormal deformation.</p>
+                                 </li>
+                              </ul>
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25.666666666666664%" align="left" valign="middle">
+                              <p>Microphone (if any)</p>
+                           </td>
+                           <td width="8.333333333333332%" align="center" valign="middle">
+                              <p>1</p>
+                           </td>
+                           <td width="66%" align="left" valign="top">
+                              <p>Check whether the microphone is in good condition.</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </p>
+               <p class="p">If any defect is found, the customer must be informed and relevant repairs shall be carried out.</p>
+               <p class="p">If the on-board items are lost or damaged, the customer must be informed and corresponding measures shall be taken after negotiation.</p>
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

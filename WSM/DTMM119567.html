@@ -1,0 +1,202 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="System Description"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>System Description</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-1-F5240221">
+         
+         
+         
+         <h3 class="topictitletopic1 title">System Description</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section">
+               <h3 class="title topictitle1">Component Location View</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div>
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G073289.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">  
+                  
+                  
+                  
+                  <thead style="font-weight: bold"> 
+                     
+                     <tr> 
+                        
+                        <th width="50%" align="center" valign="middle"> 
+                           
+                           <p>SN.</p> 
+                           
+                        </th>  
+                        
+                        <th width="50%" align="center" valign="middle"> 
+                           
+                           <p>Name</p> 
+                           
+                        </th> 
+                        
+                     </tr> 
+                     
+                  </thead>  
+                  
+                  <tbody> 
+                     
+                     <tr> 
+                        
+                        <td width="50%" align="center" valign="middle"> 
+                           
+                           <p>1</p> 
+                           
+                        </td>  
+                        
+                        <td width="50%" align="center" valign="middle"> 
+                           
+                           <p>High voltage distribution harness sub-assembly</p> 
+                           
+                        </td> 
+                        
+                     </tr> 
+                     
+                  </tbody> 
+                  
+               </table> 
+               
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">System Function Principle</h3> 
+               
+               
+               <p class="p">New energy vehicles high-voltage harness is a key component of high voltage electrical system, which provides a guarantee
+                  for the reliable and safe operation of new energy vehicles. It carries&nbsp;connection between the internal and external wiring
+                  harness of electric vehicles,&nbsp;distributes power through the power distribution box, transmits electric energy efficiently
+                  with high quality, shields external signal interference and other functions.&nbsp;It is&nbsp;the neural network of the high-voltage
+                  system of new energy vehicles, connecting all high-voltage electronic components and&nbsp;transmitting power and data, which is
+                  extremely important for new energy vehicles.
+               </p>  
+               
+               <p class="p">High current: new energy vehicles high voltage harness as the main energy transmission channel, to withstand high current,
+                  DC bus rated current can reach more than 200 A.
+               </p>  
+               
+               <p class="p">Sealing: Due to the high voltage and high current characteristics of the high voltage harness, there are also high requirements
+                  for the sealing of the harness, which generally requires water and dust resistance tests and air tightness tests. If the sealing
+                  is not good, the moisture or water ingress occurs, resulting in extremely rapid ageing or damage to the wire and connection
+                  parts. If the sealing performance of the connector part is poor, the insulation resistance will be reduced and the insulation
+                  fault will be reported.
+               </p>  
+               
+               <p class="p">Heat resistance: because the high- voltage harness undergoes the high current for a long time, with high power and Joule effect
+                  of a lot of heat, the high voltage harness wire temperature rating generally reaches 125 °C (150 °C) and the terminal temperature
+                  generally reaches 140 °C.
+               </p> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">System Block Diagram</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G079386.png"></img></div>
+                  </div> 
+                  
+               </p> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

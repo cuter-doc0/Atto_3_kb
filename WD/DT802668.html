@@ -1,0 +1,508 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="concept"></meta>
+      
+      <meta name="DC.Title" content="Drawing Description"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="concept-1-5EB3085D"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Drawing Description</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   <link rel="stylesheet" type="text/css" href="style/wl.css"/>
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/DragSize.js"></script>
+<script type="text/javascript" src="js/svg-pan-zoom.js"></script>
+<script type="text/javascript" src="js/wl.js"></script>
+</head>
+   
+   <body onload="show_onload();highLightKeyword();custTopic();">
+      <section id="concept-1-5EB3085D">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Drawing Description</h3>
+         
+         
+         <div class="body conbody ewdconbody"> 
+            
+            <p class="p"><span class="ph b">Instructions for use of system circuit diagrams</span></p>  
+            
+            <p class="p"> 
+               
+               <div class="bottomNoTable">
+                  <div class="imagecenter"><div id="svgdiv"></div><!--<img width="60mm" style="width:60mm;" onclick="showOrHideImg(event,'show')" src="image/G060884.svg" alt="G060884"></img>--></div>
+               </div> 
+               
+            </p>  
+            
+            <p class="p"><span class="ph b">[A] Power system identification</span></p>  
+            
+            <p class="p">When supplying power to the fuse, it indicates the position of the ignition key.&nbsp;The line code "30" is a live line, which
+               is generally provided by the front compartment electrical box or the instrument panel electrical box. For details, see the
+               power circuit diagram.&nbsp;IG1, IG3 and IG4 are the live wires when the start switch is in the ON or START position. See the power
+               circuit diagram for details;
+            </p>  
+            
+            <p class="p"><span class="ph b">[B] Fuse</span></p>  
+            
+            <p class="p">Indicate the name and current magnitude of the fuse;</p>  
+            
+            <p class="p"> 
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The fuse of front compartment distribution box is numbered as F1/X according to the corresponding position, where F means
+                        the fuse code, 1 means the installation position is in front compartment distribution box, X means the serial number. For
+                        example, F1/03 refers to fuse 3 installed in front compartment distribution box.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The fuse of instrument distribution box is numbered as F2/X according to the corresponding position, where F means the fuse
+                        code, 2 means the installation position in instrument distribution box, X means the serial number. For example, F2/03 refers
+                        to fuse 3 installed in instrument distribution box.
+                     </p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+            </p>  
+            
+            <div>
+               <div class="wl-attention prespace postspace note-imgnote" data-attention-type="note" id="d47832e55">
+                  <div class="noteheader">
+                     <div class="common tip">
+                        <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                  </div>
+                  <div class="notebody attention-text postspace-s wl-attention-content"> 
+                     
+                     <ul name="contents" class="ul">
+                        <li> 
+                           
+                           <p class="p-inline">If fuses are burned, eliminate the fault before replacing them with new ones;</p> 
+                           
+                        </li>
+                     </ul>
+                     
+                     
+                     <ul name="contents" class="ul">
+                        <li> 
+                           
+                           <p class="p-inline">Use fuses specified by the manufacturer. Never use any fuse that exceeds the manufacturer's specified current rating;</p> 
+                           
+                        </li>
+                     </ul>
+                     
+                     
+                     <ul name="contents" class="ul">
+                        <li> 
+                           
+                           <p class="p-inline">Never insert fuses partially. Insert them into the holder in place.</p> 
+                           
+                        </li>
+                     </ul>
+                     
+                     
+                  </div>
+               </div>
+               
+            </div>  
+            
+            <p class="p"><span class="ph b">[C] Wire color and wire diameter</span></p>  
+            
+            <p class="p"> 
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Wire color: indicates the color of the wire, and the color is represented by the letter code; The wire is divided into single-color
+                        and multi-color wire, as shown in the figure below.
+                     </p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div style="margin-left:-20px;" class="imagecenterlevel1"><img width="200mm" style="width:200mm;" onclick="showOrHideImg(event,'show')" src="image/G049139.png" alt="G049139"></img></div>
+                        </div> 
+                        
+                     </p>  
+                     
+                     <p>See the following table for wire color and code:</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div style="margin-left:-20px;" class="imagecenterlevel1"><img width="200mm" style="width:200mm;" onclick="showOrHideImg(event,'show')" src="image/G106492.png" alt="G106492"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Wire diameter: 0.5 means the cross-sectional area of the wire is 0.5&nbsp;mm ²</p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+            </p>  
+            
+            <p class="p"><span class="ph b">[D] Relay</span></p>  
+            
+            <p class="p"> 
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The relay of front compartment distribution box is numbered as K1-X according to the corresponding position, K1 indicates
+                        the relay code of front compartment distribution box, X means the serial number of the relay installed in the X position of
+                        front compartment distribution box, such as K1-1, K1 -2……;
+                     </p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The relay of instrument distribution box (IEC) is numbered as K2-X according to the corresponding position, where K2 means
+                        the relay code of instrument distribution box, X means the serial number of the relay installed in the X position of instrument
+                        distribution box, such as K2-1, K2-2……
+                     </p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+            </p>  
+            
+            <div>
+               <div class="wl-attention prespace postspace note-imgnote" data-attention-type="note" id="d47832e142">
+                  <div class="noteheader">
+                     <div class="common tip">
+                        <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                  </div>
+                  <div class="notebody attention-text postspace-s wl-attention-content">If the relay has no code, the relay is inside the distribution box.</div>
+               </div>
+               
+            </div>  
+            
+            <p class="p"><span class="ph b">[E] Hinge point</span></p>  
+            
+            <p class="p">It represents&nbsp;that two or more wires are hinged together on the wire,&nbsp;and the hinge point is the code.</p>  
+            
+            <p class="p"><span class="ph b">[F] Female&amp;male connector</span></p>  
+            
+            <p class="p"> 
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">It indicates the connector between the wiring harnesses. For example, BJA02 AJB02-4 indicates that the front compartment wiring
+                        harness is connected to the engine wiring harness, where BJA02 is the female connector and AJB02 is the male connector; -
+                        4 represents pin 4 of the female&amp;male plug, as shown in the following figure:
+                     </p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div style="margin-left:-20px;" class="imagecenterlevel1"><img width="200mm" style="width:200mm;" onclick="showOrHideImg(event,'show')" src="image/G049140.png" alt="G049140"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+            </p>  
+            
+            <p class="p"><span class="ph b">[G] Symbol of component</span></p>  
+            
+            <p class="p">For schematic diagram of the internal part of a component, see circuit diagram symbol description for details.</p>  
+            
+            <p class="p"><span class="ph b">[H] Terminal code and pin</span></p>  
+            
+            <p class="p"> 
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Connector code: The connector code connected to components, such as B14-3, B14 indicate that B is the wiring harness with
+                        the connector, and 14 indicates the sequence number of the wiring harness connectors; There are multiple coded connectors
+                        connected to the component or various types of connectors with different specifications or equipment, can be differentiated
+                        by encoding, such as: the connector codes on the left body control module are BG64(B), BG64(C), KG64(E), etc.;
+                     </p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The wiring harness code is shown in the table below:</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div style="margin-left:-20px;" class="imagecenterlevel1"><img width="200mm" style="width:200mm;" onclick="showOrHideImg(event,'show')" src="image/G075273.jpg" alt="G075273"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+            </p>  
+            
+            <p class="p"><span class="ph b">[I] Distribution box</span></p>  
+            
+            <p class="p"> 
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">This vehicle is equipped with two distribution boxes, the&nbsp;front compartment distribution box&nbsp;and&nbsp;instrument panel distribution
+                        box. See the distribution box information and related circuit diagrams for details.
+                     </p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+            </p>  
+            
+            <p class="p"><span class="ph b">[J] Connector definition</span></p>  
+            
+            <p class="p"> 
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Used to illustrate the function or description of the terminal.</p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+            </p>  
+            
+            <p class="p"><span class="ph b">[K] Go to the next end</span></p>  
+            
+            <p class="p"> 
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Indicates that the wire is connected to the parts, or you can check the circuit diagram&nbsp;related to this part for related information.</p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+            </p>  
+            
+            <p class="p"><span class="ph b">[L] Ground point</span></p>  
+            
+            <p class="p"> 
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Eb09: E represents the ground point code, b represents the wiring harness of ground point, the code is the lowercase letter
+                        code of the wiring harness, and 09 is the sequence number of the grounding point of the wiring harness;
+                     </p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+            </p>  
+            
+            <p class="p"><span class="ph b">[M] Go to another system circuit diagram</span></p>  
+            
+            <p class="p"> 
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">For this section, go to another system circuit diagram where you can check the more details in the system circuit diagram.</p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+            </p>  
+            
+            <p class="p"><span class="ph b">[N] Twisted pair</span></p>  
+            
+            <p class="p"> 
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Definition: a universal wiring made by winding two insulated wires together according to a certain specification;</p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Function: prevent external electromagnetic interference and reduce external interference of its own signal.</p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Indication method:</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div style="margin-left:-20px;" class="imagecenterlevel1"><img width="60mm" style="width:60mm;" onclick="showOrHideImg(event,'show')" src="image/G075274.png" alt="G075274"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+            </p>  
+            
+            <p class="p"><span class="ph b">[O] Shielded wire</span></p>  
+            
+            <p class="p"> 
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The shielded wire is a transmission line that uses a metal mesh braid to wrap the signal line; The shielding layer of the
+                        shielded wire needs to be grounded, and external interference signals can be introduced into the grounding position.
+                     </p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+            </p> 
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script><DIV style="text-align:left;display: block; width: 100%;overflow:hidden;border:0px solid #000;height: 50%;border:1px solid #000;" id="tablediv"></div>
+<div id="dialogdiv"></div>
+</body>
+   
+</html>

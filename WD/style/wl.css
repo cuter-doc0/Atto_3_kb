@@ -1,0 +1,391 @@
+﻿
+
+.p {
+	line-height:2em;
+	font-size:10pt;
+}
+
+
+.image {
+	margin-bottom:1em;
+	border:1pt solid black;
+}
+
+
+.sctlink_container{
+	background: rgb(245,245,245);
+	transition: background-color .5s;
+	-webkit-box-shadow: #666 0px 0px 10px;
+	-moz-box-shadow: #666 0px 0px 10px;
+	box-shadow: #666 0px 0px 10px;
+	behavior: url(/PIE.htc);
+	width:400px;
+	position: fixed;
+	right:60px;
+	top:25px;
+	z-index: 997;
+	margin: 0;
+	overflow: hidden;
+}
+.sctlink_box{
+	min-width: 300px;
+	padding: 5px 10px;
+	margin: 10px 0 20px;
+	background: #ebebeb;
+	position: relative;
+}
+.sctlink_mend_box{
+	min-width: 100px;
+	padding: 5px 5px;
+	margin: 5px;
+	border: 2px solid #888888;
+	background: #2c88dc linear-gradient(to top, rgba(0,255,0,0), rgba(112, 157, 205, 0.48));
+	position: relative;
+}
+.sctlink_container_title{
+	padding-left:5px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	background: #2c88dc linear-gradient(to top, rgba(0,255,0,0), rgba(112, 157, 205, 0.48));
+	transition: background-color .5s;
+	-webkit-box-shadow: #666 0px 0px 10px;
+	-moz-box-shadow: #666 0px 0px 10px;
+	box-shadow: #666 0px 0px 10px;
+	behavior: url(/PIE.htc);
+	position: relative;
+	cursor:move;
+}
+span.title{
+	color: white;
+	display: block;
+	width: auto;
+	min-width: 50px;
+	/* height: 30px; */
+	position: absolute;
+	top: -17px;
+	text-align: left;
+	background: #2c88dc;
+	border: 2px solid #888888;
+	line-height: 30px;
+	border-radius: 5px;
+	padding: 0px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	/* background: black; */
+	/* color: white; */
+}
+ul.sctlink_ul{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+ul.sctlink_ul li>a{
+	color: black;
+	padding-top: 5px;
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+
+
+ol, ul {
+	list-style:none outside none;
+}
+
+/*content nav one*/
+.navC li{border-left:1px solid #cce2ed;border-right:1px solid #cce2ed;cursor:pointer;}
+.navC li a{border-top:1px solid #cce2ed;background:#f1f6fa;font-size:14px;font-weight:bold;}
+.navC li a:hover{background:#ffffff;text-decoration:none;}
+.navC li:hover a{border-top:1px solid #cce2ed;}
+
+.navC{height:28px;line-height:28px;}
+.navC ul{padding-left:5px;margin-bottom:-1px;} /*ie6*/
+.navC li{float:left;margin-right:5px;}
+.navC li a{float:left;display:block;padding:0 15px;height:28px;overflow:hidden;margin-top:-1px;_position:relative;}
+
+/* 线束接插件说明中，图片不要边框，大小为300px */
+.cellInfo{
+	width:300px;
+	margin-bottom:1em;
+}
+
+/* 接地点接插件说明中，第一幅图的样式 */
+.TDP_image1{
+	width:80%;
+	margin-bottom:1em;
+	border:1pt solid black;
+
+}
+
+/* 接地点接插件说明中，第二幅图的样式 */
+.TDP_image2{
+	width:60%;
+	margin-bottom:1em;
+	border:1pt solid black;
+
+}
+
+/* 整幅电路图、线束图尺寸 */
+.WL_image{
+	width:1092px;
+	height:681px;
+	border:1pt solid black;
+	overflow: auto;
+	text-align: center;
+	display: block;
+
+
+}
+
+/* 其它图片，目前电路图topic中未有此数据场景 */
+.general_image {
+	width:1092px;
+	height:681px;
+	margin-bottom:1em;
+	border:1pt solid black;
+}
+
+.dot {
+	list-style-type:square;
+	margin-left:-20px;
+}
+
+.sctlink_li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-left:-20px;
+}
+
+
+.figTableTitle{
+	padding-left:1em;
+	padding-right:1em;
+}
+
+/*  td div.p{
+    margin-bottom:0em;
+}
+*/
+.figInTable{
+	text-align:center;
+}
+
+
+/* cjj
+.topictitle1{
+    margin-top:1em;
+    color:#009ba5;
+    font-size:14pt;
+    font-family:黑体;
+}*/
+
+body{
+	font-family:"思源黑体 CN Regular";
+	font-size:10pt;
+	margin-left:25px;
+	margin-right:25px;
+}
+
+svg{
+	display: table;
+	margin: 0 auto;
+}
+
+
+/*高亮*/
+g.terminal,g.line,g.grounding,g.fuse,g.goto,g.mod,.fusebox {
+	cursor: pointer;
+}
+/*g.terminal,g.line,g.grounding,g.fuse,g.goto {
+    cursor: pointer;
+}*/
+/*g.terminal.on rect:last-child {
+    filter: url(#drop-shadow);
+}*/
+g.terminal.on rect {
+	filter: url(#drop-shadow);
+}
+/*
+g.terminal.on polyline {
+    filter: url(#drop-shadow);
+}
+*/
+g.terminal.on polygon {
+	filter: url(#drop-shadow);
+}
+
+/* g.line.on line:first-child, g.line.on polyline:first-child, g.line.on path:first-child */
+.line_on {
+	filter: url(#drop-shadow);
+}
+
+g.mod.on > rect {
+	filter: url(#drop-shadow);
+}
+g.mod.on polyline:first-child {
+	filter: url(#drop-shadow);
+}
+g.mod.on polygon:first-child {
+	filter: url(#drop-shadow);
+}
+g.mod.on path:first-child {
+	filter: url(#drop-shadow);
+}
+
+.fusebox.on {
+	filter: url(#drop-shadow);
+}
+/*g.line.on .subline {
+    stroke-width:2;
+}
+g.line.on .subline_bold {
+    stroke-width:8;
+}
+g.line.on line:first-child,g.line.on polyline:first-child {
+    stroke-width:8;
+}
+g.grounding.on line {
+    stroke-width:2;
+}*/
+g.grounding.on polygon{
+	filter: url(#drop-shadow);
+}
+g.fuse.on rect,g.fuse.on path:not([stroke-width="0.85"]),g.fuse.on polygon,g.fuse.on polyline:not(:last-child){
+	filter: url(#drop-shadow);
+}
+g.fuse rect[fill="none"],g.fuse path[fill="none"],g.fuse polyline[fill="none"]{
+	fill:#ccc;
+	fill-opacity:0;
+}
+g.sub_fuse.on path,g.sub_fuse.on rect,g.sub_fuse.on polygon{
+	fill:#A09DD9;
+	color: white;
+}
+/*g.fuse.on circle{
+    stroke-width:2;
+}
+g.fuse.on path{
+    stroke-width:2;
+    stroke-width:2;
+}
+g.goto.on path{
+    stroke-width:3;
+}
+g.goto.on text{
+    font-weight: bold;
+}*/
+
+/* table tbody {
+	display:block;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+table thead, tbody tr {
+	display:table;
+	width:100%;
+	table-layout:fixed;
+} */
+/* table thead {
+	width: calc(100% - 1em)
+} */
+table thead th {
+	background:#ccc;
+}
+.greenCell{
+	background-color:#DEE9EA;
+}
+.zhezhao {
+	width:100%;
+	height:100%;
+	filter:alpha(opacity=0);
+	-moz-opacity:0.5;
+	opacity:0.5;
+	position:absolute;
+	left:0px;
+	top:0px;
+	display:none;
+	z-index:997;
+}
+#rRightDown,#rLeftDown{
+	position:absolute;background:#eeeeee;width:10px;height:10px;z-index:5;font-size:0;}
+##rLeftUp,#rRightUp{
+	 position:absolute;background:#eeeeee;width:10px;height:10px;z-index:5;font-size:0;}
+#rUp{
+	position:absolute;background:#2c88dc;width:50%;height:6px;z-index:5;font-size:0;}
+#rDown{
+	position:absolute;background:#eeeeee;width:50%;height:6px;z-index:5;font-size:0;}
+#rRight,#rLeft{
+	position:absolute;background:#eeeeee;width:6px;height:50%;z-index:5;font-size:0;}
+#rLeftDown,#rRightUp{cursor:ne-resize;}
+#rRightDown,#rLeftUp{cursor:nw-resize;}
+#rRight,#rLeft{cursor:e-resize;}
+#rUp,#rDown{cursor:n-resize;}
+#rRightDown{ bottom:-3px; right:-3px;}
+#rLeftDown{ bottom:-3px; left:-3px;}
+#rRightUp{ top:-3px; right:-3px;}
+#rLeftUp{ top:-3px; left:-3px;}
+#rRight{ right:-3px; top:25%}
+#rLeft{ left:-3px; top:25%}
+#rUp{ top:-3px; left:25%}
+#rDown{ bottom:-3px; left:25%}
+
+#tablediv>table>thead>tr>th>p.p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#tablediv>table>tbody>tr>td>p.p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#dialogtablediv>table>thead>tr>th>p.p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#dialogtablediv>table>tbody>tr>td>p.p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.ewdconbody>.section {
+	margin-top: 0px;
+	margin-bottom: 0px
+}
+.ewdconbody .tablenoborder {
+	overflow-x: hidden;
+	margin: 0px;
+}
+#dialogtablediv th,
+#dialogtablediv td{
+	position: relative;
+}
+#dialogtablediv .dragHandler{
+	position: absolute;
+	right: -0.5px;
+	top: 0;
+	z-index: 99;
+	width: 5px;
+	height: 100%;
+	padding-left: 4px;
+	cursor: col-resize;
+}
+
+#dialogtablediv .dragHandler::after {
+	content: '';
+	display: block;
+	width: 10px;
+	height: 100%;
+}
+
+#dialogtablediv .dialogTableDivLayer{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	background-color: rgba(100,100,100,.1); /*为了效果加上的，可以去掉*/
+	cursor: col-resize;
+}
+#dialogtablediv .tableMoveMask{
+	height: 100%;
+}
+

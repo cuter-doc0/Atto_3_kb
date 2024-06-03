@@ -1,0 +1,526 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="System Description"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>System Description</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-1-F5240221">
+         
+         
+         <h3 class="topictitletopic1 title">System Description</h3>
+         
+         <div class="body">
+            <div class="section">
+               <h3 class="title topictitle1">Component Location View</h3> 
+               <p class="p">
+                  <div>
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G074695.png"></img></div>
+                  </div>
+               </p> 
+               <table width="100%" border="1" frame="box" rules="all">
+                  <thead style="font-weight: bold">
+                     <tr>
+                        <th width="25%" align="center" valign="middle">
+                           <p>S/N</p>
+                        </th>
+                        <th width="25%" align="center" valign="middle">
+                           <p>Name</p>
+                        </th>
+                        <th width="25%" align="center" valign="middle">
+                           <p>S/N</p>
+                        </th>
+                        <th width="25%" align="center" valign="middle">
+                           <p>Name</p>
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td width="25%" align="center" valign="middle">
+                           <p>1</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>External antenna</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>9</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>SIM card reader</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" align="center" valign="middle">
+                           <p>2</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Rear left door high-pitch speaker</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>10</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Front right door low-pitch speaker</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" align="center" valign="middle">
+                           <p>3</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Rear left door low-pitch speaker</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>11</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Display screen bracket assembly</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" align="center" valign="middle">
+                           <p>4</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Front left door high-pitch speaker</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>12</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Front right door high-pitch speaker</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" align="center" valign="middle">
+                           <p>5</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>External power amplifier</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>13</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>PAD display screen assembly</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" align="center" valign="middle">
+                           <p>6</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Front left door low-pitch speaker</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>14</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Rear right door low-pitch speaker</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" align="center" valign="middle">
+                           <p>7</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>USB interface assembly</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>15</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Rear right door high-pitch speaker</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" align="center" valign="middle">
+                           <p>8</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Host assembly</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">&nbsp;</td>
+                        <td width="25%" align="center" valign="middle">&nbsp;</td>
+                     </tr>
+                  </tbody>
+               </table> 
+               <p class="p">
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G074696.png"></img></div>
+                  </div>
+               </p> 
+               <p class="p">
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <thead style="font-weight: bold">
+                        <tr>
+                           <th width="25%" align="center" valign="middle">
+                              <p>S/N</p>
+                           </th>
+                           <th width="25%" align="center" valign="middle">
+                              <p>Name</p>
+                           </th>
+                           <th width="25%" align="center" valign="middle">
+                              <p>S/N</p>
+                           </th>
+                           <th width="25%" align="center" valign="middle">
+                              <p>Name</p>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td width="25%" align="center" valign="middle">
+                              <p>1</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>ECall microphone</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>4</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>ECall_BOX assembly</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25%" align="center" valign="middle">
+                              <p>2</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>4GWiFiBT antenna</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>5</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>ECALL_4G+ GPS antenna</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25%" align="center" valign="middle">
+                              <p>3</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>eCall speaker</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">&nbsp;</td>
+                           <td width="25%" align="center" valign="middle">&nbsp;</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </p>
+            </div>
+            
+            <div class="section">
+               <h3 class="title topictitle1">System Function Principle</h3> 
+               <ol class="num">
+                  <li>
+                     <p class="p-inline">The infotainment system includes 4G network, PAD unit, Bluetooth phone, smart voice recognition, vehicle-infotainment interaction,
+                        on-board radio, USB, SD card assembly, audio and video equipment interface, image system and other functions.
+                     </p>
+                  </li> 
+                  <li>
+                     <p class="p-inline">Main components:</p> 
+                     <ol class="num">
+                        <li>
+                           <p class="p-inline">Multimedia host and multimedia display screen</p>
+                        </li> 
+                        <li>
+                           <p class="p-inline">Speaker</p>
+                        </li> 
+                        <li>
+                           <p class="p-inline">External antenna (internal antenna) and feeder</p>
+                        </li> 
+                        <li>
+                           <p class="p-inline">4G/WIFI antenna</p>
+                        </li> 
+                        <li>
+                           <p class="p-inline">EDR</p>
+                        </li> 
+                        <li>
+                           <p class="p-inline">Panoramic view system</p>
+                        </li> 
+                        <li>
+                           <p class="p-inline">Rear view camera system</p>
+                        </li> 
+                        <li>
+                           <p class="p-inline">USB interface assembly</p>
+                        </li>
+                     </ol>
+                  </li> 
+                  <li>
+                     <p class="p-inline">USB interface assembly:</p> 
+                     <p>It includes 2 USB interfaces, of which only 1 USB interface supports audio and video file reading, and both USB interfaces
+                        can be used for charging handheld devices.
+                     </p>
+                  </li> 
+                  <li>
+                     <p class="p-inline">MP3/WMA file playback:</p> 
+                     <ol class="num">
+                        <li>
+                           <p class="p-inline">Playable MP3 files</p>
+                        </li> 
+                        <li>
+                           <p class="p-inline">Playable WMA files</p>
+                        </li>
+                     </ol>
+                  </li> 
+                  <li>
+                     <p class="p-inline">4G/WIFI antenna:</p> 
+                     <p>It supports 4G internet access and Wi-Fi connection to phones, among other functions.</p>
+                  </li> 
+                  <li>
+                     <p class="p-inline">Radio:</p> 
+                     <p>Radio band FM:87.5MHz ~ 108.0MHz</p>
+                  </li> 
+                  <li>
+                     <p class="p-inline">The Bluetooth key system of mobile phone supports the following functions:</p> 
+                     <ol class="num">
+                        <li>
+                           <p class="p-inline">Mobile phone Bluetooth key unlock, switch on/off air conditioner and other vehicle control functions.</p>
+                        </li> 
+                        <li>
+                           <p class="p-inline">Approach-to-unlock function.</p>
+                        </li> 
+                        <li>
+                           <p class="p-inline">Mobile phone remote control driving function.</p>
+                        </li>
+                     </ol>
+                  </li>
+               </ol>
+            </div>
+            
+            <div class="section">
+               <h3 class="title topictitle1">System Block Diagram</h3> 
+               <p class="p">Host assembly</p> 
+               <p class="p">
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G079417.png"></img></div>
+                  </div>
+               </p> 
+               <p class="p">ECallBOX assembly</p> 
+               <p class="p">
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G079418.png"></img></div>
+                  </div>
+               </p> 
+               <p class="p">Host assembly port</p>
+               <p class="p">
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G239235.png"></img></div>
+                  </div>
+               </p>
+               <p class="p">
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <thead style="font-weight: bold">
+                        <tr>
+                           <th width="25%" align="center" valign="middle">
+                              <p>S/N</p>
+                           </th>
+                           <th width="25%" align="center" valign="middle">
+                              <p>Name</p>
+                           </th>
+                           <th width="25%" align="center" valign="middle">
+                              <p>S/N</p>
+                           </th>
+                           <th width="25%" align="center" valign="middle">
+                              <p>Name</p>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td width="25%" align="center" valign="middle">
+                              <p>1</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>Panoramic camera</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>9</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>4G assist antenna</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25%" align="center" valign="middle">
+                              <p>2</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>EDR</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>10</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>4G main antenna</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25%" align="center" valign="middle">
+                              <p>3</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>Interior camera</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>11</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>FM antenna</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25%" align="center" valign="middle">
+                              <p>4</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>LCD display screen</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>12</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>Left microphone * 2</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25%" align="center" valign="middle">
+                              <p>5</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>SIM card</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>13</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>AUX</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25%" align="center" valign="middle">
+                              <p>6</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>USB assembly</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>14</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>USB data interface</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25%" align="center" valign="middle">
+                              <p>7</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>WIFI/BT antenna</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>15</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>Microphone</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25%" align="center" valign="middle">
+                              <p>8</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>GNSS antenna</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>16</p>
+                           </td>
+                           <td width="25%" align="center" valign="middle">
+                              <p>Main connector</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </p>
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

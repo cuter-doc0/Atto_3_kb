@@ -1,0 +1,396 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DTC Diagnosis"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA106170"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DTC Diagnosis</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section class="1" id="DTA106170">
+         
+         
+         
+         <h3 class="topictitletopic1 title">DTC Diagnosis</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">List of DTC</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr align="center" valign="middle"> 
+                           
+                           <th width="1" align="center" valign="top">DTC</th>  
+                           
+                           <th width="1" align="center" valign="top">Meaning</th>  
+                           
+                           <th width="1" align="center" valign="top">Diagnostic Process</th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B1CDF11</td>  
+                           
+                           <td width="1" align="left" valign="top">Left&amp;right commutator motor drive circuit of left outside rearview mirror shorted to ground</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125034.html">B1CDF11 Left&amp;Right Commutator Motor Drive Circuit of Left Outside Rearview Mirror Shorted to Ground</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B1CDF12</td>  
+                           
+                           <td width="1" align="left" valign="top">Left&amp;right commutator motor drive circuit of left outside rearview mirror shorted to power</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125035.html">B1CDF12 Left&amp;Right Commutator Motor Drive Circuit of Left Outside Rearview Mirror Shorted to Power</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B1CDF13</td>  
+                           
+                           <td width="1" align="left" valign="top">Left&amp;right commutator motor drive circuit of left outside rearview mirror broken</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125036.html">B1CDF13 Left&amp;Right Commutator Motor Drive Circuit of Left Outside Rearview Mirror Broken</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B1CDF19</td>  
+                           
+                           <td width="1" align="left" valign="top">Left&amp;right commutator motor drive of left outside rearview mirror overloaded</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125037.html">B1CDF19 Left&amp;Right Commutator Motor Drive of Left Outside Rearview Mirror Overloaded</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE011</td>  
+                           
+                           <td width="1" align="left" valign="top">Up&amp;down commutator motor drive circuit of left outside rearview mirror shorted to ground</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125038.html">B1CE011 Up&amp;Down Commutator Motor Drive Circuit of Left Outside Rearview Mirror Shorted to Ground</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE012</td>  
+                           
+                           <td width="1" align="left" valign="top">Up&amp;down commutator motor drive circuit of left outside rearview mirror shorted to power</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125039.html">B1CE012 Up&amp;Down Commutator Motor Drive Circuit of Left Outside Rearview Mirror Shorted to Power</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE013</td>  
+                           
+                           <td width="1" align="left" valign="top">Up&amp;down commutator motor drive circuit of left outside rearview mirror broken</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125040.html">B1CE013 Up&amp;Down Commutator Motor Drive Circuit of Left Outside Rearview Mirror Broken</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE019</td>  
+                           
+                           <td width="1" align="left" valign="top">Up&amp;down commutator motor drive of left outside rearview mirror overloaded</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125041.html">B1CE019 Up&amp;Down Commutator Motor Drive of Left Outside Rearview Mirror Overloaded</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE111</td>  
+                           
+                           <td width="1" align="left" valign="top">Folding motor drive circuit of left outside rearview mirror shorted to ground</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125042.html">B1CE111 Folding Motor Drive Circuit of Left Outside Rearview Mirror Shorted to Ground</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE112</td>  
+                           
+                           <td width="1" align="left" valign="top">Folding motor drive circuit of left outside rearview mirror shorted to power</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125043.html">B1CE112 Folding Motor Drive Circuit of Left Outside Rearview Mirror Shorted to Power</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE113</td>  
+                           
+                           <td width="1" align="left" valign="top">Folding motor drive circuit of left outside rearview mirror broken</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125044.html">B1CE113 Folding Motor Drive Circuit of Left Outside Rearview Mirror Broken</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE119</td>  
+                           
+                           <td width="1" align="left" valign="top">Folding motor drive of left outside rearview mirror overloaded</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125045.html">B1CE119 Folding Motor Drive of Left Outside Rearview Mirror Overloaded</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE211</td>  
+                           
+                           <td width="1" align="left" valign="top">Left&amp;right commutator motor drive circuit of right outside rearview mirror shorted to ground</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125046.html">B1CE211 Left&amp;Right Commutator Motor Drive Circuit of Right Outside Rearview Shorted to Ground</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE212</td>  
+                           
+                           <td width="1" align="left" valign="top">Left&amp;right commutator motor drive circuit of right outside rearview mirror shorted to power</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125047.html">B1CE212 Left&amp;Right Commutator Motor Drive Circuit of Right Outside Rearview Mirror Shorted to Power</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE213</td>  
+                           
+                           <td width="1" align="left" valign="top">Left&amp;right commutator motor drive circuit of right outside rearview mirror broken</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125048.html">B1CE213 Left&amp;Right Commutator Motor Drive Circuit of Right Outside Rearview Mirror Broken</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE219</td>  
+                           
+                           <td width="1" align="left" valign="top">Left&amp;right commutator motor drive of right outside rearview mirror overloaded</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125049.html">B1CE219 Left&amp;Right Commutator Motor Drive of Right Outside Rearview Mirror Overloaded</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE311</td>  
+                           
+                           <td width="1" align="left" valign="top">Up&amp;down commutator motor drive circuit of right outside rearview mirror shorted to ground</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125050.html">B1CE311 Up&amp;Down Commutator Motor Drive Circuit of Right Outside Rearview Mirror Shorted to Ground</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE312</td>  
+                           
+                           <td width="1" align="left" valign="top">Up&amp;down commutator motor drive circuit of right outside rearview mirror shorted to power</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125051.html">B1CE312 Up&amp;Down Commutator Motor Drive Circuit of Right Outside Rearview Mirror Shorted to Power</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE313</td>  
+                           
+                           <td width="1" align="left" valign="top">Up&amp;down commutator motor drive circuit of right outside rearview mirror broken</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125052.html">B1CE313 Up&amp;Down Commutator Motor Drive Circuit of Right Outside Rearview Mirror Broken</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE319</td>  
+                           
+                           <td width="1" align="left" valign="top">Up&amp;down commutator motor drive of right outside rearview mirror overloaded</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125053.html">B1CE319 Up&amp;Down Commutator Motor Drive of Right Outside Rearview Mirror Overloaded</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE411</td>  
+                           
+                           <td width="1" align="left" valign="top">Folding motor drive circuit of right outside rearview mirror shorted to ground</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125054.html">B1CE411 Folding Motor Drive Circuit of Right Outside Rearview Mirror Shorted to Ground</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE412</td>  
+                           
+                           <td width="1" align="left" valign="top">Folding motor drive circuit of right outside rearview mirror shorted to power</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125055.html">B1CE412 Folding Motor Drive Circuit of Right Outside Rearview Mirror Shorted to Power</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE413</td>  
+                           
+                           <td width="1" align="left" valign="top">Folding motor drive circuit of right outside rearview mirror broken</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125056.html">B1CE413 Folding Motor Drive Circuit of Right Outside Rearview Mirror Broken</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CE419</td>  
+                           
+                           <td width="1" align="left" valign="top">Folding motor drive of right outside rearview mirror overloaded</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125057.html">B1CE419 Folding Motor Drive of Right Outside Rearview Mirror Overloaded</a>&nbsp;
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

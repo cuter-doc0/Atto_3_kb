@@ -1,0 +1,196 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Inspection and setting of power window function"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM175125"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Inspection and setting of power window function</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM175125">
+         
+         
+         <h3 class="topictitletopic1 title">Inspection and setting of power window function</h3>
+         
+         <div class="body">
+            <div class="section">
+               <div>
+                  <div class="wl-attention prespace postspace warning-imgwarning" data-attention-type="warning" id="d60815e10">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/warningv2.svg"></img></div><span class="notetitleone">Warning</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">Do not pinch someone's hand or head when operating the window or sunroof; otherwise, extremely serious injury may be caused.</p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+               <p class="p"><span class="ph b">Inspection of power window lifting function</span></p>
+               <ol class="num">
+                  <li>
+                     <p class="p-inline">Power on the vehicle (OK mode).</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check that the front and rear door windows can open and close normally without any abnormal sound or jamming, and remove the
+                        dirt or dust in the glass-run if necessary.
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Obtain a new work order for repair or replacement.</p>
+                  </li>
+               </ol>
+            </div>
+            
+            <div class="section">
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d60815e29">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">After disconnection and connection of the 12 V battery, the automatic raising function of the power window regulator may not
+                           work. Therefore, the window regulator must be reset before delivery of a new vehicle, and it is not allowed to disconnect
+                           the 12 V battery after setting.
+                        </p>
+                     </div>
+                  </div>
+                  
+               </div>
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d60815e32">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">After disconnection and connection of the 12 V battery, the anti-pinch function of the power window regulator will not work.
+                           Therefore, be careful to avoid serious crush injury!
+                        </p>
+                     </div>
+                  </div>
+                  
+               </div>
+               <p class="p"><span class="ph b">Perform the following steps to initialize the power window regulator:</span></p>
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d60815e38">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">The following operation description takes the front left window regulator as an example. The setting of other window regulators
+                           is also realized by operating the switch on the front left door.
+                        </p>
+                     </div>
+                  </div>
+                  
+               </div>
+               <ol class="num">
+                  <li>
+                     <p class="p-inline">Power on the vehicle (OK mode).</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Fully close all windows and doors.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">After closing the window glass, release the switch, pull up the window regulator switch again and hold it for more than 3s.</p>
+                  </li>
+               </ol>
+               <p class="p">At this time, the automatic regulation and anti-pinch functions are activated again.</p>
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d60815e53">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">Operating the anti-pinch function initialization too frequently will cause the thermal protection of the window regulator
+                           motor.
+                        </p>
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

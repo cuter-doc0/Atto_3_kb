@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 679 841.9" style="enable-background:new 0 0 679 841.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#040000;stroke-width:0.5;}
+	.st1{fill:#DCDDDD;}
+	.st2{fill:none;stroke:#040000;}
+	.st3{font-family:'FZLTHJW--GB1-0';}
+	.st4{font-size:6px;}
+	.st5{fill:#DCDDDD;stroke:#040000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st6{fill:#9FD9F6;stroke:#040000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#000000;stroke-width:3;stroke-linejoin:round;}
+	.st8{fill:none;stroke:#E60012;stroke-width:3;stroke-linejoin:round;}
+	.st9{fill:none;stroke:#898989;stroke-linejoin:round;}
+	.st10{fill:none;stroke:#080102;stroke-width:0.75;}
+	.st11{fill:none;stroke:#040000;stroke-width:0.5;stroke-linejoin:round;}
+	.st12{fill:none;stroke:#040000;stroke-width:0.6;stroke-linejoin:round;}
+	.st13{fill:#FFFFFF;}
+	.st14{fill:none;stroke:#040000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;}
+	.st15{fill:#060001;stroke:#FFFFFF;stroke-width:0.5;stroke-linecap:round;}
+	.st16{fill:none;stroke:#FFFFFF;stroke-width:1.0001;}
+	.st17{fill:none;stroke:#F29C97;stroke-width:3;stroke-linejoin:round;}
+	.st18{fill:none;stroke:#89438F;stroke-width:3;stroke-linejoin:round;}
+	.st19{fill:none;stroke:#040000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st20{fill:none;stroke:#040000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st21{fill:none;stroke:#040000;stroke-width:1.3;}
+	.st22{fill:#060001;stroke:#FFFFFF;stroke-width:0.5;}
+	.st23{fill:none;stroke:#040000;stroke-width:0.6001;}
+	.st24{font-size:4px;}
+	.st25{fill:#FFFFFF;stroke:#040000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st26{fill:#FFFFFF;stroke:#040000;stroke-width:0.25;}
+	.st27{fill:none;}
+	.st28{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st29{fill:#005EAD;}
+</style>
+<g id="_x30_4-点火开关">
+	<g id="选配信息">
+	</g>
+</g>
+<g id="_x30_3-部件">
+</g>
+<g id="_x30_2-线路">
+</g>
+<path class="st0" d="M641,59.3"/>
+<polyline class="st1" points="44,41.9 641,41.9 641,88.1 44,88.1 "/>
+<line class="st0" x1="44" y1="47.6" x2="641" y2="47.6"/>
+<line class="st2" x1="44" y1="41.6" x2="641" y2="41.6"/>
+<line class="st0" x1="44" y1="58.9" x2="641" y2="58.9"/>
+<line class="st0" x1="44" y1="70.6" x2="641" y2="70.6"/>
+<line class="st0" x1="44" y1="82.3" x2="641" y2="82.3"/>
+<line class="st2" x1="44" y1="88.1" x2="641" y2="88.1"/>
+<text transform="matrix(1 0 0 1 647 49.6298)" class="st3 st4">30</text>
+<text transform="matrix(1 0 0 1 647 60.7958)" class="st3 st4">IG1</text>
+<text transform="matrix(1 0 0 1 647 72.4208)" class="st3 st4">IG3</text>
+<text transform="matrix(1 0 0 1 647 83.9247)" class="st3 st4">ACC</text>
+<text transform="matrix(1 0 0 1 31.0342 49.7119)" class="st3 st4">30</text>
+<text transform="matrix(1 0 0 1 27.8701 60.8779)" class="st3 st4">IG1</text>
+<text transform="matrix(1 0 0 1 27.8701 72.5029)" class="st3 st4">IG3</text>
+<text transform="matrix(1 0 0 1 24.378 84.0029)" class="st3 st4">ACC</text>
+<path class="st0" d="M44,59.3"/>
+<g id="REB_x2C_A3_1_">
+	<rect x="101.5" y="152.5" class="st5" width="58.8" height="51.3"/>
+</g>
+<g id="_x30_1-曲线图框_1_">
+	<path class="st6" d="M591.9,731.3H485.5v-25.9h106.4c0,0-3.1,7.6,0,13C595.1,723.7,591.9,731.3,591.9,731.3z"/>
+</g>
+<g>
+	<rect x="96.4" y="429.3" class="st6" width="504.4" height="25.9"/>
+</g>
+<g>
+	<rect x="493" y="222.9" class="st6" width="82" height="36.4"/>
+</g>
+<polyline class="st7" points="184.6,465.5 184.6,616.1 127.9,616.1 "/>
+<line class="st8" x1="127.9" y1="214" x2="127.9" y2="419"/>
+<line class="st9" x1="127.9" y1="214" x2="127.9" y2="419"/>
+<g id="RF22_x2C_A3_1_">
+	<g>
+		<g>
+			<path class="st10" d="M127.9,182.9c-1.2,0-2.2,1-2.2,2.2s1,2.2,2.2,2.2c1.2,0,2.2-1,2.2-2.2S129.1,182.9,127.9,182.9"/>
+		</g>
+		<g>
+			<path class="st10" d="M127.9,167.1c-1.2,0-2.2,1-2.2,2.1c0,1.2,1,2.2,2.2,2.2c1.2,0,2.2-0.9,2.2-2.2
+				C130.1,168.1,129.1,167.1,127.9,167.1"/>
+		</g>
+		<g>
+			<path class="st10" d="M126.4,170.8c-0.1,2.5,0.2,3.2,1.3,4.3c1.2,1.2,2.4,1.7,2.8,3.7c0.4,1.6-0.1,3.5-1.1,4.5"/>
+		</g>
+		<g>
+			<path class="st10" d="M129.3,183.4c0.2-0.8,0-2.9-0.6-3.7c-0.9-1.2-2.7-2.1-3.3-4c-0.9-2.8,0.7-4.6,1.1-5"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="st11" points="127.9,187.5 127.9,190.6 127.9,203.9 		"/>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline class="st12" points="127.9,167.3 127.9,155 127.9,46.3 		"/>
+	</g>
+</g>
+<g id="_x30_2-上针脚_24_">
+	<line class="st12" x1="127.9" y1="212.1" x2="127.9" y2="203.9"/>
+	<path class="st13" d="M127.8,215.2c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2C131,213.8,129.6,215.2,127.8,215.2
+		"/>
+	<path d="M127.9,215.8c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V215.8z
+		 M127.9,208.3v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C131.7,210,130.1,208.3,127.9,208.3"/>
+	<rect x="123.9" y="207.9" class="st13" width="8.1" height="4.1"/>
+	<rect x="127.4" y="208.8" width="1" height="4.2"/>
+	<rect x="127.4" y="208.8" class="st14" width="1" height="4.2"/>
+</g>
+<g>
+	<path class="st15" d="M125.1,47.7c0-1.7,1.3-2.9,2.8-2.9c1.6,0,2.9,1.2,2.9,2.9c0,1.5-1.3,2.7-2.9,2.7
+		C126.4,50.5,125.1,49.2,125.1,47.7z"/>
+	<g>
+		<path class="st16" d="M125.1,47.7c0-1.7,1.3-2.9,2.8-2.9c1.6,0,2.9,1.2,2.9,2.9c0,1.5-1.3,2.7-2.9,2.7
+			C126.4,50.5,125.1,49.2,125.1,47.7"/>
+	</g>
+</g>
+<line class="st17" x1="255.5" y1="245.7" x2="255.5" y2="419"/>
+<line class="st18" x1="312.2" y1="245.7" x2="312.2" y2="419"/>
+<line class="st17" x1="383" y1="245.7" x2="383" y2="419"/>
+<polyline class="st17" points="504.6,269.3 504.6,387.5 403.3,387.5 383.5,419.6 "/>
+<polyline class="st18" points="561.5,269.3 561.5,404.8 460.2,404.8 441.5,418.4 "/>
+<line class="st18" x1="439.7" y1="245.7" x2="439.7" y2="419"/>
+<line class="st17" x1="255.5" y1="688.7" x2="255.5" y2="465.4"/>
+<line class="st7" x1="127.9" y1="782.5" x2="127.9" y2="465.4"/>
+<line class="st18" x1="312.2" y1="688.7" x2="312.2" y2="465.4"/>
+<path class="st19" d="M253.3,642.3c-2,0-3.8-1.4-3.8-3.2s1.7-3.2,3.8-3.2l61,6.4c2,0,3.8-1.4,3.8-3.2s-1.7-3.2-3.8-3.2L253.3,642.3z
+	"/>
+<path class="st19" d="M253.3,326.4c-2,0-3.8-1.4-3.8-3.2c0-1.8,1.7-3.2,3.8-3.2l61,6.4c2,0,3.8-1.4,3.8-3.2c0-1.8-1.7-3.2-3.8-3.2
+	L253.3,326.4z"/>
+<path class="st19" d="M380.9,326.4c-2,0-3.8-1.4-3.8-3.2c0-1.8,1.7-3.2,3.8-3.2l61,6.4c2,0,3.8-1.4,3.8-3.2c0-1.8-1.7-3.2-3.8-3.2
+	L380.9,326.4z"/>
+<path class="st20" d="M249.8,694l0.7,2.1c0,0,0.7,2.5,4,2.6h27.1l0,0l2.3,2.7l2.3-2.7c0.1,0,0.1,0,0.2,0H313h0.2
+	c3.3-0.1,4-2.6,4-2.6l0.7-2.1"/>
+<path class="st20" d="M376.4,238.8l0.7-2.1c0,0,0.7-2.5,4-2.6h27.1l0,0l2.3-2.7l2.3,2.7c0.1,0,0.1,0,0.2,0h26.6h0.2
+	c3.3,0.1,4,2.6,4,2.6l0.7,2.1"/>
+<path class="st20" d="M248.7,238.8l0.7-2.1c0,0,0.7-2.5,4-2.6h27.1l0,0l2.3-2.7l2.3,2.7c0.1,0,0.1,0,0.2,0h26.6h0.2
+	c3.3,0.1,4,2.6,4,2.6l0.7,2.1"/>
+<line class="st17" x1="509" y1="694.2" x2="509" y2="465.4"/>
+<line class="st18" x1="565.7" y1="694.2" x2="565.7" y2="465.4"/>
+<path class="st19" d="M506.9,642.3c-2,0-3.8-1.4-3.8-3.2s1.7-3.2,3.8-3.2l61,6.4c2,0,3.8-1.4,3.8-3.2s-1.7-3.2-3.8-3.2L506.9,642.3z
+	"/>
+<path class="st19" d="M506.9,525c-2,0-3.8-1.4-3.8-3.2s1.7-3.2,3.8-3.2l61,6.4c2,0,3.8-1.4,3.8-3.2s-1.7-3.2-3.8-3.2L506.9,525z"/>
+<g id="_x30_2-上针脚_23_">
+	<line class="st12" x1="127.9" y1="421.1" x2="127.9" y2="429.3"/>
+	<path class="st13" d="M127.8,418c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2C131,419.4,129.6,418,127.8,418"/>
+	<path d="M127.9,418.5c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V418.5z
+		 M127.9,424.9c2.2,0,3.8-1.7,3.8-3.8s-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7L127.9,424.9"/>
+	<rect x="123.9" y="421.2" class="st13" width="8.1" height="4.1"/>
+	<rect x="127.4" y="420.2" width="1" height="4.2"/>
+	<rect x="127.4" y="420.2" class="st14" width="1" height="4.2"/>
+</g>
+<g id="_x30_2-上针脚_22_">
+	<line class="st12" x1="255.5" y1="421.1" x2="255.5" y2="429.3"/>
+	<path class="st13" d="M255.4,418c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2C258.6,419.4,257.2,418,255.4,418"/>
+	<path d="M255.4,418.5c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V418.5z
+		 M255.4,424.9c2.2,0,3.8-1.7,3.8-3.8s-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7L255.4,424.9"/>
+	<rect x="251.4" y="421.2" class="st13" width="8.1" height="4.1"/>
+	<rect x="255" y="420.2" width="1" height="4.2"/>
+	<rect x="255" y="420.2" class="st14" width="1" height="4.2"/>
+</g>
+<g id="_x30_2-上针脚_21_">
+	<line class="st12" x1="312.2" y1="421.1" x2="312.2" y2="429.3"/>
+	<path class="st13" d="M312.1,418c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2C315.3,419.4,313.9,418,312.1,418"/>
+	<path d="M312.1,418.5c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V418.5z
+		 M312.1,424.9c2.2,0,3.8-1.7,3.8-3.8s-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V424.9"/>
+	<rect x="308.1" y="421.2" class="st13" width="8.1" height="4.1"/>
+	<rect x="311.7" y="420.2" width="1" height="4.2"/>
+	<rect x="311.7" y="420.2" class="st14" width="1" height="4.2"/>
+</g>
+<g id="_x30_2-上针脚_20_">
+	<line class="st12" x1="383" y1="421.1" x2="383" y2="429.3"/>
+	<path class="st13" d="M382.9,418c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2C386.1,419.4,384.7,418,382.9,418"/>
+	<path d="M383,418.5c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V418.5z
+		 M383,424.9c2.2,0,3.8-1.7,3.8-3.8s-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V424.9"/>
+	<rect x="379" y="421.2" class="st13" width="8.1" height="4.1"/>
+	<rect x="382.5" y="420.2" width="1" height="4.2"/>
+	<rect x="382.5" y="420.2" class="st14" width="1" height="4.2"/>
+</g>
+<g id="_x30_2-上针脚_19_">
+	<line class="st12" x1="439.7" y1="421.1" x2="439.7" y2="429.3"/>
+	<path class="st13" d="M439.6,418c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2C442.8,419.4,441.4,418,439.6,418"/>
+	<path d="M439.7,418.5c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V418.5z
+		 M439.7,424.9c2.2,0,3.8-1.7,3.8-3.8s-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V424.9"/>
+	<rect x="435.7" y="421.2" class="st13" width="8.1" height="4.1"/>
+	<rect x="439.2" y="420.2" width="1" height="4.2"/>
+	<rect x="439.2" y="420.2" class="st14" width="1" height="4.2"/>
+</g>
+<g id="_x30_2-上针脚_18_">
+	<line class="st12" x1="127.9" y1="463.4" x2="127.9" y2="455.2"/>
+	<path class="st13" d="M127.8,466.5c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2C131,465.1,129.6,466.5,127.8,466.5
+		"/>
+	<path d="M127.9,467.1c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V467.1z
+		 M127.9,459.6v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S130.1,459.6,127.9,459.6"/>
+	<rect x="123.9" y="459.2" class="st13" width="8.1" height="4.1"/>
+	<rect x="127.4" y="460.1" width="1" height="4.2"/>
+	<rect x="127.4" y="460.1" class="st14" width="1" height="4.2"/>
+</g>
+<g id="_x30_2-上针脚_17_">
+	<line class="st12" x1="184.6" y1="463.4" x2="184.6" y2="455.2"/>
+	<path class="st13" d="M184.5,466.5c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+		C187.7,465.1,186.3,466.5,184.5,466.5"/>
+	<path d="M184.6,467.1c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V467.1z
+		 M184.6,459.6v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S186.8,459.6,184.6,459.6"/>
+	<rect x="180.6" y="459.2" class="st13" width="8.1" height="4.1"/>
+	<rect x="184.1" y="460.1" width="1" height="4.2"/>
+	<rect x="184.1" y="460.1" class="st14" width="1" height="4.2"/>
+</g>
+<g id="_x30_2-上针脚_16_">
+	<line class="st12" x1="255.5" y1="463.4" x2="255.5" y2="455.2"/>
+	<path class="st13" d="M255.4,466.5c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+		C258.6,465.1,257.2,466.5,255.4,466.5"/>
+	<path d="M255.4,467.1c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V467.1z
+		 M255.4,459.6v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S257.6,459.6,255.4,459.6"/>
+	<rect x="251.4" y="459.2" class="st13" width="8.1" height="4.1"/>
+	<rect x="255" y="460.1" width="1" height="4.2"/>
+	<rect x="255" y="460.1" class="st14" width="1" height="4.2"/>
+</g>
+<g id="_x30_2-上针脚_15_">
+	<line class="st12" x1="312.2" y1="463.4" x2="312.2" y2="455.2"/>
+	<path class="st13" d="M312.1,466.5c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+		C315.3,465.1,313.9,466.5,312.1,466.5"/>
+	<path d="M312.1,467.1c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V467.1z
+		 M312.1,459.6v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S314.3,459.6,312.1,459.6"/>
+	<rect x="308.1" y="459.2" class="st13" width="8.1" height="4.1"/>
+	<rect x="311.7" y="460.1" width="1" height="4.2"/>
+	<rect x="311.7" y="460.1" class="st14" width="1" height="4.2"/>
+</g>
+<g>
+	<g>
+		<line class="st21" x1="121" y1="782.5" x2="134.9" y2="782.5"/>
+	</g>
+	<g>
+		<line class="st21" x1="123.9" y1="784.7" x2="132" y2="784.7"/>
+	</g>
+	<g>
+		<line class="st21" x1="130.4" y1="786.8" x2="125.5" y2="786.8"/>
+	</g>
+</g>
+<g>
+	<circle class="st22" cx="127.9" cy="616.1" r="2.6"/>
+</g>
+<g id="_x30_2-上针脚_10_">
+	<line class="st12" x1="509" y1="463.4" x2="509" y2="455.2"/>
+	<path class="st13" d="M508.9,466.5c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+		C512.1,465.1,510.7,466.5,508.9,466.5"/>
+	<path d="M509,467.1c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V467.1z
+		 M509,459.6v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S511.2,459.6,509,459.6"/>
+	<rect x="505" y="459.2" class="st13" width="8.1" height="4.1"/>
+	<rect x="508.5" y="460.1" width="1" height="4.2"/>
+	<rect x="508.5" y="460.1" class="st14" width="1" height="4.2"/>
+</g>
+<g id="_x30_2-上针脚_9_">
+	<line class="st12" x1="565.7" y1="463.4" x2="565.7" y2="455.2"/>
+	<path class="st13" d="M565.6,466.5c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+		C568.8,465.1,567.4,466.5,565.6,466.5"/>
+	<path d="M565.7,467.1c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V467.1z
+		 M565.7,459.6v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S567.9,459.6,565.7,459.6"/>
+	<rect x="561.7" y="459.2" class="st13" width="8.1" height="4.1"/>
+	<rect x="565.2" y="460.1" width="1" height="4.2"/>
+	<rect x="565.2" y="460.1" class="st14" width="1" height="4.2"/>
+</g>
+<g id="_x30_2-上针脚_6_">
+	<line class="st12" x1="504.6" y1="267.5" x2="504.6" y2="259.3"/>
+	<path class="st13" d="M504.5,270.6c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+		C507.7,269.2,506.3,270.6,504.5,270.6"/>
+	<path d="M504.6,271.2c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V271.2z
+		 M504.6,263.7v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S506.8,263.7,504.6,263.7"/>
+	<rect x="500.6" y="263.3" class="st13" width="8.1" height="4.1"/>
+	<rect x="504.1" y="264.2" width="1" height="4.2"/>
+	<rect x="504.1" y="264.2" class="st14" width="1" height="4.2"/>
+</g>
+<g id="_x30_2-上针脚_5_">
+	<line class="st12" x1="561.3" y1="267.5" x2="561.3" y2="259.3"/>
+	<path class="st13" d="M561.2,270.6c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2C564.4,269.2,563,270.6,561.2,270.6
+		"/>
+	<path d="M561.3,271.2c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V271.2z
+		 M561.3,263.7v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S563.5,263.7,561.3,263.7"/>
+	<rect x="557.3" y="263.3" class="st13" width="8.1" height="4.1"/>
+	<rect x="560.8" y="264.2" width="1" height="4.2"/>
+	<rect x="560.8" y="264.2" class="st14" width="1" height="4.2"/>
+</g>
+<g id="_x30_2-上针脚_2_">
+	<line class="st12" x1="509" y1="697.3" x2="509" y2="705.5"/>
+	<path class="st13" d="M508.9,694.2c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+		C512.1,695.6,510.7,694.2,508.9,694.2"/>
+	<path d="M509,694.7c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V694.7z
+		 M509,701.1c2.2,0,3.8-1.7,3.8-3.8s-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V701.1"/>
+	<rect x="505" y="697.4" class="st13" width="8.1" height="4.1"/>
+	<rect x="508.5" y="696.4" width="1" height="4.2"/>
+	<rect x="508.5" y="696.4" class="st14" width="1" height="4.2"/>
+</g>
+<g id="_x30_2-上针脚_1_">
+	<line class="st12" x1="565.7" y1="697.3" x2="565.7" y2="705.5"/>
+	<path class="st13" d="M565.6,694.2c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+		C568.8,695.6,567.4,694.2,565.6,694.2"/>
+	<path d="M565.7,694.7c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V694.7z
+		 M565.7,701.1c2.2,0,3.8-1.7,3.8-3.8s-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V701.1"/>
+	<rect x="561.7" y="697.4" class="st13" width="8.1" height="4.1"/>
+	<rect x="565.2" y="696.4" width="1" height="4.2"/>
+	<rect x="565.2" y="696.4" class="st14" width="1" height="4.2"/>
+</g>
+<g id="_x30_5-对接插头向上_1_">
+	<rect x="504.8" y="543.6" class="st13" width="8.5" height="18.8"/>
+	<g>
+		<g>
+			<line class="st12" x1="509.1" y1="554.2" x2="509.1" y2="562.4"/>
+			<path class="st13" d="M509.2,551.1c1.7,0,3,1.4,3,3c0,1.8-1.4,3.2-3,3.2c-1.8,0-3.2-1.4-3.2-3.2
+				C506,552.5,507.4,551.1,509.2,551.1"/>
+			<path d="M509.1,550.5c2,0,3.7,1.6,3.7,3.7c0,2.2-1.7,3.8-3.7,3.8v-1.2c1.4,0,2.5-1.1,2.5-2.7c0-1.3-1.1-2.5-2.5-2.5L509.1,550.5
+				L509.1,550.5z M509.1,558v-1.2c-1.5,0-2.7-1.1-2.7-2.7c0-1.3,1.1-2.5,2.7-2.5v-1.1c-2.2,0-3.8,1.6-3.8,3.7
+				C505.3,556.3,506.9,558,509.1,558"/>
+			<rect x="505" y="554.3" class="st13" width="8.1" height="4.1"/>
+			<rect x="508.6" y="553.3" width="1" height="4.2"/>
+			<rect x="508.6" y="553.3" class="st14" width="1" height="4.2"/>
+		</g>
+		<line class="st23" x1="509.1" y1="550.5" x2="509.1" y2="544"/>
+	</g>
+</g>
+<g id="_x30_5-对接插头向上_2_">
+	<rect x="561.5" y="543.6" class="st13" width="8.5" height="18.8"/>
+	<g>
+		<g>
+			<line class="st12" x1="565.8" y1="554.2" x2="565.8" y2="562.4"/>
+			<path class="st13" d="M565.9,551.1c1.7,0,3,1.4,3,3c0,1.8-1.4,3.2-3,3.2c-1.8,0-3.2-1.4-3.2-3.2
+				C562.7,552.5,564.1,551.1,565.9,551.1"/>
+			<path d="M565.8,550.5c2,0,3.7,1.6,3.7,3.7c0,2.2-1.7,3.8-3.7,3.8v-1.2c1.4,0,2.5-1.1,2.5-2.7c0-1.3-1.1-2.5-2.5-2.5V550.5z
+				 M565.8,558v-1.2c-1.5,0-2.7-1.1-2.7-2.7c0-1.3,1.1-2.5,2.7-2.5v-1.1c-2.2,0-3.8,1.6-3.8,3.7C562,556.3,563.6,558,565.8,558"/>
+			<rect x="561.7" y="554.3" class="st13" width="8.1" height="4.1"/>
+			<rect x="565.3" y="553.3" width="1" height="4.2"/>
+			<rect x="565.3" y="553.3" class="st14" width="1" height="4.2"/>
+		</g>
+		<line class="st23" x1="565.8" y1="550.5" x2="565.8" y2="544"/>
+	</g>
+</g>
+<g>
+	<circle class="st22" cx="509" cy="612.7" r="2.6"/>
+</g>
+<g>
+	<circle class="st22" cx="565.7" cy="612.7" r="2.6"/>
+</g>
+<g>
+	<circle class="st22" cx="509" cy="612.7" r="2.6"/>
+</g>
+<g>
+	<circle class="st22" cx="565.7" cy="612.7" r="2.6"/>
+</g>
+<g id="保险丝名称_13_">
+	<g>
+		<text transform="matrix(1 0 0 1 135.8948 183.3335)" class="st3 st4">10A</text>
+	</g>
+</g>
+<rect x="124.7" y="227.8" class="st13" width="6.4" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 115.5954 233.2559)" class="st3 st4">R/Gr 0.5</text>
+</g>
+<g id="保险丝名称_12_">
+	<text transform="matrix(1 0 0 1 114.9118 434.2488)" class="st3 st24">Constant power</text>
+</g>
+<g id="保险丝名称_21_">
+	<text transform="matrix(1 0 0 1 119.9002 452.8275)" class="st3 st24">Ground</text>
+</g>
+<g id="保险丝名称_22_">
+	<text transform="matrix(1 0 0 1 177.8548 452.8278)" class="st3 st24">Ground</text>
+</g>
+<g id="保险丝名称_14_">
+	<text transform="matrix(1 0 0 1 305.0143 434.2494)" class="st3 st24">CAN-L</text>
+</g>
+<g id="保险丝名称_15_">
+	<text transform="matrix(1 0 0 1 375.529 434.2494)" class="st3 st24">CAN-H</text>
+</g>
+<g id="保险丝名称_16_">
+	<text transform="matrix(1 0 0 1 433.6685 434.2494)" class="st3 st24">CAN-L</text>
+</g>
+<g id="保险丝名称_20_">
+	<text transform="matrix(1 0 0 1 247.97 452.8279)" class="st3 st24">CAN-H</text>
+</g>
+<g id="保险丝名称_5_">
+	<text transform="matrix(1 0 0 1 247.97 434.2487)" class="st3 st24">CAN-H</text>
+</g>
+<g id="保险丝名称_19_">
+	<text transform="matrix(1 0 0 1 305.0143 452.8279)" class="st3 st24">CAN-L</text>
+</g>
+<rect x="124.7" y="348.5" class="st13" width="6.4" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 115.5954 353.9559)" class="st3 st4">R/Gr 0.5</text>
+</g>
+<rect x="241.4" y="348.5" class="st13" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 246.0833 353.9561)" class="st3 st4">P 0.35</text>
+</g>
+<rect x="298.1" y="348.5" class="st13" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 302.7409 353.9561)" class="st3 st4">V 0.35</text>
+</g>
+<rect x="369" y="348.5" class="st13" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 373.6418 353.9561)" class="st3 st4">P 0.35</text>
+</g>
+<rect x="425.7" y="348.5" class="st13" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 430.2999 353.9561)" class="st3 st4">V 0.35</text>
+</g>
+<path class="st19" d="M502.5,326.4c-2,0-3.8-1.4-3.8-3.2c0-1.8,1.7-3.2,3.8-3.2l61,6.4c2,0,3.8-1.4,3.8-3.2c0-1.8-1.7-3.2-3.8-3.2
+	L502.5,326.4z"/>
+<rect x="490.6" y="348.5" class="st13" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 495.2345 353.9561)" class="st3 st4">P 0.35</text>
+</g>
+<rect x="547.3" y="348.5" class="st13" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 551.8926 353.9561)" class="st3 st4">V 0.35</text>
+</g>
+<rect x="241.4" y="487.9" class="st13" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 246.0833 493.2665)" class="st3 st4">P 0.35</text>
+</g>
+<rect x="170.6" y="487.9" class="st13" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 177.0228 493.2656)" class="st3 st4">B 0.5</text>
+</g>
+<rect x="113.9" y="487.9" class="st13" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 120.3298 493.2656)" class="st3 st4">B 0.5</text>
+</g>
+<rect x="113.9" y="659.8" class="st13" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 120.3298 665.1384)" class="st3 st4">B 0.5</text>
+</g>
+<rect x="298.1" y="487.9" class="st13" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 302.7409 493.2656)" class="st3 st4">V 0.35</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 255.8161 708.7586)" class="st3 st4">See Body Network </text>
+	<text transform="matrix(1 0 0 1 255.8161 715.9586)" class="st3 st4">Circuit Diagram</text>
+</g>
+<line class="st17" x1="383.1" y1="688.7" x2="383.1" y2="465.4"/>
+<line class="st18" x1="439.8" y1="688.7" x2="439.8" y2="465.4"/>
+<path class="st19" d="M380.9,642.3c-2,0-3.8-1.4-3.8-3.2s1.7-3.2,3.8-3.2l61,6.4c2,0,3.8-1.4,3.8-3.2s-1.7-3.2-3.8-3.2L380.9,642.3z
+	"/>
+<path class="st20" d="M377.4,694l0.7,2.1c0,0,0.7,2.5,4,2.6h27.1l0,0l2.3,2.7l2.3-2.7c0.1,0,0.1,0,0.2,0h26.6h0.2
+	c3.3-0.1,4-2.6,4-2.6l0.7-2.1"/>
+<g id="_x30_2-上针脚_4_">
+	<line class="st12" x1="383.1" y1="463.4" x2="383.1" y2="455.2"/>
+	<path class="st13" d="M383,466.5c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2C386.2,465.1,384.8,466.5,383,466.5"
+		/>
+	<path d="M383,467.1c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V467.1z
+		 M383,459.6v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S385.2,459.6,383,459.6"/>
+	<rect x="379" y="459.2" class="st13" width="8.1" height="4.1"/>
+	<rect x="382.6" y="460.1" width="1" height="4.2"/>
+	<rect x="382.6" y="460.1" class="st14" width="1" height="4.2"/>
+</g>
+<g id="_x30_2-上针脚_3_">
+	<line class="st12" x1="439.8" y1="463.4" x2="439.8" y2="455.2"/>
+	<path class="st13" d="M439.7,466.5c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+		C442.9,465.1,441.5,466.5,439.7,466.5"/>
+	<path d="M439.7,467.1c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V467.1z
+		 M439.7,459.6v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S441.9,459.6,439.7,459.6"/>
+	<rect x="435.7" y="459.2" class="st13" width="8.1" height="4.1"/>
+	<rect x="439.3" y="460.1" width="1" height="4.2"/>
+	<rect x="439.3" y="460.1" class="st14" width="1" height="4.2"/>
+</g>
+<g id="保险丝名称_34_">
+	<text transform="matrix(1 0 0 1 375.57 452.8279)" class="st3 st24">CAN-H</text>
+</g>
+<g id="保险丝名称_33_">
+	<text transform="matrix(1 0 0 1 432.6143 452.8279)" class="st3 st24">CAN-L</text>
+</g>
+<rect x="369" y="487.9" class="st13" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 373.6833 493.2665)" class="st3 st4">P 0.35</text>
+</g>
+<rect x="425.7" y="487.9" class="st13" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 430.3409 493.2656)" class="st3 st4">V 0.35</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 380.4161 710.5586)" class="st3 st4">See Energy Network </text>
+	<text transform="matrix(1 0 0 1 380.4161 717.7586)" class="st3 st4">Circuit Diagram</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 379.3753 219.2921)" class="st3 st4">See Intelligent Access </text>
+	<text transform="matrix(1 0 0 1 379.3753 226.4921)" class="st3 st4">Network Circuit Diagram</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 252.6879 223.4921)" class="st3 st4">See Chassis Network </text>
+	<text transform="matrix(1 0 0 1 252.6879 230.6921)" class="st3 st4">Circuit Diagram</text>
+</g>
+<g>
+	<g>
+		<rect x="117.8" y="789.3" class="st13" width="20.3" height="8.2"/>
+		<rect x="118.2" y="789.7" class="st25" width="19.7" height="7.6"/>
+	</g>
+</g>
+<g>
+	<rect x="133" y="604.4" class="st26" width="24.3" height="6.9"/>
+	<text transform="matrix(1 0 0 1 133.4832 609.713)" class="st3 st4">SP4863</text>
+</g>
+<polygon class="st27" points="161.5,173 159,173 159,173 "/>
+<g id="保险丝名称_18_">
+	<text transform="matrix(1 0 0 1 489.9957 448.8279)" class="st3 st24">Charging sub-network </text>
+	<text transform="matrix(1 0 0 1 489.9957 453.6279)" class="st3 st24">CAN-H</text>
+</g>
+<g id="保险丝名称_28_">
+	<text transform="matrix(1 0 0 1 491.1623 710.4337)" class="st3 st24">Charging sub-network </text>
+	<text transform="matrix(1 0 0 1 491.1623 715.2337)" class="st3 st24">CAN-H</text>
+</g>
+<g id="保险丝名称_29_">
+	<text transform="matrix(1 0 0 1 542.4957 710.4337)" class="st3 st24">Charging sub-network </text>
+	<text transform="matrix(1 0 0 1 542.4957 715.2337)" class="st3 st24">CAN-L</text>
+</g>
+<g id="保险丝名称_17_">
+	<text transform="matrix(1 0 0 1 543.3851 448.8279)" class="st3 st24">Charging sub-network </text>
+	<text transform="matrix(1 0 0 1 543.3851 453.6279)" class="st3 st24">CAN-lL</text>
+</g>
+<g>
+	<rect x="495" y="487.9" class="st13" width="28.1" height="7.1"/>
+	<g>
+		<text transform="matrix(1 0 0 1 499.6085 493.2662)" class="st3 st4">P 0.35</text>
+	</g>
+</g>
+<rect x="551.7" y="487.9" class="st13" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 556.2665 493.2664)" class="st3 st4">V 0.35</text>
+</g>
+<g>
+	<rect x="495" y="582.8" class="st13" width="28.1" height="7.1"/>
+	<g>
+		<text transform="matrix(1 0 0 1 499.6085 588.1885)" class="st3 st4">P 0.35</text>
+	</g>
+</g>
+<rect x="551.7" y="582.8" class="st13" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 556.2665 588.1885)" class="st3 st4">V 0.35</text>
+</g>
+<g>
+	<rect x="495" y="659.8" class="st13" width="28.1" height="7.1"/>
+	<g>
+		<text transform="matrix(1 0 0 1 499.6085 665.1384)" class="st3 st4">P 0.35</text>
+	</g>
+</g>
+<rect x="551.7" y="659.8" class="st13" width="28.1" height="7.1"/>
+<g>
+	<text transform="matrix(1 0 0 1 556.2665 665.1384)" class="st3 st4">V 0.35</text>
+</g>
+<rect x="514.6" y="609.2" class="st26" width="24.3" height="6.9"/>
+<text transform="matrix(1 0 0 1 514.9761 614.4957)" class="st3 st4">SP4789</text>
+<g>
+	<rect x="571.5" y="609.2" class="st26" width="24.3" height="6.9"/>
+	<text transform="matrix(1 0 0 1 571.8956 614.4957)" class="st3 st4">SP4788</text>
+</g>
+<g>
+	<rect x="523.1" y="241.8" width="19.8" height="6"/>
+	<polyline class="st28" points="561.4,259.3 561.4,244.8 504.7,244.8 504.7,259.3 	"/>
+</g>
+<text transform="matrix(1 0 0 1 527.5693 240.5596)" class="st3 st24">120Ω</text>
+<g>
+	<text transform="matrix(1 0 0 1 135.6911 176.7153)" class="st29 st3 st4">F2/04</text>
+</g>
+<g id="保险丝名称_6_">
+	<g>
+		<text transform="matrix(1 0 0 1 165.3198 177.2823)" class="st29 st3 st4">Instrument </text>
+		<text transform="matrix(1 0 0 1 165.3198 184.4823)" class="st29 st3 st4">distribution box</text>
+	</g>
+</g>
+<g>
+	<g>
+		<text transform="matrix(1 0 0 1 119.5915 795.2725)" class="st29 st3 st4">Eg03</text>
+	</g>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 329.5098 444.0784)" class="st29 st3 st4"> OBD interface</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 579.7667 241.8002)" class="st29 st3 st4">Terminating resistor</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 487.9563 726.3984)" class="st29 st3 st4">Integrated intelligent control module</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 133.437 426.2252)" class="st29 st3 st4">G03</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 145.5205 426.2252)" class="st29 st3 st4">-16</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 260.9946 426.2252)" class="st29 st3 st4">G03</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 273.0781 426.2252)" class="st29 st3 st4">-6</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 317.6875 426.2252)" class="st29 st3 st4">G03</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 329.771 426.2252)" class="st29 st3 st4">-14</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 388.5537 426.2252)" class="st29 st3 st4">G03</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 400.6372 426.2252)" class="st29 st3 st4">-1</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 445.2466 426.2252)" class="st29 st3 st4">G03</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 457.3301 426.2252)" class="st29 st3 st4">-2</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 508.479 266.2994)" class="st29 st3 st4">G87</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 520.5625 266.2994)" class="st29 st3 st4">-2</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 565.4434 266.2994)" class="st29 st3 st4">G87</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 577.5269 266.2994)" class="st29 st3 st4">-1</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 133.437 462.1803)" class="st29 st3 st4">G03</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 145.687 462.2008)" class="st29 st3 st4">-4</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 190.687 462.1803)" class="st29 st3 st4">G03</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 202.937 462.2008)" class="st29 st3 st4">-5</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 260.9946 462.1793)" class="st29 st3 st4">G03</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 273.2446 462.1998)" class="st29 st3 st4">-3</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 317.6875 462.1793)" class="st29 st3 st4">G03</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 329.9375 462.1998)" class="st29 st3 st4">-11</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 388.5947 462.1793)" class="st29 st3 st4">G03</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 400.8447 462.1998)" class="st29 st3 st4">-12</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 445.2876 462.1793)" class="st29 st3 st4">G03</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 457.5376 462.1998)" class="st29 st3 st4">-13</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 514.5205 462.179)" class="st29 st3 st4">G03</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 526.7705 462.1993)" class="st29 st3 st4">-9</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 571.2129 462.179)" class="st29 st3 st4">G03</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 583.4629 462.1993)" class="st29 st3 st4">-10</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 514.5205 701.115)" class="st29 st3 st4">BK45(A)</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 538.8672 701.1157)" class="st29 st3 st4">-19</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 570.6455 701.115)" class="st29 st3 st4">BK45(A)</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 594.9922 701.1157)" class="st29 st3 st4">-25</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 572.3257 547.6813)" class="st29 st3 st4">GJB01</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 572.3257 554.8815)" class="st29 st3 st4">BJG01</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 591.6592 554.8805)" class="st29 st3 st4">-8</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 515.3418 547.6803)" class="st29 st3 st4">GJB01</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 515.3418 554.8805)" class="st29 st3 st4">BJG01</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 534.6753 554.8805)" class="st29 st3 st4">-7</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 133.437 212.1149)" class="st29 st3 st4">G82</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 145.687 212.0006)" class="st29 st3 st4">-5</text>
+</g>
+</svg>

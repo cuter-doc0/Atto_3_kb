@@ -1,0 +1,1210 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DTC Diagnosis"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA115894"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DTC Diagnosis</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section class="1" id="DTA115894">
+         
+         
+         
+         <h3 class="topictitletopic1 title">DTC Diagnosis</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">List of DTC</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr align="center" valign="middle"> 
+                           
+                           <th width="1" align="center" valign="top">DTC</th>  
+                           
+                           <th width="1" align="center" valign="top">Meaning</th>  
+                           
+                           <th width="1" align="center" valign="top">Diagnostic Process</th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">P056200</td>  
+                           
+                           <td width="1" align="left" valign="top">System voltage too low</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124852.html">P056200 System Voltage Too Low</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">P056300</td>  
+                           
+                           <td width="1" align="left" valign="top">System voltage too high</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124853.html">P056300 System Voltage Too High</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">C004900</td>  
+                           
+                           <td width="1" align="left" valign="top">Brake brake fluid level lower than threshold</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124854.html">C004900 Brake Fluid Level Under Normal Value</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C050000</td>  
+                           
+                           <td width="1" align="left" valign="middle">Left front wheel speed getting broken circuit</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124855.html">C050000 Left Front Wheel Speed Sensor Getting Broken Circuit</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C003200</td>  
+                           
+                           <td width="1" align="left" valign="middle">Supply voltage of left front wheel speed sensor low</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124856.html">C003200 Supply Voltage of Left Front Wheel Speed Sensor Low</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C050300</td>  
+                           
+                           <td width="1" align="left" valign="middle">Short circuit between signal line and supply line of left front wheel speed sensor</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124857.html">C050300 Short Circuit Between Signal Line and Supply Line of Left Front Wheel Speed Sensor</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C050200</td>  
+                           
+                           <td width="1" align="left" valign="middle">Short circuit between signal line and ground line of left front wheel speed sensor</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124858.html">C050200 Short Circuit Between Signal Line and Ground Line of Left Front Wheel Speed Sensor</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C003100</td>  
+                           
+                           <td width="1" align="left" valign="middle">Left front wheel speed sensor signal fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124859.html">C003100 Left Front Wheel Speed Sensor Signal Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C050576</td>  
+                           
+                           <td width="1" align="left" valign="middle">Incorrect Installation Direction of Left Front Wheel Speed Sensor</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124860.html">C050576 Incorrect Installation Direction of Left Front Wheel Speed Sensor</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C050400</td>  
+                           
+                           <td width="1" align="left" valign="middle">Left front wheel speed sensor air gap abnormal</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124861.html">C050400 Left Front Wheel Speed Sensor Air Gap Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C050600</td>  
+                           
+                           <td width="1" align="left" valign="middle">Right front wheel speed getting broken circuit</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124862.html">C050600 Right Front Wheel Speed Sensor Getting Broken Circuit</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C003500</td>  
+                           
+                           <td width="1" align="left" valign="middle">Supply voltage of right front wheel speed sensor low</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124863.html">C003500 Supply Voltage of Right Front Wheel Speed Sensor Low</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C050900</td>  
+                           
+                           <td width="1" align="left" valign="middle">Short circuit between signal line and supply line of right front wheel speed sensor</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124864.html">C050900 Short Circuit Between Signal Line and Supply Line of Right Front Wheel Speed Sensor</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C050800</td>  
+                           
+                           <td width="1" align="left" valign="middle">Short circuit between signal line and ground line of right front wheel speed sensor</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124865.html">C050800&nbsp;Short circuit between signal line and ground line of right front wheel speed sensor</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C003400</td>  
+                           
+                           <td width="1" align="left" valign="middle">Right front wheel speed sensor signal fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124866.html">C003400 Right Front Wheel Speed Sensor Signal Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C050B76</td>  
+                           
+                           <td width="1" align="left" valign="middle">Incorrect installation direction of right front wheel speed sensor</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124867.html">C050B76 Incorrect Installation Direction of Right Front Wheel Speed Sensor</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C050A00</td>  
+                           
+                           <td width="1" align="left" valign="middle">Right front wheel speed sensor air gap abnormal</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124868.html">C050A00 Right Front Wheel Speed Sensor Air Gap Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C050C00</td>  
+                           
+                           <td width="1" align="left" valign="middle">Left rear wheel speed getting broken circuit</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124869.html">C050C00 Left Rear Wheel Speed Sensor Getting Broken Circuit</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C003800</td>  
+                           
+                           <td width="1" align="left" valign="middle">Supply voltage of left rear wheel speed sensor low</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124870.html">C003800 Supply Voltage of Left Rear Wheel Speed Sensor Low</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C050E00</td>  
+                           
+                           <td width="1" align="left" valign="middle">Short circuit between signal line and ground line of left rear wheel speed sensor</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124871.html">C050 E00 Short circuit between signal line and ground line of left rear wheel speed sensor</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C050F00</td>  
+                           
+                           <td width="1" align="left" valign="middle">Short circuit between signal line and supply line of left rear wheel speed sensor</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124872.html">C050F00 Short Circuit Between Signal Line and Supply Line of Left Rear Wheel Speed Sensor</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C003700</td>  
+                           
+                           <td width="1" align="left" valign="middle">Left rear wheel speed sensor signal fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124873.html">C003700 Left Rear Wheel Speed Sensor Signal Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C051176</td>  
+                           
+                           <td width="1" align="left" valign="middle">Incorrect Installation Direction of Left Rear Wheel Speed Sensor</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124874.html">C051176 Incorrect Installation Direction of Left Rear Wheel Speed Sensor</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C051000</td>  
+                           
+                           <td width="1" align="left" valign="middle">Left rear wheel speed sensor air gap abnormal</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124875.html">C051000 Left Rear Wheel Speed Sensor Air Gap Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C051200</td>  
+                           
+                           <td width="1" align="left" valign="middle">Right rear wheel speed getting broken circuit</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124876.html">C051200 Right Rear Wheel Speed Sensor Getting Broken Circuit</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C003B00</td>  
+                           
+                           <td width="1" align="left" valign="middle">Supply voltage of right rear wheel speed sensor low</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124877.html">C003B00 Supply Voltage of Right Rear Wheel Speed Sensor Low</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C051500</td>  
+                           
+                           <td width="1" align="left" valign="middle">Short circuit between signal line and supply line of right rear wheel speed sensor</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124878.html">C051500 Short Circuit Between Signal Line and Supply Line of Right Rear Wheel Speed Sensor</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C051400</td>  
+                           
+                           <td width="1" align="left" valign="middle">Short circuit between signal line and ground line of right rear wheel speed sensor</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124879.html">C051400 Short Circuit Between Signal Line And Ground Line of Right Rear Wheel Speed Sensor</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C003A00</td>  
+                           
+                           <td width="1" align="left" valign="middle">Right rear wheel speed sensor signal fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124880.html">C003A00 Right Rear Wheel Speed Sensor Signal Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C051776</td>  
+                           
+                           <td width="1" align="left" valign="middle">Incorrect Installation Direction of Right Rear Wheel Speed Sensor</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124881.html">C051776 Incorrect Installation Direction of Right Rear Wheel Speed Sensor</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C051600</td>  
+                           
+                           <td width="1" align="left" valign="middle">Right rear wheel speed sensor air gap abnormal</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124882.html">C051600 Right Rear Wheel Speed Sensor Air Gap Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">U043204</td>  
+                           
+                           <td width="1" align="left" valign="middle">Yaw rate sensor signal communication timeout</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124883.html">U043204 Yaw Rate Sensor Signal Communication Timeout</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C006A01</td>  
+                           
+                           <td width="1" align="left" valign="top">Yaw rate sensor parameter wrongly configured</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124884.html">C006&nbsp;A01 Yaw Rate Sensor Parameter Wrongly Configured</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C051D01</td>  
+                           
+                           <td width="1" align="left" valign="top">Yaw rate sensor calibration error</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124885.html">C051D01 Yaw Rate Sensor Wrongly Calibrated</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C006A02</td>  
+                           
+                           <td width="1" align="left" valign="top">Yaw rate sensor signal incorrect</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124886.html">C006A02 Yaw Rate Sensor Signal Incorrect</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C052901</td>  
+                           
+                           <td width="1" align="left" valign="top">Angle sensor module lost</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124887.html">C052901 Angle Sensor Module Lost</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C106600</td>  
+                           
+                           <td width="1" align="left" valign="top">Angle sensor not calibrated</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124888.html">C106600 Angle Sensor Not Calibrated</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C05CB00</td>  
+                           
+                           <td width="1" align="left" valign="top">Circuit voltage of master cylinder position sensor A too low</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124889.html">C05CB00 Circuit Voltage of Master Cylinder Position Sensor A Too Low</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C05CA00</td>  
+                           
+                           <td width="1" align="left" valign="top">Circuit voltage of master cylinder position sensor A too high</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124890.html">C05CA00 Circuit Voltage of Master Cylinder Position Sensor A Too High</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C007500</td>  
+                           
+                           <td width="1" align="left" valign="top">Master cylinder position sensor A fault/short circuit</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124891.html">C007500 Master Cylinder Position Sensor A Fault/Short Circuit</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">P229900</td>  
+                           
+                           <td width="1" align="left" valign="top">Master cylinder position sensor signal calibration error</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124892.html">P229900 Master Cylinder Position Sensor Signal Calibration Error</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C05CE00</td>  
+                           
+                           <td width="1" align="left" valign="top">Circuit voltage of master cylinder position sensor B too low</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124893.html">C05CE00 Circuit Voltage of Master Cylinder Position Sensor B Too Low</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C05CD00</td>  
+                           
+                           <td width="1" align="left" valign="top">Circuit voltage of master cylinder position sensor B too high</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124894.html">C05CD00 Circuit Voltage of Master Cylinder Position Sensor B Too High</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C05D000</td>  
+                           
+                           <td width="1" align="left" valign="top">Master cylinder position sensor signal value incorrect</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124895.html">C05D000 Master Cylinder Position Sensor Signal Value Incorrect</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C05D200</td>  
+                           
+                           <td width="1" align="left" valign="top">Master cylinder stroke exceeding the expected value</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124896.html">C05D200 Master Cylinder Stroke Exceed Expected Value</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C000100</td>  
+                           
+                           <td width="1" align="left" valign="top">CSV valve 1 fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124897.html">C000100 CSV Valve 1 Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C000200</td>  
+                           
+                           <td width="1" align="left" valign="top">PSV valve 1 fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124898.html">C000200 PSV Valve 1 Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C000300</td>  
+                           
+                           <td width="1" align="left" valign="top">CSV valve 2 fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124899.html">C000300 CSV Valve 2 Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C000400</td>  
+                           
+                           <td width="1" align="left" valign="top">PSV valve 2 fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124900.html">C000400 PSV Valve 2 Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C05D500</td>  
+                           
+                           <td width="1" align="left" valign="top">TSV valve fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124901.html">C05D500 TSV Valve Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C002400</td>  
+                           
+                           <td width="1" align="left" valign="top">SSV valve fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124902.html">C002400 SSV Valve Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C001000</td>  
+                           
+                           <td width="1" align="left" valign="top">Left front inlet valve fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124903.html">C001000 Left Front Inlet Valve Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C001100</td>  
+                           
+                           <td width="1" align="left" valign="top">Left front outlet valve fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124904.html">C001100 Left Front Outlet Valve Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C001400</td>  
+                           
+                           <td width="1" align="left" valign="top">Right front inlet valve fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124905.html">C001400 Right Front Inlet Valve Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C001500</td>  
+                           
+                           <td width="1" align="left" valign="top">Right front outlet valve fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124906.html">C001500 Right Front Outlet Valve Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C001800</td>  
+                           
+                           <td width="1" align="left" valign="top">Left rear inlet valve fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124907.html">C001800 Left Rear Inlet Valve Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C001900</td>  
+                           
+                           <td width="1" align="left" valign="top">Left rear outlet valve fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124908.html">C001900 Left Rear Outlet Valve Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C001C00</td>  
+                           
+                           <td width="1" align="left" valign="top">Right rear inlet valve fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124909.html">C001C00 Right Rear Inlet Valve Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C001D00</td>  
+                           
+                           <td width="1" align="left" valign="top">Right rear outlet valve fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124910.html">C001D00 Right Rear Outlet Valve Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">P25C600</td>  
+                           
+                           <td width="1" align="left" valign="top">Circuit voltage of brake booster temperature sensor A too low</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124911.html">P25C600 Circuit Voltage of Brake Booster Temperature Sensor A Too Low</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">P25C700</td>  
+                           
+                           <td width="1" align="left" valign="top">Circuit voltage of brake booster temperature sensor A too high</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124912.html">P25C700 Circuit Voltage of Brake Booster Temperature Sensor A Too High</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C057900</td>  
+                           
+                           <td width="1" align="left" valign="top">Circuit voltage of brake booster temperature sensor B too low</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124913.html">C057900 Circuit Voltage of Brake Booster Temperature Sensor B Too Low</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C057A00</td>  
+                           
+                           <td width="1" align="left" valign="top">Circuit voltage of brake booster temperature sensor B too high</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124914.html">C057A00 Circuit Voltage of Brake Booster Temperature Sensor B Too High</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C057F00</td>  
+                           
+                           <td width="1" align="left" valign="top">Brake booster motor open-circuited</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124915.html">C057F00 Brake Booster Motor Open-circuited</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C05C24B</td>  
+                           
+                           <td width="1" align="left" valign="top">Brake booster motor overtemperature</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124916.html">C05C24B Temperature of Brake Booster Motor Too High</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C059400</td>  
+                           
+                           <td width="1" align="left" valign="top">Brake booster motor load abnormal</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124917.html">C059400 Brake Booster Motor Load Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C058200</td>  
+                           
+                           <td width="1" align="left" valign="top">Circuit signal of Brake booster motor abnormal</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124918.html">C058200 Circuit Signal of Brake Booster Motor Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C059000</td>  
+                           
+                           <td width="1" align="left" valign="top">Supply current of brake booster motor too high</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124919.html">C059000 Supply Current of Brake Booster Motoris Too High</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C058900</td>  
+                           
+                           <td width="1" align="left" valign="top">Circuit voltage of brake booster motor position sensor A too high</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124920.html">C058900 Circuit Voltage of Brake Booster Motor Position Sensor A Too High</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C058800</td>  
+                           
+                           <td width="1" align="left" valign="top">Circuit voltage of brake booster motor position sensor A too low</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124921.html">C057900 Circuit Voltage of Brake Booster Temperature Sensor B Too Low</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C058A00</td>  
+                           
+                           <td width="1" align="left" valign="top">Circuit voltage of brake booster motor position sensor A abnormal</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124922.html">C058A00 Circuit Voltage of Brake Booster Motor Position Sensor A Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C059100</td>  
+                           
+                           <td width="1" align="left" valign="top">Low supply current of brake booster motor</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124923.html">C059100 Supply Current of Brake Booster Motor Too Low</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C05C200</td>  
+                           
+                           <td width="1" align="left" valign="top">Brake booster motor A overtemperature</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124924.html">C05C200 Brake Booster Motor A Overtemperature</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C002192</td>  
+                           
+                           <td width="1" align="left" valign="top">Brake booster module pipeline hydraulic pressure below normal value</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124925.html">C002192 Brake Booster Module Pipeline Hydraulic Pressure Below Normal Value</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C056B00</td>  
+                           
+                           <td width="1" align="left" valign="top">Brake booster module pressure sensor fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124926.html">C056B00 Brake Booster Module Pressure Sensor Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C053F00</td>  
+                           
+                           <td width="1" align="left" valign="top">Circuit voltage of pressure sensor A too high</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124927.html">C053F00 Circuit Voltage of Pressure Sensor A Too High</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C053E00</td>  
+                           
+                           <td width="1" align="left" valign="top">Circuit voltage of pressure sensor A too low</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124928.html">C053E00 Circuit Voltage of Pressure Sensor A Too Low</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C053D00</td>  
+                           
+                           <td width="1" align="left" valign="top">Pressure sensor B signal abnormal</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124929.html">C053D00 Pressure Sensor B Signal Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C054100</td>  
+                           
+                           <td width="1" align="left" valign="top">Pressure sensor B signal abnormal</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124930.html">C054100 Pressure Sensor B Signal Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C054200</td>  
+                           
+                           <td width="1" align="left" valign="top">Circuit voltage of pressure sensor B too low</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124931.html">C054200 Circuit Voltage of Pressure Sensor B Too Low</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C054300</td>  
+                           
+                           <td width="1" align="left" valign="top">Circuit voltage of pressure sensor B too high</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124932.html">C054300 Circuit Voltage of Pressure Sensor B Too High</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C12F909</td>  
+                           
+                           <td width="1" align="left" valign="top">Brake hydraulic circuit blocked</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124933.html">C12F909 Brake Hydraulic Circuit Blocked</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C055E00</td>  
+                           
+                           <td width="1" align="left" valign="top">Brake hydraulic circuit A leaky</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124934.html">C055E00 Brake Hydraulic Circuit A Leaky</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C05B001</td>  
+                           
+                           <td width="1" align="left" valign="top">Brake hydraulic circuit L1 leaky</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124935.html">C05B001 Brake Hydraulic Circuit L1 Leaky</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C2A1700</td>  
+                           
+                           <td width="1" align="left" valign="top">Brake hydraulic circuit L1 overcompensation (air present)</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124936.html">C2A1700 Brake Hydraulic Circuit L1 Overcompensation (Air Present)</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">P060B00</td>  
+                           
+                           <td width="1" align="left" valign="top">ECU hardware fault (A/D processor)</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124937.html">P060B00 ECU Hardware Fault (A/D processor)</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">P060700</td>  
+                           
+                           <td width="1" align="left" valign="top">ECU Hardware Failure</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124938.html">P060700 ECU Hardware Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">P06B800</td>  
+                           
+                           <td width="1" align="left" valign="top">ECU internal control module fault (NVRAM memory)</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124939.html">P06B800 ECU Internal Control Module Fault (NVRAM Memory)</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">P060400</td>  
+                           
+                           <td width="1" align="left" valign="top">ECU internal control module fault (RAM)</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124940.html">P060400 ECU Internal Control Module Fault (RAM)</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">P060500</td>  
+                           
+                           <td width="1" align="left" valign="top">ECU internal control module fault (ROM)</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124941.html">P060500 ECU Internal Control Module Fault (ROM)</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">P060C00</td>  
+                           
+                           <td width="1" align="left" valign="top">ECU internal control module fault (program running)</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124942.html">P060C00 ECU Internal Control Module Fault (Program Running)</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">U030000</td>  
+                           
+                           <td width="1" align="left" valign="top">ECU internal control module software fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124943.html">U030000 ECU Internal Control Module Software Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">U300000</td>  
+                           
+                           <td width="1" align="left" valign="top">ECU microprocessor error</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124944.html">U300000 Microprocessor Error in ECU</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C055000</td>  
+                           
+                           <td width="1" align="left" valign="top">ECU fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124945.html">C055000 ECU Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">P060600</td>  
+                           
+                           <td width="1" align="left" valign="top">Control processor fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124946.html">P060600 ECM/PCM Processor Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C1A3800</td>  
+                           
+                           <td width="1" align="left" valign="top">System initialization not completed</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124947.html">C1A3800 System Not Fully Initialized</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C120700</td>  
+                           
+                           <td width="1" align="left" valign="top">Fail to pump reset</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124948.html">C120700 Pump Not Returnable</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">C055F92</td>  
+                           
+                           <td width="1" align="left" valign="top">Hydraulic unit fault</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124949.html">C055F92 Hydraulic Unit Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

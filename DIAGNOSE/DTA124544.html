@@ -1,0 +1,486 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="Simulation Test for Circuit"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA055057"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Simulation Test for Circuit</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA055057">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Simulation Test for Circuit</h3>
+         
+         
+         <div class="body taskbody"> 
+            
+            <div class="section context"> 
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Circuit simulation tests may be used for occasional faults and other faults that can't be detected in road tests. The possible
+                        vehicle faults may be effectively determined by simulating the conditions/environment when the faults occur.
+                        <div>
+                           <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d7092e20">
+                              <div class="noteheader">
+                                 <div class="common tip">
+                                    <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                              </div>
+                              <div class="notebody attention-text postspace-s wl-attention-content"> 
+                                 
+                                 <ul name="contents" class="ul"> 
+                                    
+                                    <li> 
+                                       
+                                       <p class="p-inline">It is important to listen to the customer's description of the fault in order to simulate the conditions under which the symptoms
+                                          occur.
+                                       </p> 
+                                       
+                                    </li> 
+                                    
+                                 </ul>
+                                 
+                                 
+                              </div>
+                           </div>
+                           
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Simulation tests are generally divided into the following 6 categories:</p>  
+                     
+                     <ul name="contents" class="ul"></ul>
+                     
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Vehicle vibration test</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Thermal test</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Freezing test</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Leakage test</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Load tests</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Voltage drop test</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Vehicle vibration test: The vehicle may break down when driving on a rough road. In this case, check the conditions related
+                        to vibration and check the following parts of the vehicle:
+                     </p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Connectors and wiring harnesses: determine which connectors and wiring harnesses may affect the electrical system under inspection.
+                              Gently vibrate or oscillate each connector and wiring harness when observing whether the system has the fault that you are
+                              trying to simulate. This test may reveal loose or poor electrical connection.
+                              <div>
+                                 <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d7092e93">
+                                    <div class="noteheader">
+                                       <div class="common tip">
+                                          <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                                    </div>
+                                    <div class="notebody attention-text postspace-s wl-attention-content">When the connector is exposed to moisture for a long time, a corrosive film may form on its terminals. This condition may
+                                       not be found by visual inspection when the connector is not disconnected. If the intermittent fault occurs, it may be caused
+                                       by corrosion. It is recommended to check and clean the terminals of relevant connectors in the system after disconnecting.
+                                    </div>
+                                 </div>
+                                 
+                              </div> 
+                              
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Sensors and relays: gently vibrate the sensors and relays in the system you are checking. This test may find loose or poorly
+                              installed sensors or relays.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">There are many reasons for electrical faults caused by vehicle vibration, among which the following should be checked:
+                              <div>
+                                 <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d7092e108">
+                                    <div class="noteheader">
+                                       <div class="common tip">
+                                          <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                                    </div>
+                                    <div class="notebody attention-text postspace-s wl-attention-content">First, ensure the wiring harness is properly grounded, lightly vibrate the parts or wiring harness as described previously
+                                       to check for loose connections, check the conductivity of the wiring harness regarding the circuit diagram, and perform a
+                                       voltage drop test.
+                                    </div>
+                                 </div>
+                                 
+                              </div> 
+                              
+                           </p>  
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">The connector is installed improperly.</p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">The wiring harness is not long enough so that it will be stretched by vibration or shaking.</p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">The wiring harness rests on a bracket or movable parts.</p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">The ground line is loose, dirty or corroded.</p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">The wiring harness is too close to the high temperature parts.</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                           <p></p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Rear instrument panel</p>  
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Improper fixing of the wiring harness can cause the wiring harness to screw together when installing the accessory. Vibration
+                                    can cause excessive wear of the wiring harness near the bracket or mounting screws.
+                                 </p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Unsecured or loose wiring harness can get caught in seat parts (e. g. sliding rails) when the vehicle vibrates. If the wiring
+                                    harness passes under the installation site, check the wiring harness for damage or jam.
+                                 </p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Thermal test</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The failure of the vehicle after summer exposure or long-term operation may be related to the high temperature of some parts
+                              of the wiring harness / electrical system. The thermal sensitivity test method shall be used.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Use the heating gun or similar tools to heat the faulty system parts and components for thermal sensitivity test.
+                              <div>
+                                 <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d7092e188">
+                                    <div class="noteheader">
+                                       <div class="common tip">
+                                          <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                                    </div>
+                                    <div class="notebody attention-text postspace-s wl-attention-content"> 
+                                       
+                                       <ul name="contents" class="ul"> 
+                                          
+                                          <li> 
+                                             
+                                             <p class="p-inline">Never heat the parts above 60°C (140°F).</p> 
+                                             
+                                          </li>  
+                                          
+                                          <li> 
+                                             
+                                             <p class="p-inline">If the parts fails during the heat test, the parts should be properly insulated and replaced as necessary.</p> 
+                                             
+                                          </li> 
+                                          
+                                       </ul>
+                                       
+                                       
+                                    </div>
+                                 </div>
+                                 
+                              </div> 
+                              
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Freezing test</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">If the failure of vehicles disappears after warming up in winter, the reason may be related to the freezing of some parts
+                              of the wiring harness/electrical system. Check this situation by the following two methods:
+                           </p>  
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Method 1: Leave the vehicle outdoors all night. Ensure that the temperature is low enough to cause the fault to recur. Quickly
+                                    and thoroughly diagnose the parts that may be affected in the morning.
+                                 </p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Method 2: put the suspicious parts in the refrigerator for a long enough time to freeze. Reinstall the parts on the vehicle
+                                    and check whether the fault is repeated. If the fault occurs, maintain or replace the parts.
+                                 </p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Leakage test</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check the cooling system for leaks.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check the air conditioning system for leaks.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">If the fault occurs only in high humidity or rain or snow weather, it may be caused by water entering the electrical parts,
+                              you can check the body for leaks by spraying water on the vehicle (similar to washing the car).
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Load tests</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Only when the electrical equipment is turned on, the electrical equipment (including air conditioner, audio, fog light, etc.)
+                              is turned on in turn and the relationship between the electrical equipment and the fault is determined by load test.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Voltage drop test</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Voltage drop testing is often used to find out what may be affecting the proper operation&nbsp;of electrical parts or circuits.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check the circuit with a multimeter.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">If the resistance of a single-strand wiring harness measured by a multimeter is very small (0&nbsp;Ω or close to 0&nbsp;Ω), and the
+                              voltage drop test is normal, and then the wiring harness or circuit is normal.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

@@ -1,0 +1,374 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DTC Diagnosis"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA103933"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DTC Diagnosis</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section class="1" id="DTA103933">
+         
+         
+         
+         <h3 class="topictitletopic1 title">DTC Diagnosis</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">List of DTC</h3>
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr align="center" valign="middle"> 
+                           
+                           <th width="19.333333333333332%" align="center" valign="top">DTC</th>  
+                           
+                           <th width="43.66666666666667%" align="center" valign="top">Meaning</th>  
+                           
+                           <th width="37.00000000000001%" align="center" valign="top">Diagnostic Process</th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E1007</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">EEPROM fault</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA125454.html">B1E1007 EPPROM Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E1907</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">Mute switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA125455.html">B1E1907 Mute Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E0507</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">Voice switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA103952.html">B1E0507 Voice Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E3107</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">Setting switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA103961.html">B1E3107 Setting Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E1A07</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">Custom switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA103967.html">B1E1A07 Custom Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E3207</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">Reset switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA125459.html">B1E3207 Reset Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E2E07</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">Cancel switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA103983.html">B1E2E07 Cancel Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E2D07</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">Cruise switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA103988.html">B1E2D07 Cruise Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E2F07</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">SPEED UP switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA104039.html">B1E2F07 SPEED UP Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E3007</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">SPEED DOWN switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA104047.html">B1E3007 SPEED DOWN Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E3307</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">TIME INTERVAL DOWN switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA125464.html">B1E3407 TIME INTERVAL UP Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E3407</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">TIME INTERVAL UP switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA104057.html">B1E3307 TIME INTERVAL DOWN Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E0007</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">VOLUME UP switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA104072.html">B1E0007 VOLUME UP Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E0707</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">VOLUME DOWN switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA104077.html">B1E0707 VOLUME DOWN Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E0107</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">CHANNEL UP Switch Stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA125468.html">B1E0107 CHANNEL UP Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E0807</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">Channel- Switch Stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA125469.html">B1E0807 Channel- Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E3507</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">Lane offset switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA104086.html">B1E3507 Lane Offset Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E0607</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">Panoramic image switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA125471.html">B1E0607 Panoramic Imaging System Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E0207</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">Bluetooth phone switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA125472.html">B1E0207 Bluetooth Telephone Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E0407</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">Mode switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA104097.html">B1E0407 Mode Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E1C07</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">Instrument menu return switch stuck</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA104100.html">B1E1C07 Instrument Menu Return Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="19.333333333333332%" align="left" valign="top">B1E2000</td>  
+                           
+                           <td width="43.66666666666667%" align="left" valign="top">Steering wheel built-in vibration motor fault</td>  
+                           
+                           <td width="37.00000000000001%" align="left" valign="top"><a class="xref" href="DTA104102.html">B1E2000 Steering Wheel Built-in Vibration Motor Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

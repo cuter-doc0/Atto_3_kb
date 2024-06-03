@@ -1,0 +1,228 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Inspection of brake pad thickness"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM175089"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Inspection of brake pad thickness</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM175089">
+         
+         
+         <h3 class="topictitletopic1 title">Inspection of brake pad thickness</h3>
+         
+         <div class="body">
+            <div class="section">
+               <p class="p"><span class="ph b">Repair tools and equipment required</span></p>
+               <ul name="contents" class="ul">
+                  <li>
+                     <p class="p-inline">Flashlight</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Brake pad test ruler</p>
+                  </li>
+               </ul>
+               
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d62446e20">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">The brake pad is composed of harmful substances, so avoid inhaling brake pad dust.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">Be sure to use a vacuum cleaner to remove the brake pad dust in relevant parts, instead of a brush.</p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d62446e28">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">The inspection methods of inner and outer brake pads of front and rear wheels are the same.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">For some models, it may be difficult to evaluate or measure the remaining thickness of brake pad due to rim geometry limitations.
+                                 In this case, remove the wheel to better evaluate or measure the remaining thickness of brake pad.
+                              </p>
+                           </li>
+                           <li>
+                              <p class="p-inline">The thickness of brake pad can be measured with a brake pad test ruler or visually inspected by using a small mirror as an
+                                 auxiliary tool.
+                              </p>
+                           </li>
+                           <li>
+                              <p class="p-inline">If necessary, remove the wheel assembly.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">If there are commercially available tools, it is not necessary to remove the wheel assembly for inspection. Commercially available
+                                 tools are preferred for inspection.
+                              </p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+               <ol class="num">
+                  <li>
+                     <p class="p-inline">Check the thickness "a" of inner and outer brake pads.</p>
+                     <p>Thickness "a" of front brake pad</p>
+                     <ul name="contents" class="ul">
+                        <li>
+                           <p class="p-inline">Standard: 8 mm</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Repair limit: 2 mm</p>
+                        </li>
+                     </ul>
+                     
+                     <p>Thickness "a" of rear brake pad</p>
+                     <ul name="contents" class="ul">
+                        <li>
+                           <p class="p-inline">Standard: 6.5 mm</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Repair limit: 2 mm</p>
+                        </li>
+                     </ul>
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d62446e67">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <ul name="contents" class="ul">
+                                 <li>
+                                    <p class="p-inline">The thickness of brake pad "excludes" the thickness of the backing plate.</p>
+                                 </li>
+                                 <li>
+                                    <p class="p-inline">When the thickness of brake pad (excluding backing plate) is 2 mm, it indicates that the brake pad has reached its wear limit
+                                       and must be replaced.
+                                    </p>
+                                 </li>
+                              </ul>
+                              
+                              <p class="p"></p>
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <p>
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G217065.png"></img></div>
+                        </div>
+                     </p>
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d62446e79">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <p class="p">If the brake pad of the disc brake is to be replaced, additionally check the wear condition of the brake disc! If necessary,
+                                 perform relevant detection operations.
+                              </p>
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <p>If the thickness of brake pad is less than the repair limit, replace the whole set of brake pad.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Obtain a new work order for replacement.</p>
+                  </li>
+               </ol>
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

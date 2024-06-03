@@ -1,0 +1,2658 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Coating Defect Analysis"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM113570"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Coating Defect Analysis</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM113570">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Coating Defect Analysis</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section">
+               <h3 class="title topictitle1">Overview of Film Defects</h3> 
+               
+               
+               <p class="p"><span class="ph b">Classification of film defects</span></p>  
+               
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d14484e21">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">Most defects of paints are formed during operations. Some coating defects are repairable during operations, while the other
+                        ones may be repaired after being dried only.
+                     </div>
+                  </div>
+                  
+               </div>  
+               
+               <p class="p"><span class="ph b">Defects generated during spraying</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Film defects caused by painting or spraying operations: dust spots, polishing marks, run, blistering, fish eyes, coating shrinkage,
+                              aluminum powder inequality, cracking, uneven aluminum powder reflux, fogging, orange peel, peeling, solvent bubbles, seepage,
+                              pinholes, color difference, sandpaper marks, aluminum powder transition black circles, loss of light, putty marks, etc.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017301.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Film defects due to external factors</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Film defects due to external factors: water spots, pollen spots, acid rainspots, black spots, bird droppings, iron powder,
+                              oil spots, battery liquid spots, flystone damage, discoloration or whitening (chalking), smoke spots, rust, etc.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017302.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Inspection of painting defects</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check the entire vehicle.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Observe the environment surrounding the vehicle.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Observe the film defects and identify the shape, size, and color of film defects.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check the surrounding surface for irregularities.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Observe each defect and compare it with the defect examples.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017303.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Inspection conditions of film defects</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check the film surface from different angles.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017304.jpg"></img></div>
+                        </div> 
+                        
+                     </p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017305.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Operation steps.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Direct vision.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Sideways.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Properly use light sources.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Sunlight.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Cool place.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Fluorescent light.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Treatment of film defects</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Heating: the film surface deformation caused by external force can be repaired by heating. After cleaning the vehicle, heat
+                              the film surface with an infrared paint curing light.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Removal of spots: use solvent to remove the spots caused by grease and dirty substances from the film surface.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Polishing: if the coating is dissolved and concave or particulate matter is formed, polish the coating surface to restore
+                              gloss. If necessary, grind it before polishing.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Re-spraying: if the coating defect cannot be removed by heating or polishing, the coating surface must be ground until the
+                              defect is completely removed before re-spraying.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017306.jpg"></img></div>
+                        </div> 
+                        
+                     </p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017307.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Defect Generated during Coating Spraying</h3> 
+               
+               
+               <p class="p"><span class="ph b">Fish eye</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Fish eyes show themselves as small round or circular-shaped defects that can have a tiny crater in the center, where substrate
+                              may be seen.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017308.jpg"></img></div>
+                        </div> 
+                        
+                     </p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017309.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The vehicle is not completely degreased.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Dirty cloth is used to degrease.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">There is water or oil in the compressed air.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The spray booth is contaminated by wax, silicon and other chemicals. Typical materials containing silicon and wax components:
+                              dashboard wax, loosen fluid, and body paint curing wax.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Degrease the vehicle completely before spraying. When using degreaser, use two rags alternately, that is, wipe it immediately.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check the oil and water separator and drain it if necessary.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Never use silicon or deuterium containing products in painting workshop or spray booth. Select water-soluble polishing wax
+                              that does not contain silicone wax.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Degrease the fish eye coating completely.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Grind the eye coating to flatten it.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Spray a thin layer first, and then spray it normally. Leave a suitable volatilization time between coatings.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">If fish eyes are still formed in the coating, add anti-silicone additive and continue spraying.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Dust spot</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Dust particles fall on a wet coating, and when the coating becomes dry, the dust is embedded in the paint film.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017310.jpg"></img></div>
+                        </div> 
+                        
+                     </p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017311.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">When spraying, dust flies from the sunroof, wheel arch or gap.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Dust particles remain on the surface of the vehicle and the paint is contaminated.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Plastic components are electrostatic and dust-absorbed.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Moving around the car will raise the dust.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Spray booth factors: filter cotton blocked, dust on the floor, dirty walls. Replace the top surface of spray booth.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Clean all openings around the repaired area thoroughly.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Use high-quality masking paper to fold the tear edge inward and make the smooth surface of the paper outward.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Filter paint as it is poured into the gun.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Wear clean, fibre-free, and anti-static overalls (nylon).</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Treat them with antistatic agent, and do not degrease plastic parts thereafter.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Perform regular maintenance on spray booths and replace filter materials regularly.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Clean the 2-meter long air pipe under the spray gun with old rag, and suspend the air pipe after spraying.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Pick out the dust contained in the paint film with a needle tip during spraying.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Polish to remove small dust in dry coatings.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">If the dust falls deep in the coating, grind the surface and spray it again.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Orange peel</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The paint has poor leveling and looks like the skin of an orange.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017312.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The paint viscosity is too high.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The diluent dries too fast.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The spraying pressure is too high or too low, and the nozzle size is too large.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The ambient ambient temperature is too high or too low.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Too much anti-silicone additive is added.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Mix the paint in the correct scale and check the viscosity.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The choice of diluent will be determined by the following factors: ambient temperature, workpiece size, and air flow rate.
+                              See the technical information manual.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The ideal ambient temperature of spraying is about 20°C.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Properly use anti-silicone additive to ensure the mixing ratio is correct.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Polish to remove slight orange skins. If the condition is severe, grind the surface and spray it again.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Sagging</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Sagging is heavy application of paint that appears uneven on the surface due to excess paint sitting up and “running” across
+                              or down the surface.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017313.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The substrate is not completely degreased, making the paint cannot be attached to the substrate and therefore it runs.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The selected diluent dries too slowly or too many diluents are added.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The spraying distance is too short or the paint is uneven, resulting in excess paint sitting up.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The ambient temperature is too low and the diluent volatilizes too slowly.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The choice of diluent will be determined by the following factors: workpiece size, ambient temperature,  and air flow rate.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Apply the correct spraying technique.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Grind and polish to remove dry run coatings.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">In case of severe sagging, after the paint is dry, grind it flat and spray it again.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Blushing</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">A milky white haze or mist formed on the surface of the paint film.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017314.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The diluent dries too fast, which cools the paint surface sharply, causing moisture to condense on the wet coating surface
+                              immediately.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The spraying pressure is too high, which cools the workpiece and then makes moisture condense.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Sprayed plates are not completely dry before put into use, and condensates penetrate the coating.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select a slow-drying diluent in wet weather.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Avoid spraying in wet and cold environments.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Regularly check the air flow rate of the spray booth.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the corresponding drying time based on the workpiece temperature.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">If the problem is not serious, polish the repaired area. If it is serious, grind to remove the topcoat and spray it again.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Flooding and floating</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Floating only appears in metal base coat. The aluminum pigments in the base coat are unevenly arranged, resulting in uneven
+                              colors, such as floatings or spots.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017315.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Diluent: select a diluent that dries too fast.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Spraying: incorrect gun setting, too heavy base coat; incorrect air pressure and spraying distance.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the correct diluent based on the ambient temperature, repair area and airflow rate.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Recommended settings for spray guns.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Spray the base coat according to the technical data guide.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">When the base coat is still being sprayed, re-spray the base coat according to the recommended procedure or spraying technique.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">When varnish has been sprayed and ground with sandpaper P500 (dry grinding) or P1000 (wet grinding), re-spray it based on
+                              the precautions mentioned above.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Pinhole</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Small holes exist on the film surface and cannot be flattened by the outer film, leaving a dent on the film surface.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017316.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The diluent selected is of poor quality.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The spraying pressure or nozzle size is inappropriate.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The coating is too thick and the interval between coatings is too short.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">No volatilization time is left.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Manual dry is conducted just after spraying, and the drying temperature is too high.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The infrared drying equipment is used too soon or the equipment is too close to the vehicle.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select a diluent of good quality and suitable for the ambient temperature.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">See the technical information manual and select the appropriate spraying pressure and nozzle size.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Adopt appropriate spraying technique, and leave sufficient volatilization time.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Based on the recommended time, let the last layer of paint volatilize for a while before manual drying.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Let the coating to volatilize normally before drying with infrared equipment and maintain a suitable distance between the
+                              infrared equipment and the vehicle.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Grind the film surface until all solvent blister marks are removed and then re-spray it.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Wrinkling</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The substrate is partially dissolved when painted.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017317.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The selected paint does not match the substrate.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The previous coating has poor adhesion to the substrate.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The substrate is not completely dry or hardened when re-spraying.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Too much paint is sprayed at one time.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The volatilization time is too long and the previous coating is dissolved by the solvent of the next coating.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Analyze the substrate in the repair area. Select the proper primer product. Adopt the correct mixing ratio. Adopt proper spraying
+                              method to prevent over-thick spraying.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Wait for a suitable volatilization time and then spray the next coating.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">To some extent, wrinkled paint can be ground after being completely dried. And then re-spray it. For sensitive substrates,
+                              spray onto it cautiously - the coating should be thinly and sufficient volatilization time should be maintained between each
+                              layer.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">If the coating wrinkles severely, remove it completely and then re-spray it.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Loss of light</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Wet coatings absorb wax or other similar contaminants.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The putty is not completely dry before getting ground.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The selected sandpaper is too rough and the selected diluent dries too fast.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Drying catalyst not suitable for the paint products is selected.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Improper amount of drying catalyst or diluent is added.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Components are wrongly mixed (two-component product).</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The baking is too hot or too long.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017318.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Degrease the repair area and surrounding areas completely before grinding and spraying it.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Set the drying time based on ambient temperature and film thickness.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">See the product related technical manuals to select and use appropriate sandpaper.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the drying catalyst matched with diluent as recommended by the paint manufacturer for the diluent.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Use scale to achieve the correct mixing ratio.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Leave sufficient volatilization time as recommended and prevent excessive paint resulting in over-thick coating.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">See the product technical manual to select an appropriate pre-polishing drying time.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Polish the surface to increase gloss. If it is impossible to repair it, grind it and re-spray it.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Sandpaper mark</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Fine scratches can be found on the paint film, mostly on the topcoat. The problem may soon become apparent or may not be discovered
+                              until a few weeks later. We can identify the shape of grinder or manual grinding pad.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017319.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The selected grinding paper is too rough and leaves a rough sandpaper mark in the repair area.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The primer or putty coating is not completely dry before getting ground.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Sand or coarse dust particles cause scratches during grinding.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Rough sandpaper in manual grinding will lead to deep scratches.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">See the technical information manual to select the correct sandpaper for products from the next step.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Grind with sandpaper 100# meshes finer than the sandpaper used in the repair area.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Ensure that the substrate coating is fully dry before getting ground.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Carefully remove all dust with blowing gun before grinding.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Use a finer grade of sandpaper for manual grinding.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">After the paint film is dry, grind the topcoat with suitable sandpaper and re-spray it if necessary.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Film defects due to external factors</h3> 
+               
+               
+               <p class="p"><span class="ph b">Water spot</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">It refers to the water droplet like imprint formed on the coating after the water droplet is dried.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017320.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Improper amount of drying catalyst is added.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The coating is too thick to dry completely within the recommended time.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The coating fails to dry completely.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The coating is in contact with rain water or water droplets when it is cooled.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Mix the paint in the correct scale.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Avoid excessive spraying.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Follow the standard drying time and temperature.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Allow the vehicle to cool before driving it outdoors in rainy days or rinsing it with water.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Polish the surface until traces disappear. If this does not help or the problem reappears after polishing, grind the area
+                              and spray it again.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Chalking</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">When exposed to the ultraviolet rays of sunlight, the resin in the paint will get chalked, forming a white, chalky powder
+                              on the surface of the paint film (mainly a single process paint system).
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017321.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Paint products: curing agent products that do not match the paint, inappropriate curing agent type or poor-quality curing
+                              agent products, affecting the chain reaction between paint resin and curing agent. Chalking may occur.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Operation and maintenance: vehicles are flushed with solvent or cleaning liquid with strong dissolving power, which makes
+                              the paint coating chalked.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Use OEM certified paint products.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Use high-quality paint.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Use high-quality car wash or detergent.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Conduct regular paint maintenance with wax.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Polish to remove slight chalking, and use wax to protect the color. If chalking occurs repeatedly, grind the topcoat and re-spray
+                              it.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">For severe chalking, grind and re-spray the surface.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Cracking</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">A wide range of fine cracks appear on the paint surface after a period of time, and cracks may penetrate all coatings.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017322.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Old paint coating: if you spray a new paint coating on the old cracked paint coating, this problem will reappear after a period
+                              of time.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Spraying: mismatched paint coating, two-component paint sprayed too heavy on the soft old paint coating.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Never spray paint on old paint coatings with cracks. Remove the entire paint coating until the metal is exposed, and re-spray
+                              a paint system in accordance with technical data.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Avoid mismatched paint application and check substrates before touch-up.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Conduct construction in accordance with product technical data.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The only method is to completely remove the cracked paint from the metal surface and reapply the paint.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Poor coating hardening</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The paint is not completely dry after a long period of time and fingerprints can easily appear by pressing the surface forcefully.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017323.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Inappropriate curing agent: wrong type of curing agent used; not sufficiently dried; and curing agent expired or reacted with
+                              moisture in the air.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Drying: the temperature is too low or the drying time is too short, resulting in incomplete drying of the coating; and insufficient
+                              air flow in the spray booth.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Use curing agents suitable for the ambient temperature.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Mix the paint as described in technical data.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Note the pot life of curing agent, or tighten the cap after use.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Store paint products at the appropriate temperature.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check filters regularly and maintain spray booths regularly.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Dry the plate at the temperature indicated in the product manual for a long period of time.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">If inappropriate product is used, remove the paint with diluent or grind it and re-spray it.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Poor adhesion</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Poor adhesion may be evident immediately after spraying and drying, or may occur a few weeks later.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017324.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Selection system: unmatched product used.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Inappropriate degreasing: inappropriate, poorly-quality degreasing product used; release agent not removed from the new bumper
+                              (new module).
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Grinding: insufficient grinding, or incorrect sandpaper and material.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Primer: failure to use a plastic primer may cause adhesion problems, thereby rendering the entire paint coating unacceptable.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Use only OEM certified supporting products.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Clean the plate surface thoroughly, wipe it with recommended degreaser and two rags.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Grind the plate with an appropriate sandpaper.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Use suitable primer materials based on the type of substrate.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Remove the entire paint system until it is smooth. If necessary, remove the entire coating system, prepare the plate and spray
+                              onto it as recommended.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Blistering</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Blistering refers to some scattered or concentrated bubble-like spots on the coating surface. Blistering are caused by moisture
+                              or dirt beneath or within the paint, which generally causes the paint film to bulge upwards after a period of time.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017325.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The substrate is left with dirt before spraying.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">After degreasing, moisture condenses on the vehicle.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The calcium and salt deposits in the grinding water remain in the vehicle and absorb moisture.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Polyester putty is treated by water grinding or has absorbed moisture from the air.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">An inappropriate drying catalyst or diluent is selected.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The drying catalyst has reacted with the moisture in the tank.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">There is water or oil in the compressed air.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Carefully check the substrate before and during degreasing.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Dry grind the polyester putty.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select recommended drying catalysts and diluents.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Close the lid immediately after use of the drying catalyst.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check the oil/water separator and drain it periodically as required.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Remove the faulty coatings and re-spray them.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Peeling</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The topcoat, varnish, or the entire paint coating peels off. Peeling may occur immediately after spraying, such as when removing
+                              the masking tape, or weeks or months later.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017326.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Grinding: insufficient grinding on plate substrate.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Degreaser: not completely degreased; and poor-quality degreaser.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Selection of diluent: diluent that dries too fast will form water accumulation on the surface of the primer in wet weather,
+                              which will cause poor adhesion.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Coating: base coat too thin or coarse; and no tack cloth used between coatings and the last coating.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Improve the quality of grinding before spraying topcoat.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Use only appropriate, quality assured and correct degreasers.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the correct diluent based on ambient temperature, repair area and airflow rate.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Spray the base coat in accordance with technical data requirements.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Remove the paint system until the metal is exposed, and grind it to get the feathering edge. Apply putty if necessary and
+                              re-spray it.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p"><span class="ph b">Putty mark</span></p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Knowledge points.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The topcoat around the repair part bulges in a ring.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G017327.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Reason.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The substrate is not completely hardened and absorbs the topcoat.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Sandpaper is too coarse and inappropriate diluent is used in the topcoat.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Before the topcoat is sprayed, the parts repaired with putty or finishing filler are not properly primed or enclosed.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preventive measures.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Grind the repaired part until the metal is exposed.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">At the edge of the exposed paint coating, conduct solvent test with diluent. If the paint softens, the paint coating must
+                              be sealed. Putty and finishing filler can only be used on exposed metals and cannot be covered on original paint surfaces.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select appropriate sandpaper; ensure all preparatory materials are completely dry.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Solutions.</p>  
+                     
+                     <ul name="contents" class="ul"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Once the repair material is dry, trim the damaged part, isolate it with the substrate material, and then re-spray it.</p> 
+                           
+                        </li> 
+                        
+                     </ul>
+                     
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="B1E0407 Mode Switch Stuck"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA104096"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>B1E0407 Mode Switch Stuck</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA104096">
+         
+         
+         
+         <h3 class="topictitletopic1 title">B1E0407 Mode Switch Stuck</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">DTC Description</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     <tbody> 
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="23%" colspan="2" align="center" valign="top">B1E0407 Mode Switch Stuck</td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="23%" align="left" valign="top">Symptom</td>  
+                           
+                           <td width="77%" align="left" valign="top">The mode switch fails.</td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="23%" align="left" valign="top">Possible cause</td>  
+                           
+                           <td width="77%" align="left" valign="top">The mode switch is stuck.</td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="23%" align="left" valign="top">Set fault condition</td>  
+                           
+                           <td width="77%" align="left" valign="top">Mode switch stuck.</td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="23%" align="left" valign="top">Fault triggering condition</td>  
+                           
+                           <td width="77%" align="left" valign="top">Set the START/STOP button to ON and operate the mode changeover switch.</td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="T002"> 
+            
+            <h3 class="topictitletopic2 title">Diagnostic Steps<button type="button" id="dtcbutton1" class="button" onclick="expandAll();butSwitch();"><samp>Expand all</samp></button><button type="button" id="dtcbutton2" onclick="gotoFirstDtcStep('step01');butSwitch();" class="button dtc-inactive"><samp>Diagnostic guidance</samp></button></h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div> 
+                  <a name="step01"></a><div class="otherclass1 dtcprocess otherclass2" data-step="step01">
+                     <table width="100%" border="solid 1pt" class="postspace" id="DTA104096__">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">1</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check the DTC of multifunctional steering wheel switch.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Connect the VDS to the data link connector.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Set the START/STOP button to ON.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Clear DTCs.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Set the START/STOP button to OFF and wait for a few seconds.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Set the START/STOP button to ON again, and read the DTC.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether the same DTC is displayed.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step01" value="option1"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step01" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step01" value="option2"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step01" value="option2"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Check for “intermittent fault”.</span> 
+                                       </span><span><span class="dtcstep dtc-inactive" data-option="option2">Replace the steering wheel assembly.</span> 
+                                       </span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div> 
+                  
+               </div> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

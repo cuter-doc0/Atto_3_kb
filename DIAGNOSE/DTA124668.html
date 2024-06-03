@@ -1,0 +1,833 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="Diagnosis DTC of vehicle control unit"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA099576"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Diagnosis DTC of vehicle control unit</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA099576">
+         
+         
+         <h3 class="topictitletopic1 title">Diagnosis DTC of vehicle control unit</h3>
+         
+         <div class="nested1 topic task" id="tas431fd0d3">
+            <h3 class="topictitletopic2 title">List of DTC</h3>
+            
+            <div class="body taskbody">
+               <div class="section context">
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <thead style="font-weight: bold">
+                        <tr align="center" valign="middle">
+                           <th width="1" align="center" valign="top">
+                              <p>DTC</p>
+                           </th>
+                           <th width="1" align="center" valign="top">
+                              <p>Meaning</p>
+                           </th>
+                           <th width="1" align="center" valign="top">
+                              <p>Diagnostic Process</p>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">
+                              <p>P1D7902</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Collision alarm</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124669.html">P1D7902 Collision Alarm</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">
+                              <p>B17A300</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>SRS CAN Signal Abnormal</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124670.html">B17A300 SRS CAN Signal Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">
+                              <p>B17A400</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>SRS Hardwire Signal Abnormal</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124671.html">B17A400 SRS Hardwire Signal Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">
+                              <p>P1D6D00</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>DSP Reset Fault of Vehicle Control Unit</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124672.html">P1D6D00 DSP Reset Fault of Vehicle Control Unit</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">
+                              <p>P268700</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Power Supply Relay Echo Check Fault</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124673.html">P268700 Power Supply Relay Echo Check Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D8F00</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Infinity fan power supply overvoltage or undervoltage</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124674.html">P1D8F00 Infinity Fan Power Supply Overvoltage or Undervoltage</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D8D00</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Infinity fan motor stalling, short-circuited and other faults</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124675.html">P1D8D00 Infinity Fan Motor Stalling, Short-circuited, Etc.</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D8E00</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Infinity fan overtemperature protection, electronic error, etc.</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124676.html">P1D8E00 Infinity Fan Overtemperature Protection, Electronic Error, Etc.</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>U019780</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Communication with&nbsp;intelligent&nbsp;power brake control module failed</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124677.html">U019780 Communication with&nbsp;Intelligent&nbsp;Power Brake Control Module Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>U012187</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Communication with ABS failed</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124678.html">U012187 Communication with ABS Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>U029F87</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Communication with OBC failed</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124741.html">U029F87 Communication with OBC Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>U016487</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Communication with Air Conditioner Failed</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124680.html">U016487 Communication with Air Conditioner Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>U011187</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Communication with battery management system (BMS) failed</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124682.html">U011187 Communication with Battery Management System (BMS) Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>U014087</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Communication with BCM failed</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124683.html">U014087 Communication with BCM Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>U029887</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Communication with DC failed</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124684.html">U029887 Communication with DC Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>U01A500</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Communication with front motor control unit (FMCU) failed</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124685.html">U01A500 Communication with Front Motor Motor Control Unit (FMCU) Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D9216</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Total Voltage of Power Battery Seriously Low</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124686.html">P1D9216 Total Voltage of Power Battery Seriously Low</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D9308</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Life frame of power battery abnormal</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124687.html">P1D9308 Life Frame of Power Battery Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D9200</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Total Voltage of Power Battery Too Low</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124688.html">P1D9200 Total Voltage of Power Battery Too Low</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D9016</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Voltage of power battery cell too low</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124689.html">P1D9016 Voltage of Power Battery Cell Too Low</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D9100</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Total Voltage of Power Battery Too High</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124690.html">P1D9100 Total Voltage of Power Battery Too High</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D9600</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Life frame of power battery abnormal - counter out of order</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124691.html">P1D9600 Life Frame of Power Battery Abnormal - Counter out of Order</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D9017</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Voltage of power battery cell too high</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124692.html">P1D9017 Voltage of Power Battery Cell Too High</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D9117</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Total Voltage of Power Battery Seriously High</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124693.html">P1D9117 Total Voltage of Power Battery Seriously High</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D9700</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Life frame of power battery abnormal - check value abnormal</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124694.html">P1D9700 Life Frame of Power Battery Abnormal - Check Value Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P268D00</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Connection Signal of AC Charger Inconsistent</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124695.html">P268D00 Connection Signal of AC Charger Inconsistent</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P268973</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>DC Charging Negative Contactor Sintered</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124696.html">P268973 DC Charging Negative Contactor Sintered</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P268B00</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>DC Charging Negative Contactor Echo Check Fault</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124697.html">P268B00 DC Charging Negative Contactor Echo Check Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P268C00</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Voltage of DC charging port abnormal</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124698.html">P268C00 Voltage of DC Charging Port Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P268A00</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>DC Charging Positive Contactor Echo Check Fault</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124699.html">P268A00 DC Charging Positive Contactor Echo Check Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P268873</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>DC Charging Positive Contactor Sintered</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124700.html">P268873 DC Charging Positive Contactor Sintered</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>U014B87</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Communication with DC Charging Cabinet Failed</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124702.html">U014B87 Communication with DC Charging Cabinet Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26834B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature rise of charging port generally high (China standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA364241.html">P26834B Temperature Rise of Charging Port Generally High (China Standard)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26834B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature rise of charging port generally high (European standard, 7kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA364248.html">P26834B Temperature Rise of Charging Port Generally High (European Standard, 7kW)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26834B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature rise of charging port generally high (European standard, 11kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124703.html">P26834B Temperature Rise of Charging Port Generally High (European Standard, 11kW)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26834B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature rise of charging port generally high (Japanese standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA364077.html">P26834B Temperature Rise of Charging Port Generally High (Japanese Standard)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26804B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 1 (China standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA364259.html">P26804B Temperature Rise of Charging Port Generally High 1 (China Standard)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26804B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 1 (European standard, 7kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA364272.html">P26804B Temperature Rise of Charging Port Generally High 1 (European Standard, 7kW)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26804B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 1 (European standard, 11kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124704.html">P26804B Temperature of Charging Port 1 Generally High (European Standard, 11kW)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26804B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 1 (Japanese standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA364090.html">P26804B Temperature of Charging Port 1 Generally High (Japanese Standard)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26814B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 2 (China standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA364280.html">P26814B Temperature Rise of Charging Port Generally High 2 (China Standard)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26814B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 2 (European standard, 7kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA364287.html">P26814B Temperature Rise of Charging Port Generally High 2 (European Standard, 7kW)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26814B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 2 (European standard, 11kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124705.html">P26814B Temperature of Charging Port 2 Generally High (European Standard, 11kW)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26814B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 2 (Japanese standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA364094.html">P26814B Temperature of Charging Port 2 Generally High (Japanese Standard)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26844B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature rise of charging port seriously high (China standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA364295.html">P26844B Temperature Rise of Charging Port Seriously High (China Standard)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26844B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature Rise of Charging Port Seriously High (European Standard, 7kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA364310.html">P26844B Temperature Rise of Charging Port Seriously High (European Standard, 7kW)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26844B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature Rise of Charging Port Seriously High (European Standard, 11kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124706.html">P26844B Temperature Rise of Charging Port Seriously High (European Standard, 11kW)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26844B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature rise of charging port seriously high (Japanese standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA364098.html">P26844B Temperature Rise of Charging Port Seriously High (Japanese Standard)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26824B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port seriously high 3 (China standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA364319.html">P26824B Temperature Rise of Charging Port Seriously High (China Standard)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26824B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port seriously high 3 (European standard, 7kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA364323.html">P26824B Temperature Rise of Charging Port Seriously High 3 (European Standard, 7kW)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26824B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port seriously high 3 (European standard, 11kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124707.html">P26824B Temperature of Charging Port Seriously High 3 (European Standard, 11kW)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P26824B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port seriously high 3 (Japanese standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA364102.html">P26824B Temperature of Charging Port Seriously High 3 (Japanese Standard)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D9516</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Supply voltage on the low voltage side too low</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124708.html">P1D9516 Supply Voltage on the Low Voltage Side Too Low</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D9400</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Low voltage output disconnected</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124710.html">P1D9400 Low Voltage Output Disconnected</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>B116212</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Water temperature sensor short-circuited</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124711.html">B116212 Water Temperature Sensor Short-circuited</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>B116214</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Water temperature sensor getting broken circuit</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124712.html">B116214 Water Temperature Sensor Getting Broken Circuit</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D9B00</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Water temperature sensor fault</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124713.html">P1D9B00 Water Temperature Sensor Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D9C00</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Water Overtemperature</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124714.html">P1D9C00 Water Overtemperature</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1BA000</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Cruise configuration unwritten</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124715.html">P1BA000 Cruise Configuration Unwritten</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D6200</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Cruise switch signal fault</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124716.html">P1D6200 Cruise Switch Signal Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D7B00</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Accelerator Signal Fault-1 Signal Fault</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124717.html">P1D7B00 Accelerator Signal Fault- 1 Signal Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D7C00</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Accelerator Signal Fault-2 Signal Fault</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124718.html">P1D7C00 Accelerator Signal Fault- 2 Signal Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D6600</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Accelerator Signal Fault - Check Fault</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124719.html">P1D6600 Accelerator Signal Fault - Check Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P268E00</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Voltage output of DC charger abnormal</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124720.html">P268E00 Voltage Output at DC Charger Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D6144</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>EEPROM error of vehicle control unit</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124722.html">P1D6144 EEPROM Error of Vehicle Control Unit</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D8400</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Water temperature fault (OBC)</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124721.html">P1D8400 Water Temperature Fault (OBC)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1B1F00</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Anti-theft authentication failed</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124723.html">P1B1F00 Anti-theft Authentication Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>U024C87</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Communication with I-KEY failed</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124724.html">U024C87 Communication with I-KEY Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>U014E87</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Communication with security gateway module failed</p>
+                           </td>
+                           <td width="1" align="left" valign="top">U014E87 Communication with Security Gateway Module Failed&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P268600</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>High voltage interlock fault</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124726.html">P268600 High Voltage Interlock Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1D8300</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Vehicle power limited</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124727.html">P1D8300 Limited Power of Vehicle</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>U029187</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Communication with gear control module failed</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124728.html">U029187 Communication with Gear Control Module Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

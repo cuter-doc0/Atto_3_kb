@@ -1,0 +1,249 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Inspection of Brake Fluid Level"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM175112"></meta>
+      
+      <meta name="DC.Language" content="en-us"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Inspection of Brake Fluid Level</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM175112">
+         
+         
+         <h3 class="topictitletopic1 title">Inspection of Brake Fluid Level</h3>
+         
+         <div class="body">     
+            <div class="section"> 
+               <div>
+                  <div class="wl-attention prespace postspace warning-imgwarning" data-attention-type="warning" id="d62598e14">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/warningv2.svg"></img></div><span class="notetitleone">Warning</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">Do not mix the brake fluid with liquids containing mineral oil (engine oil, gasoline, detergent), as mineral oil will damage
+                                 the seals and rubber sleeves of the brake system.
+                              </p>
+                           </li>
+                           <li>
+                              <p class="p-inline">The brake fluid is poisonous. In addition, the brake fluid is corrosive, so it cannot contact with the paint.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">The brake fluid is hygroscopic and absorbs moisture from the surrounding environment, so it must be stored in a closed container.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">Take protective measures in advance and collect the brake fluid that may spill out. Do not flush the spilled brake fluid with
+                                 a large amount of water near electrical devices.
+                              </p>
+                           </li>
+                           <li>
+                              <p class="p-inline">Be sure to strictly observe the local regulations on disposal of wastes!</p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>      
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d62598e32">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">When filling the brake fluid, be careful not to spill it into the front compartment.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">Otherwise, components in the front compartment may be damaged.</p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d62598e40">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">If the brake fluid level has dropped below the "MIN" mark, check for leaks before filling the brake fluid, and carry out repairs
+                                 if necessary.
+                              </p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+               <p class="p"><span class="ph b">Brake fluid level during delivery inspection</span></p>
+               <ol class="num">         
+                  <li>           
+                     <p class="p-inline">During delivery inspection, the fluid level must be at the "MAX" mark.</p>         
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d62598e55">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <p class="p">To prevent overflow of brake fluid from the reservoir, it is not allowed to exceed the "MAX" mark.</p>
+                           </div>
+                        </div>
+                        
+                     </div>   
+                     <p>             
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G265496.png"></img></div>                            
+                        </div>           
+                     </p>         
+                  </li>       
+               </ol>
+               <p class="p"><span class="ph b">Brake fluid level during routine inspection</span></p>
+               <p class="p">i.e.: new brake pad or brake fluid level when brake pad is far from the wear limit.</p>
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d62598e72">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">The fluid level must be evaluated every time according to the wear degree of brake pads.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">When the vehicle is in use, the fluid level drops slightly due to brake pad wear and automatic adjustment.</p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+               <ol class="num">          
+                  <li>            
+                     <p class="p-inline">Check that the brake fluid level is between the "MAX" mark and "MIN” mark. If the level is below the "MIN” mark or above the
+                        "MAX” mark, fill or pump out the brake fluid.
+                     </p>    
+                     <p> 
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G265496.png"></img></div>                            
+                        </div>  
+                     </p>
+                  </li>        
+               </ol>
+               <p class="p"><span class="ph b">Brake fluid level "before" brake pad wear limit is reached</span></p>
+               <ol class="num">         
+                  <li>           
+                     <p class="p-inline">Check that the brake fluid level is at or slightly higher than the "MIN" mark.</p>      
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d62598e105">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <ul name="contents" class="ul">
+                                 <li>
+                                    <p class="p-inline">At this time, there is no need to refill the brake fluid!</p>
+                                 </li>
+                              </ul>
+                              
+                           </div>
+                        </div>
+                        
+                     </div>      
+                     <div class="bottomNoTable">
+                        <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G265496.png"></img></div>                            
+                     </div>
+                     <p></p> 
+                  </li>       
+               </ol>     
+               <p class="p">In case of abnormal brake fluid level, obtain a new work order for repair or replacement.</p>
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

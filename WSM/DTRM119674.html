@@ -1,0 +1,590 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Four-Wheel Alignment"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM120983"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Four-Wheel Alignment</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM120983">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Four-Wheel Alignment</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section">
+               <h3 class="title topictitle1">Adjust</h3> 
+               
+               
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d25812e17">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">  
+                        
+                        <ul name="contents" class="ul"> 
+                           
+                           <li> 
+                              
+                              <p class="p-inline">If the caster or camber of the front wheel kingpin is not within the specified range, check the suspension assembly for bending
+                                 or damage. In case of suspension bending or damage, replace the damaged parts, and never try to repair by hammering and other
+                                 means.
+                              </p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">If the camber of front and rear wheels falls out of the stipulated range, check suspension parts for bending or damage. In
+                                 case of suspension bending or damage, replace the damaged parts, and never try to repair by hammering and other means.
+                              </p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">If the front wheel toe-in is correct, but the steering angle falls beyond the specified range or the internal steering angles
+                                 are different, check suspension parts for bending or damage. In case of suspension bending or damage, replace the damaged
+                                 parts, and never try to repair by hammering and other means.
+                              </p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Use the suspension device to adjust the toe-ins of front and rear wheels.</p> 
+                              
+                           </li> 
+                           
+                        </ul>
+                        
+                        
+                     </div>
+                  </div>
+                  
+               </div>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Inspection before four-wheel alignment:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Release the parking brake to avoid incorrect measurement.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check and confirm no modification has been made to the suspension.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check and confirm the specifications of all four tires are the same and correct, and the tire pressure is within the specified
+                              pressure range.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check and confirm no person stay in the vehicle and the vehicle is free of excess load.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check each anchor point of the suspension for loose and deformation, and check and confirm the ball joint clearance of the
+                              suspension is appropriate.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check wheels for vibration and swing.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check and confirm the symmetric positions on both sides of the vehicle are in the same height.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The steering wheel alignment tolerance is 0°±0.2°.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Conduct the wheel dynamic balance test, and reinstall wheel back to the vehicle after the test.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Let the wheel device jump for several times to stabilize the suspension.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The test bench is in normal state.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Adjust by rear wheels first and then the front wheels.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Detection</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Conduct wheel alignment inspection in accordance with the operating instructions of the four-wheel aligner.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Adjustment of rear wheels camber .</p>  
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d25812e152">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">The chamber adjustment method of the left and right rear wheels the same way.</div>
+                        </div>
+                        
+                     </div>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Use tools to fix eccentric bolts.</p>  
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagecenterlevel2"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G073420.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Loosen the lock nuts.</p>  
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Tightening torque: 200±10N•m</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagecenterlevel2"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G073421.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Rotate the eccentric bolt for rear wheel camber adjustment until the rear wheel camber is correct.</p>  
+                           
+                           <div>
+                              <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d25812e195">
+                                 <div class="noteheader">
+                                    <div class="common tip">
+                                       <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                                 </div>
+                                 <div class="notebody attention-text postspace-s wl-attention-content">  
+                                    
+                                    <ul name="contents" class="ul"> 
+                                       
+                                       <li> 
+                                          
+                                          <p class="p-inline">The connecting point of the camber eccentric bolt is for two-time use, after removal, new nuts shall be installed.</p> 
+                                          
+                                       </li>  
+                                       
+                                       <li> 
+                                          
+                                          <p class="p-inline">Bolts and gaskets should be replaced according to the actual condition. In case of rusting, replacement is recommended.</p> 
+                                          
+                                       </li>  
+                                       
+                                       <li> 
+                                          
+                                          <p class="p-inline">Make sure the gasket and eccentric bolt gasket are fitted in the limit slot.</p> 
+                                          
+                                       </li> 
+                                       
+                                    </ul>
+                                    
+                                    
+                                 </div>
+                              </div>
+                              
+                           </div>  
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Rear wheel camber : -1.07±0.5°</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">After adjustment, lock the eccentric bolts, and the tighten lock nut.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Adjustment of rear wheel total toe-in.</p>  
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d25812e242">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">The toe-in adjustment method of the left and right rear wheels are the same way.</div>
+                        </div>
+                        
+                     </div>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Use tools to fix eccentric bolts.</p>  
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagecenterlevel2"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G073422.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Loosen the lock nuts.</p>  
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Tightening torque: 200±10N•m</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagecenterlevel2"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G073423.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Rotate the eccentric bolt for rear wheel toe-in adjustment until the rear wheel toe-in is correct.</p>  
+                           
+                           <div>
+                              <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d25812e285">
+                                 <div class="noteheader">
+                                    <div class="common tip">
+                                       <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                                 </div>
+                                 <div class="notebody attention-text postspace-s wl-attention-content">  
+                                    
+                                    <ul name="contents" class="ul"> 
+                                       
+                                       <li> 
+                                          
+                                          <p class="p-inline">The connecting point of the camber eccentric bolt is for one-time use, after removal, new nuts shall be installed.</p> 
+                                          
+                                       </li>  
+                                       
+                                       <li> 
+                                          
+                                          <p class="p-inline">Bolts and gaskets should be replaced according to the actual condition. In case of rusting, replacement is recommended.</p> 
+                                          
+                                       </li>  
+                                       
+                                       <li> 
+                                          
+                                          <p class="p-inline">Make sure the gasket and eccentric bolt gasket are fitted in the limit slot.</p> 
+                                          
+                                       </li> 
+                                       
+                                    </ul>
+                                    
+                                    
+                                 </div>
+                              </div>
+                              
+                           </div>  
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Total toe-in of rear wheels: 0.17±0.2mm</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">After adjustment, lock the eccentric bolts, and the tighten lock nut.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Adjustment of front wheel total toe-in.</p>  
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d25812e332">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">The toe-in adjustment method of the left and right front wheels are the same way.</div>
+                        </div>
+                        
+                     </div>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Fix toe-in adjustment bushing by wrench.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Loosen the lock nuts.</p>  
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Tightening torque: 70±5N•m</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Turn toe-in adjustment bushing until reaching the correct toe-in value.</p>  
+                           
+                           <div>
+                              <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d25812e363">
+                                 <div class="noteheader">
+                                    <div class="common tip">
+                                       <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                                 </div>
+                                 <div class="notebody attention-text postspace-s wl-attention-content">By adjusting the left and right wheels to the same extent in the opposite direction, you can get the correct toe-in and keep
+                                    the steering wheel straight.
+                                 </div>
+                              </div>
+                              
+                           </div>  
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Total toe-in of front wheels: 0.116±0.16mm</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">After adjustment, lock the toe-in adjustment bushing, and the tighten locking nut. Make sure that the toe-in setting does
+                              not change.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Conduct steering angle learning and reset in accordance with the prompt instructions of the VDS.</p> 
+                           
+                        </li> 
+                        
+                     </ol>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G073424.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Inspection of tires"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM175101"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Inspection of tires</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM175101">
+         
+         
+         <h3 class="topictitletopic1 title">Inspection of tires</h3>
+         
+         <div class="body">
+            <div>
+               <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d62057e9">
+                  <div class="noteheader">
+                     <div class="common tip">
+                        <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                  </div>
+                  <div class="notebody attention-text postspace-s wl-attention-content">
+                     <p class="p">For the sake of driving safety, all wheels must be equipped with radial tires with the same model, size (rolling circumference)
+                        and tread pattern as those in the factory status.
+                     </p>
+                  </div>
+               </div>
+               
+            </div>
+            <p class="p"><span class="ph b">Repair tools and equipment required</span></p>
+            <ul name="contents" class="ul">
+               <li>
+                  <p class="p-inline">Tire tread ruler</p>
+               </li>
+            </ul>
+            
+            <div class="section">
+               <h3 class="title topictitle1">Inspection of tire condition</h3>
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d62057e22">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">When a fault is identified, please check whether it is necessary to replace the tire with a new one.</p>
+                     </div>
+                  </div>
+                  
+               </div>
+               <p class="p"><span class="ph b">Inspection items during maintenance</span></p>
+               <ul name="contents" class="ul">
+                  <li>
+                     <p class="p-inline">Check that the tread and sides of tires are free of damage and foreign matters, such as nails or fragments.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check that the tire is free of fading due to rain wash, the tread is free of wear on one side, the tire wall is free of loose
+                        cracks, cuts or punctures, and the tire surface is free of cracks or bulges.
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check that the tires are not flat.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check that the tire installation meets the requirements (rotation direction or internal and external positioning).</p>
+                  </li>
+               </ul>
+               
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d62057e41">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">In case of any abnormality, it must be dealt with immediately.</div>
+                  </div>
+                  
+               </div>
+            </div>
+            
+            <div class="section">
+               <h3 class="title topictitle1">Inspection of tire tread</h3>
+               <p class="p">It can be judged whether it is necessary to check the toe-in and wheel camber angle according to the running status of tires:</p>
+               <ul name="contents" class="ul">
+                  <li>
+                     <p class="p-inline">Burrs on the tire tread indicate incorrect toe-in.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">In most cases, the serious unilateral wear of tire tread is caused by front wheel camber misalignment.</p>
+                  </li>
+               </ul>
+               
+               <p class="p">If such wear is found, determine the cause of fault through four-wheel alignment.</p>
+            </div>
+            
+            <div class="section">
+               <h3 class="title topictitle1">Inspection of tread depth</h3>
+               <p class="p">Check the tread depth:</p>
+               <ul name="contents" class="ul">
+                  <li>
+                     <p class="p-inline">Minimum tread depth: 1.6 mm.</p>
+                  </li>
+               </ul>
+               
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d62057e66">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">It can be checked by measurement with a tire tread ruler or visual inspection of the tire tread and wear marks.</p>
+                     </div>
+                  </div>
+                  
+               </div>
+               <p class="p">
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G217382.png"></img></div>
+                  </div>
+               </p>
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d62057e72">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">Due to different regulations, the tread depth varies in individual countries. The requirements of local laws and regulations
+                                 shall prevail.
+                              </p>
+                           </li>
+                           <li>
+                              <p class="p-inline">The minimum tread depth is reached if multiple 1.6 mm high wear marks on the tire circumference no longer have a pattern.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">If the tread depth is close to the minimum allowed by law, inform the customer of potential risks.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">If the difference between tread depths is greater than or equal to 2 mm, it is recommended to perform tire rotation. Refer
+                                 toTire rotation&nbsp;
+                              </p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d62057e89">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">If any abnormality is found in the above inspection, please obtain a new work order for repair or replacement.</p>
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

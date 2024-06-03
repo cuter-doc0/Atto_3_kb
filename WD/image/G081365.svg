@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1020 841.9" enable-background="new 0 0 1020 841.9" xml:space="preserve">
+<g id="图层_1">
+	<g>
+		<rect x="565.2" y="224.9" fill="#FFFFFF" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" width="3" height="494.2"/>
+	</g>
+	<line fill="none" stroke="#009944" stroke-miterlimit="10" x1="566.7" y1="224.9" x2="566.7" y2="719"/>
+	<line fill="none" stroke="#009944" stroke-width="3" stroke-miterlimit="10" x1="202.7" y1="224.9" x2="202.7" y2="719"/>
+	<polyline fill="none" stroke="#E60012" stroke-width="3" stroke-miterlimit="10" points="165.1,225.1 165.1,261.5 95.3,261.5 
+		95.3,203.9 	"/>
+	<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="165.1,225.1 165.1,261.5 95.3,261.5 95.3,203.9 	"/>
+	<g id="_x30_4-取电">
+		<path fill="none" stroke="#060001" stroke-width="0.5" d="M42,59.3"/>
+		<g>
+			<text transform="matrix(1 0 0 1 955.0927 49.6299)" fill="#060001" font-family="'FZLTHJW--GB1-0'" font-size="6px">30</text>
+			<polyline fill="#DCDDDD" points="46,41.9 950,41.9 950,88.1 46,88.1 			"/>
+			<line fill="none" stroke="#060001" stroke-width="0.5" x1="46" y1="47.6" x2="950" y2="47.6"/>
+			<line fill="none" stroke="#060001" x1="46" y1="41.6" x2="950" y2="41.6"/>
+			<line fill="none" stroke="#060001" stroke-width="0.5" x1="46" y1="58.9" x2="950" y2="58.9"/>
+			<line fill="none" stroke="#060001" stroke-width="0.5" x1="46" y1="70.6" x2="950" y2="70.6"/>
+			<line fill="none" stroke="#060001" stroke-width="0.5" x1="46" y1="82.3" x2="950" y2="82.3"/>
+			<line fill="none" stroke="#060001" x1="46" y1="88.1" x2="950" y2="88.1"/>
+			<text transform="matrix(1 0 0 1 955.0927 60.7959)" fill="#060001" font-family="'FZLTHJW--GB1-0'" font-size="6px">IG1</text>
+			<text transform="matrix(1 0 0 1 955.0927 72.4209)" fill="#060001" font-family="'FZLTHJW--GB1-0'" font-size="6px">IG3</text>
+			<text transform="matrix(1 0 0 1 955.0927 83.9248)" fill="#060001" font-family="'FZLTHJW--GB1-0'" font-size="6px">ACC</text>
+			<text transform="matrix(1 0 0 1 34.011 49.7119)" fill="#060001" font-family="'FZLTHJW--GB1-0'" font-size="6px">30</text>
+			<text transform="matrix(1 0 0 1 30.8469 60.8779)" fill="#060001" font-family="'FZLTHJW--GB1-0'" font-size="6px">IG1</text>
+			<text transform="matrix(1 0 0 1 30.8469 72.5029)" fill="#060001" font-family="'FZLTHJW--GB1-0'" font-size="6px">IG3</text>
+			<text transform="matrix(1 0 0 1 27.3546 84.0029)" fill="#060001" font-family="'FZLTHJW--GB1-0'" font-size="6px">ACC</text>
+			<path fill="none" stroke="#060001" stroke-width="0.5" d="M942,59.3"/>
+		</g>
+	</g>
+	
+		<rect id="部件框_2_" x="189.2" y="730.6" fill="#9FD9F6" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-miterlimit="10" width="485.5" height="25.9"/>
+	<g>
+		<path fill="#9FD9F6" d="M906,214.5H150.5v-25.9H906c0,0-6.7,7.6,0,13S906,214.5,906,214.5"/>
+		<path fill="#9FD9F6" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-miterlimit="10" d="M906,214.5H150.5
+			v-25.9H906c0,0-6.7,7.6,0,13S906,214.5,906,214.5z"/>
+	</g>
+	<g id="_x30_2-上针脚_6_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="202.5" y1="722.4" x2="202.5" y2="730.6"/>
+		<path fill="#FFFFFF" d="M202.4,719.3c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+			C205.6,720.7,204.2,719.3,202.4,719.3"/>
+		<path d="M202.5,719.8c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V719.8z
+			 M202.5,726.2c2.2,0,3.8-1.7,3.8-3.8c0-2.1-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V726.2"/>
+		<rect x="198.5" y="722.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="202" y="721.5" width="1" height="4.2"/>
+		
+			<rect x="202" y="721.5" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<g id="_x30_2-上针脚_10_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="202.7" y1="222.7" x2="202.7" y2="214.5"/>
+		<path fill="#FFFFFF" d="M202.6,225.8c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C205.8,224.4,204.4,225.8,202.6,225.8"/>
+		<path d="M202.7,226.4c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V226.4z
+			 M202.7,218.9v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C206.5,220.6,204.9,218.9,202.7,218.9"
+			/>
+		<rect x="198.7" y="218.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="202.2" y="219.4" width="1" height="4.2"/>
+		
+			<rect x="202.2" y="219.4" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<rect x="200.2" y="255.3" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 192.9816 260.6813)" font-family="'FZLTHJW--GB1-0'" font-size="6px">G 0.35</text>
+	<line fill="none" stroke="#005EAD" stroke-width="3" stroke-miterlimit="10" x1="243.2" y1="224.9" x2="243.2" y2="719"/>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="243.2" y1="224.9" x2="243.2" y2="719"/>
+	<g id="_x30_2-上针脚_11_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="242.9" y1="722.4" x2="242.9" y2="730.6"/>
+		<path fill="#FFFFFF" d="M242.8,719.3c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+			C246,720.7,244.6,719.3,242.8,719.3"/>
+		<path d="M242.9,719.8c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V719.8z
+			 M242.9,726.2c2.2,0,3.8-1.7,3.8-3.8c0-2.1-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V726.2"/>
+		<rect x="238.9" y="722.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="242.4" y="721.5" width="1" height="4.2"/>
+		
+			<rect x="242.4" y="721.5" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<g id="_x30_2-上针脚_8_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="243.2" y1="222.7" x2="243.2" y2="214.5"/>
+		<path fill="#FFFFFF" d="M243.1,225.8c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C246.3,224.4,244.9,225.8,243.1,225.8"/>
+		<path d="M243.2,226.4c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V226.4z
+			 M243.2,218.9v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C247,220.6,245.4,218.9,243.2,218.9"/>
+		<rect x="239.2" y="218.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="242.7" y="219.4" width="1" height="4.2"/>
+		
+			<rect x="242.7" y="219.4" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<rect x="240.7" y="255.3" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 230.147 260.6813)" font-family="'FZLTHJW--GB1-0'" font-size="6px">L/W 0.35</text>
+	<line fill="none" stroke="#898989" stroke-width="3" stroke-miterlimit="10" x1="283.6" y1="224.9" x2="283.6" y2="719"/>
+	<line fill="none" stroke="#FFF100" stroke-miterlimit="10" x1="283.6" y1="224.9" x2="283.6" y2="719"/>
+	<g id="_x30_2-上针脚_13_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="283.4" y1="722.4" x2="283.4" y2="730.6"/>
+		<path fill="#FFFFFF" d="M283.3,719.3c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+			C286.5,720.7,285.1,719.3,283.3,719.3"/>
+		<path d="M283.4,719.8c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V719.8z
+			 M283.4,726.2c2.2,0,3.8-1.7,3.8-3.8c0-2.1-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V726.2"/>
+		<rect x="279.4" y="722.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="282.9" y="721.5" width="1" height="4.2"/>
+		
+			<rect x="282.9" y="721.5" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<g id="_x30_2-上针脚_12_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="283.6" y1="222.7" x2="283.6" y2="214.5"/>
+		<path fill="#FFFFFF" d="M283.5,225.8c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C286.7,224.4,285.3,225.8,283.5,225.8"/>
+		<path d="M283.6,226.4c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V226.4z
+			 M283.6,218.9v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C287.4,220.6,285.8,218.9,283.6,218.9"
+			/>
+		<rect x="279.6" y="218.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="283.1" y="219.4" width="1" height="4.2"/>
+		
+			<rect x="283.1" y="219.4" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<rect x="281.1" y="255.3" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 269.6796 260.6813)" font-family="'FZLTHJW--GB1-0'" font-size="6px">Gr/Y 0.35</text>
+	<line fill="none" stroke="#FFF100" stroke-width="3" stroke-miterlimit="10" x1="324.1" y1="224.9" x2="324.1" y2="719"/>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="324.1" y1="224.9" x2="324.1" y2="719"/>
+	<g id="_x30_2-上针脚_15_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="323.8" y1="722.4" x2="323.8" y2="730.6"/>
+		<path fill="#FFFFFF" d="M323.7,719.3c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+			C326.9,720.7,325.5,719.3,323.7,719.3"/>
+		<path d="M323.8,719.8c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V719.8z
+			 M323.8,726.2c2.2,0,3.8-1.7,3.8-3.8c0-2.1-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V726.2"/>
+		<rect x="319.8" y="722.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="323.3" y="721.5" width="1" height="4.2"/>
+		
+			<rect x="323.3" y="721.5" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<g id="_x30_2-上针脚_14_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="324.1" y1="222.7" x2="324.1" y2="214.5"/>
+		<path fill="#FFFFFF" d="M324,225.8c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C327.2,224.4,325.8,225.8,324,225.8"/>
+		<path d="M324.1,226.4c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V226.4z
+			 M324.1,218.9v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C327.9,220.6,326.3,218.9,324.1,218.9"
+			/>
+		<rect x="320.1" y="218.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="323.6" y="219.4" width="1" height="4.2"/>
+		
+			<rect x="323.6" y="219.4" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<rect x="321.6" y="255.3" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 310.6892 260.6813)" font-family="'FZLTHJW--GB1-0'" font-size="6px">Y/W 0.35</text>
+	<g>
+		<rect x="363" y="224.9" fill="#FFFFFF" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" width="3" height="494.2"/>
+	</g>
+	<g id="_x30_2-上针脚_17_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="364.2" y1="722.4" x2="364.2" y2="730.6"/>
+		<path fill="#FFFFFF" d="M364.1,719.3c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+			C367.3,720.7,365.9,719.3,364.1,719.3"/>
+		<path d="M364.2,719.8c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V719.8z
+			 M364.2,726.2c2.2,0,3.8-1.7,3.8-3.8c0-2.1-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V726.2"/>
+		<rect x="360.2" y="722.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="363.7" y="721.5" width="1" height="4.2"/>
+		
+			<rect x="363.7" y="721.5" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<g id="_x30_2-上针脚_16_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="364.5" y1="222.7" x2="364.5" y2="214.5"/>
+		<path fill="#FFFFFF" d="M364.4,225.8c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C367.6,224.4,366.2,225.8,364.4,225.8"/>
+		<path d="M364.5,226.4c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V226.4z
+			 M364.5,218.9v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C368.3,220.6,366.7,218.9,364.5,218.9"
+			/>
+		<rect x="360.5" y="218.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="364" y="219.4" width="1" height="4.2"/>
+		
+			<rect x="364" y="219.4" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<rect x="362" y="255.3" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 354.1945 260.6813)" font-family="'FZLTHJW--GB1-0'" font-size="6px">W 0.35</text>
+	<line fill="none" stroke="#E60012" stroke-width="3" stroke-miterlimit="10" x1="405" y1="224.9" x2="405" y2="719"/>
+	<line fill="none" stroke="#009944" stroke-miterlimit="10" x1="405" y1="224.9" x2="405" y2="719"/>
+	<g id="_x30_2-上针脚_19_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="404.7" y1="722.4" x2="404.7" y2="730.6"/>
+		<path fill="#FFFFFF" d="M404.6,719.3c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+			C407.8,720.7,406.4,719.3,404.6,719.3"/>
+		<path d="M404.7,719.8c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V719.8z
+			 M404.7,726.2c2.2,0,3.8-1.7,3.8-3.8c0-2.1-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V726.2"/>
+		<rect x="400.7" y="722.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="404.2" y="721.5" width="1" height="4.2"/>
+		
+			<rect x="404.2" y="721.5" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<g id="_x30_2-上针脚_18_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="405" y1="222.7" x2="405" y2="214.5"/>
+		<path fill="#FFFFFF" d="M404.9,225.8c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C408.1,224.4,406.7,225.8,404.9,225.8"/>
+		<path d="M405,226.4c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V226.4z
+			 M405,218.9v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C408.8,220.6,407.2,218.9,405,218.9"/>
+		<rect x="401" y="218.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="404.5" y="219.4" width="1" height="4.2"/>
+		
+			<rect x="404.5" y="219.4" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<rect x="402.5" y="255.3" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 391.981 260.6813)" font-family="'FZLTHJW--GB1-0'" font-size="6px">R/G 0.35</text>
+	<line fill="none" stroke="#FFF100" stroke-width="3" stroke-miterlimit="10" x1="445.4" y1="224.9" x2="445.4" y2="719"/>
+	<g id="_x30_2-上针脚_21_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="445.1" y1="722.4" x2="445.1" y2="730.6"/>
+		<path fill="#FFFFFF" d="M445,719.3c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+			C448.2,720.7,446.8,719.3,445,719.3"/>
+		<path d="M445.1,719.8c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V719.8z
+			 M445.1,726.2c2.2,0,3.8-1.7,3.8-3.8c0-2.1-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V726.2"/>
+		<rect x="441.1" y="722.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="444.6" y="721.5" width="1" height="4.2"/>
+		
+			<rect x="444.6" y="721.5" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<g id="_x30_2-上针脚_20_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="445.4" y1="222.7" x2="445.4" y2="214.5"/>
+		<path fill="#FFFFFF" d="M445.3,225.8c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C448.5,224.4,447.1,225.8,445.3,225.8"/>
+		<path d="M445.4,226.4c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V226.4z
+			 M445.4,218.9v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C449.2,220.6,447.6,218.9,445.4,218.9"
+			/>
+		<rect x="441.4" y="218.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="444.9" y="219.4" width="1" height="4.2"/>
+		
+			<rect x="444.9" y="219.4" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<rect x="442.9" y="255.3" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 436.013 260.6813)" font-family="'FZLTHJW--GB1-0'" font-size="6px">Y 0.35</text>
+	<line fill="none" stroke="#009944" stroke-width="3" stroke-miterlimit="10" x1="485.8" y1="224.9" x2="485.8" y2="719"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="485.8" y1="224.9" x2="485.8" y2="719"/>
+	<g id="_x30_2-上针脚_23_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="485.6" y1="722.4" x2="485.6" y2="730.6"/>
+		<path fill="#FFFFFF" d="M485.5,719.3c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+			C488.7,720.7,487.3,719.3,485.5,719.3"/>
+		<path d="M485.6,719.8c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V719.8z
+			 M485.6,726.2c2.2,0,3.8-1.7,3.8-3.8c0-2.1-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V726.2"/>
+		<rect x="481.6" y="722.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="485.1" y="721.5" width="1" height="4.2"/>
+		
+			<rect x="485.1" y="721.5" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<g id="_x30_2-上针脚_22_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="485.8" y1="222.7" x2="485.8" y2="214.5"/>
+		<path fill="#FFFFFF" d="M485.7,225.8c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C488.9,224.4,487.5,225.8,485.7,225.8"/>
+		<path d="M485.8,226.4c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V226.4z
+			 M485.8,218.9v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C489.6,220.6,488,218.9,485.8,218.9"/>
+		<rect x="481.8" y="218.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="485.3" y="219.4" width="1" height="4.2"/>
+		
+			<rect x="485.3" y="219.4" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<rect x="483.3" y="255.3" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 473.05 260.6813)" font-family="'FZLTHJW--GB1-0'" font-size="6px">G/B 0.35</text>
+	<line fill="none" stroke="#009944" stroke-width="3" stroke-miterlimit="10" x1="526.3" y1="224.9" x2="526.3" y2="719"/>
+	<line fill="none" stroke="#E60012" stroke-miterlimit="10" x1="526.3" y1="224.9" x2="526.3" y2="719"/>
+	<g id="_x30_2-上针脚_25_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="526" y1="722.4" x2="526" y2="730.6"/>
+		<path fill="#FFFFFF" d="M525.9,719.3c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+			C529.1,720.7,527.7,719.3,525.9,719.3"/>
+		<path d="M526,719.8c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V719.8z
+			 M526,726.2c2.2,0,3.8-1.7,3.8-3.8c0-2.1-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V726.2"/>
+		<rect x="522" y="722.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="525.5" y="721.5" width="1" height="4.2"/>
+		
+			<rect x="525.5" y="721.5" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<g id="_x30_2-上针脚_24_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="526.3" y1="222.7" x2="526.3" y2="214.5"/>
+		<path fill="#FFFFFF" d="M526.2,225.8c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C529.4,224.4,528,225.8,526.2,225.8"/>
+		<path d="M526.3,226.4c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V226.4z
+			 M526.3,218.9v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C530.1,220.6,528.5,218.9,526.3,218.9"
+			/>
+		<rect x="522.3" y="218.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="525.8" y="219.4" width="1" height="4.2"/>
+		
+			<rect x="525.8" y="219.4" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<rect x="523.8" y="255.3" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 513.3214 260.6813)" font-family="'FZLTHJW--GB1-0'" font-size="6px">G/R 0.35</text>
+	<g id="_x30_2-上针脚_27_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="566.5" y1="722.4" x2="566.5" y2="730.6"/>
+		<path fill="#FFFFFF" d="M566.4,719.3c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+			C569.6,720.7,568.2,719.3,566.4,719.3"/>
+		<path d="M566.5,719.8c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V719.8z
+			 M566.5,726.2c2.2,0,3.8-1.7,3.8-3.8c0-2.1-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V726.2"/>
+		<rect x="562.5" y="722.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="566" y="721.5" width="1" height="4.2"/>
+		
+			<rect x="566" y="721.5" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<g id="_x30_2-上针脚_26_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="566.7" y1="222.7" x2="566.7" y2="214.5"/>
+		<path fill="#FFFFFF" d="M566.6,225.8c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C569.8,224.4,568.4,225.8,566.6,225.8"/>
+		<path d="M566.7,226.4c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V226.4z
+			 M566.7,218.9v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C570.5,220.6,568.9,218.9,566.7,218.9"
+			/>
+		<rect x="562.7" y="218.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="566.2" y="219.4" width="1" height="4.2"/>
+		
+			<rect x="566.2" y="219.4" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<rect x="564.2" y="255.3" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 553.0175 260.6813)" font-family="'FZLTHJW--GB1-0'" font-size="6px">W/G 0.35</text>
+	<line fill="none" stroke="#898989" stroke-width="3" stroke-miterlimit="10" x1="607.2" y1="224.9" x2="607.2" y2="719"/>
+	<g id="_x30_2-上针脚_29_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="606.9" y1="722.4" x2="606.9" y2="730.6"/>
+		<path fill="#FFFFFF" d="M606.8,719.3c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+			C610,720.7,608.6,719.3,606.8,719.3"/>
+		<path d="M606.9,719.8c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V719.8z
+			 M606.9,726.2c2.2,0,3.8-1.7,3.8-3.8c0-2.1-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V726.2"/>
+		<rect x="602.9" y="722.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="606.4" y="721.5" width="1" height="4.2"/>
+		
+			<rect x="606.4" y="721.5" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<g id="_x30_2-上针脚_28_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="607.2" y1="222.7" x2="607.2" y2="214.5"/>
+		<path fill="#FFFFFF" d="M607.1,225.8c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C610.3,224.4,608.9,225.8,607.1,225.8"/>
+		<path d="M607.2,226.4c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V226.4z
+			 M607.2,218.9v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C611,220.6,609.4,218.9,607.2,218.9"/>
+		<rect x="603.2" y="218.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="606.7" y="219.4" width="1" height="4.2"/>
+		
+			<rect x="606.7" y="219.4" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<rect x="604.7" y="255.3" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 596.3123 260.6813)" font-family="'FZLTHJW--GB1-0'" font-size="6px">Gr 0.35</text>
+	<line fill="none" stroke="#89438F" stroke-width="3" stroke-miterlimit="10" x1="647.6" y1="224.9" x2="647.6" y2="719"/>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="647.6" y1="224.9" x2="647.6" y2="719"/>
+	<g id="_x30_2-上针脚_35_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="647.4" y1="722.4" x2="647.4" y2="730.6"/>
+		<path fill="#FFFFFF" d="M647.3,719.3c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+			C650.5,720.7,649.1,719.3,647.3,719.3"/>
+		<path d="M647.4,719.8c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V719.8z
+			 M647.4,726.2c2.2,0,3.8-1.7,3.8-3.8c0-2.1-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V726.2"/>
+		<rect x="643.4" y="722.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="646.9" y="721.5" width="1" height="4.2"/>
+		
+			<rect x="646.9" y="721.5" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<g id="_x30_2-上针脚_34_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="647.6" y1="222.7" x2="647.6" y2="214.5"/>
+		<path fill="#FFFFFF" d="M647.5,225.8c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C650.7,224.4,649.3,225.8,647.5,225.8"/>
+		<path d="M647.6,226.4c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V226.4z
+			 M647.6,218.9v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C651.4,220.6,649.8,218.9,647.6,218.9"
+			/>
+		<rect x="643.6" y="218.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="647.1" y="219.4" width="1" height="4.2"/>
+		
+			<rect x="647.1" y="219.4" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<rect x="645.1" y="255.3" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 634.2272 260.6813)" font-family="'FZLTHJW--GB1-0'" font-size="6px">V/W 0.35</text>
+	<rect x="200.2" y="690.6" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 192.9816 696)" font-family="'FZLTHJW--GB1-0'" font-size="6px">G 0.35</text>
+	<rect x="240.7" y="690.6" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 230.147 696)" font-family="'FZLTHJW--GB1-0'" font-size="6px">L/W 0.35</text>
+	<rect x="281.1" y="690.6" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 269.6796 696)" font-family="'FZLTHJW--GB1-0'" font-size="6px">Gr/Y 0.35</text>
+	<rect x="321.6" y="690.6" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 310.6892 696)" font-family="'FZLTHJW--GB1-0'" font-size="6px">Y/W 0.35</text>
+	<rect x="362" y="690.6" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 354.1945 696)" font-family="'FZLTHJW--GB1-0'" font-size="6px">W 0.35</text>
+	<rect x="402.5" y="690.6" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 391.981 696)" font-family="'FZLTHJW--GB1-0'" font-size="6px">R/G 0.35</text>
+	<rect x="442.9" y="690.6" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 436.013 696)" font-family="'FZLTHJW--GB1-0'" font-size="6px">Y 0.35</text>
+	<rect x="483.3" y="690.6" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 473.05 696)" font-family="'FZLTHJW--GB1-0'" font-size="6px">G/B 0.35</text>
+	<rect x="523.8" y="690.6" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 513.3214 696)" font-family="'FZLTHJW--GB1-0'" font-size="6px">G/R 0.35</text>
+	<rect x="564.2" y="690.6" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 553.0175 696)" font-family="'FZLTHJW--GB1-0'" font-size="6px">W/G 0.35</text>
+	<rect x="604.7" y="690.6" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 596.3123 696)" font-family="'FZLTHJW--GB1-0'" font-size="6px">Gr 0.35</text>
+	<rect x="645.1" y="690.6" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 634.2272 696)" font-family="'FZLTHJW--GB1-0'" font-size="6px">V/W 0.35</text>
+	
+		<rect id="电器盒_2_" x="68.5" y="141.8" fill="#DCDDDD" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" width="53.5" height="51.3"/>
+	<g>
+		<g>
+			<polyline fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" points="95.3,157.6 95.3,155.8 95.3,47.6 			
+				"/>
+		</g>
+	</g>
+	<g>
+		<path fill="#060001" stroke="#FFFFFF" d="M92.4,47.7c0-1.7,1.3-2.9,2.8-2.9c1.6,0,2.9,1.2,2.9,2.9c0,1.5-1.3,2.7-2.9,2.7
+			C93.7,50.4,92.4,49.2,92.4,47.7z"/>
+		<g>
+			<path fill="none" stroke="#FFFFFF" stroke-width="1.0001" d="M92.4,47.7c0-1.7,1.3-2.9,2.8-2.9c1.6,0,2.9,1.2,2.9,2.9
+				c0,1.5-1.3,2.7-2.9,2.7C93.7,50.4,92.4,49.2,92.4,47.7"/>
+		</g>
+	</g>
+	<g>
+		<g id="RF22_x2C_A3_2_">
+			<g>
+				<g>
+					<path fill="none" stroke="#070102" stroke-width="0.75" d="M95.3,173.4c-1.2,0-2.2,1-2.2,2.2s1,2.2,2.2,2.2s2.2-1,2.2-2.2
+						S96.5,173.4,95.3,173.4"/>
+				</g>
+				<g>
+					<path fill="none" stroke="#070102" stroke-width="0.75" d="M95.3,157.6c-1.2,0-2.2,1-2.2,2.1c0,1.2,1,2.2,2.2,2.2
+						s2.2-0.9,2.2-2.2C97.5,158.6,96.5,157.6,95.3,157.6"/>
+				</g>
+				<g>
+					<path fill="none" stroke="#070102" stroke-width="0.75" d="M93.8,161.3c-0.1,2.5,0.2,3.2,1.3,4.3c1.2,1.2,2.4,1.7,2.8,3.7
+						c0.4,1.6-0.1,3.5-1.1,4.5"/>
+				</g>
+				<g>
+					<path fill="none" stroke="#070102" stroke-width="0.75" d="M96.7,173.9c0.2-0.8,0-2.9-0.6-3.7c-0.9-1.2-2.7-2.1-3.3-4
+						c-0.9-2.8,0.7-4.6,1.1-5"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<polyline fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" points="95.3,177.9 95.3,180.8 95.3,193.1 
+									"/>
+			</g>
+		</g>
+	</g>
+	<g id="_x30_2-上针脚_7_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="95.3" y1="201.3" x2="95.3" y2="193.1"/>
+		<path fill="#FFFFFF" d="M95.2,204.4c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2C98.4,203,97,204.4,95.2,204.4"/>
+		<path d="M95.3,205c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V205z
+			 M95.3,197.5v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C99.1,199.2,97.5,197.5,95.3,197.5"/>
+		<rect x="91.3" y="197.1" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="94.8" y="198" width="1" height="4.2"/>
+		
+			<rect x="94.8" y="198" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<g id="_x30_2-上针脚_9_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="165.1" y1="222.8" x2="165.1" y2="214.5"/>
+		<path fill="#FFFFFF" d="M165,225.9c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C168.2,224.5,166.8,225.9,165,225.9"/>
+		<path d="M165.1,226.5c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V226.5z
+			 M165.1,219v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S167.3,219,165.1,219"/>
+		<rect x="161.1" y="218.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="164.6" y="219.5" width="1" height="4.2"/>
+		
+			<rect x="164.6" y="219.5" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<g>
+		<rect x="150.5" y="236.5" fill="#FFFFFF" width="29.8" height="7.1"/>
+		<text transform="matrix(1 0 0 1 152.4832 242.2497)" font-family="'FZLTHJW--GB1-0'" font-size="6px">R/B 0.35</text>
+	</g>
+	<g>
+		<rect x="79.9" y="236.5" fill="#FFFFFF" width="29.8" height="7.1"/>
+		<text transform="matrix(1 0 0 1 81.8954 242.2497)" font-family="'FZLTHJW--GB1-0'" font-size="6px">R/B 0.35</text>
+	</g>
+	<text transform="matrix(1 0 0 1 100.8018 173.1281)" font-family="'FZLTHJW--GB1-0'" font-size="6px">5A</text>
+	<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="826.7" y1="225.2" x2="826.7" y2="736"/>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="1.3" x1="819.8" y1="736" x2="833.6" y2="736"/>
+		</g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="1.3" x1="822.6" y1="738.2" x2="830.8" y2="738.2"/>
+		</g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="1.3" x1="829.2" y1="740.3" x2="824.3" y2="740.3"/>
+		</g>
+	</g>
+	<g id="_x30_2-上针脚_40_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="826.7" y1="222.5" x2="826.7" y2="214.3"/>
+		<path fill="#FFFFFF" d="M826.6,225.6c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C829.8,224.2,828.4,225.6,826.6,225.6"/>
+		<path d="M826.6,226.2c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V226.2z
+			 M826.6,218.7v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C830.4,220.4,828.8,218.7,826.6,218.7"
+			/>
+		<rect x="822.6" y="218.3" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="826.2" y="219.2" width="1" height="4.2"/>
+		
+			<rect x="826.2" y="219.2" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<rect x="824" y="254.7" fill="#FFFFFF" width="5.3" height="7.1"/>
+	<text transform="matrix(1 0 0 1 817.2656 260.1177)" font-family="'FZLTHJW--GB1-0'" font-size="6px">B 0.35</text>
+	<polyline fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" points="870,225.2 870,572.8 826.8,572.8 	"/>
+	<g id="_x30_2-上针脚_41_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="870" y1="222.5" x2="870" y2="214.3"/>
+		<path fill="#FFFFFF" d="M869.9,225.6c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C873.1,224.2,871.7,225.6,869.9,225.6"/>
+		<path d="M869.9,226.2c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V226.2z
+			 M869.9,218.7v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C873.7,220.4,872.1,218.7,869.9,218.7"
+			/>
+		<rect x="865.9" y="218.3" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="869.5" y="219.2" width="1" height="4.2"/>
+		
+			<rect x="869.5" y="219.2" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<rect x="867.3" y="254.7" fill="#FFFFFF" width="5.3" height="7.1"/>
+	<text transform="matrix(1 0 0 1 860.6133 260.1177)" font-family="'FZLTHJW--GB1-0'" font-size="6px">B 0.35</text>
+	<g>
+		<g>
+			<rect x="816.6" y="742.8" fill="#FFFFFF" width="20.3" height="8.2"/>
+			
+				<rect x="816.9" y="743.2" fill="#FFFFFF" stroke="#211613" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" width="19.7" height="7.6"/>
+		</g>
+	</g>
+	<rect x="867.8" y="478.3" fill="#FFFFFF" width="5.3" height="7.1"/>
+	<text transform="matrix(1 0 0 1 861.1233 483.7287)" font-family="'FZLTHJW--GB1-0'" font-size="6px">B 0.35</text>
+	<line fill="none" stroke="#E99893" stroke-width="3" stroke-miterlimit="10" x1="772.5" y1="225.8" x2="772.5" y2="721.4"/>
+	<line fill="none" stroke="#824188" stroke-width="3" stroke-miterlimit="10" x1="721.1" y1="225.8" x2="721.1" y2="721.4"/>
+	<path fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" d="M718.4,294c-1.9,0-3.5-1.5-3.5-3.5
+		c0-1.9,1.6-3.5,3.5-3.5l57.7,6.9c1.9,0,3.5-1.5,3.5-3.5c0-1.9-1.6-3.5-3.5-3.5L718.4,294z"/>
+	<g id="_x30_2-上针脚_37_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="721.1" y1="222.7" x2="721.1" y2="214.5"/>
+		<path fill="#FFFFFF" d="M721,225.8c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C724.2,224.4,722.8,225.8,721,225.8"/>
+		<path d="M721.1,226.4c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V226.4z
+			 M721.1,218.9v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S723.3,218.9,721.1,218.9"/>
+		<rect x="717.1" y="218.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="720.6" y="219.4" width="1" height="4.2"/>
+		
+			<rect x="720.6" y="219.4" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<g id="_x30_2-上针脚_36_">
+		<line fill="none" stroke="#000000" stroke-width="0.6" stroke-linejoin="round" x1="772.5" y1="222.7" x2="772.5" y2="214.5"/>
+		<path fill="#FFFFFF" d="M772.4,225.8c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C775.6,224.4,774.2,225.8,772.4,225.8"/>
+		<path d="M772.5,226.4c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V226.4z
+			 M772.5,218.9v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S774.7,218.9,772.5,218.9"/>
+		<rect x="768.5" y="218.5" fill="#FFFFFF" width="8.1" height="4.1"/>
+		<rect x="772" y="219.4" width="1" height="4.2"/>
+		
+			<rect x="772" y="219.4" fill="none" stroke="#000000" stroke-width="0.72" stroke-linecap="round" stroke-linejoin="round" width="1" height="4.2"/>
+	</g>
+	<g>
+		<rect x="769.8" y="256.6" fill="#FFFFFF" width="5.9" height="6"/>
+		<g>
+			<text transform="matrix(1 0 0 1 764.7862 261.7483)" font-family="'FZLTHJW--GB1-0'" font-size="6px">P 0.35</text>
+		</g>
+	</g>
+	<rect x="714.3" y="256.9" fill="#FFFFFF" width="13.7" height="6"/>
+	<g>
+		<text transform="matrix(1 0 0 1 711.7095 261.7392)" font-family="'FZLTHJW--GB1-0'" font-size="6px">V 0.35</text>
+	</g>
+	<path fill="none" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="M718.4,725.3l0.6,2.1
+		c0,0,0.6,2.5,3.3,2.6h22.1l0,0l1.9,2.7l1.9-2.7c9,0,22.1,0,22.1,0c2.7-0.1,3.3-2.6,3.3-2.6l0.6-2.1"/>
+	<text transform="matrix(1 0 0 1 717.3912 738.3834)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="6px">See Energy Network </tspan><tspan x="0" y="7.2" font-family="'FZLTHJW--GB1-0'" font-size="6px">Circuit Diagram</tspan></text>
+	<g>
+		<path fill="#060001" stroke="#FFFFFF" d="M867.2,372.5c0-1.7,1.3-2.9,2.8-2.9c1.6,0,2.9,1.2,2.9,2.9c0,1.5-1.3,2.7-2.9,2.7
+			C868.5,375.2,867.2,374,867.2,372.5z"/>
+		<g>
+			<path fill="none" stroke="#FFFFFF" stroke-width="1.0001" d="M867.2,372.5c0-1.7,1.3-2.9,2.8-2.9c1.6,0,2.9,1.2,2.9,2.9
+				c0,1.5-1.3,2.7-2.9,2.7C868.5,375.2,867.2,374,867.2,372.5"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<rect x="875.4" y="368.5" fill="#FFFFFF" stroke="#211613" stroke-width="0.25" width="24.2" height="5.6"/>
+		</g>
+		<text transform="matrix(1 0 0 1 875.6921 373.4403)" font-family="'FZLTHJW--GB1-0'" font-size="6px">SP4892</text>
+	</g>
+	<g>
+		<path fill="#060001" stroke="#FFFFFF" d="M92.5,260.8c0-1.7,1.3-2.9,2.8-2.9c1.6,0,2.9,1.2,2.9,2.9c0,1.5-1.3,2.7-2.9,2.7
+			C93.8,263.5,92.5,262.3,92.5,260.8z"/>
+		<g>
+			<path fill="none" stroke="#FFFFFF" stroke-width="1.0001" d="M92.5,260.8c0-1.7,1.3-2.9,2.8-2.9c1.6,0,2.9,1.2,2.9,2.9
+				c0,1.5-1.3,2.7-2.9,2.7C93.8,263.5,92.5,262.3,92.5,260.8"/>
+		</g>
+	</g>
+	<g>
+		<rect x="99.3" y="252" fill="#FFFFFF" stroke="#211613" stroke-width="0.25" width="14.2" height="5.6"/>
+	</g>
+	<text transform="matrix(1 0 0 1 99.6199 256.9334)" font-family="'FZLTHJW--GB1-0'" font-size="6px">SP7</text>
+	<g>
+		<path fill="#060001" stroke="#FFFFFF" d="M823.9,572.9c0-1.7,1.3-2.9,2.8-2.9c1.6,0,2.9,1.2,2.9,2.9c0,1.5-1.3,2.7-2.9,2.7
+			C825.2,575.6,823.9,574.4,823.9,572.9z"/>
+		<g>
+			<path fill="none" stroke="#FFFFFF" stroke-width="1.0001" d="M823.9,572.9c0-1.7,1.3-2.9,2.8-2.9c1.6,0,2.9,1.2,2.9,2.9
+				c0,1.5-1.3,2.7-2.9,2.7C825.2,575.6,823.9,574.4,823.9,572.9"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<rect x="830.4" y="563.2" fill="#FFFFFF" stroke="#211613" stroke-width="0.25" width="24.2" height="5.6"/>
+		</g>
+		<text transform="matrix(1 0 0 1 830.6921 568.1668)" font-family="'FZLTHJW--GB1-0'" font-size="6px">SP5426</text>
+	</g>
+	<rect x="824.2" y="690.6" fill="#FFFFFF" width="5" height="7.1"/>
+	<text transform="matrix(1 0 0 1 817.2657 696)" font-family="'FZLTHJW--GB1-0'" font-size="6px">B 0.35</text>
+	<g>
+		<text transform="matrix(1 0 0 1 152.0503 211.7999)" font-family="'FZLTHJW--GB1-0'" font-size="4px">Constant power</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 185.8961 211.7999)" font-family="'FZLTHJW--GB1-0'" font-size="4px">12V power supply</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 226.8961 211.7999)" font-family="'FZLTHJW--GB1-0'" font-size="4px">5V power supply</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 266.1384 208.5667)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="4px">UNLOCK switch </tspan><tspan x="0" y="4.8" font-family="'FZLTHJW--GB1-0'" font-size="4px">signal acquisition</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 314.0134 208.5667)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="4px">Hall signal </tspan><tspan x="0" y="4.8" font-family="'FZLTHJW--GB1-0'" font-size="4px">acquisition 1</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 354.1384 208.5667)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="4px">Hall signal </tspan><tspan x="0" y="4.8" font-family="'FZLTHJW--GB1-0'" font-size="4px">acquisition 2</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 397.3259 210.9666)" font-family="'FZLTHJW--GB1-0'" font-size="4px">Backlight driver</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 433.3675 208.5667)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="4px">P gear switch </tspan><tspan x="0" y="4.8" font-family="'FZLTHJW--GB1-0'" font-size="4px">signal acquisition</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 474.7842 208.5667)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="4px">D gear </tspan><tspan x="0" y="4.8" font-family="'FZLTHJW--GB1-0'" font-size="4px">indicator drive</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 514.6883 208.5667)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="4px">N gear </tspan><tspan x="0" y="4.8" font-family="'FZLTHJW--GB1-0'" font-size="4px">indicator drive</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 555.9721 208.5667)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="4px">R gear </tspan><tspan x="0" y="4.8" font-family="'FZLTHJW--GB1-0'" font-size="4px">indicator drive</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 596.5554 208.5667)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="4px">P gear </tspan><tspan x="0" y="4.8" font-family="'FZLTHJW--GB1-0'" font-size="4px">indicator drive</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 643.9342 211.7999)" font-family="'FZLTHJW--GB1-0'" font-size="4px">Ground</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 714.2812 211.7999)" font-family="'FZLTHJW--GB1-0'" font-size="4px">CAN_L</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 766.2187 211.7999)" font-family="'FZLTHJW--GB1-0'" font-size="4px">CAN_H</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 821.8854 211.7999)" font-family="'FZLTHJW--GB1-0'" font-size="4px">Ground</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 866.8997 211.7999)" font-family="'FZLTHJW--GB1-0'" font-size="4px">Ground</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 189.6834 735.2999)" font-family="'FZLTHJW--GB1-0'" font-size="4px">12V power supply</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 229.1834 735.2999)" font-family="'FZLTHJW--GB1-0'" font-size="4px">5V power supply</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 266.725 735.5425)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="4px"> UNLOCK switch </tspan><tspan x="0" y="4.8" font-family="'FZLTHJW--GB1-0'" font-size="4px">signal acquisition</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 312.9334 735.5421)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="4px">Hall signal </tspan><tspan x="0" y="4.8" font-family="'FZLTHJW--GB1-0'" font-size="4px">acquisition 1</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 352.6834 735.5425)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="4px">Hall signal </tspan><tspan x="0" y="4.8" font-family="'FZLTHJW--GB1-0'" font-size="4px">acquisition 2</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 389.7456 735.3003)" font-family="'FZLTHJW--GB1-0'" font-size="4px">Backlight driver</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 431.904 735.5424)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="4px">P gear switch </tspan><tspan x="0" y="4.8" font-family="'FZLTHJW--GB1-0'" font-size="4px">signal acquisition</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 475.5581 735.5427)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="4px">D gear i</tspan><tspan x="0" y="4.8" font-family="'FZLTHJW--GB1-0'" font-size="4px">ndicator drive</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 513.9828 735.5421)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="4px">N gear </tspan><tspan x="0" y="4.8" font-family="'FZLTHJW--GB1-0'" font-size="4px">indicator drive</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 559.4828 735.5424)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="4px">R gear </tspan><tspan x="0" y="4.8" font-family="'FZLTHJW--GB1-0'" font-size="4px">indicator drive</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 602.0662 735.5424)" enable-background="new    "><tspan x="0" y="0" font-family="'FZLTHJW--GB1-0'" font-size="4px">P gear </tspan><tspan x="0" y="4.8" font-family="'FZLTHJW--GB1-0'" font-size="4px">indicator drive</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 643.3751 735.2999)" font-family="'FZLTHJW--GB1-0'" font-size="4px">Ground</text>
+	</g>
+</g>
+<g id="图层_2">
+	<g>
+		<text transform="matrix(1 0 0 1 503.7639 203.3282)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">Shift control panel</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 419.9043 748.3298)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">Shift mechanism</text>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 218.8895 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-8</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 260.2632 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-13</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 300.5132 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-10</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 342.0132 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-11</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 382.6382 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-12</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 421.1232 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-6</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 462.7899 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-9</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 503.1232 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-2</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 542.4635 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-3</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 582.6096 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-4</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 623.3566 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-5</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 664.8566 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-1</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 206.5614 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G39</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 247.9351 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G39</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 288.1851 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G39</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 329.6851 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G39</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 370.3101 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G39</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 408.7951 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G39</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 450.4618 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G39</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 490.7951 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G39</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 530.1354 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G39</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 570.2815 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G39</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 611.0284 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G39</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 652.5284 727.6911)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G39</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 221.5892 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-28</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 262.0359 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-23</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 302.4827 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-26</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 342.9294 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-25</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 383.3761 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-24</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 423.8228 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-9</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 464.2695 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-27</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 504.7162 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-13</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 545.163 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-12</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 585.6097 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-11</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 626.0564 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-10</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 666.5031 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-14</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 114.1066 201.2003)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-8</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 183.9646 222.6503)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-5</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 843.8199 222.0158)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-1</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 887.1677 222.0158)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-4</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 790.9509 221.6884)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-7</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 739.2829 221.6884)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">-8</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 209.2142 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G16</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 249.6609 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G16</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 290.1077 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G16</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 330.5544 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G16</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 371.0011 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G16</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 411.4478 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G16</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 451.8945 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G16</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 492.3412 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G16</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 532.788 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G16</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 573.2347 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G16</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 613.6814 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G16</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 654.1281 222.5504)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G16</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 101.8019 201.2003)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G82</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 171.5896 222.6503)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G16</text>
+		</g>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 100.8018 165.928)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">F2/07</text>
+	</g>
+	<g id="保险丝名称_1_">
+		<g>
+			<text transform="matrix(1 0 0 1 125.9819 166.7863)"><tspan x="0" y="0" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">Instrument </tspan><tspan x="0" y="7.2" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">distribution box</tspan></text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 831.4449 222.0158)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G16</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 874.7927 222.0158)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G16</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 819.1713 749.1522)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">Eg04</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 778.5759 221.6884)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G16</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 726.9079 221.6884)" fill="#005EAD" font-family="'FZLTHJW--GB1-0'" font-size="6px">G16</text>
+		</g>
+	</g>
+</g>
+</svg>

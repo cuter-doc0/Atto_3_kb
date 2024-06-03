@@ -1,0 +1,729 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="System Description"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>System Description</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-1-F5240221">
+         
+         
+         
+         <h3 class="topictitletopic1 title">System Description</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section">
+               <h3 class="title topictitle1">Component Location View</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G074477.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               <p class="p"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr> 
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>SN.</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>Name</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>SN.</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>Name</p> 
+                              
+                           </th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>1</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>CABR module</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>7</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Front impact sensor I (left)</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>2</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>CABL module</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>8</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Front impact sensor I (right)</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>3</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Front seat far-end left airbag module</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>9</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Side impact sensor (right)</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>4</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Left front seat side airbag module</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>10</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Front seat far-end right airbag module</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>5</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Side impact sensor (left)</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>11</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Right front seat side airbag module</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>6</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>SRS electronic control unit</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle">&nbsp;</td>  
+                           
+                           <td width="25%" align="center" valign="middle">&nbsp;</td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </p>  
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G074478.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               <p class="p"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr> 
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>SN.</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>Name</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>SN.</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>Name</p> 
+                              
+                           </th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>1</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>PAB module</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>2</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>DAB module</p> 
+                              
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </p> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">System Function Principle</h3> 
+               
+               
+               <p class="p">System overview</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Automobile safety is divided into active safety system and passive safety system. Active safety refers to the ability to detect
+                        hazards in advance, (such as windshield vision, lighting system, and rearview mirror), and the ability to avoid danger in
+                        advance (such as steering system, braking system, anti-skid, and driving stability control system). Passive safety refers
+                        to avoiding or mitigating injuries to passengers, such as seat belts, airbags, etc.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The Supplemental Restraint System is a passive, expandable and auxiliary protection system, referred to as SRS for short.
+                        It can be identified by the "SRS AIRBAG" sign.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The driver airbag module sign is cast on the decorative cover in the middle of the steering wheel, while the front passenger
+                        airbag module sign is cast on the instrument panel above the glove box. Vehicles equipped with a supplemental restraint system
+                        can also be identified by the airbag malfunction indicator light on the combination instrument. Each time the vehicle power
+                        supply is set to OK, self-test will be conducted, and the airbag malfunction indicator light on the combination instrument
+                        will be on for about 5s.
+                     </p> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p">System composition and function</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The Supplemental Restraint System consists of the following main components:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Front impact sensor I.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Side impact sensor.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Front passenger airbag module.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Side curtain airbag module.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Driver airbag module.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">SRS electronic control unit</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">PAB harness.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">SRS fault warning light.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Front seat side airbag module.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Clock spring.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The SRS electronic control unit is installed on the central axis of the vehicle, under the central control panel. If the start
+                        iron battery voltage is too low or the power supply is disconnected due to an impact, the SRS electronic control unit can
+                        still work for more than 100ms.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The driver airbag module (DAB) is installed in the central decorative cover of the steering wheel and cannot be disassembled.
+                        DAB includes gas generator, airbag, decorative cover, bracket and other accessories. The function of DAB is to receive the
+                        ignition signal from SRS electronic control unit, ignite the gas generator, generate a large amount of gas, inflate the airbag,
+                        form an air cushion and protect passengers.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The clock spring, composed of spiral cable, rotor, shell, harness and auxiliary structural parts, is installed on the combination
+                        switch. When the steering wheel is turned, the rotor and the steering wheel rotate as a whole, and a sufficient length of
+                        spiral cable is spirally wound in the housing. When the rotor rotates 2.5 clockwise and counterclockwise from the middle position,
+                        the reliable connection of wires will not be affected.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The front passenger airbag module (PAB) is installed on the instrument panel above the glove box. The composition and function
+                        of PAB are the same as DAB.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The impact sensor I is installed inside the left and right longitudinal beams of the front compartment. The function of the
+                        front impact sensor is to transmit the impact signal to the SRS electronic control unit as the basis for the ECSRS electronic
+                        control unit to determine whether to send the ignition signal and impact unlocking signal.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The airbag harness is used to connect SRS electronic control unit, DAB, PAB, SAB, CAB, clock spring, instrument panel harness,
+                        etc. The airbag harness includes airbag module drive circuit, warning light circuit, impact unlocking circuit, and vehicle
+                        communication bus. The function of airbag harness is to transmit signals between SRS electronic control unit, airbag module
+                        and vehicle, and ensure reliable communication. The airbag circuit harness can be identified by its yellow cable or connector.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The SRS fault warning light is located on the combination instrument. When a fault is found in the self-diagnosis circuit
+                        of the SRS electronic control unit, the SRS fault warning light will be on to remind the driver that there is a fault in the
+                        Supplemental Restraint System. Under normal conditions, when the vehicle power supply is set to OK, the SRS fault warning
+                        light will be on for about 5s and then go out.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The Supplemental Restraint System is assisted by:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Instrument panel lower right guard assembly: this is a molded structural part, which is located at the rear side of the steering
+                              column opening cover, and forms an integral part with the instrument panel to protect the driver's knees.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Glove box assembly: this is a structural reinforcement that protects the knees of front passengers.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Seat belt: the main protection for passengers is seat belt. When the vehicle has emergency braking, impact and rollover, the
+                              seat belts will firmly bind the passengers to the seats, limit the position of the driver or passengers, and avoid or reduce
+                              the injury caused by the secondary impact. In order to maximize the protection of the Supplemental Restraint System, passengers
+                              must wear seat belts.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Seat belt alarm indicator: monitoring the driver seat belt.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Child Protection Lock System (CPLS): once CPLS is enabled, the door cannot be opened from the inside, but only from the outside.
+                              This can prevent children from accidentally opening the door, or sudden opening during vehicle collision.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Seat headrest: to avoid or reduce the injury to the neck during impact.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Laminated Safety Glass (LSKG): to avoid accidental injury caused by glass fragments.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Anti-collision energy absorbing body and accessories: including energy absorbing bumper, buffer pad, door anti-collision bar,
+                              etc.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p">Operating principle</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The airbag operation depends on the angle and severity of vehicle impact.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The designed impact working angle of the Supplemental Restraint System is within 30 ° in front of the body centerline.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The deployment of the airbag does not depend on the vehicle speed, but on the deceleration ratio based on gravity (kg), which
+                        is measured by the impact sensor. When the impact is serious enough, the microprocessor in the SRS electronic control unit
+                        sends a working signal to the deployment device of the two airbag modules to deploy the airbags.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The clock spring on the top of the steering column allows a continuous circuit to be maintained between the fixed steering
+                        column and the driver airbag module (DAB), and can rotate with the steering wheel.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">When the airbag is deployed in the case of front impact, the side protector guard works together with the seat belt to restrain
+                        the driver and front passenger in appropriate positions. The side protector guard can absorb and disperse the impact energy
+                        of the driver and front passenger on the instrument panel structure.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">When the SRS electronic control unit identifies a problem of any airbag component and circuit, it stores the DTC in its memory
+                        and sends the information to the combination instrument to illuminate the airbag malfunction indicator lamp.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">A VDS is required to correctly test supplemental restraint system components, read or clear trouble codes, and carry out maintenance.</p> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">System Block Diagram</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G079402.png"></img></div>
+                  </div> 
+                  
+               </p> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Tire Rotation"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM175106"></meta>
+      
+      <meta name="DC.Language" content="en-us"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Tire Rotation</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM175106">
+         
+         
+         <h3 class="topictitletopic1 title">Tire Rotation</h3>
+         
+         <div class="body"> 
+            <div>
+               <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d62180e12">
+                  <div class="noteheader">
+                     <div class="common tip">
+                        <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                  </div>
+                  <div class="notebody attention-text postspace-s wl-attention-content">
+                     <p class="p">For the sake of driving safety, all wheels must be equipped with radial tires with the same model, size (rolling circumference)
+                        and tread pattern as those in the factory status.
+                     </p>
+                  </div>
+               </div>
+               
+            </div>          
+            <div>
+               <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d62180e16">
+                  <div class="noteheader">
+                     <div class="common tip">
+                        <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                  </div>
+                  <div class="notebody attention-text postspace-s wl-attention-content">
+                     <ul name="contents" class="ul">
+                        <li>
+                           <p class="p-inline">To ensure even tire wear and prolong the service life of tires, it is recommended to perform tire rotation according to the
+                              maintenance schedule or when the difference of tread depths is greater than or equal to 2 mm. However, the most appropriate
+                              time for tire rotation depends on the driver's driving habits and road conditions.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">For vehicles equipped with tire pressure monitoring display, the tire pressure monitoring module needs to be re-matched and
+                              learned after tire rotation. Refer to <a class="xref" href="DTRM189021.html">Tire Pressure Monitoring Module Matching</a>&nbsp;
+                           </p>
+                        </li>
+                     </ul>
+                     
+                  </div>
+               </div>
+               
+            </div>
+            <p class="p">Front and rear tires bear different loads and experience varying degrees of wear. To prevent uneven wear, it is necessary
+               to rotate tires regularly or as needed, thus extending their lifespan.
+            </p>      
+            <p class="p">The main purposes of tire rotation are:</p>
+            <p class="p">       
+               <ul name="contents" class="ul">         
+                  <li>           
+                     <p class="p-inline">Ensure even tire wear and fatigue to improve stability and cost-effectiveness.</p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">Check the condition of tires during rotation to find out the damage in time and prevent accidents.</p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">When rotating tires, make sure that the tires of the steered wheels are in the best condition to improve the vehicle stability
+                        and safety.
+                     </p>         
+                  </li>       
+               </ul>
+               
+            </p>      
+            <p class="p"><span class="ph b">Repair tools and equipment required</span></p>
+            <ul name="contents" class="ul">
+               <li>
+                  <p class="p-inline">Tire rack</p>
+               </li>
+               <li>
+                  <p class="p-inline">Torque wrench (60-340 N•m) </p>
+               </li>
+            </ul>
+            
+            <p class="p">       <span class="ph b">Cross tire rotation</span>     
+            </p>      
+            <ol class="num">       
+               <li> 
+                  <p class="p-inline">Steps for tire rotation</p>     
+                  <ol class="num">
+                     <li>
+                        <p class="p-inline">Remove 4 wheel assemblies of the vehicle.</p>
+                     </li>
+                     <li>
+                        <p class="p-inline">Move wheel 1 to the original installation position of wheel 4.</p>
+                     </li>
+                     <li>
+                        <p class="p-inline">Move wheel 4 to the original installation position of wheel 2.</p>
+                     </li>
+                     <li>
+                        <p class="p-inline">Move wheel 2 to the original installation position of wheel 3.</p>
+                     </li>
+                     <li>
+                        <p class="p-inline">Move wheel 3 to the original installation position of wheel 1.</p>
+                     </li>
+                  </ol>
+                  <p>       
+                     <div class="bottomNoTable">         
+                        <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G071235.png"></img></div>       
+                     </div>
+                  </p>
+               </li>
+            </ol>
+            <div>
+               <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d62180e102">
+                  <div class="noteheader">
+                     <div class="common tip">
+                        <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                  </div>
+                  <div class="notebody attention-text postspace-s wl-attention-content">
+                     <p class="p">Directional tires can only be exchanged between front and rear wheels, and cross rotation is not allowed; otherwise, it may
+                        deteriorate driving safety and cause serious casualties!
+                     </p>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

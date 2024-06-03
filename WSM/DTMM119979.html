@@ -1,0 +1,190 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Precautions"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Precautions</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-1-F5240221">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Precautions</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section">
+               <h3 class="title topictitle1">Operation Safety Precautions and Warnings</h3> 
+               
+               
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d9025e17">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">  
+                        
+                        <ul name="contents" class="ul"> 
+                           
+                           <li> 
+                              
+                              <p class="p-inline">The interior trim crow plate shall be used to remove the interior trim. If there is no interior trim crow plate, it can also
+                                 be replaced by a screwdriver or equivalent, but it shall be wrapped.
+                              </p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Since most interior trims are fixed by plastic clips, ensure that all clips have been removed before removing the interior
+                                 trims.
+                              </p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">When installing parts, check whether the fixing clips of parts are missing. If so, add acceptable fixing clips.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Place interior trims in a clean and flat position to avoid rubbing the paint surface.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Check and replace all damaged fixing clips and cable ties.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">The connector shall be properly inserted, avoiding virtual insertion or terminal bending, and the secondary locking shall
+                                 be in place.
+                              </p> 
+                              
+                           </li> 
+                           
+                        </ul>
+                        
+                        
+                     </div>
+                  </div>
+                  
+               </div>  
+               
+               <div>
+                  <div class="wl-attention prespace postspace warning-imgwarning" data-attention-type="warning" id="d9025e60">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/warningv2.svg"></img></div><span class="notetitleone">Warning</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">  
+                        
+                        <ul name="contents" class="ul"> 
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Do not remove the interior trim with sharp tools.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Never forcibly remove the interior trims.</p> 
+                              
+                           </li> 
+                           
+                        </ul>
+                        
+                        
+                     </div>
+                  </div>
+                  
+               </div> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

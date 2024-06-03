@@ -1,0 +1,702 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="Diagnosis of air conditioner DTC"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA114379"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Diagnosis of air conditioner DTC</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section class="1" id="DTA114379">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Diagnosis of air conditioner DTC</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">List of DTC</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr align="center" valign="middle"> 
+                           
+                           <th width="1" align="center" valign="top">DTC</th>  
+                           
+                           <th width="1" align="center" valign="top">Meaning</th>  
+                           
+                           <th width="1" align="center" valign="top">Diagnostic Process</th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B2AD616</td>  
+                           
+                           <td width="1" align="left" valign="top">12V Power Supply Undervoltage (Lower than 9V)</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125364.html">B2AD616 12V Power Supply Undervoltage (Lower Than 9V)</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B2AD617</td>  
+                           
+                           <td width="1" align="left" valign="top">12V Power Supply Overvoltage</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125365.html">B2AD617 12V Power Supply Overvoltage</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B2A2013</td>  
+                           
+                           <td width="1" align="left" valign="top">Interior temperature sensor open-circuited</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125366.html">B2A2013 Interior Temperature Sensor Open-circuited</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B2A2111</td>  
+                           
+                           <td width="1" align="left" valign="top">Interior temperature sensor is shorted to ground</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125367.html">B2A2111 Interior Temperature Sensor Shorted to Ground</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B2A2213</td>  
+                           
+                           <td width="1" align="left" valign="top">Exterior temperature sensor is open-circuited</td>  
+                           
+                           <td width="1" align="left" valign="top">B2A2213 Exterior Temperature Sensor Open-circuited&nbsp;</td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A2311</td>  
+                           
+                           <td width="1" align="left" valign="top">Exterior temperature sensor is shorted to ground</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125369.html">B2A2311 Exterior Temperature Sensor Shorted to Ground</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A2413</td>  
+                           
+                           <td width="1" align="left" valign="top">Evaporator Temperature Sensor Open-circuited</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125370.html">B2A2413 Evaporator Temperature Sensor Open-circuited</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A2511</td>  
+                           
+                           <td width="1" align="left" valign="top">Evaporator Temperature Sensor Shorted to Ground</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125371.html">B2A2511 Evaporator Temperature Sensor Circuit Shorted to Ground</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A5813</td>  
+                           
+                           <td width="1" align="left" valign="top">Driver's Side Face Outlet Sensor Open-circuited</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125372.html">B2A5813 Driver's Side Face Outlet Temperature Sensor Open-circuited</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A5811</td>  
+                           
+                           <td width="1" align="left" valign="top">Driver's Side Face Outlet Sensor Shorted to Ground</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125373.html">B2A5811 Driver's Side Face Outlet Temperature Sensor Shorted to Ground</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A5913</td>  
+                           
+                           <td width="1" align="left" valign="top">Driver's Side Floor Outlet Temperature Sensor Open-circuited</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125374.html">B2A5913 Driver's Side Floor Outlet Temperature Sensor Open-circuited</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A511</td>  
+                           
+                           <td width="1" align="left" valign="top">Driver's Side Floor Outlet Temperature Sensor Shorted to Ground</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125375.html">B2A5811 Driver's Side Floor Outlet Temperature Sensor Shorted to Ground</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A0813</td>  
+                           
+                           <td width="1" align="left" valign="top">Evaporator outlet refrigerant temperature sensor open-circuited</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125376.html">B2A0813 Evaporator Outlet Refrigerant Temperature Sensor Open-circuited</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A0811</td>  
+                           
+                           <td width="1" align="left" valign="top">Evaporator outlet refrigerant temperature sensor shorted to ground</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125377.html">B2A0811 Evaporator Outlet Refrigerant Temperature Sensor Shorted to Ground</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B134613</td>  
+                           
+                           <td width="1" align="left" valign="top">Refrigerant temperature sensor 1 getting broken circuit</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125378.html">B134613 Refrigerant Temperature Sensor 1 Getting Broken Circuit</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B134611</td>  
+                           
+                           <td width="1" align="left" valign="top">Refrigerant temperature sensor 1 getting broken circuit</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125379.html">B134611 Refrigerant Temperature Sensor 1 Shorted to Ground</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B133413</td>  
+                           
+                           <td width="1" align="left" valign="top">Refrigerant temperature sensor 2 getting broken circuit</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125380.html">B133413 Refrigerant Temperature Sensor 2 Getting Broken Circuit</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B133511</td>  
+                           
+                           <td width="1" align="left" valign="top">Refrigerant temperature sensor 2 shorted to ground</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125381.html">B133511 Refrigerant Temperature Sensor 2 Shorted to Ground</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B133613</td>  
+                           
+                           <td width="1" align="left" valign="top">Refrigerant temperature sensor 3 getting broken circuit</td>  
+                           
+                           <td width="1" align="left" valign="top">B133613 Refrigerant Temperature Sensor 3 Getting Broken Circuit&nbsp;</td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B133711</td>  
+                           
+                           <td width="1" align="left" valign="top">Refrigerant temperature sensor 3 shorted to ground</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125383.html">B133711 Refrigerant Temperature Sensor 3 Shorted to Ground</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A0803</td>  
+                           
+                           <td width="1" align="left" valign="top">Evaporator outlet refrigerant pressure sensor getting broken circuit</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125384.html">B2A0803 Evaporator Outlet Refrigerant Pressure Sensor Open-circuited</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A0801</td>  
+                           
+                           <td width="1" align="left" valign="top">Evaporation outlet refrigerant pressure sensor shorted to power</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125385.html">B2A0801 Evaporator Outlet Refrigerant Pressure Sensor Shorted to Power</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">B134713</td>  
+                           
+                           <td width="1" align="left" valign="top">Air conditioner pressure sensor getting broken circuit</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125386.html">B134713 Air Conditioner Pressure Sensor Getting Broken Circuit</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">B134711</td>  
+                           
+                           <td width="1" align="left" valign="top">Air conditioner pressure sensor is shorted to power</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125387.html">B134711 Air Conditioner Pressure Sensor Shorted to Power</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A2A14</td>  
+                           
+                           <td width="1" align="left" valign="top">Mode motor shorted to ground or open-circuited-circuited</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125388.html">B2A2A14 Mode Motor Shorted to Ground or Open-circuited</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A2A12</td>  
+                           
+                           <td width="1" align="left" valign="top">Mode motor shorted to power</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125389.html">B2A2A12 Mode Motor Shorted to Power</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A2A92</td>  
+                           
+                           <td width="1" align="left" valign="top">Mode motor not rotating in place</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125390.html">B2A2A92 Mode Motor Not Rotating in Place</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A4B14</td>  
+                           
+                           <td width="1" align="left" valign="top">Circulation motor shorted to ground or open-circuited-circuited</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125391.html">B2A4B14 Circulation Motor Shorted to Ground or Open-circuited</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A4B12</td>  
+                           
+                           <td width="1" align="left" valign="top">Circulation motor shorted to power</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125392.html">B2A4B12 Circulation Motor Shorted to Power</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A4B92</td>  
+                           
+                           <td width="1" align="left" valign="top">Circulation Motor Not Rotating in Place</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125393.html">B2A4B92 Circulation Motor Not Rotating in Place</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A2B14</td>  
+                           
+                           <td width="1" align="left" valign="top">Driver's Side heating-cooling switching motor  Shorted to Ground or Open-circuited</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125394.html">B2A2B14 Heating-Cooling Switching Motor Shorted to Ground or Open-circuited</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A2B12</td>  
+                           
+                           <td width="1" align="left" valign="top">Driver's side heating-cooling switching motor shorted to power</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125395.html">B2A2B12 Heating-Cooling Switching Motor Shorted to Power</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A2B92</td>  
+                           
+                           <td width="1" align="left" valign="top">Driver's Side heating-cooling switching motor not Rotating in Place</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125396.html">B2A2B92 Heating-Cooling Switching Motor Not Rotating in Place</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B134111</td>  
+                           
+                           <td width="1" align="left" valign="top">Electric three-way valve motor shorted to ground or open-circuited</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125397.html">B134111 Three-way Valve Motor Shorted to Ground or Open-circuited</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B134211</td>  
+                           
+                           <td width="1" align="left" valign="top">Electric three-way valve motor shorted to power</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125398.html">B134211 Three-way Valve Motor Shorted to Power</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B134392</td>  
+                           
+                           <td width="1" align="left" valign="top">Electric three-way valve not rotating in place</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125399.html">B134392 Three-way Valve Motor Not Rotating in Place</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A3214</td>  
+                           
+                           <td width="1" align="left" valign="top">Front blower shorted to ground or open-circuited</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125400.html">B2A3214 Front Blower Shorted to Ground or Open-circuited</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A3314</td>  
+                           
+                           <td width="1" align="left" valign="top">Front blower adjustment signal shorted to ground or open-circuited-circuited</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125401.html">B2A3314 Front Blower Adjustment Signal Harness Shorted to Ground or Open-circuited</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B133800</td>  
+                           
+                           <td width="1" align="left" valign="top">Solenoid valve 1 status fault</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125402.html">B133800 Solenoid Valve 1 Status Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B133900</td>  
+                           
+                           <td width="1" align="left" valign="top">Solenoid valve 2 status fault</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125403.html">B133900 Solenoid Valve 2 Status Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B133A00</td>  
+                           
+                           <td width="1" align="left" valign="top">Solenoid valve 3 status fault</td>  
+                           
+                           <td width="1" align="left" valign="top">B133A00 solenoid valve 3 status fault&nbsp;</td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B133B00</td>  
+                           
+                           <td width="1" align="left" valign="top">Solenoid valve 4 status fault</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125405.html">B133B00 Solenoid Valve 4 Status Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B133C00</td>  
+                           
+                           <td width="1" align="left" valign="top">Solenoid valve 5 status fault</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125407.html">B133C00 Solenoid Valve 5 Status Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B133D00</td>  
+                           
+                           <td width="1" align="left" valign="top">Solenoid valve 6 status fault</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125406.html">B133D00 Solenoid Valve 6 Status Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B133E00</td>  
+                           
+                           <td width="1" align="left" valign="top">Low voltage PTC relay 1 fault</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125408.html">B133E00 Low Voltage PTC Relay 1 Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B133F00</td>  
+                           
+                           <td width="1" align="left" valign="top">Low voltage PTC relay 2 fault</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125409.html">B133F00 Low Voltage PTC Relay 2 Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B134000</td>  
+                           
+                           <td width="1" align="left" valign="top">Low voltage PTC relay 3 fault</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125410.html">B134000 Low Voltage PTC Relay 3 Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A2712</td>  
+                           
+                           <td width="1" align="left" valign="top">Sunlight Sensor shorted to power</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125411.html">B2A2712 Sunlight Sensor Circuit Shorted to Power</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B1CAF00</td>  
+                           
+                           <td width="1" align="left" valign="top">Humidity sensor fault</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125412.html">B1CAF00 Humidity Sensor Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">U02B087</td>  
+                           
+                           <td width="1" align="left" valign="top">Communication with humidity sensor lost</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125413.html">U02087 Communication with Humidity Sensor Lost</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">U025387</td>  
+                           
+                           <td width="1" align="left" valign="top">Communication with compressor lost</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125414.html">U025387 Communication with Compressor Lost</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2A2F09</td>  
+                           
+                           <td width="1" align="left" valign="top">Air Conditioner Pipeline in High or Low Pressure State</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125415.html">B2A2F09 Air Conditioner Pipeline in High or Low Pressure State</a>&nbsp;
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

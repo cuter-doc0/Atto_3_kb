@@ -1,0 +1,716 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DTC Diagnosis Of&nbsp;Battery Execution and Sampling Unit"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA099576"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DTC Diagnosis Of&nbsp;Battery Execution and Sampling Unit</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA099576">
+         
+         
+         <h3 class="topictitletopic1 title">DTC Diagnosis Of&nbsp;Battery Execution and Sampling Unit</h3>
+         
+         <div class="nested1 topic task" id="tasdc41ceb7">
+            <h3 class="topictitletopic2 title">List of DTC</h3>
+            
+            <div class="body taskbody">
+               <div class="section context">
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <thead style="font-weight: bold">
+                        <tr align="left" valign="middle">
+                           <th width="1" align="center" valign="top">
+                              <p>DTC</p>
+                           </th>
+                           <th width="1" align="center" valign="top">
+                              <p>Meaning</p>
+                           </th>
+                           <th width="1" align="center" valign="top">
+                              <p>Diagnostic Process</p>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A0000</td>
+                           <td width="1" align="left" valign="top">Serious Electric Leakage</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124572.html">P1A0000 Serious Electric Leakage</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A0100</td>
+                           <td width="1" align="left" valign="top">General electric leakage</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124573.html">P1A0100 General Electric Leakage</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A4100</td>
+                           <td width="1" align="left" valign="top">Main contactor sintered</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124574.html">P1A4100 Main Contactor Sintered</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A4200</td>
+                           <td width="1" align="left" valign="top">Negative contactor sintered</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124575.html">P1A4200 Negative Contactor Sintered</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1AC400</td>
+                           <td width="1" align="left" valign="top">Serious Imbalance at Battery</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124576.html">P1AC400 Serious Imbalance at Battery</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">U029787</td>
+                           <td width="1" align="left" valign="top">Communication with On-board Charger Failed</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124577.html">U029787 Communication with On-board Charger Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">U029800</td>
+                           <td width="1" align="left" valign="top">Communication between Battery Management System and DC Failed</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124578.html">U029800 Communication Between Battery Management System and DC Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">U012187</td>
+                           <td width="1" align="left" valign="top">Communication with ABS failed</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124579.html">U012187 Communication with ABS Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A0C00</td>
+                           <td width="1" align="left" valign="top">BIC1 Voltage Sampling Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124580.html">P1A0C00 BIC1 Voltage Sampling Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A0D00</td>
+                           <td width="1" align="left" valign="top">BIC2 Voltage Sampling Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124581.html">P1A0D00 BIC2 Voltage Sampling Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A0E00</td>
+                           <td width="1" align="left" valign="top">BIC3 Voltage Sampling Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124582.html">P1A0E00 BIC3 Voltage Sampling Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A0F00</td>
+                           <td width="1" align="left" valign="top">BIC4 Voltage Sampling Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124583.html">P1A0F00 BIC4 Voltage Sampling Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A1000</td>
+                           <td width="1" align="left" valign="top">BIC5 Voltage Sampling Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124584.html">P1A1000 BIC5 Voltage Sampling Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A1100</td>
+                           <td width="1" align="left" valign="top">BIC6 Voltage Sampling Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124585.html">P1A1100 BIC6 Voltage Sampling Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A1200</td>
+                           <td width="1" align="left" valign="top">BIC7 Voltage Sampling Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124586.html">P1A1200 BIC7 Voltage Sampling Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A1300</td>
+                           <td width="1" align="left" valign="top">BIC8 Voltage Sampling Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124587.html">P1A1300 BIC8 Voltage Sampling Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A0200</td>
+                           <td width="1" align="left" valign="top">BIC1 Working Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124588.html">P1A0200 BIC1 Working Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A0300</td>
+                           <td width="1" align="left" valign="top">BIC2 Working Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124589.html">P1A0300 BIC2 Working Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A0400</td>
+                           <td width="1" align="left" valign="top">BIC3 Working Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124590.html">P1A0400 BIC3 Working Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A0500</td>
+                           <td width="1" align="left" valign="top">BIC4 Working Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124591.html">P1A0500 BIC4 Working Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A0600</td>
+                           <td width="1" align="left" valign="top">BIC5 Working Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124592.html">P1A0600 BIC5 Working Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A0700</td>
+                           <td width="1" align="left" valign="top">BIC6 Working Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124593.html">P1A0700 BIC6 Working Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A0800</td>
+                           <td width="1" align="left" valign="top">BIC7 Working Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124594.html">P1A0800 BIC7 Working Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A0900</td>
+                           <td width="1" align="left" valign="top">BIC8 Working Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124595.html">P1A0900 BIC8 Working Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">U20B000</td>
+                           <td width="1" align="left" valign="top">BIC1CAN Communication Timeout</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA087097.html">BIC1CAN Communication Timeout</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">U20B100</td>
+                           <td width="1" align="left" valign="top">BIC2CAN Communication Timeout</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA087098.html">BIC2CAN Communication Timeout</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">U20B200</td>
+                           <td width="1" align="left" valign="top">BIC3CAN Communication Timeout</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA087099.html">BIC3CAN Communication Timeout</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">U20B300</td>
+                           <td width="1" align="left" valign="top">BIC4CAN Communication Timeout</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA087100.html">BIC4CAN Communication Timeout</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">U20B400</td>
+                           <td width="1" align="left" valign="top">BIC5CAN Communication Timeout</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA087101.html">BIC5CAN Communication Timeout</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">U20B500</td>
+                           <td width="1" align="left" valign="top">BIC6CAN Communication Timeout</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA087102.html">BIC6CAN Communication Timeout</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">U20B600</td>
+                           <td width="1" align="left" valign="top">BIC7CAN Communication Timeout</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA087103.html">BIC7CAN Communication Timeout</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">U20B700</td>
+                           <td width="1" align="left" valign="top">BIC8CAN Communication Timeout</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA087104.html">BIC8CAN Communication Timeout</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B7200</td>
+                           <td width="1" align="left" valign="top">Temperature sampling disconnected (general fault)</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124596.html">P2B7200 Temperature Sampling Disconnected (General Fault)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B7300</td>
+                           <td width="1" align="left" valign="top">Temperature sampling disconnected (serious fault)</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124597.html">P2B7300 Temperature Sampling Disconnected (Serious Fault)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B7100</td>
+                           <td width="1" align="left" valign="top">Voltage sampling disconnected (serious fault)</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124598.html">P2B7100 Voltage Sampling Disconnected (Serious Fault)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B9213</td>
+                           <td width="1" align="left" valign="top">High Voltage Side Drive Open-circuited</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124599.html">P2B9213 High Voltage Side Drive Open-circuited</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B9298</td>
+                           <td width="1" align="left" valign="top">High Voltage Side Drive Overtemperature</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124600.html">P2B9298 High Voltage Side Drive Overtemperature</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A2000</td>
+                           <td width="1" align="left" valign="top">BIC1 Temperature Sampling Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124601.html">P1A2000 BIC1 Temperature Sampling Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A2100</td>
+                           <td width="1" align="left" valign="top">BIC2 Temperature Sampling Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124602.html">P1A2100 BIC2 Temperature Sampling Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A2200</td>
+                           <td width="1" align="left" valign="top">BIC3 Temperature Sampling Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124603.html">P1A2200 BIC3 Temperature Sampling Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A2300</td>
+                           <td width="1" align="left" valign="top">BIC4 Temperature Sampling Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124604.html">P1A2300 BIC4 Temperature Sampling Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A2400</td>
+                           <td width="1" align="left" valign="top">BIC5 Temperature Sampling Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124605.html">P1A2400 BIC5 Temperature Sampling Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A2500</td>
+                           <td width="1" align="left" valign="top">BIC6 Temperature Sampling Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124606.html">P1A2500 BIC6 Temperature Sampling Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A2600</td>
+                           <td width="1" align="left" valign="top">BIC7 Temperature Sampling Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124607.html">P1A2600 BIC7 Temperature Sampling Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A2700</td>
+                           <td width="1" align="left" valign="top">BIC8 Temperature Sampling Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124608.html">P1A2700 BIC8 Temperature Sampling Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">U018087</td>
+                           <td width="1" align="left" valign="top">Communication with High Voltage Side Drive Lost</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124609.html">U018087 Communication with High Voltage Side Drive Lost</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B9211</td>
+                           <td width="1" align="left" valign="top">High Voltage Side Shorted to Ground SC (contactor channel)</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124610.html">P2B9211 High Voltage Side Shorted to Ground SC (Contactor Channel)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B9212</td>
+                           <td width="1" align="left" valign="top">High Voltage Side Shorted to Power OS (contactor channel)</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124612.html">P2B9212 High Voltage Side Shorted to Power OS (Contactor Channel)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B9000</td>
+                           <td width="1" align="left" valign="top">High Voltage Side Drive Overcurrent (contactor channel)</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124611.html">P2B9000 High Voltage Side Drive Overcurrent (Contactor Channel)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B8F12</td>
+                           <td width="1" align="left" valign="top">High Voltage Side Drive Undervoltage OV</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124613.html">P2B8F12 High Voltage Side Drive Overvoltage OV</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B8E00</td>
+                           <td width="1" align="left" valign="top">High Voltage Side Drive Undervoltage UV</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124614.html">P2B8E00 High Voltage Side Drive Undervoltage UV</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">U027E01</td>
+                           <td width="1" align="left" valign="top">BIC1 Cascade Communication Fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124615.html">U027E01 BIC1 Cascade Communication Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">U027E02</td>
+                           <td width="1" align="left" valign="top">BIC2 Cascade Communication Fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124616.html">U027E02 BIC2 Cascade Communication Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">U027E03</td>
+                           <td width="1" align="left" valign="top">BIC3 Cascade Communication Fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124617.html">U027E03 BIC3 Cascade Communication Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">U027E04</td>
+                           <td width="1" align="left" valign="top">BIC4 Cascade Communication Fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124618.html">U027E04 BIC4 Cascade Communication Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">U027E05</td>
+                           <td width="1" align="left" valign="top">BIC5 Cascade Communication Fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124619.html">U027E05 BIC5 Cascade Communication Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">U027E06</td>
+                           <td width="1" align="left" valign="top">BIC6 Cascade Communication Fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124620.html">U027E06 BIC6 Cascade Communication Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">U027E07</td>
+                           <td width="1" align="left" valign="top">BIC7 Cascade Communication Fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124621.html">U027E07 BIC7 Cascade Communication Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">U027E08</td>
+                           <td width="1" align="left" valign="top">BIC8 Cascade Communication Fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124622.html">U027E08 BIC8 Cascade Communication Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B7000</td>
+                           <td width="1" align="left" valign="top">Voltage sampling disconnected (general fault)</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124623.html">P2B7000 Voltage Sampling Disconnected (General Fault)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B9219</td>
+                           <td width="1" align="left" valign="top">High Voltage Side Drive Overcurrent (HVSU channel)</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124624.html">P2B9219 High Voltage Side Drive Overcurrent (HVSU Channel)</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">U016400</td>
+                           <td width="1" align="left" valign="top">Communication with Air Conditioner Failed</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124625.html">U016400 Communication with Air Conditioner Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1ADE00</td>
+                           <td width="1" align="left" valign="top">Battery cooling failed due to air conditioning system fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124626.html">P1ADE00 Battery Cooling Failed Due to Air Conditioning System Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1ADF00</td>
+                           <td width="1" align="left" valign="top">Internal battery circulation failed due to air conditioning system fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124627.html">P1ADF00 Internal Battery Circulation Failed Due to Air Conditioning System Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1AE000</td>
+                           <td width="1" align="left" valign="top">Battery Heating Failed Due to Air Conditioning System Fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124628.html">P1AE000 Battery Heating Failed Due to Air Conditioning System Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A5B00</td>
+                           <td width="1" align="left" valign="top">Contactor Disconnected Due to Dual-circuit Power Supply Fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124629.html">P1A5B00 Contactor Disconnected Due to Dual-circuit Power Supply Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A5600</td>
+                           <td width="1" align="left" valign="top">12V Power Supply Input of Battery Management System Too Low</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124630.html">P1A5600 12V Power Supply Input of Battery Management System Too Low</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">U110287</td>
+                           <td width="1" align="left" valign="top">Communication with BCM failed</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124631.html">U110287 Communication with BCM Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">U02A200</td>
+                           <td width="1" align="left" valign="top">Communication with active bleed module failed</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124632.html">U02A200 Communication with Active Release Module Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1AF800</td>
+                           <td width="1" align="left" valign="top">Battery data not updated</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124633.html">P1AF800 Battery Data Not Updated</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B7516</td>
+                           <td width="1" align="left" valign="top">Power battery pack undervoltage</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124634.html">P2B7516 Power Battery Pack Undervoltage</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1AE400</td>
+                           <td width="1" align="left" valign="top">High Voltage Process Ended Due to Abnormal Low Voltage Supply</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124635.html">P1AE400 High Voltage Process Ended Due to Abnormal Low Voltage Supply</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B7C00</td>
+                           <td width="1" align="left" valign="top">Shunt temperature seriously high</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124636.html">P2B7C00 Shunt Temperature Seriously High</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B7900</td>
+                           <td width="1" align="left" valign="top">Battery pack charging overcurrent alarm</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124637.html">P2B7900 Battery Pack Charging Overcurrent Alarm</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1AF200</td>
+                           <td width="1" align="left" valign="top">Voltage output of DC charger abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124638.html">P1AF200 Voltage Output at DC Charger Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1AF300</td>
+                           <td width="1" align="left" valign="top">DC charging cabinet stopping charging actively</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124639.html">P1AF300 DC Charging Cabinet Stopping Charging Actively</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1AF400</td>
+                           <td width="1" align="left" valign="top">Insufficient Capacity of DC Charging Cabinet</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124640.html">P1AF400 Insufficient Capacity of DC Charging Cabinet</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B8A00</td>
+                           <td width="1" align="left" valign="top">BIC configuration inconsistent with module state</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124641.html">P2B8A00 BIC Configuration Inconsistent with Module State</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">U011000</td>
+                           <td width="1" align="left" valign="top">Communication with motor control unit failed</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124642.html">U011000 Communication with Motor Control Unit Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B7B00</td>
+                           <td width="1" align="left" valign="top">Shunt temperature generally high</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124643.html">P2B7B00 Shunt Temperature Generally High</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B7E00</td>
+                           <td width="1" align="left" valign="top">Large Deviation of Current Sampling at Shunt</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124644.html">P2B7E00 Large Deviation of Current Sampling at Shunt</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B7D00</td>
+                           <td width="1" align="left" valign="top">Temperature sampling fault at shunt</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124645.html">P2B7D00 Temperature Sampling Fault at Shunt</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A3522</td>
+                           <td width="1" align="left" valign="top">Seriously high voltage of power battery cell</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124646.html">P1A3522 Seriously High Voltage of Power Battery Cell</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A3622</td>
+                           <td width="1" align="left" valign="top">Generally high voltage of power battery cell</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124647.html">P1A3622 Generally High Voltage of Power Battery Cell</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A3721</td>
+                           <td width="1" align="left" valign="top">Seriously low voltage of power battery cell</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124648.html">P1A3721 Seriously Low Voltage of Power Battery Cell</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A3922</td>
+                           <td width="1" align="left" valign="top">Seriously high temperature of power battery cell</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124649.html">P1A3922 Seriously High Temperature of Power Battery Cell</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A3B21</td>
+                           <td width="1" align="left" valign="top">Seriously low temperature of power battery cell</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124650.html">P1A3B21 Seriously Low Temperature of Power Battery Cell</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A3E00</td>
+                           <td width="1" align="left" valign="top">Main contactor echo check fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124651.html">P1A3E00 Main Contactor Echo Check Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A3F00</td>
+                           <td width="1" align="left" valign="top">Pre-charge contactor echo check fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124652.html">P1A3F00 Pre-charging Contactor Echo Check Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P1A3D00</td>
+                           <td width="1" align="left" valign="top">Negative contactor echo check fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124653.html">P1A3D00 Negative Contactor Echo Check Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B7400</td>
+                           <td width="1" align="left" valign="top">Power battery overcharged</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124654.html">P2B7400 Power Battery Overcharge</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B7517</td>
+                           <td width="1" align="left" valign="top">Power battery pack overvoltage</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124655.html">P2B7517 Power Battery Pack Overvoltage</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B8000</td>
+                           <td width="1" align="left" valign="top">HVSU_PACK+voltage sampling fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124656.html">P2B8000 HVSU_PACK + Voltage Sampling Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B8100</td>
+                           <td width="1" align="left" valign="top">HVSU_LINK+voltage sampling fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124657.html">P2B8100 HVSU_LINK + Voltage Sampling Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B8200</td>
+                           <td width="1" align="left" valign="top">HVSU_LINK voltage sampling fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124658.html">P2B8200 HVSU_LINK - Voltage Sampling Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B8500</td>
+                           <td width="1" align="left" valign="top">Power Supply of HVSU Abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124659.html">P2B8A00 Power Supply of HVSU Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">P2B9400</td>
+                           <td width="1" align="left" valign="top">Power battery overdischarged</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124660.html">P2B9400 Power Battery Overdischarged</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P2B9200</p>
+                           </td>
+                           <td width="1" align="center" valign="top">
+                              <p>Battery temperature difference abnormal</p>
+                           </td>
+                           <td width="1" align="center" valign="top"><a class="xref" href="DTA124661.html">P2B9200 Abnormal Battery Temperature Difference</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="top">
+                              <p>P1D7E00</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Cooling water pump stalling or shut down due to overcurrent</p>
+                           </td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA347506.html">P1D7E00 Cooling Water Pump Stalling or Shut Down Due to Overcurrent</a>&nbsp;
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

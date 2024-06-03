@@ -1,0 +1,173 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Inspection of electrical functions"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-DTRM641769"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Inspection of electrical functions</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-DTRM641769">
+         
+         
+         <h3 class="topictitletopic1 title">Inspection of electrical functions</h3>
+         
+         <div class="body">
+            <div class="section">
+               <p class="p"><span class="ph b">Inspection contents, such as:</span></p>
+               <ol class="num">
+                  <li>
+                     <p class="p-inline">Power on the vehicle (OK mode).</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check that the instrument display screen lights up normally, all kinds of warning lights and indicators are clearly visible,
+                        and there is no obvious pixel failure, or display faults such as vertical strips, blank areas or black spots.
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check that the infotainment display screen lights up normally, the touch function is normal, and there is no obvious pixel
+                        failure, or display faults such as vertical strips, blank areas or black spots.
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check that the sound system works normally.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check the function of rearview mirror.</p>
+                     <ul name="contents" class="ul">
+                        <li>
+                           <p class="p-inline">Check that the rearview mirror adjustment function is normal.</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Check that the rearview mirror folding function is normal (if equipped).</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Check that the rearview mirror heating function is normal (if equipped).</p>
+                        </li>
+                     </ul>
+                     
+                  </li>
+                  <li>
+                     <p class="p-inline">Check that the central locking works normally.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Press the horn button to check that the horn sounds normally.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check that the A/C temperature and air supply mode are normal, and vent outlets work properly.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check that the accessory power interface and USB work normally.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check that the panoramic view system and parking radar work normally.</p>
+                     <ul name="contents" class="ul">
+                        <li>
+                           <p class="p-inline">If necessary, conduct inspection in the R gear.</p>
+                        </li>
+                     </ul>
+                     
+                  </li>
+                  <li>
+                     <p class="p-inline">Check that the seat adjustment function is normal.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check that the on-board fragrance system works normally (if equipped).</p>
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d60336e65">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <ul name="contents" class="ul">
+                                 <li>
+                                    <p class="p-inline">If the fragrance bottle is exhausted, remind the customer to replace it in time.</p>
+                                 </li>
+                              </ul>
+                              
+                           </div>
+                        </div>
+                        
+                     </div>
+                  </li>
+                  <li>
+                     <p class="p-inline">Obtain a new work order for repair or replacement.</p>
+                  </li>
+               </ol>
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

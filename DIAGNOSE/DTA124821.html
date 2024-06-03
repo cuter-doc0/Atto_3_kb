@@ -1,0 +1,333 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DTC Diagnosis of Battery Management Control Module"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA083524"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DTC Diagnosis of Battery Management Control Module</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA083524">
+         
+         
+         <h3 class="topictitletopic1 title">DTC Diagnosis of Battery Management Control Module</h3>
+         
+         <div class="nested1 topic task" id="tasac69f98c">
+            <h3 class="topictitletopic2 title">List of DTC</h3>
+            
+            <div class="body taskbody">
+               <div class="section context">
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <thead style="font-weight: bold">
+                        <tr align="center" valign="middle">
+                           <th width="1" align="center" valign="top">
+                              <p>DTC</p>
+                           </th>
+                           <th width="1" align="center" valign="top">
+                              <p>Meaning</p>
+                           </th>
+                           <th width="1" align="center" valign="top">
+                              <p>Diagnostic Process</p>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td width="1" align="center" valign="top">U110387</td>
+                           <td width="1" align="left" valign="top">Communication with airbag ECU failed</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124822.html">U110387 Communication with Airbag ECU Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">P1AC000</td>
+                           <td width="1" align="left" valign="top">Collision alarm of airbag ECU</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124823.html">P1AC000 Collision Alarm of Airbag ECU</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">P1A6000</td>
+                           <td width="1" align="left" valign="top">High Voltage Interlock 1 Fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124824.html">P1A6000 High Voltage Interlock 1 Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">P1AFC00</td>
+                           <td width="1" align="left" valign="top">On-board Charger High Voltage Interlock Fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124825.html">P1AFC00 On-board Charger High Voltage Interlock Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">P1AFD00</td>
+                           <td width="1" align="left" valign="top">DC-DC High Voltage Interlock Fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124826.html">P1AFD00 DC-DC High Voltage Interlock Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">P1AFB00</td>
+                           <td width="1" align="left" valign="top">Air Conditioning System High Voltage Interlock Fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124827.html">P1AFB00 Air Conditioning System High Voltage Interlock Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">U014B87</td>
+                           <td width="1" align="left" valign="top">Communication with DC Charging Cabinet Failed</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124829.html">U014B87 Communication with DC Charging Cabinet Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1AD900</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature sampling point of charging port abnormal (China standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1AD900</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature sampling point of charging port abnormal (European standard, 7kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1AD900</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature sampling point of charging port abnormal (European standard, 11kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">P1AD900</td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature sampling point of charging port abnormal (Japanese standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1AD44B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 1 (China standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1AD44B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 1 (European standard, 7kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1AD44B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 1 (European standard, 11kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">P1AD44B</td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 1 (Japanese standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1AD54B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 2 (China standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1AD54B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 2 (European standard, 7kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1AD54B</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 2 (European standard, 11kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">P1AD54B</td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 2 (Japanese standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1AD698</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 3 (China standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1AD698</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 3 (European standard, 7kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">
+                              <p>P1AD698</p>
+                           </td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 3 (European standard, 11kW)</p>
+                           </td>
+                           <td width="1" align="left" valign="top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">P1AD698</td>
+                           <td width="1" align="left" valign="top">
+                              <p>Temperature of charging port generally high 3 (Japanese standard)</p>
+                           </td>
+                           <td width="1" align="left" valign="top">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">U015587</td>
+                           <td width="1" align="left" valign="top">Communication with Instrument Panel Cluster Failed -HMFD</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124834.html">U015587 Communication with Instrument Panel Cluster Failed</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">P1AC900</td>
+                           <td width="1" align="left" valign="top">DC Charging Inductive Signal Disconnected</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124835.html">P1AC900 DC Charging Inductive Signal Disconnected</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">P1AE800</td>
+                           <td width="1" align="left" valign="top">DC Charging Positive Contactor Echo Check Fault</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124836.html">P1AE800 DC Charging Positive Contactor Echo Check Fault</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">P1AE900</td>
+                           <td width="1" align="left" valign="top">DC Charging Negative Contactor Echo Check Fault</td>
+                           <td width="1" align="left" valign="top">P1AE900 DC Charging Negative Contactor Echo Check Fault&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">P1ACB07</td>
+                           <td width="1" align="left" valign="top">DC Charging Positive Contactor Sintered</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124838.html">P1ACB07 DC Charging Positive Contactor Sintered</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">P1ACC07</td>
+                           <td width="1" align="left" valign="top">DC Charging Negative Contactor Sintered</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124839.html">P1ACC07 DC Charging Negative Contactor Sintered</a>&nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="top">P2B9100</td>
+                           <td width="1" align="left" valign="top">Voltage of DC charging port abnormal</td>
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA124840.html">P2B9100 Voltage of DC Charging Port Abnormal</a>&nbsp;
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

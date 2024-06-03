@@ -1,0 +1,160 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Visual inspection of brake device"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM175093"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Visual inspection of brake device</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM175093">
+         
+         
+         <h3 class="topictitletopic1 title">Visual inspection of brake device</h3>
+         
+         <div class="body">
+            <div class="section">
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d62699e10">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">Any defects found must be eliminated and the customer informed.</p>
+                     </div>
+                  </div>
+                  
+               </div>
+               <p class="p"><span class="ph b">Check the following components for leakage and damage:</span></p>
+               <ul name="contents" class="ul">
+                  <li>
+                     <p class="p-inline">IPB system assembly</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Brake caliper</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Brake pipeline</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">There shall be a dust cap on the brake fluid exhaust valve.</p>
+                  </li>
+               </ul>
+               
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d62699e29">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">Do not twist the brake hose.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">Note that the brake hose cannot contact other components of the vehicle at the maximum steering angle.</p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+               <p class="p"><span class="ph b">Inspection contents:</span></p>
+               <ul name="contents" class="ul">
+                  <li>
+                     <p class="p-inline">Check whether the brake pipeline is free of deformation, scratch, brittle rupture, or fracture.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check whether the brake pipeline is free of visible rust.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check whether the brake system hoses are free of aging or cracks.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check whether the brake pipeline interfaces and fixtures are installed in the correct position without leakage or rust.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check whether the brake pipeline and brake hose are installed in the correct position and fixed firmly on the bracket.</p>
+                  </li>
+               </ul>
+               
+               <p class="p">Obtain a new work order for repair or replacement.</p>
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

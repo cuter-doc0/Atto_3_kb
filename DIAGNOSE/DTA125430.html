@@ -1,0 +1,231 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DTC Diagnosis of PM 2.5"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA099301"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DTC Diagnosis of PM 2.5</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section class="1" id="DTA099301">
+         
+         
+         
+         <h3 class="topictitletopic1 title">DTC Diagnosis of PM 2.5</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">List of DTC</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr align="center" valign="middle"> 
+                           
+                           <th width="1" align="center" valign="top">DTC</th>  
+                           
+                           <th width="1" align="center" valign="top">Meaning</th>  
+                           
+                           <th width="1" align="center" valign="top">Diagnostic Process</th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B110A02</td>  
+                           
+                           <td width="1" align="left" valign="top">PM2.5 quick tester CAN signal fault</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125431.html">B110A02 PM2.5 Quick Tester CAN Signal Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B110B07</td>  
+                           
+                           <td width="1" align="left" valign="top">PM2.5 quick tester air pump fault</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125432.html">B110B07 PM2.5 Quick Tester Air Pump Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B110C09</td>  
+                           
+                           <td width="1" align="left" valign="top">PM2.5 quick tester laser diode failure</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125433.html">B110C09 PM2.5 Quick Tester Laser Diode Failure</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B110D09</td>  
+                           
+                           <td width="1" align="left" valign="top">PM2.5 quick tester photoelectric receiver module failure</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125434.html">B110D09 PM2.5 Quick Tester Photoelectric Receiving Module Failure</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B110811</td>  
+                           
+                           <td width="1" align="left" valign="top">PM2.5 quick tester short-circuited</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125435.html">B110811 PM2.5 Quick Tester Short-circuited</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B110913</td>  
+                           
+                           <td width="1" align="left" valign="top">PM2.5 quick tester getting broken circuit</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125437.html">B110913 PM2.5 Quick Tester Getting Broken Circuit</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B110F09</td>  
+                           
+                           <td width="1" align="left" valign="top">PM2.5 quick tester solenoid valve failure</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125438.html">B110F09 PM2.5 Quick Tester Solenoid Valve Failure</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B110E09</td>  
+                           
+                           <td width="1" align="left" valign="top">PM2.5 quick tester temperature and humidity module failure</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125438.html">B110E09 PM2.5 Quick Tester Temperature and Humidity Module Failure</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B111009</td>  
+                           
+                           <td width="1" align="left" valign="top">Internal fault of ECU</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125439.html">B111009 ECU Internal Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

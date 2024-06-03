@@ -1,0 +1,285 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Front Door"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Front Door</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section class="1" id="topic-1-F5240221">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Front Door</h3>
+         
+         
+         <div class="body"> 
+            
+            <div>
+               <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d45e12">
+                  <div class="noteheader">
+                     <div class="common tip">
+                        <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                  </div>
+                  <div class="notebody attention-text postspace-s wl-attention-content"> 
+                     
+                     <ul name="contents" class="ul">
+                        <li> 
+                           
+                           <p class="p-inline">If only one size is marked in the figure, it indicates that the data is left-right symmetrical.</p> 
+                           
+                        </li>
+                        <li> 
+                           
+                           <p class="p-inline">Capital letters denote the right side of the vehicle and lowercase letters denote the left side.</p> 
+                           
+                        </li>
+                     </ul>
+                     
+                     
+                  </div>
+               </div>
+               
+            </div>  
+            
+            <p class="p"> 
+               
+               <div class="bottomNoTable">
+                  <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G060423.png"></img></div>
+               </div> 
+               
+            </p>  
+            
+            <p class="p">Table of functions for different hole positions:</p>  
+            
+            
+            <table width="100%" border="1" frame="box" rules="all">
+               <thead style="font-weight: bold">
+                  <tr>
+                     <th width="25%" align="center" valign="top">SN.</th>
+                     <th width="25%" align="center" valign="top">Position</th>
+                     <th width="25%" align="center" valign="top">SN.</th>
+                     <th width="25%" align="center" valign="top">Position</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td width="25%" align="center" valign="top">A,a</td>
+                     <td width="25%" align="center" valign="top">Roof panel corner</td>
+                     <td width="25%" align="center" valign="top">
+                        <p>D,d</p>
+                     </td>
+                     <td width="25%" align="center" valign="top">
+                        <p>Mounting hole of front door lower hinge</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td width="25%" align="center" valign="top">B,b</td>
+                     <td width="25%" align="center" valign="top">Mounting hole of engine cover hinge</td>
+                     <td width="25%" align="center" valign="top">
+                        <p>L,l</p>
+                     </td>
+                     <td width="25%" align="center" valign="top">
+                        <p>Mounting hole of rear door upper hinge</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td width="25%" align="center" valign="top">C,c</td>
+                     <td width="25%" align="center" valign="top">Mounting hole of front door upper hinge</td>
+                     <td width="25%" align="center" valign="top">
+                        <p>M,m</p>
+                     </td>
+                     <td width="25%" align="center" valign="top">
+                        <p>Mounting hole of rear door lower hinge</p>
+                     </td>
+                  </tr>
+               </tbody>
+            </table> 
+            
+            
+            <p class="p">Table of data for measuring hole positions:</p>  
+            
+            
+            <table width="100%" border="1" frame="box" rules="all">
+               <thead style="font-weight: bold">
+                  <tr>
+                     <th width="20%" class="greenCell" valign="top">SN.</th>
+                     <th width="60%" class="greenCell" valign="top">Measurement part</th>
+                     <th width="20%" class="greenCell" valign="top">Dimensions (mm)</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td width="20%" valign="top">
+                        <p>A-B</p>
+                     </td>
+                     <td width="60%" valign="top">
+                        <p>Mounting holes of roof panel corner and engine cover hinge</p>
+                     </td>
+                     <td width="20%" valign="top">
+                        <p>944.9</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td width="20%" valign="top">
+                        <p>B-b</p>
+                     </td>
+                     <td width="60%" valign="top">
+                        <p>Right engine cover hinge mounting hole and left engine cover hinge mounting hole</p>
+                     </td>
+                     <td width="20%" valign="top">
+                        <p>1559.3</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td width="20%" valign="top">
+                        <p>B-a</p>
+                     </td>
+                     <td width="60%" valign="top">
+                        <p>Mounting hole of engine cover hinge and roof panel corner</p>
+                     </td>
+                     <td width="20%" valign="top">
+                        <p>1656.9</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td width="20%" valign="top">
+                        <p>A-a</p>
+                     </td>
+                     <td width="60%" valign="top">
+                        <p>Right roof panel corner and left roof panel corner</p>
+                     </td>
+                     <td width="20%" valign="top">
+                        <p>1187.9</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td width="20%" valign="top">
+                        <p>c-l</p>
+                     </td>
+                     <td width="60%" valign="top">
+                        <p>Mounting hole of front door upper hinge and mounting hole of rear door upper hinge</p>
+                     </td>
+                     <td width="20%" valign="top">
+                        <p>1053.6</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td width="20%" valign="top">
+                        <p>d-m</p>
+                     </td>
+                     <td width="60%" valign="top">
+                        <p>Mounting hole of front door lower hinge and mounting hole of rear door lower hinge</p>
+                     </td>
+                     <td width="20%" valign="top">
+                        <p>1010.1</p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td width="20%" valign="top">C-c</td>
+                     <td width="60%" valign="top">Right front door upper hinge mounting hole and left front door upper hinge mounting hole</td>
+                     <td width="20%" valign="top">1594.6</td>
+                  </tr>
+                  <tr>
+                     <td width="20%" valign="top">D-d</td>
+                     <td width="60%" valign="top">Right front door lower hinge mounting hole and left front door lower hinge mounting hole</td>
+                     <td width="20%" valign="top">1637.1</td>
+                  </tr>
+                  <tr>
+                     <td width="20%" valign="top">M-m</td>
+                     <td width="60%" valign="top">Right rear door lower hinge mounting hole and left rear door lower hinge mounting hole</td>
+                     <td width="20%" valign="top">1652.7</td>
+                  </tr>
+                  <tr>
+                     <td width="20%" valign="top">C-M or c-m</td>
+                     <td width="60%" valign="top">
+                        <p>Mounting hole of front door upper hinge and mounting hole of rear door lower hinge</p>
+                     </td>
+                     <td width="20%" valign="top">1093.7</td>
+                  </tr>
+                  <tr>
+                     <td width="20%" valign="top">
+                        <p>D-L or d-l</p>
+                     </td>
+                     <td width="60%" valign="top">Mounting hole of front door lower hinge and mounting hole of rear door upper hinge</td>
+                     <td width="20%" valign="top">1142.5</td>
+                  </tr>
+               </tbody>
+            </table> 
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

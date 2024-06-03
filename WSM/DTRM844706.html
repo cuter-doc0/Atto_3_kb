@@ -1,0 +1,156 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Inspection of Test Drive Items"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM175114"></meta>
+      
+      <meta name="DC.Language" content="en-us"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Inspection of Test Drive Items</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM175114">
+         
+         
+         <h3 class="topictitletopic1 title">Inspection of Test Drive Items</h3>
+         
+         <div class="body">     
+            <div class="section">
+               <h3 class="title topictitle1">Inspection of Foot and Hand Brakes, Steering, Driving Performance, Noise, A/C, Instrument Panel Cluster Display, etc. Through
+                  Test Drive
+               </h3> 
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d63626e16">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">The following ranges are related to vehicle equipment and the environment (urban/rural) in which it is used.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">The road test is not required for each maintenance, but shall be carried out according to the actual needs.</p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+               <p class="p">The following items shall be checked and evaluated during test drive:</p>
+               <ul name="contents" class="ul">
+                  <li>
+                     <p class="p-inline">Performance and acceleration of motor.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Gear shifting: flexibility, gearshift switch position, gearshift status and instrument panel cluster display.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Foot brake and parking brake: function, free stroke and application, deviation, shaking and braking noise.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">ABS function: a pulsation on the brake pedal must be felt during ABS modulating braking.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Steering mechanism: function, steering clearance, steering wheel in the middle position during straight driving.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Panoramic sunroof: functions.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Infotainment system: function, reception, automatic matching of volume and vehicle speed, interference and noise.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">A/C: function test (when the temperature is low, the A/C function must be tested in workshop).</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Vehicle: deviation or not during driving straight (flat lane).</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Unbalance (vibration): wheel, drive shaft and universal joint shaft.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Wheel bearing: abnormal sound.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Other noise or abnormal sound.</p>
+                  </li>
+               </ul>
+               
+               <p class="p">If any abnormality is determined, the customer must be informed and relevant repair measures shall be taken.</p>
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

@@ -1,0 +1,334 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DTC Diagnosis"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA057061"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DTC Diagnosis</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA057061">
+         
+         
+         
+         <h3 class="topictitletopic1 title">DTC Diagnosis</h3>
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">List of DTC</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr> 
+                           
+                           <th width="1" align="center" valign="middle"> 
+                              
+                              <p>DTC</p> 
+                              
+                           </th>  
+                           
+                           <th width="1" align="center" valign="middle"> 
+                              
+                              <p>Meaning</p> 
+                              
+                           </th>  
+                           
+                           <th width="1" align="center" valign="middle"> 
+                              
+                              <p>Diagnostic Process</p> 
+                              
+                           </th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B225407</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Sunroof Switch Stuck</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125020.html">B225407 Sunroof Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B222400</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Sunroof Hall Sensor Signal Abnormal</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125021.html">B222400 Sunroof Hall Sensor Signal Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B225513</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Sunroof Motor Open-circuited</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125022.html">B225513 Sunroof Motor Open-citcuited</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B225511</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Sunroof Motor Short-circuited (Shorted to Ground)</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125023.html">B225511 Sunroof Motor Short-circuited (Shorted to Ground)</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B225300</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Sunroof initialization lost</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125024.html">B225300 Sunroof Initialization Lost</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B225707</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Blinder Switch Stuck</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125025.html">B225707 Blinder Switch Stuck</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B225813</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Blinder Motor Open-circuited</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125027.html">B225813 Blinder Motor Open-citcuited</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B225811</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Blinder Motor Short-circuited (Shorted to Ground)</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125028.html">B225811 Blinder Motor Short-circuited (Shorted to Ground)</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B222401</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Blinder Motor Hall Sensor Signal Abnormal</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125026.html">B222401 Blinder Motor Hall Sensor Signal Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B225600</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Blinder Initialization Lost</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125029.html">B225600 Blinder Initialization Lost</a>&nbsp;
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

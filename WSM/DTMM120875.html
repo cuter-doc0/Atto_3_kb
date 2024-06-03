@@ -1,0 +1,972 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="System Description"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>System Description</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section class="1" id="topic-1-F5240221">
+         
+         
+         
+         <h3 class="topictitletopic1 title">System Description</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section">
+               <h3 class="title topictitle1">Component Location View</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G074812.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               <p class="p"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr> 
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>SN.</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>Name</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>SN.</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>Name</p> 
+                              
+                           </th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>1</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Heat pump HVAC assembly</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>6</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Rear face duct assembly I</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>2</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>PM2.5 quick tester assembly</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>7</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Left floor duct assembly I</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>3</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Rear face duct assembly III</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>8</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Floor duct assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>4</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Rear face duct assembly II</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>9</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Cabinet outlet transition duct assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>5</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Right floor duct assembly I</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle">&nbsp;</td>  
+                           
+                           <td width="25%" align="center" valign="middle">&nbsp;</td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </p> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Exploded View of Components</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G074813.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               <p class="p"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr> 
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>SN.</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>Name</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>SN.</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>Name</p> 
+                              
+                           </th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>1</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Refrigeration tube assembly 1</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>15</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Integrated thermal management module bracket 2</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>2</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Compressor discharge pipe assembly 2</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>16</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Refrigeration tube assembly 7</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>3</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Refrigeration tube assembly 3</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>17</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Refrigeration tube assembly 6</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>4</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Compressor suction pipe assembly 3</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>18</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Compressor suction pipe assembly 2</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>5</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Integrated Thermal Management Module</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>19</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Refrigeration tube assembly 5</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>6</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Integrated thermal management module bracket 1</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>20</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Plate heat exchanger inlet pipe assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>7</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Integrated thermal management module bracket</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>21</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Motor cooling water pump inlet pipe assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>8</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Refrigeration tube assembly 4</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>22</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Three-way valve body assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>9</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Gas-liquid separator assembly</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>23</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Plate heat exchanger outlet pipe assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>10</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Compressor suction pipe assembly 1</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>24</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Battery cooling plate heat exchanger assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>11</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Compressor discharge pipe assembly 1</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>25</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Battery cooling plate heat exchanger bracket assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>12</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Electric compressor assembly</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>26</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Compressor suction pipe assembly 4</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>13</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Condenser Assembly</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>27</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Compressor discharge pipe assembly 5</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>14</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Compressor discharge pipe assembly 3</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p></p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p></p> 
+                              
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </p> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">System Function Principle</h3> 
+               
+               
+               <p class="p">System overview</p>  
+               
+               <p class="p">This vehicle is equipped with a self-regulating A/C system designed with the single evaporator and applied to Deluxe and Premium
+                  SUVs. The system is mainly composed of compressor, condenser, HVAC assembly, cooling pipe, air duct and A/C controller, with
+                  the cooling, heating, defrosting &amp; defogging and ventilation functions. The system uses a low voltage PTC heater for heating,
+                  and a vapor compression refrigeration cycle for refrigeration.The refrigerant is R1234yf/ R134a. And the control mode is touch
+                  operation. The mode damper, cooling and heating mixing damper and internal and external circulation damper of air handling
+                  unit (AHU) are all motor controlled.
+               </p>  
+               
+               <p class="p">Principle of Refrigeration System</p>  
+               
+               <p class="p">The scroll compressor used for this model extracts the gaseous refrigerant from the evaporator and presses it into the condenser.
+                  The gaseous refrigerant is liquefied through the condenser for heat exchange (releasing heat), and the heat is taken away
+                  by the air outside the vehicle. The high pressure liquid refrigerant is depressurized by the throttling action of the expansion
+                  valve. The low pressure liquid refrigerant is vaporized in the evaporator for heat exchange (absorbing heat). The cooled air
+                  near the evaporator is blown into the compartment through the blower. The gaseous refrigerant is pumped out by the compressor
+                  and then pumped into the condenser, so that the refrigerant circulates in a closed way, discharging the heat in the compartment
+                  to the outside, and reducing the temperature in the compartment.
+               </p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Gas expands and temperature decreases</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G079422.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Absorption of heat from the environment</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G079423.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p">Principle of Heating System</p>  
+               
+               <p class="p">The heating system adopts heat pump or air PTC for heating. The heating system is mainly composed of wind PTC, compressor,
+                  gas-liquid separator, integrated thermal management module, heat exchanger, heating tube, and blower, duct and control mechanism.
+                  The heating unit shell is integrated with the evaporator shell, and the blower and duct are shared with the refrigeration
+                  system.
+               </p>  
+               
+               <p class="p">When the compressor is working, the high temperature and high pressure gaseous refrigerant discharged from the compressor
+                  discharge pipe enters the indoor condenser through the heating hard pipe. And the air blown by the blower distributes the
+                  heat flow of the high temperature and high pressure refrigerant to the passenger compartment or the front glass to raise the
+                  cabin temperature and defrost. The low temperature and low pressure liquid refrigerant dissipated in the indoor condenser
+                  becomes gaseous after the heat is absorbed from the environment by the integrated thermal management module (or the electric
+                  coolant of the motor) . The refrigerant then passes through the gas-liquid separator and enters the compressor, and so on,
+                  to achieve warm air heating.
+               </p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Compressed gas and temperature rise</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G079424.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Heat dissipation into the cabin</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G079425.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p">Battery thermal management function</p>  
+               
+               <p class="p">Battery thermal management function includes battery cooling, battery heating and battery recirculation functions. It is the
+                  main function of heat pump air conditioning system.
+               </p>  
+               
+               <p class="p">The characteristics of the heat pump A/C system include direct cooling and direct heating of the battery; Non-extremely low
+                  temperature, reducing A/C energy consumption; Extremely low temperature environment, supplemented by motor reactive power
+                  and low voltage PTC low efficient heat generation. Common functions include: heat pump heating, A/C cooling, battery cooling,
+                  battery heating, synchronous start-up of cooling and battery cooling synchronous start-up of heating and battery heating,
+                  dehumidification and other working modes.
+               </p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">A/C heater</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G079426.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Battery heating</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G079427.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">A/C heating and battery heating</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G079428.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Battery cooling</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G079429.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Air conditioner cooling and battery cooling</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G079430.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Air conditioner heating and battery cooling</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G079431.jpg"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">System Block Diagram</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G079432.png"></img></div>
+                  </div> 
+                  
+               </p> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

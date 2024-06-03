@@ -1,0 +1,180 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Precautions"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Precautions</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-1-F5240221">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Precautions</h3>
+         
+         
+         <div class="body"> 
+            
+            <p class="p"> 
+               
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d5333e14">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">  
+                        
+                        <ul name="contents" class="ul"> 
+                           
+                           <li> 
+                              
+                              <p class="p-inline">The high voltage system harnesses are identified in orange color on the vehicle. Before performing maintenance work of the
+                                 high voltage system, wear insulation protection equipment, including insulating gloves, insulating shoes and mask.
+                              </p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">The parts with the high voltage identification shall not be removed without the professional training personnel.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">The integrated AC/DC charging vehicle socket sub-assembly should not be bent when removing,&nbsp;otherwise the harness will be
+                                 damaged.
+                              </p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">If the integrated AC/DC charging vehicle socket sub-assembly is damaged, aged or cracked, replace it with a new one.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Visually check the plastic insulation shell of charging port for the hot melting deformation, and replace the part if there
+                                 is any thermal deformation.
+                              </p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Visually check the charging port and terminal for the foreign matters, discharge the foreign matters with high-pressure air
+                                 gun and replace the charging port and terminal of which the foreign matters affect the normal operation.
+                              </p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Visually check whether the leaf spring and the bottom of charging port are blackened, and replace the blackened ones.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Visually check whether the leaf spring and bottom of charging port become yellow. If so, remove right front wheel assembly
+                                 and right front mud guard, to check whether the cable at the rear of charging port is burnt and deformed (with the auxiliary
+                                 lighting). Replace the leaf spring which turns yellow and the outer layer of cable turns black.
+                              </p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Visually check the leaf spring of terminal for breakage and replace the broken one.</p> 
+                              
+                           </li> 
+                           
+                        </ul>
+                        
+                        
+                     </div>
+                  </div>
+                  
+               </div> 
+               
+            </p> 
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

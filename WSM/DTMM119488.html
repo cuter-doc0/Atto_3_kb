@@ -1,0 +1,704 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Basic vehicle parameters"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Basic vehicle parameters</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section class="1" id="topic-1-F5240221">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Basic vehicle parameters</h3>
+         
+         
+         <div class="body"> 
+            
+            
+            <table width="100%" border="1" frame="box" rules="all">  
+               
+               
+               
+               
+               
+               
+               <thead style="font-weight: bold"> 
+                  
+                  <tr> 
+                     
+                     <th width="20%" colspan="2" align="center" valign="middle"> 
+                        
+                        <p>Model:</p> 
+                        
+                     </th>  
+                     
+                     <th width="20%" align="center" valign="middle"> 
+                        
+                        <p>SC2EKA</p> 
+                        
+                     </th>  
+                     
+                     <th width="20%" align="center" valign="middle"> 
+                        
+                        <p>SC2EKB</p> 
+                        
+                     </th>  
+                     
+                     <th width="20%" align="center" valign="middle"> 
+                        
+                        <p>SC2ER</p> 
+                        
+                     </th> 
+                     
+                  </tr> 
+                  
+               </thead>  
+               
+               <tbody> 
+                  
+                  <tr> 
+                     
+                     <td width="20%" rowspan="10" align="center" valign="middle"> 
+                        
+                        <p>Vehicle dimensions</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Total length (mm)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>4455</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Total width (mm) (excluding outside rearview mirrors)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>1875</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Total height (mm)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>1615</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Wheelbase (mm)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>2720</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Front wheel track (mm)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>1575</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Rear wheel track (mm)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>1580</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Front suspension (mm)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>888</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Rear suspension (mm)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>847</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Approach angle (º)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>19</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Departure angle (º)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>24</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" rowspan="4" align="center" valign="middle"> 
+                        
+                        <p>Vehicle mass parameters</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Curb weight (kg)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>1680</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="2" align="center" valign="middle"> 
+                        
+                        <p>1750</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Maximum allowable gross mass (kg)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>2090</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="2" align="center" valign="middle"> 
+                        
+                        <p>2160</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Maximum allowable gross mass, front axle load (kg)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>1044</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="2" align="center" valign="middle"> 
+                        
+                        <p>1060</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Maximum allowable gross mass, rear axle load (kg)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>1046</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="2" align="center" valign="middle"> 
+                        
+                        <p>1100</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" rowspan="2" align="center" valign="middle"> 
+                        
+                        <p>Dynamic performance parameters</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Maximum design speed (km/h)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>160</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Maximum gradability (%)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>30</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" rowspan="2" align="center" valign="middle"> 
+                        
+                        <p>Vehicle economic parameters</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Power consumption per hundred kilometers under comprehensive operating conditions (kW h/100km)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>≤14.8</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>≤14.9</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>≤12.5</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Endurance mileage under comprehensive operating conditions (km)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>410</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>480</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>420</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" rowspan="5" align="center" valign="middle"> 
+                        
+                        <p>Drive motor parameters</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Drive motor model</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>TZ200XSQ</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Drive motor type</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>Permanent magnet synchronous motor</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Driving type</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>4 × 2 front drive</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Drive motor rated power/speed/torque (kW/rpm/N • m)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>65/4433/140</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Drive motor peak power/speed/torque (kW/rpm/N • m)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>150/4620/310</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" rowspan="2" align="center" valign="middle"> 
+                        
+                        <p>Power battery parameters</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Power battery type</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>Lithium iron phosphate battery</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Power battery rated capacity (AH)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>135</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>150</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>150</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" rowspan="3" align="center" valign="middle"> 
+                        
+                        <p>Wheel and tyre parameters</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Tyre specifications</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>215/60R17; 215/55R18</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>215/55R18</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>235/50R18; 215/55R18</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Tyre pressure (kPa)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>250</p> 
+                        
+                     </td> 
+                     
+                  </tr>  
+                  
+                  <tr> 
+                     
+                     <td width="20%" align="center" valign="middle"> 
+                        
+                        <p>Dynamic balance requirements of wheels (g)</p> 
+                        
+                     </td>  
+                     
+                     <td width="20%" colspan="3" align="center" valign="middle"> 
+                        
+                        <p>≤10</p> 
+                        
+                     </td> 
+                     
+                  </tr> 
+                  
+               </tbody> 
+               
+            </table> 
+            
+            
+            <p class="p">Note：Actual power consumption is related to vehicle condition, road conditions, driving habits and other factors.</p> 
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

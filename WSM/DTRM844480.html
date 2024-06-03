@@ -1,0 +1,212 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Visual inspection of high-voltage components and wires"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM175115"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Visual inspection of high-voltage components and wires</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM175115">
+         
+         
+         <h3 class="topictitletopic1 title">Visual inspection of high-voltage components and wires</h3>
+         
+         <div class="body">
+            <div class="section">
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d61761e10">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">Risk of electric shock! Before operation, high-voltage components in the operating area shall be visually checked.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">Any work on a vehicle equipped with a high-voltage system shall be only carried out by qualified personnel.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">In case of any abnormality or doubt, handling shall be only carried out by qualified personnel in HV or electrical aspect.</p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d61761e21">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">Be sure to open the hood before inspection.</p>
+                     </div>
+                  </div>
+                  
+               </div>
+               <p class="p"><span class="ph b">Inspection steps</span></p>
+               <ol class="num">
+                  <li>
+                     <p class="p-inline">Power off the vehicle.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check the high-voltage wiring harness and connector.</p>
+                     <ol class="num">
+                        <li>
+                           <p class="p-inline">Check that the high-voltage wiring harness and connector are free of obvious dust deposits.</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Check that the high-voltage wiring harness is connected reliably, without damage or abnormal deformation.</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Check that the high-voltage wiring harness is routed correctly and fixed firmly, without interference.</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Check that the high-voltage connector is free of heating and discoloration, and connected firmly.</p>
+                        </li>
+                     </ol>
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d61761e47">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <p class="p">In case of any defect, it must be handled immediately by qualified personnel.</p>
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <p>
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G071244.png"></img></div>
+                        </div>
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check the high-voltage components.</p>
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d61761e56">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <ul name="contents" class="ul">
+                                 <li>
+                                    <p class="p-inline">Attention must be paid to all high-voltage components during inspection.</p>
+                                 </li>
+                                 <li>
+                                    <p class="p-inline">All high-voltage components shall be free of external damage.</p>
+                                 </li>
+                              </ul>
+                              
+                           </div>
+                        </div>
+                        
+                     </div><span class="ph b"></span><ol class="num">
+                        <li>
+                           <p class="p-inline">Check that the high-voltage components are free of deformation and leakage.</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Check that the high-voltage components are free of water seepage marks. If any, remove dirt and dry them.</p>
+                        </li>
+                     </ol>
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d61761e72">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <p class="p">In case of any defect, it must be handled immediately by qualified personnel.</p>
+                           </div>
+                        </div>
+                        
+                     </div>
+                  </li>
+                  <li>
+                     <p class="p-inline">Obtain a new work order for repair or replacement.</p>
+                  </li>
+               </ol>
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

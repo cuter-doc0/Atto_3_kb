@@ -1,0 +1,22 @@
+.svg-topiclist {
+	position: absolute;
+	width: 260px;
+	z-index: 10;
+	margin: 0;
+}
+
+table.svg-topiclist tr th {
+	background-color: #B3B3B3;
+	width: 260px;
+}
+
+table.svg-topiclist tr td {
+	width: 260px;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+table.svg-topiclist tr td a[href] {
+    text-decoration: none;
+    color: #0000FF;
+}

@@ -1,0 +1,758 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="Diagnosis of General Faults"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA057060"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Diagnosis of General Faults</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA057060">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Diagnosis of General Faults</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">Visual Inspection</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <ol class="num"> 
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Confirm problems of customers.</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Make visual inspection for obvious signs of mechanical damage and collision deformation.</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">If the observed or raised problem is obvious and the cause has been found, the cause must be corrected before proceeding to
+                           the next step.
+                        </p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">If the visual inspection is accepted, confirm the fault and see the symptom list.</p> 
+                        
+                     </li> 
+                     
+                  </ol> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="T002"> 
+            
+            <h3 class="topictitletopic2 title">General Symptom List</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr> 
+                           
+                           <th width="1" align="center" valign="middle"> 
+                              
+                              <p>Symptom</p> 
+                              
+                           </th>  
+                           
+                           <th width="1" align="center" valign="middle"> 
+                              
+                              <p>Possible cause</p> 
+                              
+                           </th>  
+                           
+                           <th width="1" align="center" valign="middle"> 
+                              
+                              <p>Suggested maintenance measures</p> 
+                              
+                           </th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr> 
+                           
+                           <td width="1" rowspan="4" align="left" valign="middle"> 
+                              
+                              <p>Sunroof leaky</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Glass seal installed incorrectly, improperly or damaged</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Reinstall or replace the glass seal</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>A gap between decorative seal and vehicle body top plate or the decorative seal damaged</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Reinstall or replace the decorative seal</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Sunroof water outlet blocked</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Clean the sunroof water outlet</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Loose joint between drain pipe and water outlet</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Overhaul or replace the fixing clamp</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" rowspan="3" align="left" valign="middle"> 
+                              
+                              <p>Excessive noise From motor</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Loose sunroof motor or blinder motor</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Tighten the motor fixing bolts</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Poor lubrication of motor gear and gear shaft</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Apply grease</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Water in motor</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Clean or replace the motor</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" rowspan="3" align="left" valign="middle"> 
+                              
+                              <p>Sunroof/blinder not moving during motor operation</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Motor gear or internal flexible shaft installed incorrectly</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Re-installation</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Blockage between guide rail and slider due to foreign bodies</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Clean up the foreign bodies</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Internal flexible shaft fault</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the skeleton components</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" rowspan="2" align="left" valign="middle"> 
+                              
+                              <p>Excessive wind noise during driving</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Sunroof close incompletely</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Adjust the sunroof glass</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Poor sealing by the seal</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Reinstall or replace the seal</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" rowspan="5" align="left" valign="middle"> 
+                              
+                              <p>Sunroof Not Working</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Fuse damaged</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the fuse with the same specification after checking that the relevant wire wiring harness is free of short circuit</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Sunroof motor damaged</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the sunroof motor</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Sunroof switch damaged</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the front interior light assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Wiring harness  or connector fault</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Overhaul the wiring harness and connector according to the circuit diagram.</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Right body control module fault</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the right body control module</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" rowspan="4" align="left" valign="middle"> 
+                              
+                              <p>Tilting/closing of sunroof impossible</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Sunroof switch damaged</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the front interior light assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Sunroof motor damaged</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the sunroof motor</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Wiring harness  or connector fault</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Overhaul the wiring harness and connector according to the circuit diagram.</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Right body control module fault</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the right body control module</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" rowspan="3" align="left" valign="middle"> 
+                              
+                              <p>One-touch opening or tilting/closing of sunroof impossible</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Sunroof switch damaged</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the front interior light assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Sunroof motor damaged</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the sunroof motor</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Right body control module fault</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the right body control module</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" rowspan="5" align="left" valign="middle"> 
+                              
+                              <p>Sunroof blinder fault</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Fuse damaged</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the fuse with the same specification after checking that the relevant wire wiring harness is free of short circuit</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Sunroof blinder motor damaged</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the sunroof blinder motor</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Sunroof blinder switch damaged</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the front interior light assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Wiring harness  or connector fault</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Overhaul the wiring harness and connector according to the circuit diagram.</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Right body control module fault</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the right body control module</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" rowspan="3" align="left" valign="middle"> 
+                              
+                              <p>One-touch opening or closing of sunroof blinder impossible</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Sunroof blinder switch damaged</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the front interior light assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Sunroof blinder motor damaged</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the sunroof blinder motor</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Right body control module fault</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>Replace the right body control module</p> 
+                              
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

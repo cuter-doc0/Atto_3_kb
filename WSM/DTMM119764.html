@@ -1,0 +1,1007 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="System Description"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>System Description</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-1-F5240221">
+         
+         
+         
+         <h3 class="topictitletopic1 title">System Description</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section">
+               <h3 class="title topictitle1">Component Location View</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G073501.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               <p class="p"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr> 
+                           
+                           <th width="50%" align="center" valign="middle"> 
+                              
+                              <p>SN.</p> 
+                              
+                           </th>  
+                           
+                           <th width="50%" align="center" valign="middle"> 
+                              
+                              <p>Name</p> 
+                              
+                           </th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr> 
+                           
+                           <td width="50%" align="center" valign="middle"> 
+                              
+                              <p>1</p> 
+                              
+                           </td>  
+                           
+                           <td width="50%" align="center" valign="middle"> 
+                              
+                              <p>Intelligent Power Brake System</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="50%" align="center" valign="middle"> 
+                              
+                              <p>2</p> 
+                              
+                           </td>  
+                           
+                           <td width="50%" align="center" valign="middle"> 
+                              
+                              <p>Yaw rate sensor</p> 
+                              
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </p> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Exploded View of Components</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G073502.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               <p class="p"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr> 
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>SN.</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>Quantity</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>SN.</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>Quantity</p> 
+                              
+                           </th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>1</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Brake fluid pot coupling hose assembly</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>9</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Left rear brake tube II assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>2</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Intelligent Power Brake System</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>10</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Left rear brake tube I assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>3</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Right front brake hose assembly</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>11</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Left front brake tube assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>4</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Right front brake tube assembly</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>12</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Left front brake hose assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>5</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Right rear brake tube I assembly</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>13</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Brake fluid reservoir mounting bracket assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>6</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Right rear brake tube II assembly</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>14</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Brake fluid reservoir assembly</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>7</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Right rear brake hose assembly</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>15</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Yaw rate sensor</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>8</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Left rear brake hose assembly</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>16</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Left rear wheel speed sensor</p> 
+                              
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </p> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">System Function Principle</h3> 
+               
+               
+               <p class="p">The intelligent power brake system includes the brake assist and brake adjustment modules, which replaces the traditional
+                  EVP+ESC modules, and the weight of the whole system is greatly reduced. Decoupling brake system is applied to solve the braking
+                  feedback problem of new energy vehicles. It mainly consists of the following parts:
+               </p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Hydraulic adjustment module of intelligent power brake system with electronic control unit</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Wheel speed sensor</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Steering wheel angle sensor (this module is not available if the steering system sends an angle signal)</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">External inertial sensor</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Communication between modules of CAN network</p> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p">Operating principle of intelligent power brake system</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Identifying the driver's intention: ECU can recognize the driver's intention through the position of steering wheel, wheel
+                        speed, accelerator pedal position and brake pressure.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Identifying vehicle state: ECU calculates the control quantity required to maintain stability, and the hydraulic module quickly
+                        brakes individual wheel as required.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Assisting steering through braking intervention: ECU calculates the control amount required to maintain stability, and the
+                        hydraulic module quickly brakes individual wheel as required.
+                     </p> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p">Wheel speed sensor</p>  
+               
+               <p class="p">The rotation speed of the wheel is an important input variable of the control system. The wheel speed sensor detects the rotation
+                  speed of the wheel and transmits the electrical signal to the control unit. The speed signal is used to calculate the degree
+                  of skid.
+               </p>  
+               
+               <p class="p">Steering wheel angle sensor</p>  
+               
+               <p class="p">The intelligent power brake system selectively applies braking on each wheel to keep the vehicle in the desired direction.
+                  The steering angle is used as an important input to determine the desired direction. The angle signal is mainly transmitted
+                  in the following two forms:
+               </p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The steering wheel angle signal is sent by the steering system control module.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Measure the angle value of the steering wheel and output it with standard CAN signal.</p>  
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d7320e459">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">After the steering wheel angle sensor is installed on the vehicle, calibration is required. See <a class="xref" href="DTRM119935.html">Steering Angle Signal Calibration</a>&nbsp;. This is to make sure that the middle position of the steering wheel is align with the 0° position of the steering wheel
+                              angle sensor (that is, the steering wheel angle is 0° when the vehicle is going straight).
+                           </div>
+                        </div>
+                        
+                     </div> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p">Inertial sensor</p>  
+               
+               <p class="p">The inertial sensor signal is used to calculate the actual movement of the vehicle. If the driver's target direction is very
+                  different from the actual movement of the vehicle, the inertial sensor will measure and analyze the angular rate, angular
+                  speed or inclination, and then ECU will send a control command to a wheels, and the intelligent power brake system will try
+                  to brake the vehicle.
+               </p>  
+               
+               <p class="p">Hydraulic principle of intelligent power brake system</p>  
+               
+               <p class="p">The brake system adopts an X-shaped layout, as shown in the figure below. The hydraulic regulator of the intelligent power
+                  brake system consists of brushless motor, master cylinder, hydraulic unit of solenoid valve, and pedal sense simulator.
+               </p>  
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G073503.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               <p class="p"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr> 
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>Abbreviation</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>Description</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>Abbreviation</p> 
+                              
+                           </th>  
+                           
+                           <th width="25%" align="center" valign="middle"> 
+                              
+                              <p>Description</p> 
+                              
+                           </th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>MC1</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>First circuit of brake master cylinder</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>OVFL</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Left front wheel outlet valve</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>MC2</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Second circuit of brake master cylinder</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>IVFR</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Right front wheel inlet valve</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>M</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>motor</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>OVFR</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Right front wheel outlet valve</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>PSV1</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Pressure control valve 1</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>IVRL</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Left rear wheel inlet valve</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>PSV2</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Pressure control valve 2</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>OVRL</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Left rear wheel outlet valve</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>CSV1</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Travel simulator block valve 1</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>IVRR</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Right rear wheel inlet valve</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>CSV2</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Travel simulator block valve 2</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>OVRR</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Right rear wheel outlet valve</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>FL</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Left front wheel</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>HSV1</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>High pressure valve 1</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>FR</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Right front wheel</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>HSV2</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>High pressure valve 2</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>RL</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Left rear wheel</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>USV1</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Pilot valve 1</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>RR</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Right rear wheel</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>USV2</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Pilot valve 2</p> 
+                              
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>IVFL</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Left front wheel inlet valve</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>P/U</p> 
+                              
+                           </td>  
+                           
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Pressure sensor</p> 
+                              
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </p> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">System Block Diagram</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G079391.png" alt="G079391"></img></div>
+                  </div> 
+                  
+               </p> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

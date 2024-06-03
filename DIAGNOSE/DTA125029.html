@@ -1,0 +1,567 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="B225600 Blinder Initialization Lost"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA060052"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>B225600 Blinder Initialization Lost</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA060052">
+         
+         
+         
+         <h3 class="topictitletopic1 title">B225600 Blinder Initialization Lost</h3>
+         
+         
+         <div class="nested1 topic task" id="tasb31f1550"> 
+            
+            <h3 class="topictitletopic2 title">DTC Description</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <tbody>
+                        <tr>
+                           <td width="25%" colspan="2" align="center" valign="middle"> 
+                              
+                              <p>B225600 Blinder Initialization Lost</p> 
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Symptom</p> 
+                              
+                           </td>
+                           <td width="75%" align="left" valign="middle"> 
+                              
+                              <p>One-touch opening or closing of blinder impossible, and anti-pinch function failed</p> 
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Possible cause</p> 
+                              
+                           </td>
+                           <td width="75%" align="left" valign="middle"> 
+                              
+                              <p> 
+                                 
+                                 <ol class="num"> 
+                                    
+                                    <li> 
+                                       
+                                       <p class="p-inline">Blinder not initialized</p> 
+                                       
+                                    </li>  
+                                    
+                                    <li> 
+                                       
+                                       <p class="p-inline">Wiring harness or connector fault</p> 
+                                       
+                                    </li>  
+                                    
+                                    <li> 
+                                       
+                                       <p class="p-inline">Sunroof blinder motor fault</p> 
+                                       
+                                    </li>  
+                                    
+                                    <li> 
+                                       
+                                       <p class="p-inline">Right body control module fault</p> 
+                                       
+                                    </li> 
+                                    
+                                 </ol> 
+                                 
+                              </p> 
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Fault setting conditions</p> 
+                              
+                           </td>
+                           <td width="75%" align="left" valign="middle"> 
+                              
+                              <p>The right body control module judges that the blinder position is lost</p> 
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="25%" align="center" valign="middle"> 
+                              
+                              <p>Fault triggering condition</p> 
+                              
+                           </td>
+                           <td width="75%" align="left" valign="middle"> 
+                              
+                              <p> 
+                                 
+                                 <ol class="num"> 
+                                    
+                                    <li> 
+                                       
+                                       <p class="p-inline">9~16V</p> 
+                                       
+                                    </li>  
+                                    
+                                    <li> 
+                                       
+                                       <p class="p-inline">Right body control module connected to constant power</p> 
+                                       
+                                    </li> 
+                                    
+                                 </ol> 
+                                 
+                              </p> 
+                              
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="tas08239cb9"> 
+            
+            <h3 class="topictitletopic2 title">Diagnostic Steps<button type="button" id="dtcbutton1" class="button" onclick="expandAll();butSwitch();"><samp>Expand all</samp></button><button type="button" id="dtcbutton2" onclick="gotoFirstDtcStep('step01');butSwitch();" class="button dtc-inactive"><samp>Diagnostic guidance</samp></button></h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div> 
+                  <a name="step01"></a><div class="otherclass1 dtcprocess otherclass2" data-step="step01">
+                     <table width="100%" border="solid 1pt" class="postspace" id="DTA060052__">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">1</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check the DTC of right domain control module</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Connect a VDS to the data link connector.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Set the START/STOP button to ON.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Use a VDS to record and then clear the DTC.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Set the START/STOP button to OFF, and wait for a few seconds.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Set the START/STOP button to ON again, and read the DTC.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether the same DTC is displayed.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step01" value="option1"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step01" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step01" value="next-step02"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step01" value="next-step02"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 35.5,1 35.5,15 18,19.5 1,15 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="18" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Check for “intermittent fault”.</span> 
+                                       </span><span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>  
+                  <a name="step02"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step02">
+                     <table width="100%" border="solid 1pt" class="postspace" id="DTA060052__">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">2</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Reinitialize the blinder</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Perform the blinder initialization again.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether the results are normal.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step02" value="option1"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step02" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step02" value="next-step03"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step02" value="next-step03"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 35.5,1 35.5,15 18,19.5 1,15 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="18" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Troubleshooting</span> 
+                                       </span><span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>  
+                  <a name="step03"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step03">
+                     <table width="100%" border="solid 1pt" class="postspace" id="DTA060052__">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">3</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check the wiring harness connector of blinder motor.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Set the START/STOP button to OFF.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Disconnect the wiring harness connector of blinder motor P05(B).</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check the wiring harness connector of blinder motor for corrosion, damage, pin withdrawing and other faults.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether the results are normal.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step03" value="option1"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step03" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step03" value="next-step04"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step03" value="next-step04"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 35.5,1 35.5,15 18,19.5 1,15 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="18" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Maintain or replace the damaged wiring harness or connector.</span> 
+                                       </span><span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>  
+                  <a name="step04"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step04">
+                     <table width="100%" border="solid 1pt" class="postspace" id="DTA060052__">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">4</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check the wiring harness connector of right domain control module</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Disconnect the wiring harness connector of right domain control module PG86(C).</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check the wiring harness connector of right domain control module for corrosion, damage, pin withdrawing, etc.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether the results are normal.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step04" value="option1"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step04" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step04" value="next-step05"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step04" value="next-step05"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 35.5,1 35.5,15 18,19.5 1,15 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="18" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Maintain or replace the damaged wiring harness or connector.</span> 
+                                       </span><span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>  
+                  <a name="step05"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step05">
+                     <table width="100%" border="solid 1pt" class="postspace" id="DTA060052__">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">5</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check the blinder motor.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Replace it with a new blinder motor, and restore the vehicle.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Set the START/STOP button to ON, and conduct a test run to check its function.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether the results are normal.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step05" value="option1"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step05" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step05" value="option2"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step05" value="option2"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Replace <a class="partcode xref " onclick="partCode();">the blinder motor</a>&nbsp;<script>
+      function partCode(){
+        window.parent.postMessage(
+          {
+          message:'sendManualCode',
+          manualCode:"EM2E-3711500"
+          },'*');
+      }
+    </script>.</span> 
+                                       </span><span><span class="dtcstep dtc-inactive" data-option="option2">Replace the <a class="partcode xref " onclick="partCode();">right domain control module</a>&nbsp;<script>
+      function partCode(){
+        window.parent.postMessage(
+          {
+          message:'sendManualCode',
+          manualCode:"SC2EM-3622300B"
+          },'*');
+      }
+    </script>.</span>                
+                                       </span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div> 
+                  
+               </div> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

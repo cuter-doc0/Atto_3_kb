@@ -1,0 +1,275 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="Diagnosis of Air Conditioner Compressor DTC"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA092911"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Diagnosis of Air Conditioner Compressor DTC</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section class="1" id="DTA092911">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Diagnosis of Air Conditioner Compressor DTC</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">List of DTC</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr align="center" valign="middle"> 
+                           
+                           <th width="1" align="center" valign="top">DTC</th>  
+                           
+                           <th width="1" align="center" valign="top">Meaning</th>  
+                           
+                           <th width="1" align="center" valign="top">Diagnostic Process</th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2AB997</td>  
+                           
+                           <td width="1" align="left" valign="top">Overload</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125417.html">B2AB997 Overload</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B2AB049</td>  
+                           
+                           <td width="1" align="left" valign="top">Current sampling circuit fault</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125418.html">B2AB049 Current Sampling Circuit Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B2AB149</td>  
+                           
+                           <td width="1" align="left" valign="top">Motor Phase Lost</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125419.html">B2AB149 Motor Phase Lost</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B2AB249</td>  
+                           
+                           <td width="1" align="left" valign="top">IPM IGBT fault</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125420.html">B2AB249 IPM IGBT Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B2AB349</td>  
+                           
+                           <td width="1" align="left" valign="top">Internal temperature sensor fault</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125421.html">B2AB349 Internal Temperature Sensor Fault</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="middle">B2AB41D</td>  
+                           
+                           <td width="1" align="left" valign="top">Excessive internal current</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125422.html">B2AB41D Excessive Internal Current</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2AB573</td>  
+                           
+                           <td width="1" align="left" valign="top">Startup failed</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125423.html">B2AB573 Startup Failed</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2AB64B</td>  
+                           
+                           <td width="1" align="left" valign="top">Internal temperature abnormal</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125424.html">B2AB64B Internal Temperature Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2AB774</td>  
+                           
+                           <td width="1" align="left" valign="top">Speed Abnormal</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125425.html">B2AB774 Speed Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2AB81C</td>  
+                           
+                           <td width="1" align="left" valign="top">Phase voltage too high</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125426.html">B2AB81C Phase Voltage Too High</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2ABB17</td>  
+                           
+                           <td width="1" align="left" valign="top">Overvoltage on the High Voltage Side</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125427.html">B2ABB17 Overvoltage on the High Voltage Side</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2ABC16</td>  
+                           
+                           <td width="1" align="left" valign="top">Voltage Low on the High Voltage Side</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125428.html">B2ABC16 Voltage Low on the High Voltage Side</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle">B2ABA1C</td>  
+                           
+                           <td width="1" align="left" valign="top">Fault at Internal Low Voltage Power Supply</td>  
+                           
+                           <td width="1" align="left" valign="top"><a class="xref" href="DTA125429.html">B2ABA1C Fault at Internal Low Voltage Power Supply</a>&nbsp;
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

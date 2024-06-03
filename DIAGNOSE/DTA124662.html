@@ -1,0 +1,388 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="Diagnosis Description"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA119037"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Diagnosis Description</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA119037">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Diagnosis Description</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">Introduction</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <p class="p">　　When diagnosing the fault of the integrated intelligent control module, in&nbsp;order&nbsp;to&nbsp;understand&nbsp;and&nbsp;get&nbsp;familiar&nbsp;with&nbsp;the&nbsp;working&nbsp;principle&nbsp;of
+                     each integrated system of the integrated intelligent control module,&nbsp;go&nbsp;to&nbsp;the&nbsp;description&nbsp;and&nbsp;operation&nbsp;overview. Before
+                     the diagnosis, confirm the symptom described by customers, and then analyze the cause of system fault, which can help determining
+                     the correct fault diagnosis procedure. When inspecting and measuring the lines and components of the integrated intelligent
+                     control module, it is preferred to apply the data flow to improve the diagnosis efficiency and shorten the maintenance time.
+                     After determining the fault, make sure to get familiar with all precautions and notices of the integrated intelligent control
+                     module system before carrying out the maintenance, and the standard operation procedures shall be followed. After the maintenance,
+                     check the system and ensure its working status.
+                  </p> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="T002"> 
+            
+            <h3 class="topictitletopic2 title">General equipment</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <ul name="contents" class="ul"> 
+                     
+                     <li> 
+                        
+                        <p class="p-inline">VDS</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Multimeter</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Socket wrench kit</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Insulating tool kit</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Insulating gloves</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Insulating shoes</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Power battery lifting platform</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Clamp flow meter</p> 
+                        
+                     </li> 
+                     
+                  </ul>
+                  
+                  
+                  <div>
+                     <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d19535e86">
+                        <div class="noteheader">
+                           <div class="common tip">
+                              <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                        </div>
+                        <div class="notebody attention-text postspace-s wl-attention-content"> 
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">When using a multimeter to measure the voltage, select the closest range.</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">When using a multimeter to measure the resistance, select the closest range.</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </div>
+                     </div>
+                     
+                  </div> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" xml:lang="en-US" lang="en-US" id="DTA066563"> 
+            
+            <h3 class="topictitletopic2 title">Precautions</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <div>
+                     <div class="wl-attention prespace postspace danger-imgdanger" data-attention-type="danger" id="d19535e119">
+                        <div class="noteheader">
+                           <div class="common tip">
+                              <div><img style="width:100%;height:100%;" src="basefiles/artwork/dangerv2.svg"></img></div><span class="notetitleone">Danger</span></div>
+                        </div>
+                        <div class="notebody attention-text postspace-s wl-attention-content"> 
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">The bus voltage of the power battery is high. During the removal and installation of the high voltage components, the operators
+                                    with low voltage electrician certificate must wear the high voltage insulating gloves. The metal objects on the human body
+                                    shall not contact the vehicle body.
+                                 </p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Never touch the positive and negative terminals of the power battery at the same time.</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </div>
+                     </div>
+                     
+                  </div>  
+                  
+                  <div>
+                     <div class="wl-attention prespace postspace warning-imgwarning" data-attention-type="warning" id="d19535e137">
+                        <div class="noteheader">
+                           <div class="common tip">
+                              <div><img style="width:100%;height:100%;" src="basefiles/artwork/warningv2.svg"></img></div><span class="notetitleone">Warning</span></div>
+                        </div>
+                        <div class="notebody attention-text postspace-s wl-attention-content"> 
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Before maintaining or removing and installing the high voltage components, the high voltage power-off procedure must be carried
+                                    out to confirm that the 12 V power supply and the high voltage power connector have been disconnected. And after the power-off,
+                                    the vehicle should stand for more than 5 minutes.
+                                 </p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">It is prohibited to dismantle the high voltage system (including power battery, electric hybrid system, air conditioner compressor,
+                                    DC fast charging socket, AC slow charging socket, high voltage distribution box and two-way vehicle power supply, etc.) by
+                                    the maintenance personnel who have not attended the training on the knowledge of high voltage system of this vehicle model.
+                                 </p> 
+                                 
+                              </li>
+                              <li> 
+                                 
+                                 <p class="p-inline">Before starting maintenance work, the maintenance&nbsp;technician must wear labor protection appliances, including insulating gloves
+                                    and high voltage insulating shoes. Before wearing insulating gloves, it is necessary to check whether the insulating gloves
+                                    are damaged and ensure that there is no insulation failure of the gloves.
+                                 </p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Never remove, drop, collide or step on the power battery by force.</p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Never puncture, extrude, place at high temperature, or bake the power battery.</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </div>
+                     </div>
+                     
+                  </div>  
+                  
+                  <div>
+                     <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d19535e173">
+                        <div class="noteheader">
+                           <div class="common tip">
+                              <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                        </div>
+                        <div class="notebody attention-text postspace-s wl-attention-content"> 
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">The high voltage area must be de-energized in all maintenance operations involving the&nbsp;high voltage electrical appliances
+                                    and&nbsp;high voltage wiring harness.
+                                 </p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Never start the operation within 5min after the high voltage power supply is disconnected.</p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Insulate and seal the removed and disconnected high voltage electrical plug interface to prevent sundries from entering.</p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Some parts have locking function. Never remove them by force.</p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Protect the power battery during removal.</p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">The wiring harness connector shall be kept dry. If coolant or oil is accidentally splashed into the high voltage wiring harness
+                                    or electrical appliance, clean it up and blow dry with compressed air. And use a multimeter to measure the insulation resistance
+                                    of the high voltage electrical apparatus or wiring harness, and install it after it meets the standard.
+                                 </p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </div>
+                     </div>
+                     
+                  </div> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>BYD ATTO3 Circuit Diagram Manual (RHD Version)</title><link rel="stylesheet" type="text/css" href="htmlCustom.css">
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+function ontreeload(){
+	var id=geturlValueByKey_index("id");
+	var selectstr=geturlValueByKey_index("selectstr");
+	if(id!=null&&id!=""){
+		if(selectstr!=null&&selectstr!=""){
+			document.getElementById("framec1").src=id+".html?selectstr="+selectstr;
+		}else{
+			document.getElementById("framec1").src=id+".html";
+		}
+	}
+	setIframeHeight(document.getElementById('framec1'));
+}
+function setIframeHeight(iframe) {
+	if (iframe) {
+		var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
+		if (iframeWin.document.body) {
+			iframe.height = iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight;
+			console.log("set height " + iframe.height);
+		}
+	}
+};
+</script>
+</head><frameset onload="ontreeload()" cols="20%,*"><frame name="tocwin" src="tocnav.html"><frame name="contentwin" src="DT802668.html" id="framec1"></frameset></html>

@@ -1,0 +1,844 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Underbody"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Underbody</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section class="1" id="topic-1-F5240221">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Underbody</h3>
+         
+         
+         <div class="body"> 
+            
+            <div>
+               <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d495e12">
+                  <div class="noteheader">
+                     <div class="common tip">
+                        <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                  </div>
+                  <div class="notebody attention-text postspace-s wl-attention-content"> 
+                     
+                     <ul name="contents" class="ul">
+                        <li> 
+                           
+                           <p class="p-inline">If only one size is marked in the figure, it indicates that the data is left-right symmetrical.</p> 
+                           
+                        </li>
+                        <li> 
+                           
+                           <p class="p-inline">Capital letters denote the right side of the vehicle and lowercase letters denote the left side.</p> 
+                           
+                        </li>
+                     </ul>
+                     
+                     
+                  </div>
+               </div>
+               
+            </div>  
+            
+            <div class="section">
+               <h3 class="title topictitle1">Front part</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G060444.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               <p class="p">Table of functions for different hole positions:</p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">  
+                  
+                  
+                  
+                  
+                  
+                  <thead style="font-weight: bold"> 
+                     
+                     <tr> 
+                        
+                        <th width="25%" valign="top">SN.</th>  
+                        
+                        <th width="25%" valign="top">Position</th>  
+                        
+                        <th width="25%" valign="top">SN.</th>  
+                        
+                        <th width="25%" valign="top">Position</th> 
+                        
+                     </tr> 
+                     
+                  </thead>  
+                  
+                  <tbody> 
+                     
+                     <tr> 
+                        
+                        <td width="25%" valign="top">E,e</td>  
+                        
+                        <td width="25%" valign="top">Mounting hole of front end module</td>  
+                        
+                        <td width="25%" valign="top">G,g</td>  
+                        
+                        <td width="25%" valign="top">Rear mounting point of front subframe</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="25%" valign="top">F,f</td>  
+                        
+                        <td width="25%" valign="top">Front mounting point of front subframe</td>  
+                        
+                        <td width="25%" valign="top">&nbsp;</td>  
+                        
+                        <td width="25%" valign="top">&nbsp;</td> 
+                        
+                     </tr> 
+                     
+                  </tbody> 
+                  
+               </table> 
+               
+               
+               <p class="p">Table of data for measuring hole positions:</p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">  
+                  
+                  
+                  
+                  
+                  <thead style="font-weight: bold"> 
+                     
+                     <tr> 
+                        
+                        <th width="20%" class="greenCell" valign="top">SN.</th>  
+                        
+                        <th width="60%" class="greenCell" valign="top">Measurement part</th>  
+                        
+                        <th width="20%" class="greenCell" valign="top">Dimensions (mm)</th> 
+                        
+                     </tr> 
+                     
+                  </thead>  
+                  
+                  <tbody> 
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">E-e</td>  
+                        
+                        <td width="60%" valign="top">Right front section module mounting hole and left front section module mounting hole</td>  
+                        
+                        <td width="20%" valign="top">782.0</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">F-f</td>  
+                        
+                        <td width="60%" valign="top">Front mounting point of right front subframe and front mounting point of left front subframe</td>  
+                        
+                        <td width="20%" valign="top">876.0</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">G-g</td>  
+                        
+                        <td width="60%" valign="top">Rear mounting point of right front subframe and rear mounting point of left front subframe</td>  
+                        
+                        <td width="20%" valign="top">562.0</td> 
+                        
+                     </tr> 
+                     
+                  </tbody> 
+                  
+               </table> 
+               
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Middle part</h3> 
+               
+               
+               <p class="p">400km configuration body:</p>  
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G060445.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               <p class="p">Table of functions for different hole positions:</p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">  
+                  
+                  
+                  
+                  
+                  
+                  <thead style="font-weight: bold"> 
+                     
+                     <tr> 
+                        
+                        <th width="25%" valign="top">SN.</th>  
+                        
+                        <th width="25%" valign="top">Position</th>  
+                        
+                        <th width="25%" valign="top">SN.</th>  
+                        
+                        <th width="25%" valign="top">Position</th> 
+                        
+                     </tr> 
+                     
+                  </thead>  
+                  
+                  <tbody> 
+                     
+                     <tr> 
+                        
+                        <td width="25%" valign="top">H,h</td>  
+                        
+                        <td width="25%" valign="top">Mounting point of<span class="ph b"> battery tray</span></td>  
+                        
+                        <td width="25%" valign="top">K,k</td>  
+                        
+                        <td width="25%" valign="top">Mounting point of<span class="ph b"> battery tray</span></td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="25%" valign="top">I,i</td>  
+                        
+                        <td width="25%" valign="top">Mounting point of<span class="ph b"> battery tray</span></td>  
+                        
+                        <td width="25%" valign="top">L,l</td>  
+                        
+                        <td width="25%" valign="top">Mounting point of 400km battery tray</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="25%" valign="top">J,j</td>  
+                        
+                        <td width="25%" valign="top">Mounting point of<span class="ph b"> battery tray</span></td>  
+                        
+                        <td width="25%" valign="top">&nbsp;</td>  
+                        
+                        <td width="25%" valign="top">&nbsp;</td> 
+                        
+                     </tr> 
+                     
+                  </tbody> 
+                  
+               </table> 
+               
+               
+               <p class="p">Table of data for measuring hole positions:</p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">  
+                  
+                  
+                  
+                  
+                  <thead style="font-weight: bold"> 
+                     
+                     <tr> 
+                        
+                        <th width="20%" class="greenCell" valign="top">SN.</th>  
+                        
+                        <th width="60%" class="greenCell" valign="top">Measurement part</th>  
+                        
+                        <th width="20%" class="greenCell" valign="top">Dimensions (mm)</th> 
+                        
+                     </tr> 
+                     
+                  </thead>  
+                  
+                  <tbody> 
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">H-h</td>  
+                        
+                        <td width="60%" valign="top">Right battery tray mounting point and left battery tray mounting point</td>  
+                        
+                        <td width="20%" valign="top">1166.0</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">I-i</td>  
+                        
+                        <td width="60%" valign="top">Right battery tray mounting point and left battery tray mounting point</td>  
+                        
+                        <td width="20%" valign="top">1166.0</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">J-j</td>  
+                        
+                        <td width="60%" valign="top">Right battery tray mounting point and left battery tray mounting point</td>  
+                        
+                        <td width="20%" valign="top">1166.0</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">K-k</td>  
+                        
+                        <td width="60%" valign="top">Right battery tray mounting point and left battery tray mounting point</td>  
+                        
+                        <td width="20%" valign="top">1166.0</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">L-l</td>  
+                        
+                        <td width="60%" valign="top">Right battery tray mounting point and left battery tray mounting point</td>  
+                        
+                        <td width="20%" valign="top">408.0</td> 
+                        
+                     </tr> 
+                     
+                  </tbody> 
+                  
+               </table> 
+               
+               
+               <p class="p">500km configuration body:</p>  
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G060446.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               <p class="p">Table of functions for different hole positions:</p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">  
+                  
+                  
+                  
+                  
+                  
+                  <thead style="font-weight: bold"> 
+                     
+                     <tr> 
+                        
+                        <th width="25%" class="greenCell" valign="top">SN.</th>  
+                        
+                        <th width="25%" class="greenCell" valign="top">Position</th>  
+                        
+                        <th width="25%" class="greenCell" valign="top">SN.</th>  
+                        
+                        <th width="25%" class="greenCell" valign="top">Position</th> 
+                        
+                     </tr> 
+                     
+                  </thead>  
+                  
+                  <tbody> 
+                     
+                     <tr> 
+                        
+                        <td width="25%" valign="top">H,h</td>  
+                        
+                        <td width="25%" valign="top">Mounting point of<span class="ph b"> battery tray</span></td>  
+                        
+                        <td width="25%" valign="top">K,k</td>  
+                        
+                        <td width="25%" valign="top">Mounting point of<span class="ph b"> battery tray</span></td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="25%" valign="top">I,i</td>  
+                        
+                        <td width="25%" valign="top">Mounting point of<span class="ph b"> battery tray</span></td>  
+                        
+                        <td width="25%" valign="top">M,m</td>  
+                        
+                        <td width="25%" valign="top">Mounting point of 500km battery tray</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="25%" valign="top">J,j</td>  
+                        
+                        <td width="25%" valign="top">Mounting point of<span class="ph b"> battery tray</span></td>  
+                        
+                        <td width="25%" valign="top">&nbsp;</td>  
+                        
+                        <td width="25%" valign="top">&nbsp;</td> 
+                        
+                     </tr> 
+                     
+                  </tbody> 
+                  
+               </table> 
+               
+               
+               <p class="p">Table of data for measuring hole positions:</p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">  
+                  
+                  
+                  
+                  
+                  <thead style="font-weight: bold"> 
+                     
+                     <tr> 
+                        
+                        <th width="20%" class="greenCell" valign="top">SN.</th>  
+                        
+                        <th width="60%" class="greenCell" valign="top">Measurement part</th>  
+                        
+                        <th width="20%" class="greenCell" valign="top">Dimensions (mm)</th> 
+                        
+                     </tr> 
+                     
+                  </thead>  
+                  
+                  <tbody> 
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">H-h</td>  
+                        
+                        <td width="60%" valign="top">Right battery tray mounting point and left battery tray mounting point</td>  
+                        
+                        <td width="20%" valign="top">1166.0</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">I-i</td>  
+                        
+                        <td width="60%" valign="top">Right battery tray mounting point and left battery tray mounting point</td>  
+                        
+                        <td width="20%" valign="top">1166.0</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">J-j</td>  
+                        
+                        <td width="60%" valign="top">Right battery tray mounting point and left battery tray mounting point</td>  
+                        
+                        <td width="20%" valign="top">1166.0</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">K-k</td>  
+                        
+                        <td width="60%" valign="top">Right battery tray mounting point and left battery tray mounting point</td>  
+                        
+                        <td width="20%" valign="top">1166.0</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">M-m</td>  
+                        
+                        <td width="60%" valign="top">Right battery tray mounting point and left battery tray mounting point</td>  
+                        
+                        <td width="20%" valign="top">330.0</td> 
+                        
+                     </tr> 
+                     
+                  </tbody> 
+                  
+               </table> 
+               
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Rear part</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G060447.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               <p class="p">Table of functions for different hole positions:</p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">  
+                  
+                  
+                  
+                  
+                  
+                  <thead style="font-weight: bold"> 
+                     
+                     <tr> 
+                        
+                        <th width="25%" valign="top">SN.</th>  
+                        
+                        <th width="25%" valign="top">Position</th>  
+                        
+                        <th width="25%" valign="top">SN.</th>  
+                        
+                        <th width="25%" valign="top">Position</th> 
+                        
+                     </tr> 
+                     
+                  </thead>  
+                  
+                  <tbody> 
+                     
+                     <tr> 
+                        
+                        <td width="25%" valign="top">N,n</td>  
+                        
+                        <td width="25%" valign="top">Front mounting point of rear subframe</td>  
+                        
+                        <td width="25%" valign="top">Q,q</td>  
+                        
+                        <td width="25%" valign="top">Front mounting point of rear subframe</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="25%" valign="top">O,o</td>  
+                        
+                        <td width="25%" valign="top">Front mounting point of rear subframe</td>  
+                        
+                        <td width="25%" valign="top">R,r</td>  
+                        
+                        <td width="25%" valign="top">Front mounting point of rear subframe</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="25%" valign="top">P,p</td>  
+                        
+                        <td width="25%" valign="top">Front mounting point of rear subframe</td>  
+                        
+                        <td width="25%" valign="top">S,s</td>  
+                        
+                        <td width="25%" valign="top">Front mounting point of rear subframe</td> 
+                        
+                     </tr> 
+                     
+                  </tbody> 
+                  
+               </table> 
+               
+               
+               <p class="p">Table of data for measuring hole positions:</p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">  
+                  
+                  
+                  
+                  
+                  <thead style="font-weight: bold"> 
+                     
+                     <tr> 
+                        
+                        <th width="20%" class="greenCell" valign="top">SN.</th>  
+                        
+                        <th width="60%" class="greenCell" valign="top">Measurement part</th>  
+                        
+                        <th width="20%" class="greenCell" valign="top">Dimensions (mm)</th> 
+                        
+                     </tr> 
+                     
+                  </thead>  
+                  
+                  <tbody> 
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">N-n</td>  
+                        
+                        <td width="60%" valign="top">Front mounting point of right rear subframe and front mounting point of left rear subframe</td>  
+                        
+                        <td width="20%" valign="top">1270.0</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">O-o</td>  
+                        
+                        <td width="60%" valign="top">Front mounting point of right rear subframe and front mounting point of left rear subframe</td>  
+                        
+                        <td width="20%" valign="top">1100.2</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">P-p</td>  
+                        
+                        <td width="60%" valign="top">Front mounting point of right rear subframe and front mounting point of left rear subframe</td>  
+                        
+                        <td width="20%" valign="top">1058.0</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">Q-q</td>  
+                        
+                        <td width="60%" valign="top">Front mounting point of right rear subframe and front mounting point of left rear subframe</td>  
+                        
+                        <td width="20%" valign="top">1241.9</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">R-r</td>  
+                        
+                        <td width="60%" valign="top">Front mounting point of right rear subframe and front mounting point of left rear subframe</td>  
+                        
+                        <td width="20%" valign="top">960.0</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">S-s</td>  
+                        
+                        <td width="60%" valign="top">Front mounting point of right rear subframe and front mounting point of left rear subframe</td>  
+                        
+                        <td width="20%" valign="top">808.0</td> 
+                        
+                     </tr> 
+                     
+                  </tbody> 
+                  
+               </table> 
+               
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G060448.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               <p class="p">Table of functions for different hole positions:</p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">  
+                  
+                  
+                  
+                  
+                  
+                  <thead style="font-weight: bold"> 
+                     
+                     <tr> 
+                        
+                        <th width="25%" class="greenCell" valign="top">SN.</th>  
+                        
+                        <th width="25%" class="greenCell" valign="top">Position</th>  
+                        
+                        <th width="25%" class="greenCell" valign="top">SN.</th>  
+                        
+                        <th width="25%" class="greenCell" valign="top">Position</th> 
+                        
+                     </tr> 
+                     
+                  </thead>  
+                  
+                  <tbody> 
+                     
+                     <tr> 
+                        
+                        <td width="25%" valign="top">A,a</td>  
+                        
+                        <td width="25%" valign="top">Mounting hole of rear shock absorber</td>  
+                        
+                        <td width="25%" valign="top">B,b</td>  
+                        
+                        <td width="25%" valign="top">Mounting hole of rear shock absorber</td> 
+                        
+                     </tr> 
+                     
+                  </tbody> 
+                  
+               </table> 
+               
+               
+               <p class="p">Table of data for measuring hole positions:</p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">  
+                  
+                  
+                  
+                  
+                  <thead style="font-weight: bold"> 
+                     
+                     <tr> 
+                        
+                        <th width="20%" class="greenCell" valign="top">SN.</th>  
+                        
+                        <th width="60%" class="greenCell" valign="top">Measurement part</th>  
+                        
+                        <th width="20%" class="greenCell" valign="top">Dimensions (mm)</th> 
+                        
+                     </tr> 
+                     
+                  </thead>  
+                  
+                  <tbody> 
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">A-a</td>  
+                        
+                        <td width="60%" valign="top">Left rear shock absorber mounting hole and right rear shock absorber mounting hole</td>  
+                        
+                        <td width="20%" valign="top">1118.7</td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" valign="top">B-b</td>  
+                        
+                        <td width="60%" valign="top">Left rear shock absorber mounting hole and right rear shock absorber mounting hole</td>  
+                        
+                        <td width="20%" valign="top">1119.2</td> 
+                        
+                     </tr> 
+                     
+                  </tbody> 
+                  
+               </table> 
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

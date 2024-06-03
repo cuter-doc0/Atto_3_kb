@@ -1,0 +1,490 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Multifunction video control module Calibration"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM120994"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Multifunction video control module Calibration</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM120994">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Multifunction video control module Calibration</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section">
+               <h3 class="title topictitle1">Dynamic Calibration</h3> 
+               
+               
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d58812e17">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">After replacing the faulty components of millimeter wave radar, configuration writing and external parameter calibration are
+                           required to the ensure the normal driving assistance. Use a VDS to the perform the calibration.
+                        </p>
+                     </div>
+                  </div>
+                  
+               </div>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Use a VDS to connect the vehicle OBD interface. Refer to the VDS Instructions</p>  
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d58812e28">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">OBD interface is located at right lower corner of right lower guard plate of instrument panel.</div>
+                        </div>
+                        
+                     </div>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G074664.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Set the vehicle power supply to OK, enter “Vehicle Diagnostic System”, and select the vehicle model.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Select “ECU Module”, conduct vehicle ECU module scanning.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">After scanning, select “Multifunction Video Control Module”, and enter the multifunction video control module diagnosis interface.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Select the "Calibration" module.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Select the corresponding configuration according to the actual vehicle, and then tap "Initial Dynamic Calibration".</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">After performing the operation, the calibration interface will keep displaying the progress until it reaches 100%, indicating
+                        that the calibration is successful.
+                     </p>  
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d58812e74">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">In the process of initial dynamic calibration, keep the vehicle speed greater than 40km/h, the calibration road shall have
+                              clear lane lines, and the driving road shall be in good condition, which is as straight as possible and as long as possible.
+                           </div>
+                        </div>
+                        
+                     </div> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Select “Turn off Dynamic Calibration”.</p> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Static Calibration</h3> 
+               
+               
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d58812e91">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content"> 
+                        
+                        <ul name="contents" class="ul">
+                           <li> 
+                              
+                              <p class="p-inline">The four-wheel alignment data of the vehicle is normal;</p> 
+                              
+                           </li>
+                           <li> 
+                              
+                              <p class="p-inline">The calibration site for placing equipment and parking vehicles must be flat;</p> 
+                              
+                           </li>
+                           <li> 
+                              
+                              <p class="p-inline">The illumination of the calibration plate must be uniform during the calibration;</p> 
+                              
+                           </li>
+                           <li> 
+                              
+                              <p class="p-inline">The tire pressure is normal;</p> 
+                              
+                           </li>
+                           <li> 
+                              
+                              <p class="p-inline">The vehicle is empty;</p> 
+                              
+                           </li>
+                           <li> 
+                              
+                              <p class="p-inline">The vehicle headlights must be turned off;</p> 
+                              
+                           </li>
+                           <li> 
+                              
+                              <p class="p-inline">The vehicle speed is zero. The vehicle is powered on;</p> 
+                              
+                           </li>
+                           <li> 
+                              
+                              <p class="p-inline">There is no obstruction between the calibration plate and the multifunction video controller.</p> 
+                              
+                           </li>
+                        </ul>
+                        
+                        
+                     </div>
+                  </div>
+                  
+               </div>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Set the vehicle power to OK, return the steering wheel and apply the parking brake.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Move the calibration tooling to the front of the vehicle.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Clamp the two clamps on the two rear hubs respectively.</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G100610.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Install the laser transmitter on the rear wheel fixture and make the scale face to the front of the vehicle.</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G100611.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Use a VDS to connect the vehicle OBD interface. Refer to the VDS Instructions</p>  
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d58812e179">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">OBD interface is located at right lower corner of right lower guard plate of instrument panel.</div>
+                        </div>
+                        
+                     </div>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G074664.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Enter "Vehicle Diagnosis System" and select the vehicle type.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Select “ECU Module”, conduct vehicle ECU module scanning.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">After scanning, select “Multifunction Video Control Module”, and enter the multifunction video control module diagnosis interface.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Select the "Calibration" module.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Select the corresponding configuration according to the actual vehicle, and then tap "Start Static Calibration".</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">"Calibration Prompt" will be displayed on the VDS interface. Place the calibration tooling in front of the vehicle and keep
+                        a proper distance.
+                     </p>  
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d58812e225">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">Adjust the distance from the front axle center of the vehicle to the radar calibration plate according to the prompts on the
+                              VDS.
+                           </div>
+                        </div>
+                        
+                     </div>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G100617.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Adjust the three supports a of the integral bracket to make the four wheels of the base off the ground. Adjust the height
+                        of the three fulcrums to make the target plate horizontal. See the horizontal tool b.
+                     </p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G100618.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Adjust the calibration frame to make the left and right scales consistent, and ensure that the returned laser beam is hit
+                        on the laser transmitter scale plate, and keep the right and left sides in line.
+                     </p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G100621.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Turn on the power of the laser transmitter installed on the rear wheel to make the laser beam hit the scale of the cross bar.</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G100622.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Adjust and calibrate the tooling.</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Loosen the scale behind the fixed column, make the scale drop onto the ground, and tighten the handle. At this time, the value
+                              indicated by the pointer corresponds to the actual distance from the center of the black and white pattern on the calibration
+                              board to the ground.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Shake the handle of the lifting device on the column. And move the calibration plate assembly to the height that meets the
+                              calibration requirements (the center of the calibration plate is consistent with the height of the camera) according to the
+                              indicated value of the pointer at the rear of the column. At this time, the positions of the equipment and the vehicle have
+                              been determined.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ol>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G100624.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Tap “Read Complete” on the "Calibration Prompt" interface of the VDS.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">After performing the operation, the calibration interface will keep displaying the progress until it indicates that the calibration
+                        is successful.
+                     </p> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

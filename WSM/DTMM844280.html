@@ -1,0 +1,202 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Safe Operation Guide for Maintenance"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-us"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Safe Operation Guide for Maintenance</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-1-F5240221">
+         
+         
+         <h3 class="topictitletopic1 title">Safe Operation Guide for Maintenance</h3>
+         
+         <div class="body">     
+            <div class="section">       
+               <p class="p">         <span class="ph b">Basic safety requirements</span>       
+               </p>        
+               <ol class="num">         
+                  <li>           
+                     <p class="p-inline">The signs marked on the vehicle, such as "WARNING" and "CAUTION", are safety prompt information. For maintenance or repair,
+                        relevant prompts and specified safe operation requirements shall be strictly followed.
+                     </p>            
+                     <ul name="contents" class="ul">             
+                        <li>               
+                           <p class="p-inline">"WARNING": Serious injury or death will be caused if the specified operating procedures are not followed.</p>             
+                        </li>              
+                        <li>               
+                           <p class="p-inline">"CAUTION": Immediate danger, which may cause serious personal injury if the specified operating procedures are not followed.</p>             
+                        </li>           
+                     </ul>
+                     
+                  </li>          
+                  <li>           
+                     <p class="p-inline">High-voltage components include: high-voltage orange wiring harness, high-voltage battery system, front drive electric powertrain,
+                        charging and distribution assembly, charging system, electric compressor, PTC heater etc.
+                     </p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">Electrical circuit repair personnel must hold high-voltage electrical practice qualification certificates and strictly abide
+                        by the specifications.
+                     </p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">During maintenance of high-voltage components, maintenance personnel must wear non-destructive insulation protective equipment
+                        as required, and the maintenance tools used must be high-voltage insulation tools.
+                     </p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">During vehicle maintenance, do not wear ornaments or watches.</p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">Non-professionals are strictly prohibited from cutting or opening high-voltage cables and components.</p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">Do not simultaneously touch both the positive and negative terminals of a high-voltage component with both hands at any time.</p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">Do not wash the high-voltage components or electrical appliance compartment of the vehicle with water.</p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">Do not artificially damage the high-voltage components of the vehicle.</p>         
+                  </li>       
+               </ol>     
+            </div>
+            
+            <div class="section">       
+               <p class="p">         <span class="ph b">Test safety requirements</span>       
+               </p>        
+               <ol class="num">         
+                  <li>           
+                     <p class="p-inline">All levels of maintenance and pre-inspection of pure electric vehicles are in a live and startable status, and the pre-inspection
+                        must be carried out by professionals.
+                     </p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">Before the vehicle is powered on, make sure that no other personnel are carrying out maintenance and that the parking brake
+                        is applied and the gearshift lever is in neutral position.
+                     </p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">After the vehicle is powered on, hang warning signs such as "Do Not Operate without Authorization" in the steering wheel area.</p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">Before vehicle testing, diagnosis and completion inspection, carry out insulation test on insulating gloves. Do not use damaged
+                        insulating gloves. Only use the test instrument after confirming it is in good condition, so as to avoid high voltage accidents
+                        caused by false values output by faulty instruments.
+                     </p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">Do not directly touch the orange wiring harnesses, high-voltage connectors or high-voltage components with bare hands.</p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">Do not touch the terminals in high-voltage cable connectors with fingers, metal ends of small tools or iron bars.</p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">When measuring the voltage of high-voltage terminal with a multimeter, do not touch the probe conductor by hand.</p>         
+                  </li>       
+               </ol>     
+            </div>
+            
+            <div class="section">       
+               <p class="p">         <span class="ph b">Maintenance safety requirements</span>       
+               </p>        
+               <ol class="num">         
+                  <li>           
+                     <p class="p-inline">Before vehicle maintenance, make sure that the vehicle is in the maintenance area and set warning signs of "Danger! High Voltage"
+                        and "No Entry". Do not allow any non-maintenance personnel to enter this area. Ensure that warning signs are removed by maintenance
+                        personnel only.
+                     </p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">Before vehicle maintenance, check that the high-voltage power is disconnected.</p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">During vehicle maintenance, record the number of all parts removed, and place these parts in the part tray in a clean and
+                        visible area. During re-installation, make sure that all parts are installed in place without surplus or missing parts to
+                        prevent small components such as bolts from falling into any high-voltage components.
+                     </p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">During vehicle maintenance, use a special insulation plug cap or insulating tape to insulate the positive and negative connectors
+                        of cables of removed high-voltage components.
+                     </p>         
+                  </li>       
+               </ol>     
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DTC diagnosis table"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA066932"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DTC diagnosis table</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA066932">
+         
+         
+         
+         <h3 class="topictitletopic1 title">DTC diagnosis table</h3>
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">List of DTC</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr> 
+                           
+                           <th width="1" align="center" valign="middle"> 
+                              
+                              <p>DTC</p> 
+                              
+                           </th>  
+                           
+                           <th width="1" align="center" valign="middle"> 
+                              
+                              <p>Meaning</p> 
+                              
+                           </th>  
+                           
+                           <th width="1" align="center" valign="middle"> 
+                              
+                              <p>Diagnostic Process</p> 
+                              
+                           </th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B11BD11</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>LIN1 ambient light drive circuit is shorted to ground</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125337.html">B11BD11 LIN1 Ambient Light Drive Circuit Shorted to Ground</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B11BD12</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>LIN1 ambient light drive circuit is shorted to power</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125338.html">B11BD12 LIN1 Ambient Light Drive Circuit Shorted to Power</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B11BD13</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>LIN1 ambient light drive circuit broken</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125339.html">B11BD13 LIN1 Ambient Light Drive Circuit Broken</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B11BD19</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>LIN1 ambient light drive overloaded</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125340.html">B11BD19 LIN1 Ambient Light Overloaded</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B11BE11</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>LIN2 ambient light drive circuit is shorted to ground</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125341.html">B11BE11 LIN2 Ambient Light Drive Circuit Shorted to Ground</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B11BE12</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>LIN2 ambient light drive circuit is shorted to power</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125342.html">B11BE12 LIN2 Ambient Light Drive Circuit Shorted to Power</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B11BE13</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>LIN2 ambient light drive circuit broken</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125343.html">B11BE13 LIN2 Ambient Light Drive Circuit Broken</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="middle"> 
+                              
+                              <p>B11BE19</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"> 
+                              
+                              <p>LIN2 ambient light drive overloaded</p> 
+                              
+                           </td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA125344.html">B11BE19 LIN2 Ambient Light Overloaded</a>&nbsp;
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

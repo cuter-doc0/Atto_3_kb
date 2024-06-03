@@ -1,0 +1,183 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Inspection of 12 V Battery Voltage"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM175125"></meta>
+      
+      <meta name="DC.Language" content="en-us"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Inspection of 12 V Battery Voltage</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM175125">
+         
+         
+         <h3 class="topictitletopic1 title">Inspection of 12 V Battery Voltage</h3>
+         
+         <div class="body">     
+            <div class="section 1">
+               <p class="p"><span class="ph b">Repair tools and equipment required</span></p>
+               <ul name="contents" class="ul">
+                  <li>
+                     <p class="p-inline">12 V battery tester</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Automotive multimeter</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Torque wrench (5-50 N•m)</p>
+                  </li>
+               </ul>
+               
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d61673e26">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">The 12 V battery wiring harness is firmly connected and installed to ensure normal function and durability of the battery.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">When fixing the 12 V battery wiring harness, be sure to place the connector completely flat on the 12 V battery terminal.</p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>       
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d61673e35">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">If the wiring harness on the 12 V battery positive terminal is not connected firmly, disconnect the GND wire on the 12 V battery
+                           negative terminal first to eliminate the risk of accident.
+                        </p>
+                     </div>
+                  </div>
+                  
+               </div>
+               <p class="p"><span class="ph b">The purpose of measuring the static voltage of 12 V battery is to determine the battery SOC.</span></p>
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d61673e41">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">Before measurement, do not discharge or charge the 12 V battery to ensure that correct measurement results.</p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+               <ol class="num">
+                  <li>
+                     <p class="p-inline">Turn off all electrical appliances of the vehicle and power off the vehicle.</p>
+                  </li>    
+                  <li>
+                     <p class="p-inline">Power off the low-voltage electrical system. Refer to <a class="xref" href="DTRM119375.html">Power-off and Power-on of Low Voltage Electrical System</a>&nbsp;
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Measure the static voltage of 12 V battery with a 12 V battery tester or an automotive multimeter.</p>
+                     <ul name="contents" class="ul">
+                        <li>
+                           <p class="p-inline">If the 12 V battery voltage is greater than or equal to 12.5 V, the static voltage is normal.</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">If the voltage is less than 12.5 V, check the performance of 12 V battery, and charge or replace it if necessary.</p>
+                        </li>
+                     </ul>
+                     
+                  </li>
+                  <li>
+                     <p class="p-inline">Obtain a new work order for repair or replacement.</p>
+                  </li>
+               </ol>
+               <p class="p">Charge the 12 V battery according to the measurement result of static voltage.</p>
+               <p class="p">If the static voltage of 12 V battery is detected to be less than 12.5 V after charging, replace the battery.</p>
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Inspection of Seat Belt"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM175125"></meta>
+      
+      <meta name="DC.Language" content="en-us"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Inspection of Seat Belt</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM175125">
+         
+         
+         <h3 class="topictitletopic1 title">Inspection of Seat Belt</h3>
+         
+         <div class="body">     
+            <div class="section">
+               <h3 class="title topictitle1">Inspection of seat belt function</h3>
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d60489e15">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">Make sure that the seat belt is not twisted when retracted after it is pulled out.</p>
+                     </div>
+                  </div>
+                  
+               </div>
+               <p class="p"><span class="ph b">Inspection of automatic retractor (locking function) of seat belt</span></p>
+               <ol class="num">
+                  <li>
+                     <p class="p-inline">Check the seat belt function.</p>
+                     <ol class="num">
+                        <li>
+                           <p class="p-inline">Pull out the seat belt webbing with force quickly to remove it from the automatic retractor.</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">If the locking function fails, the whole seat belt must be replaced.</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">If the seat belt gets stuck when it is pulled out or retracted, first check whether the installation position of its automatic
+                              retractor does not change. If the installation is correct, replace the whole seat belt.
+                           </p>
+                        </li>
+                     </ol>
+                     <p>
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G213172.png"></img></div>
+                        </div>
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Obtain a new work order for repair or replacement.</p>
+                  </li>
+               </ol>
+            </div>
+            
+            <div class="section">
+               <h3 class="title topictitle1">Inspection of seat belt webbing</h3>
+               <div>
+                  <div class="wl-attention prespace postspace warning-imgwarning" data-attention-type="warning" id="d60489e45">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/warningv2.svg"></img></div><span class="notetitleone">Warning</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">Malfunction of the seat belt may cause serious injury.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">If it is determined that there is damage according to the detection items, the necessity of replacing the seat belt must be
+                                 explained to the user.
+                              </p>
+                           </li>
+                           <li>
+                              <p class="p-inline">If the user refuses to replace the damaged seat belt, corresponding remarks must be made in the maintenance schedule.</p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d60489e56">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">In case of damages not caused by traffic accidents, such as wear, only the corresponding seat belt needs to be replaced.</p>
+                     </div>
+                  </div>
+                  
+               </div>
+               <p class="p"><span class="ph b">Check the webbing</span></p>
+               <ol class="num">
+                  <li>
+                     <p class="p-inline">Pull out the seat belt completely from the automatic retractor.</p>
+                     <p>
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G213172.png"></img></div>
+                        </div>
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check that the seat belt is free of dirt, and clean it with mild soap solution if necessary.</p>
+                  </li>
+               </ol>
+               <p class="p"><span class="ph b">Check the damage status</span></p>
+               <p class="p">Check a vehicle that has been involved in a traffic accident. If one of the following damages (1 and 2) is found, replace
+                  the whole seat belt and its buckle.
+               </p>
+               <p class="p">Check a vehicle that has not been involved in a traffic accident. If any damage in items 1, 2, and 3 is found, only replace
+                  the damaged seat belt.
+               </p>
+               <ol class="num">
+                  <li>
+                     <p class="p-inline">The seat belt is broken, torn, or worn.</p>
+                     <p>
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G213173.png"></img></div>
+                        </div>
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">The edge of the seat belt is torn.</p>
+                     <p>
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G213174.png"></img></div>
+                        </div>
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">There are burn marks from cigarettes or the like.</p>
+                     <p>
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G213175.png"></img></div>
+                        </div>
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Obtain a new work order for repair or replacement.</p>
+                  </li>
+               </ol>
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

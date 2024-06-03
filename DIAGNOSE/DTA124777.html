@@ -1,0 +1,605 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DCT of Front Motor Control Module"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA093056"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DCT of Front Motor Control Module</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA093056">
+         
+         
+         
+         <h3 class="topictitletopic1 title">DCT of Front Motor Control Module</h3>
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">List of DTC</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">  
+                     
+                     
+                     
+                     
+                     <thead style="font-weight: bold"> 
+                        
+                        <tr align="center" valign="middle"> 
+                           
+                           <th width="1" align="center" valign="top">DTC</th>  
+                           
+                           <th width="1" align="center" valign="top">Meaning</th>  
+                           
+                           <th width="1" align="center" valign="top">Diagnostic Process</th> 
+                           
+                        </tr> 
+                        
+                     </thead>  
+                     
+                     <tbody> 
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="top">P1BB000</td>  
+                           
+                           <td width="1" align="left" valign="top">Front drive motor overcurrent</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124778.html">P1BB000 Front Drive Motor Overcurrent</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="top">P1BB200</td>  
+                           
+                           <td width="1" align="left" valign="top">General Overtemperature Warning for Front Drive Motor</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124779.html">P1BB200 General Overtemperature Warning for Front Drive Motor</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr align="left" valign="middle"> 
+                           
+                           <td width="1" align="center" valign="top">P1BB298</td>  
+                           
+                           <td width="1" align="left" valign="top">Serious Overtemperature Warning for Front Drive Motor</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124780.html">P1BB298 Serious Overtemperature Warning for Front Drive Motor</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BF200</td>  
+                           
+                           <td width="1" align="left" valign="top">Winding Temperature Sensor Sampling at Front Drive Motor Abnormal</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124781.html">P1BF200 Winding Temperature Sensor Sampling at Front Drive Motor Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BB300</td>  
+                           
+                           <td width="1" align="left" valign="top">IGBT-NTC General Overtemperature Warning for Front Drive Motor Control Module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124782.html">P1BB300 IGBT-NTC General Overtemperature Warning for Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BB319</td>  
+                           
+                           <td width="1" align="left" valign="top">IGBT-NTC serious overtemperature warning for front drive motor control module (chopper OFF)</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124783.html">P1BB319 IGBT-NTC Serious Overtemperature Warning for Front Drive Motor Control Module (Chopper OFF)</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BAC00</td>  
+                           
+                           <td width="1" align="left" valign="top">IGBT Core General Overtemperature Warning for Front Drive Motor Control Module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124784.html">P1BAC00 IGBT Core General Overtemperature Warning for Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BAC19</td>  
+                           
+                           <td width="1" align="left" valign="top">IGBT core serious overtemperature warning for front drive motor control module (chopper OFF)</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124785.html">P1BAC19 IGBT Core Serious Overtemperature Warning for Front Drive Motor Control Module (Chopper OFF)</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BC800</td>  
+                           
+                           <td width="1" align="left" valign="top">IGBT Three-phase Temperature Check Fault Alarm for Front Drive Motor Control Module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124786.html">P1BC800 IGBT Three-phase Temperature Check Fault Alarm for Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BB600</td>  
+                           
+                           <td width="1" align="left" valign="top">Overvoltage on the high voltage side of front drive motor control module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124787.html">P1BB600 Overvoltage on the High Voltage Side of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BB500</td>  
+                           
+                           <td width="1" align="left" valign="top">Undervoltage on the high voltage side of front drive motor control module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124788.html">P1BB500 Undervoltage on the High Voltage Side of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BB700</td>  
+                           
+                           <td width="1" align="left" valign="top">Voltage Sampling Fault of Front Drive Motor Control Module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124789.html">P1BB700 Voltage Sampling Fault of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BBA00</td>  
+                           
+                           <td width="1" align="left" valign="top">EEPROM error of front drive motor control module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124790.html">P1BBA00 EEPROM Error of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BBC00</td>  
+                           
+                           <td width="1" align="left" valign="top">DSP Reset Fault of Front Drive Motor Control Module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124791.html">P1BBC00 DSP Reset Fault of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BF100</td>  
+                           
+                           <td width="1" align="left" valign="top">IPM Temperature Sampling of Front Drive Motor Control Module Abnormal</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124792.html">P1BF100 IPM Temperature Sampling of Front Drive Motor Control Module Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BCF00</td>  
+                           
+                           <td width="1" align="left" valign="top">Temperature Sensor Fault of Front Drive Moto - Torque Limited</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124793.html">P1BCF00 Temperature Sensor Fault of Front Drive Motor - Torque Limited</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BB100</td>  
+                           
+                           <td width="1" align="left" valign="top">IPM Fault of Front Drive Motor Control Module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124794.html">P1BB100 IPM Fault of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BC900</td>  
+                           
+                           <td width="1" align="left" valign="top">Hall Current Sensor A Fault of Front Drive Motor Control Module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124795.html">P1BC900 Hall Current Sensor A Fault of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BC500</td>  
+                           
+                           <td width="1" align="left" valign="top">Hall Current Sensor B Fault of Front Drive Motor Control Module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124796.html">P1BC500 Hall Current Sensor B Fault of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BC600</td>  
+                           
+                           <td width="1" align="left" valign="top">Hall Current Sensor C Fault of Front Drive Motor Control Module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124797.html">P1BC600 Hall Current Sensor C Fault of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">U015229</td>  
+                           
+                           <td width="1" align="left" valign="top">Motor Control Module Receiving SRS Hardwire Signal Abnormally</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124798.html">U015229 Motor Control Module Receiving SRS Hardwire Signal Abnormally</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BB800</td>  
+                           
+                           <td width="1" align="left" valign="top">Impact Signal Fault of Front Drive Motor Control Module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124799.html">P1BB800 Impact Signal Fault of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BC200</td>  
+                           
+                           <td width="1" align="left" valign="top">Phase A of Front Drive Motor Lost</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124800.html">P1BC200 Phase A of Front Drive Motor Lost</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BC300</td>  
+                           
+                           <td width="1" align="left" valign="top">Phase B of Front Drive Motor Lost</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124801.html">P1BC300 Phase B of Front Drive Motor Lost</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BC400</td>  
+                           
+                           <td width="1" align="left" valign="top">Phase C of Front Drive Motor Lost</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124802.html">P1BC400 Phase C of Front Drive Motor Lost</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BBD00</td>  
+                           
+                           <td width="1" align="left" valign="top">Active Release Fault of Front Drive Motor Control Module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124803.html">P1BBD00 Active Release Fault of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">U011100</td>  
+                           
+                           <td width="1" align="left" valign="top">Communication with BMC failed</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124804.html">U011100 Communication with BMC Failed</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">U014187</td>  
+                           
+                           <td width="1" align="left" valign="top">Communication with vehicle control unit failed</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124805.html">U014187 Communication with Vehicle Control Unit Failed</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BD119</td>  
+                           
+                           <td width="1" align="left" valign="top">Drive CPLD Overcurrent of Front Drive Motor Control Module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124806.html">P1BD119 Drive CPLD Overcurrent of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BD117</td>  
+                           
+                           <td width="1" align="left" valign="top">Drive CPLD Overvoltage of Front Drive Motor Control Module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124807.html">P1BD117 Drive CPLD Overvoltage of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BD000</td>  
+                           
+                           <td width="1" align="left" valign="top">Drive DSP1 Crash Fault of Front Drive Motor Control Module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124808.html">P1BD000 Drive DSP1 Crash Fault of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BD400</td>  
+                           
+                           <td width="1" align="left" valign="top">Drive CPLD Running Fault of Front Drive Motor Control Module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124809.html">P1BD400 Drive CPLD Running Fault of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BD200</td>  
+                           
+                           <td width="1" align="left" valign="top">Drive CPLD detecting IGBT upper axle fault of front drive motor control module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124810.html">P1BD200 Drive CPLD Detecting IGBT Upper Axle Fault of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BD300</td>  
+                           
+                           <td width="1" align="left" valign="top">Drive CPLD detecting IGBT lower axle fault of front drive motor control module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124811.html">P1BD300 Drive CPLD Detecting IGBT Lower Axle Fault of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1B2516</td>  
+                           
+                           <td width="1" align="left" valign="top">Supply voltage on the low voltage side too low</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124812.html">P1B2516 Supply Voltage on the Low Voltage Side Too Low</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1B2517</td>  
+                           
+                           <td width="1" align="left" valign="top">Supply voltage on the low voltage side too high</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124813.html">P1B2517 Supply Voltage on the Low Voltage Side Too High</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BC700</td>  
+                           
+                           <td width="1" align="left" valign="top">IPM Radiator of Front Drive Motor Control Module Overtemperature</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124814.html">P1BC700 IPM Radiator of Front Drive Motor Control Module Overtemperature</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">U015129</td>  
+                           
+                           <td width="1" align="left" valign="top">Motor Control Module Receiving SRS CAN Signal Abnormally</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124815.html">U015129 Motor Control Module Receiving SRS CAN Signal Abnormally</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BC000</td>  
+                           
+                           <td width="1" align="left" valign="top">Front Drive Motor Rotary Transformer Fault - Angle Abnormal</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124816.html">P1BC000 Front Drive Motor Rotary Transformer Fault - Angle Abnormal</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BBF00</td>  
+                           
+                           <td width="1" align="left" valign="top">Front drive motor rotary transformer fault - signal lost</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124817.html">P1BBF00 Front Drive Motor Rotary Transformer Fault - Signal Lost</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BC100</td>  
+                           
+                           <td width="1" align="left" valign="top">Front Drive Motor Rotary Transformer Fault- Signal Amplitude Decreasing</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124818.html">P1BC100 Front Drive Motor Rotary Transformer Fault- Signal Amplitude Decreasing</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1BB900</td>  
+                           
+                           <td width="1" align="left" valign="top">Cap Opening Protection of Front Drive Motor Control Module</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124819.html">P1BB900 Cap Opening Protection of Front Drive Motor Control Module</a>&nbsp;
+                           </td> 
+                           
+                        </tr>  
+                        
+                        <tr> 
+                           
+                           <td width="1" align="center" valign="top">P1D6A00</td>  
+                           
+                           <td width="1" align="left" valign="top">Stepless fan motor open-circuited</td>  
+                           
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA124820.html">P1D6A00 Stepless Fan Motor Open-circuited</a>&nbsp;
+                           </td> 
+                           
+                        </tr> 
+                        
+                     </tbody> 
+                     
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

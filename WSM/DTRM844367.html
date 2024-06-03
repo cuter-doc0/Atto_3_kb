@@ -1,0 +1,585 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Inspection and Adjustment of Headlight (Headlight Adjustment Tool)"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM175123"></meta>
+      
+      <meta name="DC.Language" content="en-us"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Inspection and Adjustment of Headlight (Headlight Adjustment Tool)</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM175123">
+         
+         
+         <h3 class="topictitletopic1 title">Inspection and Adjustment of Headlight (Headlight Adjustment Tool)</h3>
+         
+         <div class="body">
+            <p class="p"><span class="ph b">Repair tools and equipment required</span></p>           
+            <ul name="contents" class="ul">
+               <li>
+                  <p class="p-inline">VDS</p>
+               </li>
+               <li>
+                  <p class="p-inline">Headlight adjustment tool</p>
+               </li>
+            </ul>
+            
+            <div>
+               <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d60148e22">
+                  <div class="noteheader">
+                     <div class="common tip">
+                        <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                  </div>
+                  <div class="notebody attention-text postspace-s wl-attention-content">
+                     <p class="p">It is essential to adjust the headlight cluster assembly in case of lighting deviation, or removal/installation and replacement.</p>
+                  </div>
+               </div>
+               
+            </div>
+            <div>
+               <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d60148e25">
+                  <div class="noteheader">
+                     <div class="common tip">
+                        <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                  </div>
+                  <div class="notebody attention-text postspace-s wl-attention-content">
+                     <p class="p">Before testing and adjusting the headlight, read the instructions of the headlight adjustment tool carefully and operate strictly
+                        as required.
+                     </p>
+                  </div>
+               </div>
+               
+            </div>
+            <div class="section">
+               <h3 class="title topictitle1">Conditions of inspection and adjustment</h3>
+               <ul name="contents" class="ul">
+                  <li>
+                     <p class="p-inline">Check and make sure that there is no damage or deformation of the vehicle and around the headlights.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Ensure the headlight glass is not damaged or dirty, and the reflector and lights are normal.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Make sure that the oil level and the coolant level meet the design requirements.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Make sure that the tire pressure meets the standard inflation pressure requirement.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Never place other articles in the vehicle, but be sure to place the tools delivered with the vehicle at the specified positions.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Turning the steering device is not allowed.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">The vehicle and headlight adjustment tool must be on the same plane.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">The vehicle or headlight adjustment tool must be calibrated.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">The inclination of headlights must be adjusted.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">The fault record must be cleared.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Dynamic headlight follow-up function (if any) must be turned off.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">The lighting distance adjustment initialization step must have been completed.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">The headlamp tester must be in the correct adjustment mode.</p>
+                  </li>
+               </ul>
+               
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d60148e72">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">After adjusting the headlights, the dynamic headlight follow-up function (if any) must be reactivated.</p>
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+            
+            <div class="section">
+               <h3 class="title topictitle1">Preparation of vehicle under test</h3>               
+               <ol class="num">                                                 
+                  <li>           
+                     <p class="p-inline">The driver seat shall be occupied by a 75kg person (if the weight is insufficient, the counterweight method can be used to
+                        reach the standard 75kg).
+                     </p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">The vehicle must be moved several meters and shake the vehicle body from side to side, so that the front and rear parts of
+                        the vehicle bounce many times, so that the coil spring sinks and the chassis suspension of the vehicle is in a stable state.
+                     </p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">Light adjustment settings and related operations.</p>         
+                     <ul name="contents" class="ul">
+                        <li>
+                           <p class="p-inline">For vehicles with dimming switch, the headlight adjusting switch should be placed in "0" gear before dimming;</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">For vehicles without dimming switch (i.e. automatic dimming), check that the light fault indicator on the instrument should
+                              not be lit before dimming. If it is lit or flashing, it needs to be repaired and the feedback should be recorded;
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">If the fault indicator light is not lit or flashes, initialize it with a diagnostic instrument.</p>
+                        </li>
+                     </ul>
+                     
+                  </li>          
+                  <li>           
+                     <p class="p-inline">Connect VDS, enter the diagnostic system, power on the vehicle, and switch the vehicle power supply to OK gear.</p>            
+                     <p>
+                        <div class="bottomNoTable">                
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G073191.png"></img></div>              
+                        </div>
+                     </p>         
+                  </li> 
+                  <li>           
+                     <p class="p-inline">Enter the following menu: Model diagnosis/(corresponding model code)/Body module/Headlight adjustment unit/Headlight initialization</p>         
+                  </li>       
+               </ol>
+            </div>
+            
+            <div class="section">
+               <h3 class="title topictitle1">Check the headlight lights</h3>
+               <div>
+                  <div class="wl-attention prespace postspace note-imgnote" data-attention-type="note" id="d60148e132">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">         
+                        <ul name="contents" class="ul">
+                           <li>             
+                              <p class="p-inline">There are two shapes of low beam light.They are <img src="image/G071253.png"></img> and <img src="image/G071254.png"></img>. Lower inflection point of cut-off line is optical center of low beam. The optical center of high beam is brightest point.
+                                 
+                              </p>           
+                           </li>
+                           <li>             
+                              <p class="p-inline">If low beams need to be shielded for adjusting high beams, headlight surfaces cannot be directly shielded or the shielding
+                                 time cannot exceed 2 minutes as headlight covers are made of plastic, so as to avoid gathering of heat that may cause burn-out
+                                 of headlight covers.
+                              </p>           
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+               <ol class="num">                   
+                  <li>
+                     <p class="p-inline">Position and adjust headlight adjustment tool.</p>
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d60148e155">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <p class="p">Refer to headlight adjustment tool User Manual.</p>
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <ol class="num">
+                        <li>
+                           <p class="p-inline">Position the headlight adjustment tool at the specified position in front of the headlights of the vehicle (on the same horizontal
+                              ground).
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Adjust the headlight adjustment tool to be parallel to the longitudinal axis of the vehicle.</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Align the coordinate center of the headlight adjustment tool projection screen with the center of the low beam of the vehicle's
+                              headlights (at the same height).
+                           </p>
+                        </li>
+                     </ol>
+                     <p>
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G266494.png"></img></div>
+                        </div>
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Power on the vehicle (OK mode), and turn on the low beam light.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check that the low beam light should meet the requirements.</p>
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d60148e177">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <p class="p">The inspection methods of left and right combined headlights are similar.</p>
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <ul name="contents" class="ul">
+                        <li>
+                           <p class="p-inline">The horizontal dimming line to the left of the dimming line of the low beam lamp shall coincide with the horizontal line "3"
+                              of the detection surface in the headlight adjustment tool.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">The inflection point between the left horizontal part and the rising part at the light-dark boundary of the low beam lamp
+                              shall coincide with the intersection point "1" of the horizontal line and the vertical line of the detection surface in the
+                              headlight adjustment tool.
+                           </p>
+                        </li>
+                     </ul>
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d60148e187">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <ul name="contents" class="ul">
+                                 <li>
+                                    <p class="p-inline">To simplify the determination of the inflection point "1", cover the left half of the headlight briefly (viewed along the
+                                       driving direction), and then expose it again, alternately for many times.
+                                    </p>
+                                 </li>
+                                 <li>
+                                    <p class="p-inline">If the low beam lights meet the requirements, the beam center of the high beam must be located at "2" above the intersection
+                                       of horizontal and vertical lines of the detection surface.
+                                    </p>
+                                 </li>
+                                 <li>
+                                    <p class="p-inline">Before testing and adjusting the headlight, read the instructions of the headlight adjustment tool carefully and operate strictly
+                                       as required.
+                                    </p>
+                                 </li>
+                              </ul>
+                              
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <p>
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G261464.png"></img></div>
+                        </div>
+                     </p>
+                  </li>       
+               </ol>
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d60148e202">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">If the headlight lighting does not meet the requirements, the steps of adjusting the headlight lighting must be performed!</p>
+                     </div>
+                  </div>
+                  
+               </div>
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d60148e205">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">A new work order is required to adjust the headlight lighting.</p>
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+            
+            <div class="section">
+               <h3 class="title topictitle1">Adjust the headlight lighting</h3>               
+               <div>
+                  <div class="wl-attention prespace postspace note-imgnote" data-attention-type="note" id="d60148e213">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">         
+                        <ul name="contents" class="ul">
+                           <li>             
+                              <p class="p-inline">For a model with joint adjustment of high and low beams, only low beams need to be adjusted.</p>           
+                           </li>
+                           <li>             
+                              <p class="p-inline">The shape of low beam light has 2.They are <img src="image/G071253.png"></img> and <img src="image/G071254.png"></img>.Lower inflection point of cut-off line is optical center of low beam.The optical center of high beam is brightest point.
+                                 
+                              </p>           
+                           </li>
+                           <li>             
+                              <p class="p-inline">If low beams need to be shielded for adjusting high beams, headlight surfaces cannot be directly shielded or the shielding
+                                 time cannot exceed 2 minutes as headlight covers are made of plastic, so as to avoid gathering of heat that may cause burn-out
+                                 of headlight covers.
+                              </p>           
+                           </li>
+                           <li>             
+                              <p class="p-inline">During light adjustment, observe beam positions while rotating the adjusting bolt. Make proper adjustment at one time whenever
+                                 possible. Refrain from continuous and prolonged rotation of the adjusting bolt with an electric screwdriver to prevent need
+                                 for subsequent readjustment caused by excessive adjustment.
+                              </p>           
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+               <ol class="num">   
+                  <li>
+                     <p class="p-inline">Position and adjust headlight adjustment tool.</p>
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d60148e246">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <p class="p">Refer to headlight adjustment tool User Manual.</p>
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <ol class="num">
+                        <li>
+                           <p class="p-inline">Position the headlight adjustment tool at the specified position in front of the headlights of the vehicle (on the same horizontal
+                              ground).
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Adjust the headlight adjustment tool to be parallel to the longitudinal axis of the vehicle.</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Align the coordinate center of the headlight adjustment tool projection screen with the center of the low beam of the vehicle's
+                              headlights (at the same height).
+                           </p>
+                        </li>
+                     </ol>
+                     <p>
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G266494.png"></img></div>
+                        </div>
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Power on the vehicle (OK mode), and turn on the low beam light.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Adjust the low beam light to meet the requirements.</p>
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d60148e268">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <p class="p">The adjustment methods of the combined headlights on the left and right sides are similar, and the left side is taken as an
+                                 example here.
+                              </p>
+                              <ul name="contents" class="ul">
+                                 <li>
+                                    <p class="p-inline">Before adjustment, remove the left trim panel assembly of front compartment.</p>
+                                 </li>
+                              </ul>
+                              
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <ol class="num">
+                        <li>
+                           <p class="p-inline">Rotate the bolt "b" and adjust the horizontal line to the left of the dimming line of the low beam light to coincide with
+                              the horizontal line of the detection surface in the headlight adjustment tool.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Rotate the bolt "a" to adjust the inflection point between the left horizontal part and the rising part at the light-dark
+                              boundary of the low beam light to coincide with the intersection point of the horizontal line and the vertical line of the
+                              detection surface in the headlight adjustment tool.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Turn the bolt "c" to adjust the beam center of the high beam above the intersection of horizontal and vertical lines of the
+                              detection surface in the headlight adjustment tool.
+                           </p>
+                        </li>
+                     </ol>
+                     <div>
+                        <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d60148e285">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <p class="p">Before testing and adjusting the headlight, read the instructions of the headlight adjustment tool carefully and operate strictly
+                                 as required.
+                              </p>
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d60148e288">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <ul name="contents" class="ul">
+                                 <li>
+                                    <p class="p-inline">To simplify the determination of the inflection point, cover the left half of the headlight briefly (viewed along the driving
+                                       direction), and then expose it again, alternately for many times.
+                                    </p>
+                                 </li>
+                              </ul>
+                              
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <p>             
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G217019.png"></img></div>
+                        </div>           
+                     </p>
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d60148e298">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <p class="p">Adjustment of light sources in horizontal and vertical directions refers to adjusting the irradiation range and distance of
+                                 light sources of the headlight cluster assembly.
+                              </p>
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <p>             
+                        <table width="100%" border="1" frame="box" rules="all">
+                           <thead style="font-weight: bold">
+                              <tr>
+                                 <th width="25%" valign="top">Letter</th>
+                                 <th width="25%" valign="top">Descriptions</th>
+                                 <th width="25%" valign="top">Letter</th>
+                                 <th width="25%" valign="top">Descriptions</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td width="25%" valign="top">L</td>
+                                 <td width="25%" valign="top">Left</td>
+                                 <td width="25%" valign="top">U</td>
+                                 <td width="25%" valign="top">Up</td>
+                              </tr>
+                              <tr>
+                                 <td width="25%" valign="top">R</td>
+                                 <td width="25%" valign="top">Right</td>
+                                 <td width="25%" valign="top">D</td>
+                                 <td width="25%" valign="top">Down</td>
+                              </tr>
+                           </tbody>
+                        </table>           
+                     </p>
+                  </li>       
+                  <li>
+                     <p class="p-inline">After headlight adjustment, turn OFF the headlight, switch the vehicle power to OFF gear, then switch the vehicle power to
+                        OK gear, and check the headlight lighting again until the light meets the requirements.
+                     </p>
+                  </li>
+               </ol>     
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

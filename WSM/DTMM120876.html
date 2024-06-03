@@ -1,0 +1,465 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Specifications"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Specifications</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-1-F5240221">
+         
+         
+         <h3 class="topictitletopic1 title">Specifications</h3>
+         
+         <div class="body">
+            <div class="section">
+               <h3 class="title topictitle1">Technical Parameter</h3>
+               <p class="p">
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <thead style="font-weight: bold">
+                        <tr>
+                           <th width="33.33333333333333%" align="center" valign="middle">
+                              <p>Items</p>
+                           </th>
+                           <th width="33.33333333333333%" align="center" valign="middle">
+                              <p>Parameter</p>
+                           </th>
+                           <th width="33.33333333333333%" align="center" valign="middle">
+                              <p>Unit</p>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td width="33.33333333333333%" align="center" valign="middle">
+                              <p>Maximum power of compressor</p>
+                           </td>
+                           <td width="33.33333333333333%" align="center" valign="middle">
+                              <p>6</p>
+                           </td>
+                           <td width="33.33333333333333%" align="center" valign="middle">
+                              <p>kW</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="33.33333333333333%" align="center" valign="middle">
+                              <p>Maximum power of low voltage PTC</p>
+                           </td>
+                           <td width="33.33333333333333%" align="center" valign="middle">
+                              <p>1</p>
+                           </td>
+                           <td width="33.33333333333333%" align="center" valign="middle">
+                              <p>kW</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="33.33333333333333%" align="center" valign="middle">
+                              <p>Refrigerant model</p>
+                           </td>
+                           <td width="33.33333333333333%" align="center" valign="middle">
+                              <p>R1234yf/R134a</p>
+                           </td>
+                           <td width="33.33333333333333%" align="center" valign="middle">
+                              <p>-</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="33.33333333333333%" align="center" valign="middle">
+                              <p>Refrigerant filling quantity</p>
+                           </td>
+                           <td width="33.33333333333333%" align="center" valign="middle">
+                              <p>1100±10</p>
+                           </td>
+                           <td width="33.33333333333333%" align="center" valign="middle">
+                              <p>g</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="33.33333333333333%" align="center" valign="middle">
+                              <p>Refrigeration oil addition amount</p>
+                           </td>
+                           <td width="33.33333333333333%" align="center" valign="middle">
+                              <p>180</p>
+                           </td>
+                           <td width="33.33333333333333%" align="center" valign="middle">
+                              <p>g</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </p>
+            </div>
+            
+            <div class="section">
+               <h3 class="title topictitle1">Torque parameters</h3>
+               <p class="p">
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <thead style="font-weight: bold">
+                        <tr>
+                           <th width="50%" align="center" valign="middle">
+                              <p>Component name</p>
+                           </th>
+                           <th width="50%" align="center" valign="middle">
+                              <p>Tightening torque (N•m)</p>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing nut of left floor duct assembly I</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">7±1</td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of floor duct assembly</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>7±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of PM2.5 quick tester assembly</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of HVAC assembly and vehicle body</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of refrigeration tube assembly 7 and integrated thermal management module</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of compressor discharge pipe assembly 3 and integrated thermal management module</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of refrigeration tube assembly 4 and integrated thermal management module</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of compressor suction pipe assembly 2 and integrated thermal management module</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of refrigeration tube assembly 3 and integrated thermal management module</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of compressor discharge pipe assembly 5 and integrated thermal management module</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of compressor discharge pipe assembly 2 and integrated thermal management module</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of compressor suction pipe assembly 3 and integrated thermal management module</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of refrigeration tube assembly 6 and integrated thermal management module</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of integrated thermal management module and integrated thermal management module bracket</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>22±2</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of integrated thermal management module bracket</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing nut of integrated thermal management module bracket</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of integrated thermal management module bracket 1</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt connecting the integrated thermal management module bracket 2 to the body</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>22±2</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt connecting the integrated thermal management module bracket 2 to the integrated thermal management module</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of front compartment wiring harness bracket and electric compressor</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of compressor suction pipe assembly 1 and electric compressor assembly</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of compressor discharge pipe assembly 1 and electric compressor assembly</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of electric compressor assembly</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>22±2</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of refrigeration tube assembly 4 and gas-liquid separator assembly</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of compressor suction pipe assembly 1 and gas-liquid separator assembly</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of gas-liquid separator assembly</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>22±2</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of three-way water valve body assembly</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>22±2</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of compressor discharge pipe assembly 3 and condenser assembly</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of compressor discharge pipe assembly 3 bracket</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of compressor suction pipe assembly 4 and compressor suction pipe assembly 3</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of compressor suction pipe assembly 4 and power battery</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of refrigeration tube assembly 1 and vehicle body 2</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of refrigeration tube assembly 3 and air handling unit (AHU) assembly</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing nut between refrigeration tube assembly 5 and vehicle body</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="50%" align="center" valign="middle">
+                              <p>Fixing bolt of refrigeration tube assembly 5 and battery cooling plate heat exchanger assembly</p>
+                           </td>
+                           <td width="50%" align="center" valign="middle">
+                              <p>9±1</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </p>
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

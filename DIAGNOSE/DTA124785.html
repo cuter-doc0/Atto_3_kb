@@ -1,0 +1,405 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="P1BAC19 IGBT Core Serious Overtemperature Warning for Front Drive Motor Control Module (Chopper OFF)"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA092790"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>P1BAC19 IGBT Core Serious Overtemperature Warning for Front Drive Motor Control Module (Chopper OFF)</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA092790">
+         
+         
+         
+         <h3 class="topictitletopic1 title">P1BAC19 IGBT Core Serious Overtemperature Warning for Front Drive Motor Control Module (Chopper OFF)</h3>
+         
+         
+         <div class="nested1 topic task" id="tas76724a5f"> 
+            
+            <h3 class="topictitletopic2 title">DTC Description</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <tbody>
+                        <tr align="left" valign="middle">
+                           <td width="23%" colspan="2" align="center" valign="top"> 
+                              
+                              <p>P1BAC19 IGBT Core Serious Overtemperature Warning for Front Drive Motor Control Module (Chopper OFF)</p> 
+                              
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="23%" align="left" valign="top"> 
+                              
+                              <p>Symptom</p> 
+                              
+                           </td>
+                           <td width="77%" align="left" valign="top"> 
+                              
+                              <p>The instrument reports that the drive function is limited.</p> 
+                              
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="23%" align="left" valign="top"> 
+                              
+                              <p>Possible cause</p> 
+                              
+                           </td>
+                           <td width="77%" align="left" valign="top"> 
+                              
+                              <ol class="num"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Cooling system faults</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Motor control module fault.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Drive motor assembly fault.</p> 
+                                    
+                                 </li> 
+                                 
+                              </ol> 
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="23%" align="left" valign="top"> 
+                              
+                              <p>Set fault condition</p> 
+                              
+                           </td>
+                           <td width="77%" align="left" valign="top"> 
+                              
+                              <p>The IGBT temperature exceeds the specified threshold.</p> 
+                              
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="23%" align="left" valign="top"> 
+                              
+                              <p>Fault triggering condition</p> 
+                              
+                           </td>
+                           <td width="77%" align="left" valign="top"> 
+                              
+                              <p>When the vehicle is powered on, the temperature of IGBT exceeds the specified threshold, generating a DTC.</p> 
+                              
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="tasde77e912"> 
+            
+            <h3 class="topictitletopic2 title">Diagnostic Steps<button type="button" id="dtcbutton1" class="button" onclick="expandAll();butSwitch();"><samp>Expand all</samp></button><button type="button" id="dtcbutton2" onclick="gotoFirstDtcStep('step01');butSwitch();" class="button dtc-inactive"><samp>Diagnostic guidance</samp></button></h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div> 
+                  <a name="step01"></a><div class="otherclass1 dtcprocess otherclass2" data-step="step01">
+                     <table width="100%" border="solid 1pt" class="postspace" id="d37975e107">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">1</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check the cooling system;</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Connect a VDS to the data link connector.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Set the START/STOP button to ON</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Scan the ECU module.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Go to power domain control module. Read and clear the DTC.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Set the START/STOP button to OFF and wait for a few seconds.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Set the START/STOP button to ON again.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Go to power domain control module again and read the DTC.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether there is a DTC.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step01" value="option1"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step01" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step01" value="next-step02"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step01" value="next-step02"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 35.5,1 35.5,15 18,19.5 1,15 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="18" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Go to "Power Domain Control Module” for diagnosis.</span> 
+                                       </span><span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>  
+                  <a name="step02"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step02">
+                     <table width="100%" border="solid 1pt" class="postspace" id="d37975e176">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">2</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check the data flow of front drive motor control unit.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Place the vehicle at room temperature for two hours.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Connect a VDS to the data link connector.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Set the START/STOP button to ON</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Scan the ECU module.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Go to front drive motor control module. Read and clear the DTC.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Drive the vehicle to an open field and drive it normally for about 10&nbsp;min.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Set the START/STOP button to OFF and wait for a few seconds.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Set the START/STOP button to ON again.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Go to front drive motor control module again. And read the IGBT temperature data flow of the front drive motor control module.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether the same DTC is displayed.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step02" value="option1"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step02" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step02" value="option2"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step02" value="option2"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">The system is normal.</span> 
+                                       </span><span><span class="dtcstep dtc-inactive" data-option="option2">Replace the <a class="partcode xref " onclick="partCode();">integrated intelligent front drive control module.</a>&nbsp;<script>
+      function partCode(){
+        window.parent.postMessage(
+          {
+          message:'sendManualCode',
+          manualCode:"SC2E-2104010N,SC2E-2104010P,SC2E-2104010Q,SC2EM-2104010B,SC2EKC-2104010"
+          },'*');
+      }
+    </script>.</span>  
+                                       </span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div> 
+                  
+               </div> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>
